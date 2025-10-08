@@ -1,0 +1,1 @@
+// JS do tema filho (personalizações futuras)
