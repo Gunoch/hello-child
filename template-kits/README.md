@@ -8,11 +8,10 @@ Este diretório centraliza os arquivos de Template Kit preparados para o tema **
 template-kits/
 └── hello-elementor/
     ├── README.md          # Guia específico de configuração do kit para o tema Hello Elementor
-    ├── pages/
-    │   ├── ballona-home.json
-    │   ├── ballona-trocas-devolucoes.json
-    │   └── ballona-contato.json
-    └── templates/
+    └── pages/
+        ├── ballona-home.json
+        ├── ballona-trocas-devolucoes.json
+        ├── ballona-contato.json
         └── ballona-politicas-troca-devolucao.json
 ```
 

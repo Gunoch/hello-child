@@ -13,6 +13,7 @@ Este repositório agora concentra **Template Kits** compatíveis com o tema base
     - `ballona-home.json`: landing page inicial com hero, destaques de produtos e depoimentos.
     - `ballona-trocas-devolucoes.json`: página de políticas com FAQs e orientação para suporte.
     - `ballona-contato.json`: central de atendimento com cards de canais e checklist de formulário.
+    - `ballona-politicas-troca-devolucao.json`: página institucional completa com políticas detalhadas, galeria de imagens e CTA final.
 - `docs/`: documentação de apoio (incluindo este guia e o fluxo de engenharia).
 - `theme/`, `functions.php`, `style.css`: permanecem disponíveis para projetos legados que ainda utilizam o tema filho, mas não são mais o foco principal.
 
