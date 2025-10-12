@@ -12,6 +12,7 @@ add_action('after_setup_theme', function () {
   add_theme_support('align-wide');
 });
 
+
 // Enqueue CSS/JS (pai + filho)
 add_action('wp_enqueue_scripts', function () {
   // CSS do tema pai
