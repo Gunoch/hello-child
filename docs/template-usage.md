@@ -1,41 +1,45 @@
-# Guia de uso dos templates do tema Hello Child
+# Guia de uso dos Template Kits – Hello Elementor
 
 ## Visão geral
-Este repositório contém um tema filho do **Hello Elementor** focado em entregar uma página institucional de políticas e pequenas personalizações de WooCommerce. A estrutura foi reorganizada para separar claramente os arquivos do tema, templates PHP, kits do Elementor e documentação de apoio.
+
+Este repositório agora concentra **Template Kits** compatíveis com o tema base **Hello Elementor**. Os arquivos foram organizados para facilitar a importação no Elementor, garantindo alinhamento com as diretrizes do tema e com integrações do WooCommerce, sem depender de um tema filho personalizado.
 
 ## Estrutura principal
-- `functions.php`: define as constantes globais do tema filho e carrega os arquivos de inicialização localizados em `theme/inc`.
-- `theme/inc/setup.php`: concentra os *hooks* de suporte do tema, carregamento de assets, registro de templates e integração com WooCommerce.
-- `theme/templates/page-policy.php`: implementação do template de página em largura total para políticas.
-- `theme/templates/woocommerce.php`: *wrapper* padrão para páginas do WooCommerce, mantendo cabeçalho e rodapé do tema.
-- `theme/templates/woocommerce/single-product/title.php`: sobrescreve apenas o título do produto na página individual.
-- `theme/assets/css/main.css` e `theme/assets/js/main.js`: arquivos preparados para estilos e scripts adicionais do tema filho.
-- `template-kits/`: arquivos exportados do Elementor para importação como Template Kits.
-- `docs/`: documentação (incluindo este guia e fluxos de engenharia).
 
-## Como usar os templates
-### 1. Ativar o tema filho
-1. Coloque a pasta `hello-child` dentro de `wp-content/themes/` no seu WordPress.
-2. No painel, acesse **Aparência → Temas** e ative o **Hello Child** (certifique-se de que o tema pai *Hello Elementor* está instalado).
+- `template-kits/README.md`: visão geral dos kits disponíveis e instruções rápidas de importação.
+- `template-kits/hello-elementor/`: coleção de kits preparada especificamente para o tema Hello Elementor.
+  - `README.md`: instruções detalhadas de configuração e ajustes pós-importação.
+  - `pages/`: arquivos `.json` referentes a páginas completas construídas no Elementor.
+- `docs/`: documentação de apoio (incluindo este guia e o fluxo de engenharia).
+- `theme/`, `functions.php`, `style.css`: permanecem disponíveis para projetos legados que ainda utilizam o tema filho, mas não são mais o foco principal.
 
-### 2. Página de políticas
-1. Crie ou edite uma página no WordPress.
-2. No painel lateral direito (editor de blocos), localize a caixa **Atributos da página**.
-3. Em **Modelo**, selecione **Políticas – Full Width** (registrado pelo filtro `theme_page_templates`).
-4. Publique/atualize a página. O conteúdo digitado no editor será exibido na área central do template, enquanto as seções extras (banner, galeria e CTA) já estão prontas.
-5. Ajuste as imagens da galeria substituindo os caminhos em `/wp-content/uploads/2025/10/...` se necessário.
+## Pré-requisitos
 
-### 3. Personalizações de WooCommerce
-- O filtro `woocommerce_locate_template` garante que o WooCommerce utilize automaticamente os arquivos presentes em `theme/templates/woocommerce/`.
-- `theme/templates/woocommerce.php` mantém o cabeçalho e o rodapé do tema em todas as páginas da loja.
-- `theme/templates/woocommerce/single-product/title.php` altera apenas a marcação do título do produto. Para estilizar, utilize o seletor `.custom-title` no seu CSS.
+1. Tema **Hello Elementor** ativo.
+2. Plugin **Elementor** instalado (recomenda-se a versão mais recente).
+3. Para layouts que listam produtos, ter **WooCommerce** instalado e configurado.
+4. Opcional: **Elementor Pro**, caso deseje utilizar widgets dinâmicos adicionais (não obrigatório para os templates atuais).
 
-## Ajustes rápidos
-- Adicione estilos globais em `style.css` (mantenha o cabeçalho do tema) ou estilos específicos em `theme/assets/css/main.css`.
-- Scripts adicionais podem ser colocados em `theme/assets/js/main.js`; eles são carregados no rodapé e dependem do `jquery` incluído pelo WordPress.
-- Caso precise desativar o aviso de frete ou CTA na página de políticas, edite ou comente os blocos correspondentes em `theme/templates/page-policy.php`.
+## Importando um Template Kit
 
-## Boas práticas
-- Sempre teste alterações em um ambiente de homologação antes de publicar.
-- Após editar templates PHP, execute `php -l caminho/do/arquivo.php` para validar a sintaxe.
-- Mantenha os ajustes de CSS/JS dentro da pasta `theme/` para garantir que o tema pai possa ser atualizado sem conflitos.
+1. No painel WordPress, acesse **Templates → Template Kits**.
+2. Clique em **Importar Template Kit**.
+3. Selecione o arquivo `.json` correspondente dentro da pasta `template-kits/hello-elementor/pages/`.
+4. Após a importação, edite a página desejada com o Elementor e insira o template importado pela aba **Meus Templates**.
+5. Ajuste conteúdos dinâmicos, como widgets WooCommerce, textos de FAQ e links de CTA.
+
+## Recomendações de compatibilidade
+
+- **Hello Elementor**: utilize as configurações globais do Elementor (Site Settings) para manter tipografia e espaçamentos consistentes com o tema.
+- **WooCommerce**: associe os widgets de produtos às categorias corretas e personalize mensagens de estoque ou frete conforme a política da loja.
+- **Responsividade**: revise o layout nos modos Tablet e Mobile, ajustando margens e espaçamentos para evitar sobreposições.
+- **Acessibilidade**: mantenha textos alternativos em imagens e utilize títulos hierárquicos (`H2`, `H3`) conforme importado nos templates.
+
+## Boas práticas de manutenção
+
+- Versione novos templates utilizando nomes descritivos e organizando-os em subpastas (por exemplo, `sections/`, `popups/`).
+- Documente dependências adicionais diretamente nos arquivos `README.md` de cada kit.
+- Ao atualizar um template, incremente o número de versão no cabeçalho do arquivo `.json` (caso aplicável) e registre as mudanças no changelog do projeto.
+- Teste a importação em um ambiente de staging antes de aplicar no site oficial.
+
+Seguir estas orientações garante que os Template Kits continuem compatíveis com o ecossistema Hello Elementor e WooCommerce, reduzindo conflitos e facilitando a evolução do projeto.

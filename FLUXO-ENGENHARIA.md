@@ -1,12 +1,14 @@
-# Fluxo de Engenharia de Software – Tema Hello Child
+# Fluxo de Engenharia de Software – Template Kits Hello Elementor
 
-Este documento descreve o fluxo recomendado para planejar, implementar, revisar e entregar alterações no tema *Hello Child*. O foco é adaptar boas práticas de engenharia de software à estrutura específica deste repositório WordPress.
+Este documento descreve o fluxo recomendado para planejar, implementar, revisar e entregar alterações nos **Template Kits compatíveis com o tema Hello Elementor** hospedados neste repositório. Mantemos também a documentação do tema filho legado (*Hello Child*) para projetos existentes, mas o foco principal agora é a criação e evolução de kits prontos para importação no Elementor.
+
+> ℹ️ **Compatibilidade**: todas as entregas devem considerar o tema base Hello Elementor, o plugin Elementor (gratuito) e integrações com WooCommerce. O tema filho permanece disponível apenas para casos legados; novas implementações devem priorizar os Template Kits.
 
 ## 1. Preparação e Planejamento
 
 1. **Entendimento da demanda**
-   - Confirme o objetivo da alteração (visual, funcional, integração com WooCommerce etc.).
-   - Levante os arquivos impactados utilizando a árvore do projeto descrita na seção 2.
+   - Confirme o objetivo da alteração (novo template, ajuste visual, integração com WooCommerce etc.).
+   - Levante os arquivos impactados utilizando a árvore do projeto descrita na seção 2 (kits, documentação, arquivos legados do tema filho).
 2. **Análise de impacto**
    - Identifique dependências entre hooks, templates PHP, CSS e JS.
    - Verifique se a alteração afeta páginas especiais (p. ex. `theme/templates/page-policy.php`) ou templates do WooCommerce.
@@ -18,39 +20,35 @@ Este documento descreve o fluxo recomendado para planejar, implementar, revisar 
 
 | Caminho | Função principal | Considerações de engenharia |
 | --- | --- | --- |
-| `style.css` | Metadados do tema filho (nome, template, versão). | Necessário para que o WordPress reconheça o tema. Atualize a versão quando houver entregas relevantes. |
-| `functions.php` | Bootstrap do tema: define constantes globais e carrega os arquivos de inicialização em `theme/inc`. | Utilize para registrar novos *includes* e manter o carregamento organizado. |
-| `theme/inc/setup.php` | Hooks e configurações centrais (suportes, assets, templates e WooCommerce). | Centralize novos hooks aqui ou em arquivos adicionais dentro de `theme/inc`. |
-| `theme/assets/css/main.css` | Folha de estilo principal do child theme. | Organize estilos por componentes/seções; mantenha comentários de cabeçalho para rastreabilidade. |
-| `theme/assets/js/main.js` | Personalizações JavaScript. | Estruture scripts em IIFE ou módulos quando necessário, garanta compatibilidade com jQuery (já declarado como dependência). |
-| `theme/templates/page-policy.php` | Template de página “Políticas – Full Width”. | Preserve a estrutura semântica (`role`, `aria-label`) e utilize `the_content()` para conteúdo dinâmico. |
-| `theme/templates/woocommerce.php` | Template global do WooCommerce. | Usa o wrapper padrão com `woocommerce_content()`. Revise após atualizações do WooCommerce. |
-| `theme/templates/woocommerce/single-product/title.php` | Sobrescrita do título do produto. | Mantenha compatibilidade com versões do WooCommerce; atualize comentários de versão ao sincronizar com o core. |
-| `template-kits/` | Exportações do Elementor. | Armazene arquivos `.json` ou `.zip` para importação de kits, mantendo a nomenclatura consistente. |
+| `template-kits/README.md` | Visão geral dos kits disponíveis. | Atualize sempre que novos kits, páginas ou seções forem adicionados. |
+| `template-kits/hello-elementor/` | Kit oficial para o tema Hello Elementor. | Estruture subpastas (`pages/`, `sections/`, `popups/`) e documente dependências no `README.md` local. |
+| `template-kits/hello-elementor/pages/*.json` | Templates completos exportados do Elementor. | Valide a compatibilidade com Elementor e WooCommerce antes de versionar. |
+| `docs/` | Documentação de apoio. | Inclui guias de uso, fluxo de engenharia e referências. |
+| `style.css`, `functions.php`, `theme/` | Tema filho legado. | Manter somente para compatibilidade; evite novos desenvolvimentos aqui salvo demandas específicas. |
 
 ## 3. Fluxo de Implementação por Tipo de Alteração
 
-### 3.1 Novos estilos ou ajustes visuais
-1. Atualize `theme/assets/css/main.css`, organizando regras por componente.
-2. Se o estilo for compartilhado entre templates, considere variáveis ou mixins (via CSS custom properties) para facilitar manutenção.
-3. Caso seja necessário expor classes no HTML, ajuste o template correspondente (`theme/templates/page-policy.php`, `theme/templates/woocommerce.php` ou arquivos em `theme/templates/woocommerce/`).
-4. Valide no navegador (modo responsivo e contraste) e execute *lint* se disponível.
+### 3.1 Novos templates ou ajustes visuais
+1. Gere os layouts no Elementor garantindo que os containers usem as configurações padrão do Hello Elementor.
+2. Exporte o template (`.json`) e salve na subpasta correspondente (por exemplo, `pages/` ou `sections/`).
+3. Atualize o `README.md` do kit com instruções de uso, dependências e recomendações de responsividade.
+4. Valide no navegador (modo responsivo e contraste) após importar o template em um ambiente de teste.
 
 ### 3.2 Scripts e interações
-1. Adicione lógicas em `theme/assets/js/main.js` usando *namespaces* ou funções autoexecutáveis para evitar conflitos globais.
-2. Para dependências externas, registre-as no `theme/inc/setup.php` via `wp_enqueue_script`.
-3. Teste em navegadores suportados, garantindo que o script só execute após o carregamento do DOM (`jQuery(function($){ ... });`).
+1. Utilize apenas widgets nativos do Elementor sempre que possível para evitar dependências externas.
+2. Caso scripts adicionais sejam necessários, documente-os claramente no `README.md` do kit e forneça instruções de inclusão via Elementor ou snippets.
+3. Teste as interações após a importação para garantir compatibilidade com o frontend do Hello Elementor.
 
-### 3.3 Hooks e funcionalidades PHP
-1. Centralize novos suportes, filtros ou *shortcodes* em arquivos dentro de `theme/inc`.
-2. Documente cada bloco com comentários explicativos.
+### 3.3 Hooks e funcionalidades PHP (legado)
+1. Apenas quando uma demanda exigir manutenção do tema filho, centralize novos suportes, filtros ou *shortcodes* em arquivos dentro de `theme/inc`.
+2. Documente cada bloco com comentários explicativos e sinalize no changelog que se trata de funcionalidade legada.
 3. Ao modificar templates (`theme/templates/page-policy.php`, `theme/templates/woocommerce.php` ou arquivos em `theme/templates/woocommerce/`), mantenha compatibilidade com `get_header()`/`get_footer()` e com funções do WooCommerce.
 4. Utilize ambientes de staging para validar integrações com plugins.
 
 ### 3.4 Templates WooCommerce
-1. Verifique se a versão do template está alinhada à documentação oficial.
-2. Registre alterações significativas em comentários para facilitar diffs futuros quando WooCommerce for atualizado.
-3. Teste fluxos de compra relevantes (detalhes do produto, carrinho, checkout).
+1. Priorize widgets WooCommerce do Elementor para montar listas de produtos e vitrines nos Template Kits.
+2. Quando utilizar templates PHP legados, verifique se a versão está alinhada à documentação oficial do WooCommerce.
+3. Teste fluxos de compra relevantes (detalhes do produto, carrinho, checkout) após importar o template para garantir que CTAs e links estejam corretos.
 
 ## 4. Revisão e Qualidade
 
@@ -66,11 +64,11 @@ Este documento descreve o fluxo recomendado para planejar, implementar, revisar 
 
 ## 5. Entrega
 
-1. Atualize `style.css` com nova versão do tema se a entrega impactar usuários finais.
-2. Gere changelog ou descreva no PR as alterações principais e testes executados.
+1. Atualize os `README.md` dos kits e incremente versões dos arquivos `.json` quando houver mudanças relevantes.
+2. Gere changelog ou descreva no PR as alterações principais e testes executados (importação/verificação em ambiente de teste).
 3. Solicite revisão, ajuste conforme feedback e efetue *merge* após aprovação.
-4. Monitore o ambiente de produção após deploy para validar métricas e feedbacks.
+4. Para projetos que ainda utilizem o tema filho, atualize `style.css` e demais arquivos apenas quando necessário, sinalizando a natureza legada da mudança.
 
 ---
 
-Seguir este fluxo ajuda a manter consistência, rastreabilidade e qualidade nas evoluções do tema Hello Child.
+Seguir este fluxo ajuda a manter consistência, rastreabilidade e qualidade na evolução dos Template Kits compatíveis com o Hello Elementor, preservando a retrocompatibilidade com o tema filho quando necessário.
