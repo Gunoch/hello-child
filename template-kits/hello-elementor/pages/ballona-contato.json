@@ -1,39 +1,50 @@
 {
-  "version": "0.4",
-  "title": "Ballona Contato e Suporte",
+  "version": "0.5",
+  "title": "Ballona Contato",
   "type": "page",
   "content": [
     {
-      "id": "contact_hero",
+      "id": "contact_intro_section",
       "elType": "section",
       "settings": {
         "structure": "20",
-        "background_background": "classic",
-        "background_color": "#f6f1ff",
+        "content_width": "boxed",
+        "gap": "wide",
         "padding": {
           "unit": "px",
-          "top": "100",
+          "top": "120",
           "right": "0",
-          "bottom": "100",
+          "bottom": "80",
           "left": "0",
           "isLinked": false
-        }
+        },
+        "background_background": "gradient",
+        "background_color": "#f5f2ff",
+        "background_color_b": "#fdeef3",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 120,
+          "sizes": []
+        },
+        "shape_divider_bottom": "tilt",
+        "shape_divider_bottom_color": "#ffffff"
       },
       "elements": [
         {
-          "id": "contact_hero_column",
+          "id": "contact_intro_column",
           "elType": "column",
           "settings": {
             "_column_size": 100,
+            "align": "center",
             "padding": {
               "unit": "px",
               "top": "0",
-              "right": "24",
+              "right": "40",
               "bottom": "0",
-              "left": "24",
+              "left": "40",
               "isLinked": false
-            },
-            "align_items": "center"
+            }
           },
           "elements": [
             {
@@ -41,58 +52,53 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "header_size": "span",
-                "title": "Central de Relacionamento",
+                "title": "Central Ballona",
                 "align": "center",
+                "header_size": "span",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 16,
+                  "size": 18,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#6d5bd0",
+                "text_color": "#c4376d",
                 "background_background": "classic",
                 "background_color": "#ffffff",
                 "border_radius": {
                   "unit": "px",
-                  "top": "24",
-                  "right": "24",
-                  "bottom": "24",
-                  "left": "24",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
                   "isLinked": true
                 },
                 "padding": {
                   "unit": "px",
-                  "top": "10",
-                  "right": "20",
-                  "bottom": "10",
-                  "left": "20",
+                  "top": "8",
+                  "right": "24",
+                  "bottom": "8",
+                  "left": "24",
                   "isLinked": false
                 }
               },
               "elements": []
             },
             {
-              "id": "contact_title",
+              "id": "contact_heading",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Estamos prontas para atender você",
+                "title": "Estamos aqui para criar experiências memoráveis",
                 "align": "center",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 44,
+                  "size": 48,
                   "sizes": []
                 },
                 "typography_font_weight": "700",
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.1,
-                  "sizes": []
-                },
-                "text_color": "#1d144f",
+                "text_color": "#241646",
                 "margin": {
                   "unit": "px",
                   "top": "24",
@@ -109,9 +115,9 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Escolha o canal ideal para o seu atendimento: suporte de pedidos, atacado, parceria ou dúvidas gerais.</p>",
+                "editor": "<p>Nossa concierge digital responde em minutos. Escolha o canal ideal e fale com especialistas em joias, logística ou pós-venda.</p>",
                 "align": "center",
-                "text_color": "#4c4587",
+                "text_color": "#493a78",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
@@ -120,7 +126,7 @@
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.7,
+                  "size": 1.8,
                   "sizes": []
                 },
                 "margin": {
@@ -139,25 +145,37 @@
       ]
     },
     {
-      "id": "contact_channels",
+      "id": "contact_channels_section",
       "elType": "section",
       "settings": {
         "structure": "33",
+        "content_width": "boxed",
+        "gap": "wide",
         "padding": {
           "unit": "px",
-          "top": "60",
+          "top": "40",
           "right": "0",
-          "bottom": "20",
+          "bottom": "40",
           "left": "0",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "contact_channel_orders",
+          "id": "contact_channel_1",
           "elType": "column",
           "settings": {
             "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
             "padding": {
               "unit": "px",
               "top": "32",
@@ -166,50 +184,40 @@
               "left": "32",
               "isLinked": false
             },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "20",
-              "right": "20",
-              "bottom": "20",
-              "left": "20",
-              "isLinked": true
-            },
             "box_shadow_box_shadow": "yes",
             "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_horizontal": 0,
-            "box_shadow_box_shadow_vertical": 18,
-            "box_shadow_box_shadow_blur": 40,
-            "box_shadow_box_shadow_spread": 0,
-            "box_shadow_box_shadow_color": "rgba(29,20,79,0.08)"
+            "box_shadow_box_shadow_blur": 42,
+            "box_shadow_box_shadow_spread": -18,
+            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.09)"
           },
           "elements": [
             {
-              "id": "orders_icon",
+              "id": "contact_icon_1",
               "elType": "widget",
               "widgetType": "icon",
               "settings": {
                 "selected_icon": {
-                  "value": "fas fa-box",
+                  "value": "fas fa-comments",
                   "library": "fa-solid"
                 },
                 "align": "left",
-                "icon_color": "#6d5bd0",
+                "icon_color": "#c4376d",
                 "icon_size": {
                   "unit": "px",
-                  "size": 40,
+                  "size": 36,
                   "sizes": []
-                }
+                },
+                "shape": "circle",
+                "background_color": "rgba(196, 55, 109, 0.12)"
               },
               "elements": []
             },
             {
-              "id": "orders_title",
+              "id": "contact_title_1",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Pedidos e trocas",
+                "title": "Consultoria imediata",
                 "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
@@ -218,12 +226,12 @@
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#1d144f",
+                "text_color": "#241646",
                 "margin": {
                   "unit": "px",
-                  "top": "20",
+                  "top": "24",
                   "right": "0",
-                  "bottom": "12",
+                  "bottom": "16",
                   "left": "0",
                   "isLinked": false
                 }
@@ -231,12 +239,12 @@
               "elements": []
             },
             {
-              "id": "orders_text",
+              "id": "contact_text_1",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Para acompanhamento de envio, solicitações de troca e devoluções, fale com nossa equipe via WhatsApp.</p>",
-                "text_color": "#4c4587",
+                "editor": "<p>WhatsApp e chat ao vivo das 8h às 22h. Conecte-se com especialistas em estilo e presentes personalizados.</p>",
+                "text_color": "#493a78",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
@@ -260,29 +268,29 @@
               "elements": []
             },
             {
-              "id": "orders_button",
+              "id": "contact_button_1",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Atendimento WhatsApp",
+                "text": "Iniciar conversa",
                 "align": "left",
-                "size": "sm",
+                "size": "md",
                 "button_type": "info",
-                "background_color": "#6d5bd0",
-                "hover_background_color": "#4e3cb0",
+                "background_color": "#c4376d",
+                "hover_background_color": "#9c2853",
                 "border_radius": {
                   "unit": "px",
-                  "top": "50",
-                  "right": "50",
-                  "bottom": "50",
-                  "left": "50",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
                   "isLinked": true
                 },
                 "padding": {
                   "unit": "px",
-                  "top": "14",
+                  "top": "12",
                   "right": "28",
-                  "bottom": "14",
+                  "bottom": "12",
                   "left": "28",
                   "isLinked": false
                 }
@@ -292,10 +300,20 @@
           ]
         },
         {
-          "id": "contact_channel_wholesale",
+          "id": "contact_channel_2",
           "elType": "column",
           "settings": {
             "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
             "padding": {
               "unit": "px",
               "top": "32",
@@ -304,50 +322,40 @@
               "left": "32",
               "isLinked": false
             },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "20",
-              "right": "20",
-              "bottom": "20",
-              "left": "20",
-              "isLinked": true
-            },
             "box_shadow_box_shadow": "yes",
             "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_horizontal": 0,
-            "box_shadow_box_shadow_vertical": 18,
-            "box_shadow_box_shadow_blur": 40,
-            "box_shadow_box_shadow_spread": 0,
-            "box_shadow_box_shadow_color": "rgba(29,20,79,0.08)"
+            "box_shadow_box_shadow_blur": 42,
+            "box_shadow_box_shadow_spread": -18,
+            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.09)"
           },
           "elements": [
             {
-              "id": "wholesale_icon",
+              "id": "contact_icon_2",
               "elType": "widget",
               "widgetType": "icon",
               "settings": {
                 "selected_icon": {
-                  "value": "fas fa-store",
+                  "value": "fas fa-envelope-open-text",
                   "library": "fa-solid"
                 },
                 "align": "left",
-                "icon_color": "#6d5bd0",
+                "icon_color": "#c4376d",
                 "icon_size": {
                   "unit": "px",
-                  "size": 40,
+                  "size": 36,
                   "sizes": []
-                }
+                },
+                "shape": "circle",
+                "background_color": "rgba(196, 55, 109, 0.12)"
               },
               "elements": []
             },
             {
-              "id": "wholesale_title",
+              "id": "contact_title_2",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Atacado e consignado",
+                "title": "E-mail concierge",
                 "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
@@ -356,12 +364,12 @@
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#1d144f",
+                "text_color": "#241646",
                 "margin": {
                   "unit": "px",
-                  "top": "20",
+                  "top": "24",
                   "right": "0",
-                  "bottom": "12",
+                  "bottom": "16",
                   "left": "0",
                   "isLinked": false
                 }
@@ -369,12 +377,12 @@
               "elements": []
             },
             {
-              "id": "wholesale_text",
+              "id": "contact_text_2",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Revenda Ballona na sua loja física ou online. Fale com nossa equipe comercial para tabela e políticas.</p>",
-                "text_color": "#4c4587",
+                "editor": "<p>Retorno personalizado em até 2h úteis com moodboards, disponibilidade e condições exclusivas.</p>",
+                "text_color": "#493a78",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
@@ -398,156 +406,18 @@
               "elements": []
             },
             {
-              "id": "wholesale_button",
+              "id": "contact_button_2",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Falar com comercial",
+                "text": "Enviar mensagem",
                 "align": "left",
-                "size": "sm",
-                "button_type": "info",
-                "background_color": "#6d5bd0",
-                "hover_background_color": "#4e3cb0",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "50",
-                  "right": "50",
-                  "bottom": "50",
-                  "left": "50",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "14",
-                  "right": "28",
-                  "bottom": "14",
-                  "left": "28",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "contact_channel_press",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "20",
-              "right": "20",
-              "bottom": "20",
-              "left": "20",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_horizontal": 0,
-            "box_shadow_box_shadow_vertical": 18,
-            "box_shadow_box_shadow_blur": 40,
-            "box_shadow_box_shadow_spread": 0,
-            "box_shadow_box_shadow_color": "rgba(29,20,79,0.08)"
-          },
-          "elements": [
-            {
-              "id": "press_icon",
-              "elType": "widget",
-              "widgetType": "icon",
-              "settings": {
-                "selected_icon": {
-                  "value": "fas fa-bullhorn",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#6d5bd0",
-                "icon_size": {
-                  "unit": "px",
-                  "size": 40,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "press_title",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Parcerias e imprensa",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 24,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#1d144f",
-                "margin": {
-                  "unit": "px",
-                  "top": "20",
-                  "right": "0",
-                  "bottom": "12",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "press_text",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Projetos de collab, press kits e ações de branding com influenciadoras são coordenados pelo nosso squad de marketing.</p>",
-                "text_color": "#4c4587",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "20",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "press_button",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "Enviar proposta",
-                "align": "left",
-                "size": "sm",
+                "size": "md",
                 "button_type": "outline",
                 "background_color": "#ffffff",
-                "border_color": "#6d5bd0",
-                "text_color": "#6d5bd0",
-                "hover_background_color": "#6d5bd0",
+                "border_color": "#c4376d",
+                "text_color": "#c4376d",
+                "hover_background_color": "#c4376d",
                 "hover_text_color": "#ffffff",
                 "border_width": {
                   "unit": "px",
@@ -559,17 +429,147 @@
                 },
                 "border_radius": {
                   "unit": "px",
-                  "top": "50",
-                  "right": "50",
-                  "bottom": "50",
-                  "left": "50",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "contact_channel_3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow": "yes",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow_blur": 42,
+            "box_shadow_box_shadow_spread": -18,
+            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.09)"
+          },
+          "elements": [
+            {
+              "id": "contact_icon_3",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-store",
+                  "library": "fa-solid"
+                },
+                "align": "left",
+                "icon_color": "#c4376d",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "shape": "circle",
+                "background_color": "rgba(196, 55, 109, 0.12)"
+              },
+              "elements": []
+            },
+            {
+              "id": "contact_title_3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Boutiques & showroom",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "contact_text_3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Agende visitas exclusivas em São Paulo, Rio de Janeiro ou no nosso showroom itinerante.</p>",
+                "text_color": "#493a78",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "contact_button_3",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Reservar horário",
+                "align": "left",
+                "size": "md",
+                "button_type": "info",
+                "background_color": "#c4376d",
+                "hover_background_color": "#9c2853",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
                   "isLinked": true
                 },
                 "padding": {
                   "unit": "px",
-                  "top": "14",
+                  "top": "12",
                   "right": "28",
-                  "bottom": "14",
+                  "bottom": "12",
                   "left": "28",
                   "isLinked": false
                 }
@@ -581,12 +581,12 @@
       ]
     },
     {
-      "id": "contact_faq",
+      "id": "contact_form_section",
       "elType": "section",
       "settings": {
         "structure": "50",
-        "background_background": "classic",
-        "background_color": "#ffffff",
+        "content_width": "boxed",
+        "gap": "extended",
         "padding": {
           "unit": "px",
           "top": "80",
@@ -594,367 +594,43 @@
           "bottom": "80",
           "left": "0",
           "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "faq_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "24",
-              "bottom": "0",
-              "left": "24",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "faq_heading",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Dúvidas frequentes",
-                "align": "center",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 34,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#1d144f",
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "faq_description",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Substitua por um widget de toggle/accordion do Elementor para apresentar as perguntas mais comuns.</p>",
-                "align": "center",
-                "text_color": "#4c4587",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "40",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "faq_todo",
-              "elType": "section",
-              "settings": {
-                "structure": "33",
-                "gap_columns": "extended"
-              },
-              "elements": [
-                {
-                  "id": "faq_step_1",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "padding": {
-                      "unit": "px",
-                      "top": "24",
-                      "right": "24",
-                      "bottom": "24",
-                      "left": "24",
-                      "isLinked": false
-                    },
-                    "background_background": "classic",
-                    "background_color": "#f6f1ff",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "20",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "faq_step_1_title",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "1. Verifique o status do pedido",
-                        "align": "left",
-                        "typography_typography": "custom",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 20,
-                          "sizes": []
-                        },
-                        "typography_font_weight": "600",
-                        "text_color": "#1d144f",
-                        "margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "12",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "faq_step_1_text",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>Acesse sua conta WooCommerce ou o e-mail de confirmação para acompanhar rastreio em tempo real.</p>",
-                        "text_color": "#4c4587",
-                        "typography_typography": "custom",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 16,
-                          "sizes": []
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.7,
-                          "sizes": []
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                },
-                {
-                  "id": "faq_step_2",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "padding": {
-                      "unit": "px",
-                      "top": "24",
-                      "right": "24",
-                      "bottom": "24",
-                      "left": "24",
-                      "isLinked": false
-                    },
-                    "background_background": "classic",
-                    "background_color": "#f6f1ff",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "20",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "faq_step_2_title",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "2. Consulte nossa política",
-                        "align": "left",
-                        "typography_typography": "custom",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 20,
-                          "sizes": []
-                        },
-                        "typography_font_weight": "600",
-                        "text_color": "#1d144f",
-                        "margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "12",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "faq_step_2_text",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>Revise o template de trocas e devoluções para alinhar prazos, condições e formas de envio.</p>",
-                        "text_color": "#4c4587",
-                        "typography_typography": "custom",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 16,
-                          "sizes": []
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.7,
-                          "sizes": []
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                },
-                {
-                  "id": "faq_step_3",
-                  "elType": "column",
-                  "settings": {
-                    "_column_size": 33,
-                    "padding": {
-                      "unit": "px",
-                      "top": "24",
-                      "right": "24",
-                      "bottom": "24",
-                      "left": "24",
-                      "isLinked": false
-                    },
-                    "background_background": "classic",
-                    "background_color": "#f6f1ff",
-                    "border_radius": {
-                      "unit": "px",
-                      "top": "20",
-                      "right": "20",
-                      "bottom": "20",
-                      "left": "20",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "faq_step_3_title",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "3. Abra um chamado",
-                        "align": "left",
-                        "typography_typography": "custom",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 20,
-                          "sizes": []
-                        },
-                        "typography_font_weight": "600",
-                        "text_color": "#1d144f",
-                        "margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "12",
-                          "left": "0",
-                          "isLinked": false
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "faq_step_3_text",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "settings": {
-                        "editor": "<p>Use o formulário abaixo para registrar detalhes do pedido. Nossa equipe responde em até 24h úteis.</p>",
-                        "text_color": "#4c4587",
-                        "typography_typography": "custom",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 16,
-                          "sizes": []
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.7,
-                          "sizes": []
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "contact_form",
-      "elType": "section",
-      "settings": {
-        "structure": "50",
+        },
         "background_background": "classic",
-        "background_color": "#f6f1ff",
-        "padding": {
-          "unit": "px",
-          "top": "80",
-          "right": "0",
-          "bottom": "80",
-          "left": "0",
-          "isLinked": false
-        }
+        "background_color": "#fdfbff"
       },
       "elements": [
         {
-          "id": "form_column",
+          "id": "contact_form_column",
           "elType": "column",
           "settings": {
-            "_column_size": 100,
+            "_column_size": 50,
             "padding": {
               "unit": "px",
-              "top": "0",
-              "right": "24",
-              "bottom": "0",
-              "left": "24",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
               "isLinked": false
             },
             "background_background": "classic",
             "background_color": "#ffffff",
             "border_radius": {
               "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
               "isLinked": true
             },
             "box_shadow_box_shadow": "yes",
             "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_horizontal": 0,
-            "box_shadow_box_shadow_vertical": 22,
-            "box_shadow_box_shadow_blur": 48,
-            "box_shadow_box_shadow_spread": 0,
-            "box_shadow_box_shadow_color": "rgba(29,20,79,0.1)"
+            "box_shadow_box_shadow_blur": 36,
+            "box_shadow_box_shadow_spread": -12,
+            "box_shadow_box_shadow_color": "rgba(16, 8, 34, 0.06)"
           },
           "elements": [
             {
-              "id": "form_heading",
+              "id": "contact_form_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -963,16 +639,16 @@
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 30,
+                  "size": 32,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#1d144f",
+                "text_color": "#241646",
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "16",
+                  "bottom": "20",
                   "left": "0",
                   "isLinked": false
                 }
@@ -980,28 +656,99 @@
               "elements": []
             },
             {
-              "id": "form_description",
+              "id": "contact_form_widget",
               "elType": "widget",
-              "widgetType": "text-editor",
+              "widgetType": "form",
               "settings": {
-                "editor": "<p>Substitua esta área por um formulário do Elementor ou shortcode do plugin de sua preferência.</p>",
-                "text_color": "#4c4587",
+                "fields": [
+                  {
+                    "type": "text",
+                    "label": "Nome",
+                    "placeholder": "Seu nome completo",
+                    "required": "true"
+                  },
+                  {
+                    "type": "email",
+                    "label": "E-mail",
+                    "placeholder": "seuemail@ballona.com",
+                    "required": "true"
+                  },
+                  {
+                    "type": "tel",
+                    "label": "Telefone",
+                    "placeholder": "+55 (11) 90000-0000",
+                    "required": "false"
+                  },
+                  {
+                    "type": "select",
+                    "label": "Assunto",
+                    "options": [
+                      "Consultoria de estilo",
+                      "Acompanhamento de pedido",
+                      "Parcerias",
+                      "Outros"
+                    ],
+                    "required": "true"
+                  },
+                  {
+                    "type": "textarea",
+                    "label": "Mensagem",
+                    "placeholder": "Conte-nos como podemos encantar você",
+                    "required": "true"
+                  }
+                ],
+                "button_text": "Enviar mensagem",
+                "button_background_color": "#c4376d",
+                "button_hover_background_color": "#9c2853",
+                "button_text_color": "#ffffff",
+                "button_border_radius": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "contact_info_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "contact_info_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Atendimento humanizado",
+                "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 16,
+                  "size": 32,
                   "sizes": []
                 },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
-                },
+                "typography_font_weight": "600",
+                "text_color": "#241646",
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "30",
+                  "bottom": "20",
                   "left": "0",
                   "isLinked": false
                 }
@@ -1009,23 +756,157 @@
               "elements": []
             },
             {
-              "id": "form_placeholder",
+              "id": "contact_info_text",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p><strong>Checklist para o formulário:</strong></p><ul><li>Nome completo</li><li>E-mail de contato</li><li>Número do pedido (se houver)</li><li>Mensagem detalhada</li></ul>",
-                "text_color": "#4c4587",
+                "editor": "<p>Equipe bilíngue, personal stylists e especialistas técnicos para garantir a melhor experiência Ballona.</p>",
+                "text_color": "#493a78",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "contact_info_list",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_color": "#c4376d",
+                "text_color": "#493a78",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
                   "size": 16,
                   "sizes": []
                 },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
+                "items": [
+                  {
+                    "item_text": "Horário: Segunda a sábado, 8h às 22h",
+                    "selected_icon": {
+                      "value": "fas fa-clock",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "item_text": "Telefone: 0800 000 2024",
+                    "selected_icon": {
+                      "value": "fas fa-phone",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "item_text": "E-mail: concierge@ballona.com",
+                    "selected_icon": {
+                      "value": "fas fa-envelope",
+                      "library": "fa-solid"
+                    }
+                  }
+                ]
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact_map_section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "contact_map_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow": "yes",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow_blur": 42,
+            "box_shadow_box_shadow_spread": -16,
+            "box_shadow_box_shadow_color": "rgba(16, 8, 34, 0.06)"
+          },
+          "elements": [
+            {
+              "id": "contact_map_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Visite nossos endereços",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
                   "sizes": []
+                },
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
                 }
+              },
+              "elements": []
+            },
+            {
+              "id": "contact_map_widget",
+              "elType": "widget",
+              "widgetType": "google_maps",
+              "settings": {
+                "zoom": 12,
+                "address": "São Paulo, Brasil",
+                "height": 420,
+                "style": "retro"
               },
               "elements": []
             }
