@@ -1,0 +1,817 @@
+{
+  "version": "0.5",
+  "title": "Ballona Trocas & Devoluções",
+  "type": "page",
+  "content": [
+    {
+      "id": "returns_hero_section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "content_width": "boxed",
+        "gap": "wide",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#f4f0ff",
+        "background_color_b": "#fceff5",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135,
+          "sizes": []
+        },
+        "shape_divider_bottom": "waves",
+        "shape_divider_bottom_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "returns_hero_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "40",
+              "bottom": "0",
+              "left": "40",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "returns_badge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Política 100% transparente",
+                "header_size": "span",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#c4376d",
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "28",
+                  "bottom": "8",
+                  "left": "28",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Trocas e devoluções descomplicadas",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Comunique sua solicitação em poucos cliques. Nossa concierge acompanha todo o processo para garantir tranquilidade.</p>",
+                "align": "center",
+                "text_color": "#493a78",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_primary_button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Iniciar solicitação",
+                "align": "center",
+                "size": "lg",
+                "button_type": "info",
+                "background_color": "#c4376d",
+                "hover_background_color": "#9c2853",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "48",
+                  "right": "48",
+                  "bottom": "48",
+                  "left": "48",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "40",
+                  "bottom": "16",
+                  "left": "40",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "returns_highlights_section",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "content_width": "boxed",
+        "gap": "wide",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "0",
+          "bottom": "40",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "returns_highlight_1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow": "yes",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow_blur": 42,
+            "box_shadow_box_shadow_spread": -18,
+            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.08)"
+          },
+          "elements": [
+            {
+              "id": "returns_highlight_icon_1",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-sync-alt",
+                  "library": "fa-solid"
+                },
+                "align": "left",
+                "icon_color": "#c4376d",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "shape": "circle",
+                "background_color": "rgba(196, 55, 109, 0.12)"
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_highlight_title_1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "30 dias para trocar",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_highlight_text_1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Sua joia pode ser trocada por tamanho, cor ou crédito integral em até 30 dias após o recebimento.</p>",
+                "text_color": "#493a78",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "returns_highlight_2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow": "yes",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow_blur": 42,
+            "box_shadow_box_shadow_spread": -18,
+            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.08)"
+          },
+          "elements": [
+            {
+              "id": "returns_highlight_icon_2",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-shield-alt",
+                  "library": "fa-solid"
+                },
+                "align": "left",
+                "icon_color": "#c4376d",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "shape": "circle",
+                "background_color": "rgba(196, 55, 109, 0.12)"
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_highlight_title_2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Garantia estendida",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_highlight_text_2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Cobertura de banho, pedras e fechos durante 12 meses com reparo gratuito e substituição imediata.</p>",
+                "text_color": "#493a78",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "returns_highlight_3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow": "yes",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow_blur": 42,
+            "box_shadow_box_shadow_spread": -18,
+            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.08)"
+          },
+          "elements": [
+            {
+              "id": "returns_highlight_icon_3",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-hand-holding-heart",
+                  "library": "fa-solid"
+                },
+                "align": "left",
+                "icon_color": "#c4376d",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "shape": "circle",
+                "background_color": "rgba(196, 55, 109, 0.12)"
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_highlight_title_3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Concierge dedicado",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_highlight_text_3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Acompanhamento em tempo real com atualizações por WhatsApp, SMS e portal exclusivo.</p>",
+                "text_color": "#493a78",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "returns_steps_section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "content_width": "boxed",
+        "gap": "wide",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#fdfbff"
+      },
+      "elements": [
+        {
+          "id": "returns_steps_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "40",
+              "bottom": "0",
+              "left": "40",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "returns_steps_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Como funciona",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_steps_timeline",
+              "elType": "widget",
+              "widgetType": "timeline",
+              "settings": {
+                "items": [
+                  {
+                    "item_title": "Solicitação digital",
+                    "item_subtitle": "Preencha o formulário com o número do pedido ou CPF.",
+                    "item_icon": {
+                      "value": "fas fa-edit",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "item_title": "Coleta inteligente",
+                    "item_subtitle": "Retiramos em casa ou indique o ponto de postagem mais próximo.",
+                    "item_icon": {
+                      "value": "fas fa-box-open",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "item_title": "Análise express",
+                    "item_subtitle": "Conferimos o produto em até 48h e enviamos confirmação automática.",
+                    "item_icon": {
+                      "value": "fas fa-search",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "item_title": "Conclusão personalizada",
+                    "item_subtitle": "Escolha reembolso, crédito Ballona ou nova joia com consultoria.",
+                    "item_icon": {
+                      "value": "fas fa-gift",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "text_color": "#493a78",
+                "title_color": "#241646",
+                "icon_color": "#c4376d"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "returns_faq_section",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "content_width": "boxed",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "returns_faq_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "28",
+              "right": "28",
+              "bottom": "28",
+              "left": "28",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow": "yes",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow_blur": 36,
+            "box_shadow_box_shadow_spread": -14,
+            "box_shadow_box_shadow_color": "rgba(16, 8, 34, 0.07)"
+          },
+          "elements": [
+            {
+              "id": "returns_faq_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Perguntas frequentes",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_faq_accordion",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "items": [
+                  {
+                    "item_title": "Quais condições o produto precisa apresentar?",
+                    "item_content": "A joia deve estar sem sinais de uso, com selo original e nota fiscal. Embalagens especiais devem acompanhar o envio."
+                  },
+                  {
+                    "item_title": "Como funciona o estorno?",
+                    "item_content": "Após aprovação, o reembolso é realizado em até 3 dias úteis via mesmo método de pagamento."
+                  },
+                  {
+                    "item_title": "Posso solicitar retirada em outro endereço?",
+                    "item_content": "Sim! Informe o endereço desejado e enviamos a etiqueta de postagem com validade estendida."
+                  },
+                  {
+                    "item_title": "Existe custo para troca internacional?",
+                    "item_content": "Clientes internacionais contam com frete subsidiado e suporte dedicado durante todo o processo."
+                  }
+                ],
+                "title_color": "#241646",
+                "text_color": "#493a78",
+                "active_color": "#c4376d"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "returns_support_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "returns_support_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Suporte dedicado",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#241646",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_support_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Fale com nossa concierge especializada em trocas pelo WhatsApp +55 (11) 90000-2024 ou pelo e-mail cuidados@ballona.com.</p>",
+                "text_color": "#493a78",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "returns_support_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Acessar portal de trocas",
+                "align": "left",
+                "size": "md",
+                "button_type": "outline",
+                "background_color": "#ffffff",
+                "border_color": "#c4376d",
+                "text_color": "#c4376d",
+                "hover_background_color": "#c4376d",
+                "hover_text_color": "#ffffff",
+                "border_width": {
+                  "unit": "px",
+                  "top": "2",
+                  "right": "2",
+                  "bottom": "2",
+                  "left": "2",
+                  "isLinked": true
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
