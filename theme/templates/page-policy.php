@@ -1,7 +1,5 @@
 <?php
 /**
- * Template Name: Políticas – Full Width
- *
  * Página institucional com informações de políticas internas.
  *
  * @package HelloChild
@@ -18,11 +16,16 @@ $gallery_images  = [
   [
     'src'     => $uploads_baseurl . '2025/10/politicas-01.jpg',
     'alt'     => __( 'Semijoia Ballona na embalagem', 'hello-child' ),
-    'caption' => __( 'Acabamento premium com garantia', 'hello-child' ),
+    'caption' => __( 'Peças embaladas com carinho', 'hello-child' ),
   ],
   [
     'src'     => $uploads_baseurl . '2025/10/politicas-02.jpg',
-    'alt'     => __( 'Detalhe das semijoias com brilho dourado', 'hello-child' ),
+    'alt'     => __( 'Detalhe de semijoias Ballona', 'hello-child' ),
+    'caption' => __( 'Semijoias pensadas para o dia a dia', 'hello-child' ),
+  ],
+  [
+    'src'     => $uploads_baseurl . '2025/10/politicas-03.jpg',
+    'alt'     => __( 'Conjunto de semijoias Ballona em exposição', 'hello-child' ),
     'caption' => __( 'Qualidade inspecionada peça a peça', 'hello-child' ),
   ],
 ];

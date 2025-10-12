@@ -9,7 +9,7 @@ Este documento descreve o fluxo recomendado para planejar, implementar, revisar 
    - Levante os arquivos impactados utilizando a árvore do projeto descrita na seção 2.
 2. **Análise de impacto**
    - Identifique dependências entre hooks, templates PHP, CSS e JS.
-   - Verifique se a alteração afeta páginas especiais (p. ex. `page-policy.php`) ou templates do WooCommerce.
+   - Verifique se a alteração afeta páginas especiais (p. ex. `theme/templates/page-policy.php`) ou templates do WooCommerce.
 3. **Definição de estratégia**
    - Crie uma branch dedicada para a alteração.
    - Planeje testes manuais (navegação, acessibilidade, fluxo de compra) e automatizados disponíveis.
@@ -19,30 +19,32 @@ Este documento descreve o fluxo recomendado para planejar, implementar, revisar 
 | Caminho | Função principal | Considerações de engenharia |
 | --- | --- | --- |
 | `style.css` | Metadados do tema filho (nome, template, versão). | Necessário para que o WordPress reconheça o tema. Atualize a versão quando houver entregas relevantes. |
-| `functions.php` | Registra suportes do tema e enfileira CSS/JS. | Centralize novos hooks. Utilize `wp_enqueue_scripts` para recursos front-end e documente dependências. |
-| `assets/css/main.css` | Folha de estilo principal do child theme. | Organize estilos por componentes/seções; mantenha comentários de cabeçalho para rastreabilidade. |
-| `assets/js/main.js` | Personalizações JavaScript. | Estruture scripts em IIFE ou módulos quando necessário, garanta compatibilidade com jQuery (já declarado como dependência). |
-| `page-policy.php` | Template de página “Políticas – Full Width”. | Preserve a estrutura semântica (`role`, `aria-label`) e utilize `the_content()` para conteúdo dinâmico. |
-| `woocommerce.php` | Template global do WooCommerce. | Use para envolver `woocommerce_content()` com marcação personalizada. Revise após atualizações do WooCommerce. |
-| `woocommerce/single-product/title.php` | Sobrescrita do título do produto. | Mantenha compatibilidade com versões do WooCommerce; atualize comentários de versão ao sincronizar com o core. |
+| `functions.php` | Bootstrap do tema: define constantes globais e carrega os arquivos de inicialização em `theme/inc`. | Utilize para registrar novos *includes* e manter o carregamento organizado. |
+| `theme/inc/setup.php` | Hooks e configurações centrais (suportes, assets, templates e WooCommerce). | Centralize novos hooks aqui ou em arquivos adicionais dentro de `theme/inc`. |
+| `theme/assets/css/main.css` | Folha de estilo principal do child theme. | Organize estilos por componentes/seções; mantenha comentários de cabeçalho para rastreabilidade. |
+| `theme/assets/js/main.js` | Personalizações JavaScript. | Estruture scripts em IIFE ou módulos quando necessário, garanta compatibilidade com jQuery (já declarado como dependência). |
+| `theme/templates/page-policy.php` | Template de página “Políticas – Full Width”. | Preserve a estrutura semântica (`role`, `aria-label`) e utilize `the_content()` para conteúdo dinâmico. |
+| `theme/templates/woocommerce.php` | Template global do WooCommerce. | Usa o wrapper padrão com `woocommerce_content()`. Revise após atualizações do WooCommerce. |
+| `theme/templates/woocommerce/single-product/title.php` | Sobrescrita do título do produto. | Mantenha compatibilidade com versões do WooCommerce; atualize comentários de versão ao sincronizar com o core. |
+| `template-kits/` | Exportações do Elementor. | Armazene arquivos `.json` ou `.zip` para importação de kits, mantendo a nomenclatura consistente. |
 
 ## 3. Fluxo de Implementação por Tipo de Alteração
 
 ### 3.1 Novos estilos ou ajustes visuais
-1. Atualize `assets/css/main.css`, organizando regras por componente.
+1. Atualize `theme/assets/css/main.css`, organizando regras por componente.
 2. Se o estilo for compartilhado entre templates, considere variáveis ou mixins (via CSS custom properties) para facilitar manutenção.
-3. Caso seja necessário expor classes no HTML, ajuste o template correspondente (`page-policy.php`, `woocommerce.php` ou arquivos em `woocommerce/`).
+3. Caso seja necessário expor classes no HTML, ajuste o template correspondente (`theme/templates/page-policy.php`, `theme/templates/woocommerce.php` ou arquivos em `theme/templates/woocommerce/`).
 4. Valide no navegador (modo responsivo e contraste) e execute *lint* se disponível.
 
 ### 3.2 Scripts e interações
-1. Adicione lógicas em `assets/js/main.js` usando *namespaces* ou funções autoexecutáveis para evitar conflitos globais.
-2. Para dependências externas, registre-as no `functions.php` via `wp_enqueue_script`.
+1. Adicione lógicas em `theme/assets/js/main.js` usando *namespaces* ou funções autoexecutáveis para evitar conflitos globais.
+2. Para dependências externas, registre-as no `theme/inc/setup.php` via `wp_enqueue_script`.
 3. Teste em navegadores suportados, garantindo que o script só execute após o carregamento do DOM (`jQuery(function($){ ... });`).
 
 ### 3.3 Hooks e funcionalidades PHP
-1. Centralize novos suportes, filtros ou *shortcodes* em `functions.php`.
+1. Centralize novos suportes, filtros ou *shortcodes* em arquivos dentro de `theme/inc`.
 2. Documente cada bloco com comentários explicativos.
-3. Ao modificar templates (`page-policy.php`, `woocommerce.php` ou arquivos em `woocommerce/`), mantenha compatibilidade com `get_header()`/`get_footer()` e com funções do WooCommerce.
+3. Ao modificar templates (`theme/templates/page-policy.php`, `theme/templates/woocommerce.php` ou arquivos em `theme/templates/woocommerce/`), mantenha compatibilidade com `get_header()`/`get_footer()` e com funções do WooCommerce.
 4. Utilize ambientes de staging para validar integrações com plugins.
 
 ### 3.4 Templates WooCommerce
