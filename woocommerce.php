@@ -1,18 +1,17 @@
 <?php
 /**
- * The template for displaying WooCommerce pages
+ * The template for displaying WooCommerce pages.
  */
 
-if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
 }
 
-get_header(); ?>
-
+get_header();
+?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main">
         <?php woocommerce_content(); ?>
     </main>
 </div>
-
 <?php get_footer(); ?>
