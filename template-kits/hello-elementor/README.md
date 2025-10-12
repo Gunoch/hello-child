@@ -6,7 +6,9 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 
 | Arquivo | Tipo | Descrição |
 | --- | --- | --- |
+| `pages/ballona-home.json` | Página completa | Landing page inicial com destaque para a nova coleção, diferenciais da marca, vitrines de produtos e prova social. |
 | `pages/ballona-trocas-devolucoes.json` | Página completa | Layout de políticas de trocas e devoluções com blocos reutilizáveis (banner, destaques, FAQ, CTA para suporte e bloco WooCommerce de produtos relacionados). |
+| `pages/ballona-contato.json` | Página completa | Central de relacionamento com cards de canais, checklist de atendimento e área para formulário Elementor ou shortcode. |
 
 ## Passo a passo de importação
 
@@ -28,5 +30,12 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 - [Documentação oficial do Hello Elementor](https://elementor.com/help/hello-theme/)
 - [Guia do Elementor sobre Template Kits](https://elementor.com/help/template-kits/)
 - [Documentação do WooCommerce](https://woocommerce.com/documentation/)
+
+## Checklist rápido de engenharia
+
+1. Exporte o layout do Elementor garantindo que apenas widgets nativos sejam utilizados.
+2. Nomeie o arquivo `.json` de forma descritiva (`ballona-<pagina>.json`).
+3. Valide o arquivo importando em um ambiente de teste com Hello Elementor + WooCommerce.
+4. Atualize a tabela de conteúdo acima e registre particularidades ou dependências neste `README`.
 
 Mantenha este diretório atualizado com novos templates (páginas, pop-ups e seções) seguindo o mesmo padrão de organização.

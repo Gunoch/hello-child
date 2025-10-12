@@ -9,7 +9,9 @@ template-kits/
 └── hello-elementor/
     ├── README.md          # Guia específico de configuração do kit para o tema Hello Elementor
     └── pages/
-        └── ballona-trocas-devolucoes.json
+        ├── ballona-home.json
+        ├── ballona-trocas-devolucoes.json
+        └── ballona-contato.json
 ```
 
 - **hello-elementor/**: coleção de templates pensada para o tema base Hello Elementor, já com espaçamentos, tipografia e containers configurados conforme a documentação oficial do tema.
