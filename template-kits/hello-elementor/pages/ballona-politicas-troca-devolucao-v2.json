@@ -1,0 +1,776 @@
+{
+  "version": "0.6",
+  "title": "Ballona Políticas de Troca e Devoluções V2",
+  "type": "page",
+  "content": [
+    {
+      "id": "policy_header_section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "content_width": "boxed",
+        "gap_columns": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "0",
+          "bottom": "24",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "policy_header_column_logo",
+          "elType": "column",
+          "settings": {
+            "_column_size": 20,
+            "_inline_size": null,
+            "vertical_align": "middle"
+          },
+          "elements": [
+            {
+              "id": "policy_header_logo",
+              "elType": "widget",
+              "widgetType": "site-logo",
+              "settings": {
+                "align": "left",
+                "width": {
+                  "unit": "%",
+                  "size": 65,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "policy_header_column_nav",
+          "elType": "column",
+          "settings": {
+            "_column_size": 80,
+            "_inline_size": null,
+            "vertical_align": "middle"
+          },
+          "elements": [
+            {
+              "id": "policy_header_nav",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "layout": "horizontal",
+                "layout_tablet": "dropdown",
+                "layout_mobile": "dropdown",
+                "align": "right",
+                "pointer": "underline",
+                "pointer_width": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_font_weight": "500",
+                "text_color": "#1d2a3b",
+                "hover_color": "#2f9bc1",
+                "background_hover_color": "",
+                "mobile_layout": "dropdown",
+                "menu_select": "",
+                "toggle_align": "right",
+                "toggle_dropdown": "yes",
+                "toggle_icon": {
+                  "value": "fas fa-bars",
+                  "library": "fa-solid"
+                },
+                "dropdown_align": "right",
+                "dropdown_toggle_color": "#1d2a3b",
+                "dropdown_typography_typography": "custom",
+                "dropdown_typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "dropdown_background_color": "#ffffff",
+                "dropdown_border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_top_banner",
+      "elType": "section",
+      "settings": {
+        "content_width": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_color": "#e9fbff",
+        "padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "0",
+          "bottom": "12",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "policy_top_banner_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "policy_top_banner_text",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frete grátis acima de R$299",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#1d2a3b",
+                "letter_spacing": {
+                  "unit": "px",
+                  "size": 0.8,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_content_section",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "wide",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "64",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "policy_content_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "policy_content_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Políticas de Troca e Devoluções V2",
+                "html_tag": "h1",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": {
+                    "tablet": 32,
+                    "mobile": 28
+                  }
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2,
+                  "sizes": []
+                },
+                "text_color": "#1d2a3b",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "policy_content_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Na Ballona, queremos que você se apaixone pelas suas semijoias. Mas, se algo não sair como esperado, garantimos um processo simples e transparente de trocas e devoluções.</p><h3>1. Direito de Arrependimento</h3><p>Conforme o Código de Defesa do Consumidor, você tem até 7 dias corridos após o recebimento do seu pedido para desistir da compra.</p><ul><li><strong>Como funciona:</strong><ul><li>Entre em contato com nosso atendimento via WhatsApp, e-mail ou Instagram informando seu pedido e a intenção de devolução.</li><li>Enviaremos as instruções para a devolução do produto.</li><li>O reembolso do valor será total, incluindo o frete.</li></ul></li><li><strong>Condições:</strong><ul><li>O produto deve ser devolvido sem uso, em sua embalagem original e com as tags intactas.</li></ul></li></ul><h3>2. Troca por Defeito ou Avaria</h3><p>Se o seu produto chegar com defeito de fabricação ou danificado, você pode solicitar a troca ou devolução nos seguintes prazos:</p><ul><li>Até 90 dias para produtos duráveis.</li></ul><ol><li>Entre em contato com fotos ou vídeos que mostrem o defeito.</li><li>Após a avaliação, enviaremos as instruções para devolução.</li><li>Você poderá escolher entre a troca por um produto igual (sujeito a estoque) ou o reembolso integral, incluindo o frete.</li></ol><h3>Canais de Atendimento</h3><ul><li>WhatsApp: +55 xx xxxx-XXXX</li><li>E-mail: suporte@lojademvp.com</li><li>Instagram: @lojademvp</li><li>Horário: Segunda a sexta, das 9h às 18h.</li></ul>",
+                "align": "left",
+                "text_color": "#2f4a5f",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": {
+                    "tablet": 17,
+                    "mobile": 16
+                  }
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_media_section",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "structure": "50",
+        "gap_columns": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "64",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "policy_media_column_one",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "16",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "24",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "policy_media_image_one",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=900&q=80",
+                  "id": "",
+                  "alt": "Cliente conferindo semijoias com sorriso"
+                },
+                "image_size": "large",
+                "align": "stretch",
+                "caption": "Experiência Ballona do pedido ao pós-venda",
+                "caption_typography_typography": "custom",
+                "caption_typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                },
+                "caption_typography_font_weight": "500",
+                "caption_text_color": "#3f6a82",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow": "yes",
+                "box_shadow_box_shadow_type": "drop",
+                "box_shadow_box_shadow_horizontal": 0,
+                "box_shadow_box_shadow_vertical": 15,
+                "box_shadow_box_shadow_blur": 35,
+                "box_shadow_box_shadow_spread": -15,
+                "box_shadow_box_shadow_color": "rgba(35, 22, 63, 0.15)"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "policy_media_column_two",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "16",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "policy_media_image_two",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b6?auto=format&fit=crop&w=900&q=80",
+                  "id": "",
+                  "alt": "Atendente embalando uma joia para envio"
+                },
+                "image_size": "large",
+                "align": "stretch",
+                "caption": "Equipe dedicada às trocas e devoluções sem complicações",
+                "caption_typography_typography": "custom",
+                "caption_typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                },
+                "caption_typography_font_weight": "500",
+                "caption_text_color": "#3f6a82",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow": "yes",
+                "box_shadow_box_shadow_type": "drop",
+                "box_shadow_box_shadow_horizontal": 0,
+                "box_shadow_box_shadow_vertical": 15,
+                "box_shadow_box_shadow_blur": 35,
+                "box_shadow_box_shadow_spread": -15,
+                "box_shadow_box_shadow_color": "rgba(35, 22, 63, 0.15)"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_cta_section",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "no",
+        "background_background": "gradient",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135,
+          "sizes": []
+        },
+        "background_color": "#2f9bc1",
+        "background_color_b": "#8dd3e0",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "48",
+          "bottom": "64",
+          "left": "48",
+          "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "24",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "policy_cta_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "vertical_align": "middle",
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "policy_cta_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quer receber as novidades da Ballona V2?",
+                "align": "center",
+                "html_tag": "h2",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": {
+                    "tablet": 28,
+                    "mobile": 24
+                  }
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.3,
+                  "sizes": []
+                },
+                "text_color": "#ffffff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "policy_cta_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Siga nosso Instagram para conhecer lançamentos, bastidores e dicas de cuidado com as suas semijoias favoritas.</p>",
+                "align": "center",
+                "text_color": "#effcff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": {
+                    "mobile": 16
+                  }
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "policy_cta_button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Seguir @ballonaoficial",
+                "align": "center",
+                "size": "lg",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#1d2a3b",
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "hover_background_color": "#e9fbff",
+                "hover_animation": "pulse"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_footer_section",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "structure": "33",
+        "gap_columns": "extended",
+        "background_background": "classic",
+        "background_color": "#1d2a3b",
+        "padding": {
+          "unit": "px",
+          "top": "48",
+          "right": "0",
+          "bottom": "48",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "policy_footer_column_brand",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "16",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "policy_footer_logo",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ballona",
+                "html_tag": "h3",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "text_color": "#ffffff",
+                "letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "policy_footer_brand_copy",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Semijoias que acompanham cada capítulo da sua história, com atendimento humano e responsável.</p>",
+                "align": "left",
+                "text_color": "#b5ecf5",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "policy_footer_column_links",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "16",
+              "bottom": "0",
+              "left": "16",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "policy_footer_links_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Links Úteis",
+                "html_tag": "h4",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#ffffff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "policy_footer_links_list",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul><li><a href=\"#\" style=\"color:#b5ecf5;\">Novidades</a></li><li><a href=\"#\" style=\"color:#b5ecf5;\">Coleções</a></li><li><a href=\"#\" style=\"color:#b5ecf5;\">Atendimento</a></li></ul>",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "policy_footer_column_contact",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "16",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "policy_footer_contact_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Fale Conosco V2",
+                "html_tag": "h4",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#ffffff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "policy_footer_contact_list",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul><li>WhatsApp: +55 xx xxxx-XXXX</li><li>E-mail: <a href=\"mailto:suporte@lojademvp.com\" style=\"color:#b5ecf5;\">suporte@lojademvp.com</a></li><li>Instagram: <a href=\"https://instagram.com/lojademvp\" style=\"color:#b5ecf5;\">@lojademvp</a></li><li>Horário: Segunda a sexta, das 9h às 18h.</li></ul>",
+                "align": "left",
+                "text_color": "#b5ecf5",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "policy_footer_copyright",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"margin-top:16px;\">&copy; 2024 Ballona. Todos os direitos reservados. Atualizado em 2024.</p>",
+                "align": "left",
+                "text_color": "#6cc0d1",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
