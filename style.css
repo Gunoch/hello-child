@@ -1,7 +1,12 @@
 /*
 Theme Name: Hello Child
-Template: hello-elementor
+Theme URI: https://example.com/
 Author: Equipe
-Version: 1.0
+Author URI: https://example.com/
+Description: Child theme for Hello Elementor providing Elementor builder and WooCommerce enhancements.
+Template: hello-elementor
+Version: 1.0.0
 Text Domain: hello-child
 */
+
+/* Add child theme overrides below */

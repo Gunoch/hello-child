@@ -1,3 +1,154 @@
-/* Main stylesheet for Hello Child Theme */
+/*
+ * Main stylesheet for Hello Child Theme
+ */
 
-/* Add your custom styles below */
+:root {
+  --hello-child-primary: #c89b3c;
+  --hello-child-primary-dark: #a77f2f;
+  --hello-child-surface: #faf7f2;
+  --hello-child-text: #2b2b2b;
+}
+
+body {
+  color: var(--hello-child-text);
+  background-color: #fff;
+}
+
+.policy {
+  display: block;
+}
+
+.policy-top {
+  background-color: var(--hello-child-primary);
+  color: #fff;
+  padding: 0.75rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.policy-top .badge {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+}
+
+.policy-content {
+  padding: 3rem 0;
+  max-width: 860px;
+}
+
+.policy-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.policy-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  padding: 0 0 3rem;
+}
+
+.policy-card {
+  background-color: var(--hello-child-surface);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.policy-card:hover,
+.policy-card:focus-within {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 38px rgba(0, 0, 0, 0.14);
+}
+
+.policy-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.policy-card figcaption {
+  padding: 1rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+.policy-cta {
+  background: linear-gradient(135deg, var(--hello-child-primary) 0%, var(--hello-child-primary-dark) 100%);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.policy-cta-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.policy-cta-text {
+  flex: 1 1 300px;
+}
+
+.policy-cta-text h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.policy-cta-text p {
+  margin: 0;
+}
+
+.policy-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.policy-cta .btn {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.85rem 1.75rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.policy-cta .btn-primary {
+  background-color: #fff;
+  color: var(--hello-child-primary-dark);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.policy-cta .btn-outline {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  color: #fff;
+}
+
+.policy-cta .btn:hover,
+.policy-cta .btn:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+}
+
+@media (max-width: 600px) {
+  .policy-top {
+    font-size: 0.75rem;
+  }
+
+  .policy-cta-actions {
+    width: 100%;
+    justify-content: center;
+  }
+}
