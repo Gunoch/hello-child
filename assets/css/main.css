@@ -1,3 +1,219 @@
-/* Main stylesheet for Hello Child Theme */
+/*
+ * Main stylesheet for Hello Child Theme
+ * --------------------------------------------------
+ * Estrutura organizada em: Variáveis, Regras Globais,
+ * Componentes e Utilidades. Seguir esta ordem ao
+ * adicionar novos blocos.
+ */
 
-/* Add your custom styles below */
+/* ==================================================
+   Variáveis globais
+   ================================================== */
+:root {
+  --color-primary: #d6a972;
+  --color-secondary: #f5efe6;
+  --color-text: #2b1d11;
+  --color-muted: rgba(43, 29, 17, 0.64);
+  --font-display: "Playfair Display", "Times New Roman", serif;
+  --font-base: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --space-unit: 1rem;
+  --container-max-width: 1160px;
+}
+
+/* ==================================================
+   Regras globais
+   ================================================== */
+body {
+  font-family: var(--font-base);
+  color: var(--color-text);
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.container {
+  width: min(100%, var(--container-max-width));
+  margin-inline: auto;
+  padding-inline: calc(var(--space-unit) * 1.5);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: 1px solid var(--color-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background-color: #c18c45;
+  border-color: #c18c45;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid currentColor;
+}
+
+.btn-outline:hover,
+.btn-outline:focus-visible {
+  color: #fff;
+  background-color: var(--color-text);
+}
+
+/* ==================================================
+   Componentes: Página de Políticas
+   ================================================== */
+.policy {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--space-unit) * 3);
+  padding-block: calc(var(--space-unit) * 4);
+  background-color: #fff;
+}
+
+.policy-top {
+  background-color: var(--color-secondary);
+  padding-block: calc(var(--space-unit) * 0.75);
+  font-size: 0.9375rem;
+}
+
+.policy-top .badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background-color: #fff;
+  color: var(--color-text);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.policy-content {
+  display: grid;
+  gap: calc(var(--space-unit) * 2);
+  max-width: 780px;
+}
+
+.policy-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 2vw + 1.75rem, 3rem);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.policy-content p {
+  margin-bottom: 1.25rem;
+}
+
+.policy-content a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.policy-content a:hover,
+.policy-content a:focus-visible {
+  text-decoration: underline;
+}
+
+.policy-gallery {
+  display: grid;
+  gap: calc(var(--space-unit) * 1.5);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.policy-card {
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(214, 169, 114, 0.16), rgba(245, 239, 230, 0.64));
+  padding: calc(var(--space-unit) * 1.25);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--space-unit) * 0.75);
+}
+
+.policy-card img {
+  border-radius: 14px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 18px 34px rgba(31, 21, 13, 0.12);
+}
+
+.policy-card figcaption {
+  font-size: 0.9375rem;
+  color: var(--color-muted);
+}
+
+.policy-cta {
+  background-color: var(--color-secondary);
+  padding-block: calc(var(--space-unit) * 3);
+}
+
+.policy-cta-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: calc(var(--space-unit) * 1.5);
+}
+
+.policy-cta-text h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 1.5vw + 1.25rem, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.policy-cta-text p {
+  max-width: 28ch;
+  color: var(--color-muted);
+}
+
+.policy-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--space-unit) * 0.75);
+}
+
+/* ==================================================
+   Utilidades
+   ================================================== */
+@media (max-width: 768px) {
+  .policy {
+    padding-block: calc(var(--space-unit) * 3);
+  }
+
+  .policy-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
