@@ -7,6 +7,10 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 | Arquivo | Tipo | Descrição |
 | --- | --- | --- |
 | `pages/ballona-home.json` | Página completa | Landing page inicial com destaque para a nova coleção, diferenciais da marca, vitrines de produtos e prova social. |
+| `pages/ballona-sobre.json` | Página completa | Página institucional com manifesto da marca, linha do tempo, pilares estratégicos e CTA para newsletter do atelier. |
+| `pages/ballona-colecao-aurora.json` | Página completa | Apresenta a coleção Aurora com destaques de produtos, sugestões de styling, galeria curada e formulário para agendar sessão exclusiva. |
+| `pages/ballona-lookbook.json` | Página completa | Lookbook digital com galerias de inspiração, destaques temáticos e orientações de styling da equipe Ballona. |
+| `pages/ballona-guia-cuidados.json` | Página completa | Guia prático de conservação com rotina passo a passo, destaques de boas práticas e FAQ de manutenção das peças. |
 | `pages/ballona-trocas-devolucoes.json` | Página completa | Layout de políticas de trocas e devoluções com blocos reutilizáveis (banner, destaques, FAQ, CTA para suporte e bloco WooCommerce de produtos relacionados). |
 | `pages/ballona-contato.json` | Página completa | Central de relacionamento com cards de canais, checklist de atendimento e área para formulário Elementor ou shortcode. |
 | `pages/ballona-politicas-troca-devolucao.json` | Página completa | Políticas de trocas e devoluções com cabeçalho responsivo, banner informativo, texto oficial, galeria de imagens e CTA final para redes sociais. |
