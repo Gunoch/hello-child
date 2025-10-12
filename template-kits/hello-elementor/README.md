@@ -9,6 +9,7 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 | `pages/ballona-home.json` | Página completa | Landing page inicial com destaque para a nova coleção, diferenciais da marca, vitrines de produtos e prova social. |
 | `pages/ballona-trocas-devolucoes.json` | Página completa | Layout de políticas de trocas e devoluções com blocos reutilizáveis (banner, destaques, FAQ, CTA para suporte e bloco WooCommerce de produtos relacionados). |
 | `pages/ballona-contato.json` | Página completa | Central de relacionamento com cards de canais, checklist de atendimento e área para formulário Elementor ou shortcode. |
+| `pages/ballona-politicas-troca-devolucao.json` | Página completa | Políticas de trocas e devoluções com cabeçalho responsivo, banner informativo, texto oficial, galeria de imagens e CTA final para redes sociais. |
 
 ## Passo a passo de importação
 
