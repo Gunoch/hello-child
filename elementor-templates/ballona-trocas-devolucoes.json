@@ -1,0 +1,1245 @@
+{
+  "version": "0.4",
+  "title": "Ballona Trocas e Devolucoes",
+  "type": "page",
+  "content": [
+    {
+      "id": "section_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "background_background": "gradient",
+        "background_color": "#f2f0ff",
+        "background_color_b": "#ffffff",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "section_hero_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "20",
+              "bottom": "0",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "hero_badge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "header_size": "span",
+                "title": "Política de Trocas e Devoluções",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#6d5bd0",
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "30",
+                  "bottom": "30",
+                  "left": "30",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "24",
+                  "bottom": "12",
+                  "left": "24",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "hero_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Cuidamos da sua experiência Ballona",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "text_color": "#1d144f",
+                "margin": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "hero_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Na Ballona, queremos que você se apaixone pelas suas semijoias. Se algo não sair como esperado, criamos um fluxo fácil e transparente para atender você.</p>",
+                "text_color": "#4c4587",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "hero_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Fale com o Atendimento",
+                "align": "left",
+                "size": "lg",
+                "button_type": "info",
+                "background_color": "#6d5bd0",
+                "hover_background_color": "#4e3cb0",
+                "text_color": "#ffffff",
+                "hover_text_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "icon": "fas fa-headset",
+                "icon_align": "right",
+                "icon_spacing": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "link": {
+                  "url": "https://wa.me/55xxxxxxxxx",
+                  "is_external": "",
+                  "nofollow": ""
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "section_arrependimento",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "column_arrependimento",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "20",
+              "bottom": "0",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "arrependimento_badge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "header_size": "span",
+                "title": "1. Direito de Arrependimento",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#1d144f",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "arrependimento_columns",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "50",
+                "gap_columns_custom": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "gap_columns": "custom"
+              },
+              "elements": [
+                {
+                  "id": "arrependimento_col1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 10,
+                    "box_shadow_box_shadow_blur": 30,
+                    "box_shadow_box_shadow_spread": 0,
+                    "box_shadow_box_shadow_color": "rgba(109, 91, 208, 0.1)",
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "arrependimento_funciona",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Como funciona",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#6d5bd0",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "arrependimento_lista",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "icon": "fas fa-check-circle",
+                        "icon_list": [
+                          {
+                            "_id": "arrependimento_step1",
+                            "text": "Entre em contato pelo WhatsApp, e-mail ou Instagram com os dados do seu pedido.",
+                            "icon": "fas fa-comment-dots"
+                          },
+                          {
+                            "_id": "arrependimento_step2",
+                            "text": "Receba as instruções para devolução de forma rápida e clara.",
+                            "icon": "fas fa-shipping-fast"
+                          },
+                          {
+                            "_id": "arrependimento_step3",
+                            "text": "O reembolso será integral, incluindo o valor do frete.",
+                            "icon": "fas fa-wallet"
+                          }
+                        ],
+                        "icon_color": "#6d5bd0",
+                        "text_color": "#4c4587",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "arrependimento_col2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "background_background": "classic",
+                    "background_color": "#f9f8ff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "arrependimento_condicoes",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Condições",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#1d144f",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "arrependimento_condicoes_lista",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "icon": "fas fa-star",
+                        "icon_list": [
+                          {
+                            "_id": "arrependimento_cond1",
+                            "text": "Produto sem sinais de uso e com a qualidade preservada.",
+                            "icon": "far fa-gem"
+                          },
+                          {
+                            "_id": "arrependimento_cond2",
+                            "text": "Embalagem original, incluindo estojo e tags.",
+                            "icon": "fas fa-box-open"
+                          }
+                        ],
+                        "icon_color": "#1d144f",
+                        "text_color": "#4c4587",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "section_defeito",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "background_color": "#f9f8ff",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "column_defeito",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "20",
+              "bottom": "0",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "defeito_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "2. Troca por Defeito ou Avaria",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#1d144f",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "defeito_cards",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "33",
+                "gap_columns_custom": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "gap_columns": "custom"
+              },
+              "elements": [
+                {
+                  "id": "defeito_card1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 8,
+                    "box_shadow_box_shadow_blur": 25,
+                    "box_shadow_box_shadow_spread": 0,
+                    "box_shadow_box_shadow_color": "rgba(29, 20, 79, 0.1)"
+                  },
+                  "elements": [
+                    {
+                      "id": "defeito_card1_icon",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "icon": "fas fa-clipboard-check",
+                        "align": "left",
+                        "primary_color": "#6d5bd0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 32,
+                          "sizes": []
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "20",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "defeito_card1_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Solicitação",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#1d144f",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "defeito_card1_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Envie fotos ou vídeos que mostrem o defeito assim que receber o produto.</p>",
+                        "text_color": "#4c4587",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "defeito_card2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 8,
+                    "box_shadow_box_shadow_blur": 25,
+                    "box_shadow_box_shadow_spread": 0,
+                    "box_shadow_box_shadow_color": "rgba(29, 20, 79, 0.1)"
+                  },
+                  "elements": [
+                    {
+                      "id": "defeito_card2_icon",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "icon": "fas fa-sync-alt",
+                        "align": "left",
+                        "primary_color": "#6d5bd0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 32,
+                          "sizes": []
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "20",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "defeito_card2_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Prazo",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#1d144f",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "defeito_card2_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Você tem até 90 dias corridos para solicitar a troca de produtos duráveis.</p>",
+                        "text_color": "#4c4587",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "defeito_card3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 8,
+                    "box_shadow_box_shadow_blur": 25,
+                    "box_shadow_box_shadow_spread": 0,
+                    "box_shadow_box_shadow_color": "rgba(29, 20, 79, 0.1)"
+                  },
+                  "elements": [
+                    {
+                      "id": "defeito_card3_icon",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "icon": "fas fa-hand-holding-heart",
+                        "align": "left",
+                        "primary_color": "#6d5bd0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 32,
+                          "sizes": []
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "20",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "defeito_card3_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Soluções",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#1d144f",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "defeito_card3_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Escolha a troca pelo mesmo modelo (sujeito à disponibilidade) ou o reembolso total com frete.</p>",
+                        "text_color": "#4c4587",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "section_canais",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "column_canais",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "20",
+              "bottom": "0",
+              "left": "20",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "canais_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Canais de Atendimento",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#1d144f",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "canais_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "33",
+                "gap_columns_custom": {
+                  "unit": "px",
+                  "size": 30,
+                  "sizes": []
+                },
+                "gap_columns": "custom"
+              },
+              "elements": [
+                {
+                  "id": "canais_whatsapp",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 10,
+                    "box_shadow_box_shadow_blur": 30,
+                    "box_shadow_box_shadow_spread": 0,
+                    "box_shadow_box_shadow_color": "rgba(109, 91, 208, 0.15)"
+                  },
+                  "elements": [
+                    {
+                      "id": "canais_whatsapp_icon",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "icon": "fab fa-whatsapp",
+                        "align": "center",
+                        "primary_color": "#25d366",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "canais_whatsapp_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "WhatsApp",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#1d144f",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "canais_whatsapp_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>+55 xx xxxx-XXXX</p><p>Segunda a sexta, das 9h às 18h</p>",
+                        "align": "center",
+                        "text_color": "#4c4587",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "canais_email",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 10,
+                    "box_shadow_box_shadow_blur": 30,
+                    "box_shadow_box_shadow_spread": 0,
+                    "box_shadow_box_shadow_color": "rgba(109, 91, 208, 0.15)"
+                  },
+                  "elements": [
+                    {
+                      "id": "canais_email_icon",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "icon": "fas fa-envelope-open-text",
+                        "align": "center",
+                        "primary_color": "#6d5bd0",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "canais_email_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "E-mail",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#1d144f",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "canais_email_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>suporte@lojademvp.com</p><p>Retorno em até 24h úteis</p>",
+                        "align": "center",
+                        "text_color": "#4c4587",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "canais_instagram",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "32",
+                      "right": "32",
+                      "bottom": "32",
+                      "left": "32",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 10,
+                    "box_shadow_box_shadow_blur": 30,
+                    "box_shadow_box_shadow_spread": 0,
+                    "box_shadow_box_shadow_color": "rgba(109, 91, 208, 0.15)"
+                  },
+                  "elements": [
+                    {
+                      "id": "canais_instagram_icon",
+                      "elType": "widget",
+                      "widgetType": "icon",
+                      "settings": {
+                        "icon": "fab fa-instagram",
+                        "align": "center",
+                        "primary_color": "#e1306c",
+                        "icon_size": {
+                          "unit": "px",
+                          "size": 40,
+                          "sizes": []
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "canais_instagram_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Instagram",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#1d144f",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "canais_instagram_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>@lojademvp</p><p>Mensagens diretas respondidas em horário comercial.</p>",
+                        "align": "center",
+                        "text_color": "#4c4587",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}
