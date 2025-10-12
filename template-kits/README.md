@@ -8,14 +8,17 @@ Este diretório centraliza os arquivos de Template Kit preparados para o tema **
 template-kits/
 └── hello-elementor/
     ├── README.md          # Guia específico de configuração do kit para o tema Hello Elementor
-    └── pages/
-        ├── ballona-home.json
-        ├── ballona-trocas-devolucoes.json
-        └── ballona-contato.json
+    ├── pages/
+    │   ├── ballona-home.json
+    │   ├── ballona-trocas-devolucoes.json
+    │   └── ballona-contato.json
+    └── templates/
+        └── ballona-politicas-troca-devolucao.json
 ```
 
 - **hello-elementor/**: coleção de templates pensada para o tema base Hello Elementor, já com espaçamentos, tipografia e containers configurados conforme a documentação oficial do tema.
 - **pages/**: templates completos de páginas criados com widgets nativos do Elementor, prontos para importar via biblioteca do plugin.
+- **templates/**: sessões ou páginas modulares prontas para serem inseridas em páginas existentes, facilitando a montagem de fluxos específicos (ex.: políticas, banners, CTAs).
 
 ## Como importar
 
