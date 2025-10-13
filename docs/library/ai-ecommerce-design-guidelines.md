@@ -20,7 +20,7 @@ Estas diretrizes consolidam práticas atuais para que equipes e assistentes de I
 - **Performance**: limite vídeos a uma seção, comprima imagens (≤200 KB sempre que possível, formato WebP/AVIF), habilite lazy load e evite widgets que exijam scripts externos pesados.
 
 ## 4. Fluxo recomendado para criação de páginas
-1. **Diagnosticar** – reunir briefing, dados e insights de UX (`Assassesso/docs/bellona-w01/` ou estudos equivalentes) e definir indicadores alvo.
+1. **Diagnosticar** – reunir briefing, dados e insights de UX (`docs/library/bellona-w01/` ou estudos equivalentes) e definir indicadores alvo.
 2. **Planejar** – desenhar wireframes mobile-first, mapear componentes reutilizáveis e tokens necessários.
 3. **Implementar no Elementor** – usar containers flexíveis, grid responsivo e widgets nativos WooCommerce. Documentar tokens, animações e integrações.
 4. **Otimizar copy e SEO** – estruturar headings, meta descrição, links internos, dados estruturados (`schema.org/Offer`) e garantir coerência com campanhas.
@@ -29,7 +29,7 @@ Estas diretrizes consolidam práticas atuais para que equipes e assistentes de I
 
 ## 5. Automação e governança
 - Versione todos os artefatos (templates, relatórios, imagens otimizadas) junto ao código.
-- Utilize ferramentas em `Assassesso/tooling/` para normalizar tokens e gerar builds reproduzíveis.
+- Utilize ferramentas em `tooling/` para normalizar tokens e gerar builds reproduzíveis.
 - Documente integrações com CRM, analytics e automações (webhooks, e-mails) para facilitar manutenção.
 
 ## 6. Referências recomendadas

@@ -1,6 +1,6 @@
 # Pesquisa e Diretrizes de UX – Bellona w01 (Referência Histórica)
 
-> Este documento preserva os insights de pesquisa da fase w01 da marca Bellona. Utilize-o como complemento às diretrizes unificadas de 2024 descritas em `../ai-ecommerce-design-guidelines.md` e ao fluxo `Descobrir → Definir → Construir → Validar → Entregar` presente em `../../../FLUXO-ENGENHARIA.md`. Ao aplicar estas referências, valide se continuam coerentes com os dados atuais do projeto.
+> Este documento preserva os insights de pesquisa da fase w01 da marca Bellona. Utilize-o como complemento às diretrizes unificadas de 2024 descritas em `../ai-ecommerce-design-guidelines.md` e ao fluxo `Descobrir → Definir → Construir → Validar → Entregar` presente em `../../operations/fluxo-engenharia.md`. Ao aplicar estas referências, valide se continuam coerentes com os dados atuais do projeto.
 
 ## Como usar no fluxo atual
 - **Descobrir**: confirme se os objetivos e personas aqui descritos permanecem válidos com os dados mais recentes (analytics, entrevistas, vendas).

@@ -4,22 +4,22 @@ Este guia orienta a importação, configuração e manutenção dos Template Kit
 
 ## Estrutura principal
 
-- `Assassesso/templates/README.md`: visão geral da organização dos kits.
-- `Assassesso/templates/hello-elementor/`: coleção oficial para o tema Hello Elementor.
+- `template-kits/README.md`: visão geral da organização dos kits.
+- `template-kits/hello-elementor/`: coleção oficial para o tema Hello Elementor.
   - `README.md`: instruções detalhadas, tokens aprovados e changelog do kit.
   - `pages/latest/`: páginas completas prontas para publicação.
   - `pages/archive/`: histórico para referência ou rollback.
   - `sections/`: blocos modulares reutilizáveis.
   - `blueprints/`: estruturas de apoio para geração assistida por IA.
-- `Assassesso/docs/`: documentação complementar (fluxo de engenharia, diretrizes de design, pesquisas).
-- `theme/`, `functions.php`, `style.css`: legado – usar apenas quando for inviável resolver via Template Kit.
+- `docs/`: documentação complementar (fluxo de engenharia, diretrizes de design, pesquisas).
+- `legacy-theme/hello-child/`: legado – usar apenas quando for inviável resolver via Template Kit.
 
 ## Pré-requisitos
 
 1. Tema **Hello Elementor** ativo e atualizado.
 2. Plugin **Elementor** (versão mais recente) e **WooCommerce** configurado para páginas com catálogo.
 3. Opcional: **Elementor Pro** para recursos dinâmicos avançados.
-4. Briefing/documentação revisados (`briefing.json`, estudos em `docs/`) conforme o fluxo `Descobrir` → `Definir` descrito no `FLUXO-ENGENHARIA.md`.
+4. Briefing/documentação revisados (`briefing.json`, estudos em `docs/`) conforme o fluxo `Descobrir` → `Definir` descrito em `docs/operations/fluxo-engenharia.md`.
 
 ## Importação passo a passo
 
@@ -35,7 +35,7 @@ Este guia orienta a importação, configuração e manutenção dos Template Kit
 - **WooCommerce**: associe widgets às categorias corretas, habilite filtros e configure mensagens de frete/estoque.
 - **Acessibilidade**: garanta textos alternativos, hierarquia de headings e foco visível.
 - **Performance**: otimize imagens (WebP/AVIF), habilite lazy load e evite animações pesadas.
-- **Documentação**: registre adaptações relevantes no README do kit ou em `docs/reports/<slug>-qa.md`.
+- **Documentação**: registre adaptações relevantes no README do kit ou em `docs/library/reports/<slug>-qa.md`.
 
 ## Manutenção contínua
 

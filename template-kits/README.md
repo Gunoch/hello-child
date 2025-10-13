@@ -5,7 +5,7 @@ Este diretório reúne os Template Kits homologados para uso com o tema **Hello 
 ## Estrutura
 
 ```
-Assassesso/templates/
+template-kits/
 └── hello-elementor/
     ├── README.md
     ├── blueprints/
@@ -24,7 +24,7 @@ Assassesso/templates/
 ## Fluxo de trabalho recomendado
 
 1. Consulte `hello-elementor/README.md` para entender quais templates já existem e quais tokens devem ser mantidos.
-2. Ao criar novas páginas ou seções, siga o fluxo `Descobrir → Definir → Construir → Validar → Entregar` descrito em `FLUXO-ENGENHARIA.md`.
+2. Ao criar novas páginas ou seções, siga o fluxo `Descobrir → Definir → Construir → Validar → Entregar` descrito em `../docs/operations/fluxo-engenharia.md`.
 3. Exporte os arquivos `.json` diretamente para a subpasta correspondente, mantendo a convenção `marca-pagina-versao.json`.
 4. Atualize o README do kit com notas de uso, dependências e mudanças relevantes.
 5. Sempre mova versões substituídas para `pages/archive/` com a data e o motivo da atualização.
