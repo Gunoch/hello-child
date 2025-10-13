@@ -1,0 +1,286 @@
+{
+  "version": "0.6",
+  "title": "Bellona Home Sass 3 Luminary",
+  "type": "page",
+  "content": [
+    {
+      "id": "sass3_home_luminary_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "gradient",
+        "background_color": "#141622",
+        "background_color_b": "#F2E8D5",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {"unit": "deg", "size": 125, "sizes": []},
+        "padding": {"unit": "px", "top": "120", "right": "48", "bottom": "120", "left": "48", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_home_luminary_hero_col1",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "sass3_home_luminary_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Coleções que celebram sua presença luminosa",
+                "header_size": "h1",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 54, "sizes": []}
+              }
+            },
+            {
+              "id": "sass3_home_luminary_subheading",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Descubra semijoias autorais com banho antialérgico, cristais éticos e concierge 360° para cada ritual Bellona.</p>",
+                "text_color": "#F2E8D5"
+              }
+            },
+            {
+              "id": "sass3_home_luminary_cta_primary",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agendar concierge digital",
+                "link": {"url": "https://wa.me/5562999999999"},
+                "background_color": "#F2E8D5",
+                "color": "#141622",
+                "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "align": "left"
+              }
+            },
+            {
+              "id": "sass3_home_luminary_cta_secondary",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Ver coleções assinatura",
+                "link": {"url": "#sass3_home_luminary_collections"},
+                "background_color": "#141622",
+                "color": "#F2E8D5",
+                "border_width": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true},
+                "border_color": "#F2E8D5",
+                "align": "left"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sass3_home_luminary_hero_col2",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "sass3_home_luminary_hero_image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/720x880?text=Bellona+Luminary"},
+                "image_size": "full",
+                "align": "center",
+                "caption": "Editorial Bellona Luminary",
+                "caption_source": "custom"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_home_luminary_metrics",
+      "elType": "section",
+      "settings": {
+        "structure": "25",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "64", "right": "40", "bottom": "64", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_home_luminary_metric_intro",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {
+              "id": "sass3_home_luminary_metric_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Por que Bellona?", "header_size": "h2", "title_color": "#141622"}
+            },
+            {
+              "id": "sass3_home_luminary_metric_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Nossas guardiãs acompanham cada etapa do seu ritual, com garantia vitalícia e logística premium.</p>"}
+            }
+          ]
+        },
+        {
+          "id": "sass3_home_luminary_metric1",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {
+              "id": "sass3_home_luminary_metric1_value",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {"starting_number": 0, "ending_number": 24, "suffix": "h", "title": "Concierge ativo"}
+            },
+            {
+              "id": "sass3_home_luminary_metric1_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Respostas personalizadas em até 2 horas úteis.</p>"}
+            }
+          ]
+        },
+        {
+          "id": "sass3_home_luminary_metric2",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {
+              "id": "sass3_home_luminary_metric2_value",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {"starting_number": 0, "ending_number": 1800, "prefix": "+", "title": "Clientes guardiãs"}
+            },
+            {
+              "id": "sass3_home_luminary_metric2_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Comunidade ativa com experiências presenciais e digitais.</p>"}
+            }
+          ]
+        },
+        {
+          "id": "sass3_home_luminary_metric3",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {
+              "id": "sass3_home_luminary_metric3_value",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {"starting_number": 0, "ending_number": 12, "suffix": "x", "title": "Novos drops"}
+            },
+            {
+              "id": "sass3_home_luminary_metric3_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Lançamentos sazonais com curadoria de metais raros.</p>"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_home_luminary_collections",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "background_background": "classic",
+        "background_color": "#F8F6F2",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_home_luminary_collections_intro",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "sass3_home_luminary_collections_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Curadoria assinatura", "header_size": "h2"}},
+            {"id": "sass3_home_luminary_collections_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Ative filtros por aura e encontre peças que acompanham seu ritmo.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_home_luminary_collection_grid",
+          "elType": "column",
+          "settings": {"_column_size": 66},
+          "elements": [
+            {
+              "id": "sass3_home_luminary_collection_widget",
+              "elType": "widget",
+              "widgetType": "woocommerce-products",
+              "settings": {
+                "products_source": "featured",
+                "columns": 3,
+                "rows": 2,
+                "orderby": "date"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_home_luminary_testimonials",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_home_luminary_testimonial_title",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "sass3_home_luminary_testimonial_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Vozes guardiãs", "header_size": "h2"}},
+            {"id": "sass3_home_luminary_testimonial_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Feedbacks verificados de clientes recorrentes.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_home_luminary_testimonial_cards",
+          "elType": "column",
+          "settings": {"_column_size": 66},
+          "elements": [
+            {
+              "id": "sass3_home_luminary_testimonial_repeater",
+              "elType": "widget",
+              "widgetType": "testimonials",
+              "settings": {
+                "slides": [
+                  {"_id": "sass3_home_luminary_testimonial1", "title": "Helena Duarte", "content": "Peças impecáveis e acompanhamento ativo da stylist. Senti confiança em todo o processo."},
+                  {"_id": "sass3_home_luminary_testimonial2", "title": "Joice Martins", "content": "Entrega rápida e embalagem que traduz o cuidado Bellona."},
+                  {"_id": "sass3_home_luminary_testimonial3", "title": "Camila Rezende", "content": "Concierge atento às minhas preferências, sugerindo combinações prontas para eventos."}
+                ],
+                "skin": "bubble"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_home_luminary_footer_cta",
+      "elType": "section",
+      "settings": {
+        "structure": "100",
+        "background_background": "classic",
+        "background_color": "#141622",
+        "padding": {"unit": "px", "top": "72", "right": "40", "bottom": "72", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_home_luminary_footer_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "sass3_home_luminary_footer_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Ative o ritual Bellona agora", "header_size": "h2", "title_color": "#F2E8D5"}},
+            {"id": "sass3_home_luminary_footer_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Crie combinações exclusivas com apoio das guardiãs e condições preferenciais.</p>", "text_color": "#F2E8D5"}},
+            {"id": "sass3_home_luminary_footer_button", "elType": "widget", "widgetType": "button", "settings": {"text": "Conectar com concierge", "link": {"url": "https://wa.me/5562999999999"}, "background_color": "#F2E8D5", "color": "#141622", "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true}, "align": "center"}}
+          ]
+        }
+      ]
+    }
+  ]
+}
