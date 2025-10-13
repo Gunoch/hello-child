@@ -1,0 +1,235 @@
+{
+  "version": "0.6",
+  "title": "Bellona Landing Sass 3 Oracle",
+  "type": "page",
+  "content": [
+    {
+      "id": "sass3_landing_oracle_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "gradient",
+        "background_color": "#111320",
+        "background_color_b": "#D8C9B0",
+        "background_gradient_type": "radial",
+        "background_gradient_position": "center center",
+        "padding": {"unit": "px", "top": "112", "right": "40", "bottom": "112", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_landing_oracle_col1",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "sass3_landing_oracle_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Programa Oracle – Stylist em ciclo contínuo",
+                "header_size": "h1",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 48, "sizes": []}
+              }
+            },
+            {
+              "id": "sass3_landing_oracle_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Conecte-se a guardiãs especialistas, receba cápsulas trimestrais e acompanhe métricas de estilo em um painel exclusivo.</p>",
+                "text_color": "#E9E3D8"
+              }
+            },
+            {
+              "id": "sass3_landing_oracle_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Aplicar para o programa",
+                "link": {"url": "https://bellona.example/apply"},
+                "background_color": "#D8C9B0",
+                "color": "#111320",
+                "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true},
+                "align": "left"
+              }
+            },
+            {
+              "id": "sass3_landing_oracle_anchor",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p><a href=\"#sass3_landing_oracle_benefits\" style=\"color:#D8C9B0;text-decoration:underline;\">Veja benefícios detalhados</a></p>", "text_color": "#D8C9B0"}
+            }
+          ]
+        },
+        {
+          "id": "sass3_landing_oracle_col2",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "sass3_landing_oracle_image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/640x760?text=Bellona+Oracle"},
+                "image_size": "full",
+                "align": "center",
+                "caption": "Guardiãs Oracle em sessão de styling",
+                "caption_source": "custom"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_landing_oracle_benefits",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_landing_oracle_benefits_intro",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "sass3_landing_oracle_benefits_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Experiências exclusivas", "header_size": "h2"}},
+            {"id": "sass3_landing_oracle_benefits_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>O programa combina curadoria contínua, monitoramento de uso e eventos presenciais para membros.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_landing_oracle_benefit_1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "sass3_landing_oracle_benefit1_icon", "elType": "widget", "widgetType": "icon-box", "settings": {"title": "Cápsulas trimestrais", "description": "Receba boxes selecionados com ajustes de medida e briefing personalizado.", "icon": "eicon-calendar"}}
+          ]
+        },
+        {
+          "id": "sass3_landing_oracle_benefit_2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "sass3_landing_oracle_benefit2_icon", "elType": "widget", "widgetType": "icon-box", "settings": {"title": "Painel de estilo", "description": "Acompanhe uso, combinações sugeridas e alertas de manutenção.", "icon": "eicon-device-laptop"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_landing_oracle_timeline",
+      "elType": "section",
+      "settings": {
+        "structure": "25",
+        "background_background": "classic",
+        "background_color": "#F8F6F2",
+        "padding": {"unit": "px", "top": "88", "right": "32", "bottom": "88", "left": "32", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_landing_oracle_timeline_step1",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {"id": "sass3_landing_oracle_timeline1_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "01 – Diagnóstico", "header_size": "h3"}},
+            {"id": "sass3_landing_oracle_timeline1_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Videochamada de boas-vindas, inventário atual e mapa de ocasiões prioritárias.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_landing_oracle_timeline_step2",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {"id": "sass3_landing_oracle_timeline2_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "02 – Cápsula", "header_size": "h3"}},
+            {"id": "sass3_landing_oracle_timeline2_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Envio prioritário com ajustes e guia de uso cross-coleção.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_landing_oracle_timeline_step3",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {"id": "sass3_landing_oracle_timeline3_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "03 – Insights", "header_size": "h3"}},
+            {"id": "sass3_landing_oracle_timeline3_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Métricas de uso, recomendações para próximos eventos e opções sustentáveis.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_landing_oracle_timeline_step4",
+          "elType": "column",
+          "settings": {"_column_size": 25},
+          "elements": [
+            {"id": "sass3_landing_oracle_timeline4_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "04 – Evolução", "header_size": "h3"}},
+            {"id": "sass3_landing_oracle_timeline4_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Renovação semestral, convites para experiências presenciais e upgrades VIP.</p>"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_landing_oracle_faq",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "88", "right": "40", "bottom": "88", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_landing_oracle_faq_intro",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "sass3_landing_oracle_faq_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Perguntas frequentes", "header_size": "h2"}},
+            {"id": "sass3_landing_oracle_faq_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Transparência total sobre logística, manutenção e políticas de devolução.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_landing_oracle_faq_toggle",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "sass3_landing_oracle_toggle",
+              "elType": "widget",
+              "widgetType": "toggle",
+              "settings": {
+                "toggle": [
+                  {"_id": "faq1", "title": "Como funciona a seleção inicial?", "content": "Após preencher o formulário, nossa concierge agenda um diagnóstico para mapear estilo, agenda e alergias."},
+                  {"_id": "faq2", "title": "Posso pausar o programa?", "content": "Sim, oferecemos pausa de até 90 dias com manutenção de benefícios acumulados."},
+                  {"_id": "faq3", "title": "Há taxa adicional?", "content": "A mensalidade inclui cápsula trimestral, ajustes e acesso ao painel. Taxas extras apenas para upgrades especiais."}
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_landing_oracle_cta",
+      "elType": "section",
+      "settings": {
+        "structure": "100",
+        "background_background": "classic",
+        "background_color": "#111320",
+        "padding": {"unit": "px", "top": "80", "right": "32", "bottom": "80", "left": "32", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_landing_oracle_cta_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "sass3_landing_oracle_cta_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Pronta para ampliar sua constelação de estilo?", "header_size": "h2", "title_color": "#E9E3D8"}},
+            {"id": "sass3_landing_oracle_cta_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Preencha o formulário e receba uma análise personalizada em até 24h úteis.</p>", "text_color": "#E9E3D8"}},
+            {"id": "sass3_landing_oracle_cta_button", "elType": "widget", "widgetType": "button", "settings": {"text": "Quero ser uma guardiã Oracle", "link": {"url": "https://bellona.example/apply"}, "background_color": "#D8C9B0", "color": "#111320", "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true}, "align": "center"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

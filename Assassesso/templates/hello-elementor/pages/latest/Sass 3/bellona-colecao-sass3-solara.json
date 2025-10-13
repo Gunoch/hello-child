@@ -1,0 +1,149 @@
+{
+  "version": "0.6",
+  "title": "Bellona Colecao Sass 3 Solara",
+  "type": "page",
+  "content": [
+    {
+      "id": "sass3_colecao_solara_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "classic",
+        "background_color": "#F4EFE7",
+        "padding": {"unit": "px", "top": "104", "right": "40", "bottom": "104", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_colecao_solara_col1",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "sass3_colecao_solara_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Coleção Solara – radiação de ouro etéreo", "header_size": "h1"}},
+            {"id": "sass3_colecao_solara_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Peças com banho triplo de ouro champagne, cravejadas com cristais reciclados e curvas inspiradas no nascer do sol.</p>"}},
+            {"id": "sass3_colecao_solara_badges", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<ul style=\"display:flex;gap:16px;list-style:none;padding:0;margin:0;\"><li>✔ Garantia vitalícia</li><li>✔ Cristais éticos</li><li>✔ Frete premium</li></ul>"}}
+          ]
+        },
+        {
+          "id": "sass3_colecao_solara_col2",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "sass3_colecao_solara_image", "elType": "widget", "widgetType": "image", "settings": {"image": {"url": "https://via.placeholder.com/680x760?text=Colecao+Solara"}, "image_size": "full", "align": "center", "caption": "Editorial Coleção Solara", "caption_source": "custom"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_colecao_solara_features",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "88", "right": "32", "bottom": "88", "left": "32", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_colecao_solara_feature1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "sass3_colecao_solara_feature1_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Texturas solares", "header_size": "h3"}},
+            {"id": "sass3_colecao_solara_feature1_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Mix de acabamentos polido e acetinado para reflexos suaves em qualquer luz.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_colecao_solara_feature2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "sass3_colecao_solara_feature2_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Versatilidade consciente", "header_size": "h3"}},
+            {"id": "sass3_colecao_solara_feature2_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Componentes modulares permitem montar anéis, pulseiras e colares em minutos.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_colecao_solara_feature3",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "sass3_colecao_solara_feature3_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Impacto positivo", "header_size": "h3"}},
+            {"id": "sass3_colecao_solara_feature3_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Parcerias com projetos solares garantem energia limpa na fundição das peças.</p>"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_colecao_solara_vitrine",
+      "elType": "section",
+      "settings": {
+        "structure": "100",
+        "background_background": "classic",
+        "background_color": "#141622",
+        "padding": {"unit": "px", "top": "96", "right": "32", "bottom": "96", "left": "32", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_colecao_solara_vitrine_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "sass3_colecao_solara_vitrine_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Vitrine Solara", "header_size": "h2", "title_color": "#F4EFE7"}},
+            {"id": "sass3_colecao_solara_vitrine_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"color:#F4EFE7;\">Selecione filtros por ocasião e descubra combinações sugeridas pelas guardiãs.</p>"}},
+            {"id": "sass3_colecao_solara_vitrine_widget", "elType": "widget", "widgetType": "woocommerce-products", "settings": {"products_source": "category", "products_ids": "solara", "columns": 4, "rows": 2, "orderby": "popularity"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_colecao_solara_story",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "80", "right": "32", "bottom": "80", "left": "32", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_colecao_solara_story_col1",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "sass3_colecao_solara_story_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Narrativa Solara", "header_size": "h2"}},
+            {"id": "sass3_colecao_solara_story_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Criada para acompanhar amanheceres e conquistas noturnas, Solara traduz intensidade e calmaria em peças fluidas. Cada joia é finalizada manualmente por artesãs da rede Guardiãs.</p>"}}
+          ]
+        },
+        {
+          "id": "sass3_colecao_solara_story_col2",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "sass3_colecao_solara_story_list", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<ol><li>Selecione peças base e personalize pingentes solares.</li><li>Ative concierge para ajustes de última hora.</li><li>Receba guia digital com rotinas de cuidado.</li></ol>"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sass3_colecao_solara_cta",
+      "elType": "section",
+      "settings": {
+        "structure": "100",
+        "background_background": "classic",
+        "background_color": "#D8C9B0",
+        "padding": {"unit": "px", "top": "72", "right": "32", "bottom": "72", "left": "32", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "sass3_colecao_solara_cta_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "sass3_colecao_solara_cta_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Agende styling Solara", "header_size": "h2"}},
+            {"id": "sass3_colecao_solara_cta_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Entre em contato com a concierge para montar cápsulas solares exclusivas.</p>"}},
+            {"id": "sass3_colecao_solara_cta_button", "elType": "widget", "widgetType": "button", "settings": {"text": "Conversar com guardiã", "link": {"url": "https://wa.me/5562999999999"}, "background_color": "#141622", "color": "#F4EFE7", "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true}, "align": "center"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

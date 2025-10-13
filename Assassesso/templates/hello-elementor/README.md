@@ -18,6 +18,9 @@ Este kit consolida páginas, seções e blueprints aprovados para experiências 
 | `bellona-home-w01-lumina.json` | Página | Layout compacto com âncoras internas e destaques promocionais. |
 | `bellona-home-w01-sentinela.json` | Página | Storytelling Guardiãs com prova social expandida. |
 | `bellona-home-w01-vanguard.json` | Página | Tabs de coleção, formulário concierge e métricas sociais. |
+| `Sass 3/bellona-home-sass3-luminary.json` | Página | Nova home mobile-first com hero gradiente, métricas em destaque e vitrine dinâmica. |
+| `Sass 3/bellona-landing-sass3-oracle.json` | Página | Landing do programa Oracle com jornada em etapas, benefícios e FAQ. |
+| `Sass 3/bellona-colecao-sass3-solara.json` | Página | Página de coleção Solara com vitrine temática e storytelling consciente. |
 | `bellona-landing-w01-aurora.json` | Página | Landing colecional com storytelling e captura de leads. |
 | `bellona-landing-w01-vip.json` | Página | Programa VIP com comparativo de planos e FAQ. |
 | `bellona-landing-w01-solstice.json` | Página | Campanha sazonal com contagem regressiva e vitrine temática. |
@@ -33,6 +36,15 @@ Este kit consolida páginas, seções e blueprints aprovados para experiências 
 | `bellona-sobre-v2.json` | Página | Storytelling institucional com reforço de comunidade. |
 
 > As versões w01 permanecem válidas e foram mantidas por apresentarem melhor desempenho em testes recentes. Ao criar novas variações, documente resultados e mova páginas substituídas para `pages/archive/`.
+
+### Coleção Sass 3
+
+- Localização: `pages/latest/Sass 3/`
+- Objetivo: entregar variações premium otimizadas para campanhas SaaS 3Q24 com foco em concierge, narrativa de produto e métricas de comunidade.
+- Templates incluídos:
+  - `bellona-home-sass3-luminary.json` – home mobile-first com hero gradiente, counters estratégicos e vitrine WooCommerce.
+  - `bellona-landing-sass3-oracle.json` – landing de programa recorrente com jornada em etapas e FAQ detalhado.
+  - `bellona-colecao-sass3-solara.json` – página de coleção com vitrine temática, storytelling consciente e CTA concierge.
 
 ## Seções modulares
 
