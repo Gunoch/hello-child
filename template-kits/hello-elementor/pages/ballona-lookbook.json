@@ -4,45 +4,48 @@
   "type": "page",
   "content": [
     {
-      "id": "hero_modern_section",
+      "id": "ballona-lookbook_hero_section",
       "elType": "section",
       "settings": {
-        "structure": "20",
+        "structure": "50",
         "content_width": "boxed",
         "gap": "extended",
-        "height": "min-height",
-        "min_height": 560,
         "background_background": "gradient",
-        "background_color": "#f8f4ff",
-        "background_color_b": "#fdeff4",
+        "background_color": "#f8f5ff",
+        "background_color_b": "#fcefed",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
-          "size": 135,
+          "size": 125,
           "sizes": []
         },
-        "shape_divider_bottom": "tilt",
-        "shape_divider_bottom_negative": "yes",
-        "shape_divider_bottom_color": "#ffffff"
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
       },
       "elements": [
         {
-          "id": "hero_modern_column",
+          "id": "ballona-lookbook_hero_content",
           "elType": "column",
           "settings": {
-            "_column_size": 100,
+            "_column_size": 50,
             "padding": {
               "unit": "px",
-              "top": "40",
+              "top": "0",
               "right": "40",
-              "bottom": "40",
-              "left": "40",
+              "bottom": "0",
+              "left": "0",
               "isLinked": false
             }
           },
           "elements": [
             {
-              "id": "hero_modern_badge",
+              "id": "ballona-lookbook_hero_badge",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -56,53 +59,12 @@
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#c4376d",
-                "background_background": "classic",
-                "background_color": "#ffffff",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "32",
-                  "right": "32",
-                  "bottom": "32",
-                  "left": "32",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "8",
-                  "right": "24",
-                  "bottom": "8",
-                  "left": "24",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "hero_modern_title",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Inspirações para combinar brilho e personalidade",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 64,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.05,
-                  "sizes": []
-                },
-                "typography_font_weight": "700",
-                "text_color": "#27184b",
+                "text_color": "#7f3dff",
                 "margin": {
                   "unit": "px",
-                  "top": "24",
+                  "top": "0",
                   "right": "0",
-                  "bottom": "16",
+                  "bottom": "12",
                   "left": "0",
                   "isLinked": false
                 }
@@ -110,28 +72,56 @@
               "elements": []
             },
             {
-              "id": "hero_modern_description",
+              "id": "ballona-lookbook_hero_title",
               "elType": "widget",
-              "widgetType": "text-editor",
+              "widgetType": "heading",
               "settings": {
-                "editor": "<p>Explore produções completas assinadas pela equipe de estilo Ballona e descubra como transformar peças em narrativas visuais.</p>",
-                "text_color": "#4a3c75",
+                "title": "Curadoria Ballona para cada ocasião",
+                "header_size": "h2",
+                "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 20,
+                  "size": 58,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-lookbook_hero_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore produções completas com joias e styling assinados pelo nosso time criativo.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.8,
+                  "size": 1.7,
                   "sizes": []
                 },
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "32",
+                  "bottom": "28",
                   "left": "0",
                   "isLinked": false
                 }
@@ -139,7 +129,35 @@
               "elements": []
             },
             {
-              "id": "hero_modern_buttons",
+              "id": "ballona-lookbook_hero_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "align": "left",
+                "width": {
+                  "unit": "%",
+                  "size": "15",
+                  "sizes": []
+                },
+                "line_height": {
+                  "unit": "px",
+                  "size": 4,
+                  "sizes": []
+                },
+                "color": "#7f3dff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-lookbook_hero_button_row",
               "elType": "section",
               "settings": {
                 "content_width": "full",
@@ -147,7 +165,7 @@
               },
               "elements": [
                 {
-                  "id": "hero_modern_button_column",
+                  "id": "ballona-lookbook_hero_button_column",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -161,48 +179,49 @@
                   },
                   "elements": [
                     {
-                      "id": "hero_modern_button_primary",
+                      "id": "ballona-lookbook_hero_primary",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
-                        "text": "Ver looks temáticos",
-                        "size": "lg",
+                        "text": "Baixar lookbook",
                         "align": "left",
+                        "size": "lg",
                         "button_type": "info",
-                        "background_color": "#c4376d",
-                        "hover_background_color": "#9c2853",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
                         "border_radius": {
                           "unit": "px",
-                          "top": "48",
-                          "right": "48",
-                          "bottom": "48",
-                          "left": "48",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
                           "isLinked": true
                         },
                         "padding": {
                           "unit": "px",
-                          "top": "18",
-                          "right": "38",
-                          "bottom": "18",
-                          "left": "38",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
                           "isLinked": false
                         }
                       },
                       "elements": []
                     },
                     {
-                      "id": "hero_modern_button_secondary",
+                      "id": "ballona-lookbook_hero_secondary",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
-                        "text": "Baixar lookbook em PDF",
-                        "size": "lg",
+                        "text": "Receber novidades",
                         "align": "left",
+                        "size": "lg",
                         "button_type": "outline",
                         "background_color": "#ffffff",
-                        "border_color": "#c4376d",
-                        "text_color": "#c4376d",
-                        "hover_background_color": "#c4376d",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
                         "hover_text_color": "#ffffff",
                         "border_width": {
                           "unit": "px",
@@ -214,18 +233,18 @@
                         },
                         "border_radius": {
                           "unit": "px",
-                          "top": "48",
-                          "right": "48",
-                          "bottom": "48",
-                          "left": "48",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
                           "isLinked": true
                         },
                         "padding": {
                           "unit": "px",
-                          "top": "18",
-                          "right": "38",
-                          "bottom": "18",
-                          "left": "38",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
                           "isLinked": false
                         }
                       },
@@ -236,95 +255,183 @@
               ]
             }
           ]
+        },
+        {
+          "id": "ballona-lookbook_hero_visual",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "48",
+              "bottom": "48",
+              "left": "48",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 30,
+              "blur": 60,
+              "spread": -12,
+              "color": "rgba(23,14,52,0.12)"
+            }
+          },
+          "elements": [
+            {
+              "id": "ballona-lookbook_hero_visual_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Detalhes artesanais",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-lookbook_hero_visual_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Metais nobres, lapidação criteriosa e acabamentos que respeitam a beleza natural de cada pedra.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-lookbook_hero_caption",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Atualizado a cada lançamento</strong></p>",
+                "align": "left",
+                "text_color": "#7f3dff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
         }
       ]
     },
     {
-      "id": "features_modern_section",
+      "id": "ballona-lookbook_looks",
       "elType": "section",
       "settings": {
-        "structure": "33",
         "content_width": "boxed",
-        "gap": "wide",
+        "gap": "no",
         "padding": {
           "unit": "px",
-          "top": "96",
-          "right": "0",
-          "bottom": "40",
-          "left": "0",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "features_column_1",
+          "id": "ballona-lookbook_looks_header",
           "elType": "column",
           "settings": {
-            "_column_size": 33,
+            "_column_size": 100,
             "padding": {
               "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
+              "top": "0",
+              "right": "0",
+              "bottom": "24",
+              "left": "0",
               "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -12,
-            "box_shadow_box_shadow_color": "rgba(16, 10, 34, 0.08)"
+            }
           },
           "elements": [
             {
-              "id": "features_icon_1",
-              "elType": "widget",
-              "widgetType": "icon",
-              "settings": {
-                "selected_icon": {
-                  "value": "fas fa-city",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#c4376d",
-                "icon_size": {
-                  "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "features_title_1",
+              "id": "ballona-lookbook_looks_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Produções urbanas",
-                "align": "left",
+                "title": "Três atmosferas para inspirar",
+                "header_size": "h2",
+                "align": "center",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 24,
+                  "size": 36,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#27184b",
+                "text_color": "#2a2142",
                 "margin": {
                   "unit": "px",
-                  "top": "24",
+                  "top": "0",
                   "right": "0",
-                  "bottom": "16",
+                  "bottom": "12",
                   "left": "0",
                   "isLinked": false
                 }
@@ -332,22 +439,31 @@
               "elements": []
             },
             {
-              "id": "features_text_1",
+              "id": "ballona-lookbook_looks_description",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Mix de argolas, ear cuffs e colares arquitetônicos para acompanhar a rotina da cidade.</p>",
-                "text_color": "#4a3c75",
+                "editor": "<p>Misturamos texturas, volumes e contrastes para facilitar sua decisão.</p>",
+                "align": "center",
+                "text_color": "#594f72",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 17,
+                  "size": 16,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
                   "size": 1.7,
                   "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": []
@@ -355,250 +471,351 @@
           ]
         },
         {
-          "id": "features_column_2",
-          "elType": "column",
+          "id": "ballona-lookbook_looks_grid",
+          "elType": "section",
           "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -12,
-            "box_shadow_box_shadow_color": "rgba(16, 10, 34, 0.08)"
+            "content_width": "full",
+            "gap": "no",
+            "structure": "33"
           },
           "elements": [
             {
-              "id": "features_icon_2",
-              "elType": "widget",
-              "widgetType": "icon",
+              "id": "ballona-lookbook_look_diurno",
+              "elType": "column",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-moon-stars",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#c4376d",
-                "icon_size": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
                   "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "features_title_2",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Eventos memoráveis",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 24,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#27184b",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
                   "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
                 }
               },
-              "elements": []
-            },
-            {
-              "id": "features_text_2",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Maxi brincos com cristais, pulseiras articuladas e anéis statement para noites especiais.</p>",
-                "text_color": "#4a3c75",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 17,
-                  "sizes": []
+              "elements": [
+                {
+                  "id": "ballona-lookbook_look_diurno_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Ritual Matinal",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
                 },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
+                {
+                  "id": "ballona-lookbook_look_diurno_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Tons claros, texturas suaves e peças leves que iluminam meetings e encontros informais.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
                 }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "features_column_3",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -12,
-            "box_shadow_box_shadow_color": "rgba(16, 10, 34, 0.08)"
-          },
-          "elements": [
-            {
-              "id": "features_icon_3",
-              "elType": "widget",
-              "widgetType": "icon",
-              "settings": {
-                "selected_icon": {
-                  "value": "fas fa-spa",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#c4376d",
-                "icon_size": {
-                  "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                }
-              },
-              "elements": []
+              ]
             },
             {
-              "id": "features_title_3",
-              "elType": "widget",
-              "widgetType": "heading",
+              "id": "ballona-lookbook_look_noite",
+              "elType": "column",
               "settings": {
-                "title": "Weekend relax",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
                   "unit": "px",
-                  "size": 24,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#27184b",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
                   "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
                 }
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "ballona-lookbook_look_noite_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Luzes Urbanas",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-lookbook_look_noite_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Brilhos estratégicos e contrastes marcantes pensados para a noite.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
             },
             {
-              "id": "features_text_3",
-              "elType": "widget",
-              "widgetType": "text-editor",
+              "id": "ballona-lookbook_look_festa",
+              "elType": "column",
               "settings": {
-                "editor": "<p>Argolas médias, chokers minimalistas e pulseiras delicadas para momentos descontraídos.</p>",
-                "text_color": "#4a3c75",
-                "typography_typography": "custom",
-                "typography_font_size": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
                   "unit": "px",
-                  "size": 17,
-                  "sizes": []
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
                 },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
                 }
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "ballona-lookbook_look_festa_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Celebração",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-lookbook_look_festa_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Maxi peças combinadas com gemas vibrantes em composições harmônicas.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "id": "showcase_modern_section",
+      "id": "ballona-lookbook_styling",
       "elType": "section",
       "settings": {
-        "structure": "50",
         "content_width": "boxed",
         "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
-          "top": "40",
-          "right": "0",
-          "bottom": "40",
-          "left": "0",
+          "top": "72",
+          "right": "48",
+          "bottom": "72",
+          "left": "48",
           "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 20,
+          "blur": 50,
+          "spread": -16,
+          "color": "rgba(23,14,52,0.08)"
         }
       },
       "elements": [
         {
-          "id": "showcase_column_text",
+          "id": "ballona-lookbook_styling_column",
           "elType": "column",
           "settings": {
-            "_column_size": 45,
-            "padding": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": false
-            }
+            "_column_size": 100
           },
           "elements": [
             {
-              "id": "showcase_title",
+              "id": "ballona-lookbook_styling_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Galeria interativa Ballona",
-                "align": "left",
+                "title": "Como criamos as produções",
+                "header_size": "h2",
+                "align": "center",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 40,
+                  "size": 36,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#27184b",
+                "text_color": "#2a2142",
                 "margin": {
                   "unit": "px",
                   "top": "0",
@@ -611,399 +828,57 @@
               "elements": []
             },
             {
-              "id": "showcase_text",
+              "id": "ballona-lookbook_styling_paragraph_1",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Salve as combinações favoritas para reproduzir no seu closet. Cada look traduz o equilíbrio entre sofisticação e versatilidade.</p>",
-                "text_color": "#4a3c75",
+                "editor": "<p>Cada look é desenvolvido em parceria com stylists convidados e fotógrafos que traduzem o universo Ballona.</p>",
+                "align": "center",
+                "text_color": "#594f72",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 18,
+                  "size": 17,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
                   "size": 1.7,
                   "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": []
             },
             {
-              "id": "showcase_list",
+              "id": "ballona-lookbook_styling_paragraph_2",
               "elType": "widget",
-              "widgetType": "icon-list",
+              "widgetType": "text-editor",
               "settings": {
-                "icon_color": "#c4376d",
-                "text_color": "#4a3c75",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "items": [
-                  {
-                    "item_text": "Looks pensados para diferentes biotipos e agendas",
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "item_text": "Sugestões de peças complementares e truques de styling",
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "item_text": "Links rápidos para adicionar itens ao carrinho na loja Ballona",
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    }
-                  }
-                ]
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "showcase_column_media",
-          "elType": "column",
-          "settings": {
-            "_column_size": 55,
-            "padding": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#fdfbff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "showcase_gallery",
-              "elType": "widget",
-              "widgetType": "image-gallery",
-              "settings": {
-                "gallery_columns": 3,
-                "gallery_item_ratio": "0.8",
-                "gallery_item_ratio_custom": "4:5",
-                "gallery_images": [
-                  {
-                    "id": 1,
-                    "url": "https://images.pexels.com/photos/6311686/pexels-photo-6311686.jpeg"
-                  },
-                  {
-                    "id": 2,
-                    "url": "https://images.pexels.com/photos/6311622/pexels-photo-6311622.jpeg"
-                  },
-                  {
-                    "id": 3,
-                    "url": "https://images.pexels.com/photos/6311682/pexels-photo-6311682.jpeg"
-                  },
-                  {
-                    "id": 4,
-                    "url": "https://images.pexels.com/photos/6311681/pexels-photo-6311681.jpeg"
-                  },
-                  {
-                    "id": 5,
-                    "url": "https://images.pexels.com/photos/6311678/pexels-photo-6311678.jpeg"
-                  },
-                  {
-                    "id": 6,
-                    "url": "https://images.pexels.com/photos/6311677/pexels-photo-6311677.jpeg"
-                  }
-                ],
-                "hover_animation": "zoom-in"
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "testimonials_modern_section",
-      "elType": "section",
-      "settings": {
-        "structure": "33",
-        "content_width": "boxed",
-        "gap": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "96",
-          "right": "0",
-          "bottom": "96",
-          "left": "0",
-          "isLinked": false
-        },
-        "background_background": "classic",
-        "background_color": "#1a1037",
-        "shape_divider_top": "tilt",
-        "shape_divider_top_color": "#ffffff"
-      },
-      "elements": [
-        {
-          "id": "testimonials_heading_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "48",
-              "left": "0",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "testimonials_heading",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Notas da equipe de estilo",
+                "editor": "<p>Indicamos combinações de joias, tecidos e cores que valorizam diferentes biotipos.</p>",
                 "align": "center",
+                "text_color": "#594f72",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 42,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#ffffff"
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "testimonial_card_1",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#24164b",
-            "border_radius": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "testimonial_text_1",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p><strong>Styling editorial.</strong> Explore contrastes de textura e altura para criar impacto visual.</p>",
-                "text_color": "#d8cfff",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
+                  "size": 17,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "testimonial_author_1",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Diretora Criativa",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
+                  "size": 1.7,
                   "sizes": []
                 },
-                "text_color": "#c8bdf6",
                 "margin": {
                   "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "testimonial_card_2",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#24164b",
-            "border_radius": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "testimonial_text_2",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p><strong>Curadoria colaborativa.</strong> Cada produção foi cocriada com clientes reais da comunidade Ballona.</p>",
-                "text_color": "#d8cfff",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "testimonial_author_2",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Time de Consultoras",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "text_color": "#c8bdf6",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "testimonial_card_3",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#24164b",
-            "border_radius": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "testimonial_text_3",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p><strong>Personalize tudo.</strong> Ajuste fechos, extensores e combinações conforme sua rotina.</p>",
-                "text_color": "#d8cfff",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "testimonial_author_3",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Atelier Ballona",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "text_color": "#c8bdf6",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
+                  "top": "0",
                   "right": "0",
                   "bottom": "0",
                   "left": "0",
@@ -1017,62 +892,63 @@
       ]
     },
     {
-      "id": "newsletter_modern_section",
+      "id": "ballona-lookbook_cta",
       "elType": "section",
       "settings": {
-        "structure": "20",
         "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#7f3dff",
+        "background_color_b": "#ff8660",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 140,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
-          "top": "96",
-          "right": "0",
-          "bottom": "96",
-          "left": "0",
+          "top": "64",
+          "right": "48",
+          "bottom": "64",
+          "left": "48",
           "isLinked": false
         },
-        "background_background": "gradient",
-        "background_color": "#fdeff4",
-        "background_color_b": "#f6f2ff",
-        "background_gradient_type": "radial"
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 25,
+          "blur": 60,
+          "spread": -18,
+          "color": "rgba(0,0,0,0.15)"
+        }
       },
       "elements": [
         {
-          "id": "newsletter_column",
+          "id": "ballona-lookbook_cta_column",
           "elType": "column",
           "settings": {
             "_column_size": 100,
-            "align": "center",
-            "padding": {
-              "unit": "px",
-              "top": "40",
-              "right": "40",
-              "bottom": "40",
-              "left": "40",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 36,
-            "box_shadow_box_shadow_spread": -16,
-            "box_shadow_box_shadow_color": "rgba(16, 10, 34, 0.08)"
+            "layout": "flex",
+            "direction": "column",
+            "align_items": "center"
           },
           "elements": [
             {
-              "id": "newsletter_title",
+              "id": "ballona-lookbook_cta_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Receba o look do mês",
+                "title": "Quer ajuda personalizada?",
+                "header_size": "h2",
                 "align": "center",
                 "typography_typography": "custom",
                 "typography_font_size": {
@@ -1081,22 +957,30 @@
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#27184b"
+                "text_color": "#ffffff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
               },
               "elements": []
             },
             {
-              "id": "newsletter_text",
+              "id": "ballona-lookbook_cta_subtitle",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Assine para receber moodboards exclusivos, playlists e sugestões de peças diretamente no seu e-mail.</p>",
+                "editor": "<p>Agende uma sessão virtual para montar o look perfeito com nossa equipe.</p>",
                 "align": "center",
-                "text_color": "#4a3c75",
+                "text_color": "#f8f5ff",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 18,
+                  "size": 16,
                   "sizes": []
                 },
                 "typography_line_height": {
@@ -1106,7 +990,7 @@
                 },
                 "margin": {
                   "unit": "px",
-                  "top": "16",
+                  "top": "0",
                   "right": "0",
                   "bottom": "32",
                   "left": "0",
@@ -1116,38 +1000,103 @@
               "elements": []
             },
             {
-              "id": "newsletter_form",
-              "elType": "widget",
-              "widgetType": "form",
+              "id": "ballona-lookbook_cta_buttons",
+              "elType": "section",
               "settings": {
-                "fields": [
-                  {
-                    "type": "text",
-                    "label": "Nome",
-                    "placeholder": "Digite seu nome",
-                    "required": "true"
-                  },
-                  {
-                    "type": "email",
-                    "label": "E-mail",
-                    "placeholder": "voce@exemplo.com",
-                    "required": "true"
-                  }
-                ],
-                "button_text": "Quero participar",
-                "button_background_color": "#c4376d",
-                "button_hover_background_color": "#9c2853",
-                "button_text_color": "#ffffff",
-                "button_border_radius": {
-                  "unit": "px",
-                  "top": "48",
-                  "right": "48",
-                  "bottom": "48",
-                  "left": "48",
-                  "isLinked": true
-                }
+                "content_width": "full",
+                "structure": "50",
+                "gap_columns": "no"
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "ballona-lookbook_cta_buttons_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "layout": "flex",
+                    "justify_content": "center",
+                    "gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ballona-lookbook_cta_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Agendar styling",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "info",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ballona-lookbook_cta_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Salvar referências",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "outline",
+                        "background_color": "#ffffff",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
+                        "hover_text_color": "#ffffff",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

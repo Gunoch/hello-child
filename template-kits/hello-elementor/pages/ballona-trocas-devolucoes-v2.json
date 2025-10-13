@@ -1,674 +1,70 @@
 {
-  "version": "0.6",
-  "title": "Ballona Trocas & Devoluções V2",
+  "version": "0.5",
+  "title": "Ballona Trocas e Devoluções v2",
   "type": "page",
   "content": [
     {
-      "id": "returns_hero_section",
-      "elType": "section",
-      "settings": {
-        "structure": "20",
-        "content_width": "boxed",
-        "gap": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "120",
-          "right": "0",
-          "bottom": "80",
-          "left": "0",
-          "isLinked": false
-        },
-        "background_background": "gradient",
-        "background_color": "#fff6ed",
-        "background_color_b": "#fff3e6",
-        "background_gradient_type": "linear",
-        "background_gradient_angle": {
-          "unit": "deg",
-          "size": 135,
-          "sizes": []
-        },
-        "shape_divider_bottom": "waves",
-        "shape_divider_bottom_color": "#ffffff"
-      },
-      "elements": [
-        {
-          "id": "returns_hero_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "align": "center",
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "40",
-              "bottom": "0",
-              "left": "40",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "returns_badge",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Política 100% transparente",
-                "header_size": "span",
-                "align": "center",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#d97b3d",
-                "background_background": "classic",
-                "background_color": "#ffffff",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "28",
-                  "right": "28",
-                  "bottom": "28",
-                  "left": "28",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "8",
-                  "right": "28",
-                  "bottom": "8",
-                  "left": "28",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_title",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Trocas e devoluções sem fricção",
-                "align": "center",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 48,
-                  "sizes": []
-                },
-                "typography_font_weight": "700",
-                "text_color": "#301f3f",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_description",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Comunique sua solicitação em poucos cliques. Nossa concierge acompanha todo o processo para garantir tranquilidade.</p>",
-                "align": "center",
-                "text_color": "#5b3f6f",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "32",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_primary_button",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "Iniciar solicitação V2",
-                "align": "center",
-                "size": "lg",
-                "button_type": "info",
-                "background_color": "#d97b3d",
-                "hover_background_color": "#a75c2a",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "48",
-                  "right": "48",
-                  "bottom": "48",
-                  "left": "48",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "40",
-                  "bottom": "16",
-                  "left": "40",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "returns_highlights_section",
-      "elType": "section",
-      "settings": {
-        "structure": "33",
-        "content_width": "boxed",
-        "gap": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "40",
-          "right": "0",
-          "bottom": "40",
-          "left": "0",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "returns_highlight_1",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "28",
-              "right": "28",
-              "bottom": "28",
-              "left": "28",
-              "isLinked": true
-            },
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -18,
-            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.08)"
-          },
-          "elements": [
-            {
-              "id": "returns_highlight_icon_1",
-              "elType": "widget",
-              "widgetType": "icon",
-              "settings": {
-                "selected_icon": {
-                  "value": "fas fa-sync-alt",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#d97b3d",
-                "icon_size": {
-                  "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                },
-                "shape": "circle",
-                "background_color": "rgba(196, 55, 109, 0.12)"
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_highlight_title_1",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "30 dias para trocar V2",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 24,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#301f3f",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_highlight_text_1",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Sua joia pode ser trocada por tamanho, cor ou crédito integral em até 30 dias após o recebimento.</p>",
-                "text_color": "#5b3f6f",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "returns_highlight_2",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "28",
-              "right": "28",
-              "bottom": "28",
-              "left": "28",
-              "isLinked": true
-            },
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -18,
-            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.08)"
-          },
-          "elements": [
-            {
-              "id": "returns_highlight_icon_2",
-              "elType": "widget",
-              "widgetType": "icon",
-              "settings": {
-                "selected_icon": {
-                  "value": "fas fa-shield-alt",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#d97b3d",
-                "icon_size": {
-                  "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                },
-                "shape": "circle",
-                "background_color": "rgba(196, 55, 109, 0.12)"
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_highlight_title_2",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Garantia estendida V2",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 24,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#301f3f",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_highlight_text_2",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Cobertura de banho, pedras e fechos durante 12 meses com reparo gratuito e substituição imediata.</p>",
-                "text_color": "#5b3f6f",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "returns_highlight_3",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "28",
-              "right": "28",
-              "bottom": "28",
-              "left": "28",
-              "isLinked": true
-            },
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -18,
-            "box_shadow_box_shadow_color": "rgba(18, 8, 34, 0.08)"
-          },
-          "elements": [
-            {
-              "id": "returns_highlight_icon_3",
-              "elType": "widget",
-              "widgetType": "icon",
-              "settings": {
-                "selected_icon": {
-                  "value": "fas fa-hand-holding-heart",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#d97b3d",
-                "icon_size": {
-                  "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                },
-                "shape": "circle",
-                "background_color": "rgba(196, 55, 109, 0.12)"
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_highlight_title_3",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Concierge dedicado V2",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 24,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#301f3f",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_highlight_text_3",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Acompanhamento em tempo real com notificações por WhatsApp, SMS e portal exclusivo.</p>",
-                "text_color": "#5b3f6f",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "returns_steps_section",
-      "elType": "section",
-      "settings": {
-        "structure": "20",
-        "content_width": "boxed",
-        "gap": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "80",
-          "right": "0",
-          "bottom": "80",
-          "left": "0",
-          "isLinked": false
-        },
-        "background_background": "classic",
-        "background_color": "#fff8f1"
-      },
-      "elements": [
-        {
-          "id": "returns_steps_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "40",
-              "bottom": "0",
-              "left": "40",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "returns_steps_title",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Como funciona V2",
-                "align": "center",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 40,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#301f3f",
-                "margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "32",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "returns_steps_timeline",
-              "elType": "widget",
-              "widgetType": "timeline",
-              "settings": {
-                "items": [
-                  {
-                    "item_title": "Solicitação digital",
-                    "item_subtitle": "Preencha o formulário com o número do pedido ou CPF.",
-                    "item_icon": {
-                      "value": "fas fa-edit",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "item_title": "Coleta inteligente",
-                    "item_subtitle": "Retiramos em casa ou indique o ponto de postagem mais próximo.",
-                    "item_icon": {
-                      "value": "fas fa-box-open",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "item_title": "Análise express",
-                    "item_subtitle": "Conferimos o produto em até 48h e enviamos confirmação automática.",
-                    "item_icon": {
-                      "value": "fas fa-search",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "item_title": "Conclusão personalizada",
-                    "item_subtitle": "Escolha reembolso, crédito Ballona ou nova joia com consultoria.",
-                    "item_icon": {
-                      "value": "fas fa-gift",
-                      "library": "fa-solid"
-                    }
-                  }
-                ],
-                "text_color": "#5b3f6f",
-                "title_color": "#301f3f",
-                "icon_color": "#d97b3d"
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "returns_faq_section",
+      "id": "ballona-trocas-devolucoes-v2_hero_section",
       "elType": "section",
       "settings": {
         "structure": "50",
         "content_width": "boxed",
         "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#f8f5ff",
+        "background_color_b": "#fcefed",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 125,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
           "top": "80",
-          "right": "0",
+          "right": "40",
           "bottom": "80",
-          "left": "0",
+          "left": "40",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "returns_faq_column",
+          "id": "ballona-trocas-devolucoes-v2_hero_content",
           "elType": "column",
           "settings": {
             "_column_size": 50,
             "padding": {
               "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
+              "top": "0",
+              "right": "40",
+              "bottom": "0",
+              "left": "0",
               "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "28",
-              "right": "28",
-              "bottom": "28",
-              "left": "28",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 36,
-            "box_shadow_box_shadow_spread": -14,
-            "box_shadow_box_shadow_color": "rgba(16, 8, 34, 0.07)"
+            }
           },
           "elements": [
             {
-              "id": "returns_faq_title",
+              "id": "ballona-trocas-devolucoes-v2_hero_badge",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Perguntas frequentes V2",
+                "title": "Trocas e devoluções",
+                "header_size": "span",
                 "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 32,
+                  "size": 18,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#301f3f",
+                "text_color": "#7f3dff",
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "24",
+                  "bottom": "12",
                   "left": "0",
                   "isLinked": false
                 }
@@ -676,66 +72,21 @@
               "elements": []
             },
             {
-              "id": "returns_faq_accordion",
-              "elType": "widget",
-              "widgetType": "accordion",
-              "settings": {
-                "items": [
-                  {
-                    "item_title": "Quais condições o produto precisa apresentar?",
-                    "item_content": "A joia deve estar sem sinais de uso, com selo original e nota fiscal. Embalagens especiais devem acompanhar o envio."
-                  },
-                  {
-                    "item_title": "Como funciona o estorno?",
-                    "item_content": "Após aprovação, o reembolso é realizado em até 3 dias úteis via mesmo método de pagamento."
-                  },
-                  {
-                    "item_title": "Posso solicitar retirada em outro endereço?",
-                    "item_content": "Sim! Informe o endereço desejado e enviamos a etiqueta de postagem com validade estendida."
-                  },
-                  {
-                    "item_title": "Existe custo para troca internacional?",
-                    "item_content": "Clientes internacionais contam com frete subsidiado e suporte dedicado durante todo o processo."
-                  }
-                ],
-                "title_color": "#301f3f",
-                "text_color": "#5b3f6f",
-                "active_color": "#d97b3d"
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "returns_support_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 50,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "returns_support_title",
+              "id": "ballona-trocas-devolucoes-v2_hero_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Suporte dedicado V2",
+                "title": "Processo sem complicação",
+                "header_size": "h2",
                 "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 32,
+                  "size": 58,
                   "sizes": []
                 },
-                "typography_font_weight": "600",
-                "text_color": "#301f3f",
+                "typography_font_weight": "700",
+                "text_color": "#2a2142",
                 "margin": {
                   "unit": "px",
                   "top": "0",
@@ -748,12 +99,13 @@
               "elements": []
             },
             {
-              "id": "returns_support_text",
+              "id": "ballona-trocas-devolucoes-v2_hero_description",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Fale com nossa concierge especializada em trocas pelo WhatsApp +55 (11) 90000-2024 ou pelo e-mail cuidados@ballona.com.</p>",
-                "text_color": "#5b3f6f",
+                "editor": "<p>Orientações claras para garantir segurança e tranquilidade na sua compra.</p>",
+                "align": "left",
+                "text_color": "#594f72",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
@@ -762,7 +114,848 @@
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.8,
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "28",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_hero_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "align": "left",
+                "width": {
+                  "unit": "%",
+                  "size": "15",
+                  "sizes": []
+                },
+                "line_height": {
+                  "unit": "px",
+                  "size": 4,
+                  "sizes": []
+                },
+                "color": "#7f3dff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_hero_button_row",
+              "elType": "section",
+              "settings": {
+                "content_width": "full",
+                "gap_columns": "no"
+              },
+              "elements": [
+                {
+                  "id": "ballona-trocas-devolucoes-v2_hero_button_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "layout": "flex",
+                    "align_items": "center",
+                    "gap": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ballona-trocas-devolucoes-v2_hero_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Iniciar solicitação",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "info",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ballona-trocas-devolucoes-v2_hero_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Falar com especialista",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "outline",
+                        "background_color": "#ffffff",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
+                        "hover_text_color": "#ffffff",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ballona-trocas-devolucoes-v2_hero_visual",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "48",
+              "bottom": "48",
+              "left": "48",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 30,
+              "blur": 60,
+              "spread": -12,
+              "color": "rgba(23,14,52,0.12)"
+            }
+          },
+          "elements": [
+            {
+              "id": "ballona-trocas-devolucoes-v2_hero_visual_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Detalhes artesanais",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_hero_visual_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Metais nobres, lapidação criteriosa e acabamentos que respeitam a beleza natural de cada pedra.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ballona-trocas-devolucoes-v2_passos",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "ballona-trocas-devolucoes-v2_passos_header",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "24",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "ballona-trocas-devolucoes-v2_passos_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Passo a passo",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_passos_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Veja como realizar trocas, ajustes e devoluções.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "ballona-trocas-devolucoes-v2_passos_grid",
+          "elType": "section",
+          "settings": {
+            "content_width": "full",
+            "gap": "no",
+            "structure": "33"
+          },
+          "elements": [
+            {
+              "id": "ballona-trocas-devolucoes-v2_passo_1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ballona-trocas-devolucoes-v2_passo_1_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Solicitação",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-trocas-devolucoes-v2_passo_1_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Entre em contato em até 30 dias indicando número do pedido e motivo.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_passo_2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ballona-trocas-devolucoes-v2_passo_2_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Envio",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-trocas-devolucoes-v2_passo_2_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Você recebe etiqueta reversa e instruções de embalagem segura.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_passo_3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ballona-trocas-devolucoes-v2_passo_3_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Conclusão",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-trocas-devolucoes-v2_passo_3_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Acompanhamos a análise e oferecemos crédito, ajuste ou estorno.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ballona-trocas-devolucoes-v2_condicoes",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "48",
+          "bottom": "72",
+          "left": "48",
+          "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 20,
+          "blur": 50,
+          "spread": -16,
+          "color": "rgba(23,14,52,0.08)"
+        }
+      },
+      "elements": [
+        {
+          "id": "ballona-trocas-devolucoes-v2_condicoes_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "ballona-trocas-devolucoes-v2_condicoes_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Condições importantes",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_condicoes_paragraph_1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>As peças devem estar sem sinais de uso e acompanhadas do certificado Ballona.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_condicoes_paragraph_2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Personalizações mantêm cobertura de ajustes gratuitos dentro do primeiro ano.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ballona-trocas-devolucoes-v2_cta",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#7f3dff",
+        "background_color_b": "#ff8660",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 140,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "48",
+          "bottom": "64",
+          "left": "48",
+          "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 25,
+          "blur": 60,
+          "spread": -18,
+          "color": "rgba(0,0,0,0.15)"
+        }
+      },
+      "elements": [
+        {
+          "id": "ballona-trocas-devolucoes-v2_cta_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "layout": "flex",
+            "direction": "column",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ballona-trocas-devolucoes-v2_cta_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Precisa de ajuda?",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#ffffff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-trocas-devolucoes-v2_cta_subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Nossa equipe está disponível para orientar cada etapa.</p>",
+                "align": "center",
+                "text_color": "#f8f5ff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
                   "sizes": []
                 },
                 "margin": {
@@ -777,37 +970,103 @@
               "elements": []
             },
             {
-              "id": "returns_support_cta",
-              "elType": "widget",
-              "widgetType": "button",
+              "id": "ballona-trocas-devolucoes-v2_cta_buttons",
+              "elType": "section",
               "settings": {
-                "text": "Acessar portal de trocas V2",
-                "align": "left",
-                "size": "md",
-                "button_type": "outline",
-                "background_color": "#ffffff",
-                "border_color": "#d97b3d",
-                "text_color": "#d97b3d",
-                "hover_background_color": "#d97b3d",
-                "hover_text_color": "#ffffff",
-                "border_width": {
-                  "unit": "px",
-                  "top": "2",
-                  "right": "2",
-                  "bottom": "2",
-                  "left": "2",
-                  "isLinked": true
-                },
-                "border_radius": {
-                  "unit": "px",
-                  "top": "40",
-                  "right": "40",
-                  "bottom": "40",
-                  "left": "40",
-                  "isLinked": true
-                }
+                "content_width": "full",
+                "structure": "50",
+                "gap_columns": "no"
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "ballona-trocas-devolucoes-v2_cta_buttons_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "layout": "flex",
+                    "justify_content": "center",
+                    "gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ballona-trocas-devolucoes-v2_cta_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Abrir protocolo",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "info",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ballona-trocas-devolucoes-v2_cta_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Ler políticas",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "outline",
+                        "background_color": "#ffffff",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
+                        "hover_text_color": "#ffffff",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
