@@ -1,4 +1,4 @@
-# Kit: Hello Elementor – Ballona
+# Kit: Hello Elementor – Bellona
 
 Este kit foi configurado para funcionar em instalações que utilizam o tema base **Hello Elementor** aliado aos plugins **Elementor** (versão gratuita) e **WooCommerce**. Todos os widgets utilizados são nativos, garantindo compatibilidade sem dependências extras.
 
@@ -6,25 +6,25 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 
 | Arquivo | Tipo | Descrição |
 | --- | --- | --- |
-| `pages/ballona-home.json` | Página completa | Landing page inicial com destaque para a nova coleção, diferenciais da marca, vitrines de produtos e prova social. |
-| `pages/ballona-home-v2.json` | Página completa | Variação com paleta aqua, depoimentos atualizados e CTAs reposicionados para conversão imediata. |
-| `pages/ballona-sobre.json` | Página completa | Página institucional com manifesto da marca, linha do tempo, pilares estratégicos e CTA para newsletter do atelier. |
-| `pages/ballona-sobre-v2.json` | Página completa | Versão alternativa com narrativa renovada, blocos revisados e foco em bastidores do atelier. |
-| `pages/ballona-colecao-aurora.json` | Página completa | Apresenta a coleção Aurora com destaques de produtos, sugestões de styling, galeria curada e formulário para agendar sessão exclusiva. |
-| `pages/ballona-colecao-aurora-v2.json` | Página completa | Versão complementar com textos revisados, curadoria estelar e tonalidades frias para destacar os cristais. |
-| `pages/ballona-lookbook.json` | Página completa | Lookbook digital com galerias de inspiração, destaques temáticos e orientações de styling da equipe Ballona. |
-| `pages/ballona-lookbook-v2.json` | Página completa | Variação com ênfase em experiências semanais, galerias imersivas e CTA para look do mês. |
-| `pages/ballona-guia-cuidados.json` | Página completa | Guia prático de conservação com rotina passo a passo, destaques de boas práticas e FAQ de manutenção das peças. |
-| `pages/ballona-guia-cuidados-v2.json` | Página completa | Alternativa com orientações refinadas, CTA atualizado e ajustes de copy para suporte dedicado. |
-| `pages/ballona-trocas-devolucoes.json` | Página completa | Layout de políticas de trocas e devoluções com blocos reutilizáveis (banner, destaques, FAQ, CTA para suporte e bloco WooCommerce de produtos relacionados). |
-| `pages/ballona-trocas-devolucoes-v2.json` | Página completa | Versão expandida com linguagem simplificada, CTAs duplicados e destaques orientados a processos sem fricção. |
-| `pages/ballona-contato.json` | Página completa | Central de relacionamento com cards de canais, checklist de atendimento e área para formulário Elementor ou shortcode. |
-| `pages/ballona-contato-v2.json` | Página completa | Opção com linguagem personalizada, foco em concierge híbrido e ajuste de cores para contraste elevado. |
-| `pages/ballona-politicas-troca-devolucao.json` | Página completa | Políticas de trocas e devoluções com cabeçalho responsivo, banner informativo, texto oficial, galeria de imagens e CTA final para redes sociais. |
-| `pages/ballona-politicas-troca-devolucao-v2.json` | Página completa | Variação revisada com copy atualizada, rodapé ampliado e novo destaque para redes sociais oficiais. |
-| `pages/ballona-faq.json` | Página completa | Página de perguntas frequentes com bloco hero contextual, respostas detalhadas e copy alinhada ao concierge Ballona. |
-| `pages/ballona-equipe.json` | Página completa | Página institucional para apresentar o time, cultura da marca e CTA de relacionamento. |
-| `pages/ballona-experiencia.json` | Página completa | Página dedicada à jornada de personalização com etapas, serviços exclusivos e chamada para consultoria. |
+| `pages/bellona-home.json` | Página completa | Landing page inicial com destaque para a nova coleção, diferenciais da marca, vitrines de produtos e prova social. |
+| `pages/bellona-home-v2.json` | Página completa | Variação com paleta aqua, depoimentos atualizados e CTAs reposicionados para conversão imediata. |
+| `pages/bellona-sobre.json` | Página completa | Página institucional com manifesto da marca, linha do tempo, pilares estratégicos e CTA para newsletter do atelier. |
+| `pages/bellona-sobre-v2.json` | Página completa | Versão alternativa com narrativa renovada, blocos revisados e foco em bastidores do atelier. |
+| `pages/bellona-colecao-aurora.json` | Página completa | Apresenta a coleção Aurora com destaques de produtos, sugestões de styling, galeria curada e formulário para agendar sessão exclusiva. |
+| `pages/bellona-colecao-aurora-v2.json` | Página completa | Versão complementar com textos revisados, curadoria estelar e tonalidades frias para destacar os cristais. |
+| `pages/bellona-lookbook.json` | Página completa | Lookbook digital com galerias de inspiração, destaques temáticos e orientações de styling da equipe Bellona. |
+| `pages/bellona-lookbook-v2.json` | Página completa | Variação com ênfase em experiências semanais, galerias imersivas e CTA para look do mês. |
+| `pages/bellona-guia-cuidados.json` | Página completa | Guia prático de conservação com rotina passo a passo, destaques de boas práticas e FAQ de manutenção das peças. |
+| `pages/bellona-guia-cuidados-v2.json` | Página completa | Alternativa com orientações refinadas, CTA atualizado e ajustes de copy para suporte dedicado. |
+| `pages/bellona-trocas-devolucoes.json` | Página completa | Layout de políticas de trocas e devoluções com blocos reutilizáveis (banner, destaques, FAQ, CTA para suporte e bloco WooCommerce de produtos relacionados). |
+| `pages/bellona-trocas-devolucoes-v2.json` | Página completa | Versão expandida com linguagem simplificada, CTAs duplicados e destaques orientados a processos sem fricção. |
+| `pages/bellona-contato.json` | Página completa | Central de relacionamento com cards de canais, checklist de atendimento e área para formulário Elementor ou shortcode. |
+| `pages/bellona-contato-v2.json` | Página completa | Opção com linguagem personalizada, foco em concierge híbrido e ajuste de cores para contraste elevado. |
+| `pages/bellona-politicas-troca-devolucao.json` | Página completa | Políticas de trocas e devoluções com cabeçalho responsivo, banner informativo, texto oficial, galeria de imagens e CTA final para redes sociais. |
+| `pages/bellona-politicas-troca-devolucao-v2.json` | Página completa | Variação revisada com copy atualizada, rodapé ampliado e novo destaque para redes sociais oficiais. |
+| `pages/bellona-faq.json` | Página completa | Página de perguntas frequentes com bloco hero contextual, respostas detalhadas e copy alinhada ao concierge Bellona. |
+| `pages/bellona-equipe.json` | Página completa | Página institucional para apresentar o time, cultura da marca e CTA de relacionamento. |
+| `pages/bellona-experiencia.json` | Página completa | Página dedicada à jornada de personalização com etapas, serviços exclusivos e chamada para consultoria. |
 
 ## Passo a passo de importação
 
@@ -50,7 +50,7 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 ## Checklist rápido de engenharia
 
 1. Exporte o layout do Elementor garantindo que apenas widgets nativos sejam utilizados.
-2. Nomeie o arquivo `.json` de forma descritiva (`ballona-<pagina>.json`).
+2. Nomeie o arquivo `.json` de forma descritiva (`bellona-<pagina>.json`).
 3. Valide o arquivo importando em um ambiente de teste com Hello Elementor + WooCommerce.
 4. Atualize a tabela de conteúdo acima e registre particularidades ou dependências neste `README`.
 
