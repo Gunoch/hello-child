@@ -1,0 +1,259 @@
+{
+  "version": "0.5",
+  "title": "Bellona Concierge FAQ",
+  "type": "section",
+  "description": "Bloco de FAQ com bloco concierge, selos de confiança e CTA omnicanal.",
+  "content": [
+    {
+      "id": "bellona_concierge_section",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "content_width": "boxed",
+        "gap": "wide",
+        "background_background": "classic",
+        "background_color": "#F8F5FF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "96",
+          "left": "40",
+          "isLinked": false
+        },
+        "shape_divider_top": "tilt",
+        "shape_divider_top_color": "#E3D7FF",
+        "shape_divider_top_height": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona_concierge_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40,
+            "background_background": "classic",
+            "background_color": "#1B1D2A",
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "32",
+              "bottom": "48",
+              "left": "32",
+              "isLinked": false
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona_concierge_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Concierge Guardiãs Bellona",
+                "header_size": "h3",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600",
+                "text_color": "#F5E6CC"
+              }
+            },
+            {
+              "id": "bellona_concierge_copy",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Equipe híbrida disponível 7 dias por semana com recomendações personalizadas e acompanhamento pós-compra.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Source Sans Pro",
+                "typography_font_weight": "400",
+                "text_color": "#E3D7FF"
+              }
+            },
+            {
+              "id": "bellona_concierge_channels",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "WhatsApp estratégico (resposta em 3 min)",
+                    "icon": {
+                      "value": "fab fa-whatsapp"
+                    }
+                  },
+                  {
+                    "text": "Video call ritual – agenda imersiva",
+                    "icon": {
+                      "value": "fas fa-video"
+                    }
+                  },
+                  {
+                    "text": "Showroom Jardins com hora marcada",
+                    "icon": {
+                      "value": "fas fa-map-marker-alt"
+                    }
+                  }
+                ],
+                "icon_color": "#F5E6CC",
+                "text_color": "#E3D7FF",
+                "typography_typography": "custom",
+                "typography_font_family": "Source Sans Pro",
+                "typography_font_weight": "500"
+              }
+            },
+            {
+              "id": "bellona_concierge_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Falar com estrategista",
+                "size": "lg",
+                "background_color": "#F5E6CC",
+                "text_color": "#1B1D2A",
+                "hover_background_color": "#E3D7FF",
+                "hover_color": "#1B1D2A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "selected_icon": {
+                  "value": {
+                    "id": "fas fa-arrow-right"
+                  }
+                },
+                "icon_align": "right"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bellona_faq_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "24",
+              "bottom": "0",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona_faq_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Perguntas frequentes do ritual de compra",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600",
+                "text_color": "#1B1D2A"
+              }
+            },
+            {
+              "id": "bellona_faq_intro",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Transparência em cada etapa: produção limitada, certificações e políticas sem fricção.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Source Sans Pro",
+                "typography_font_weight": "400",
+                "text_color": "#4F5D75"
+              }
+            },
+            {
+              "id": "bellona_faq_toggle",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "Qual o prazo de produção das peças sob medida?",
+                    "tab_content": "O ciclo Aurora leva de 7 a 12 dias úteis, incluindo ritual de lapidação e certificação de banho antialérgico."
+                  },
+                  {
+                    "tab_title": "Como funcionam trocas e ajustes?",
+                    "tab_content": "Disponibilizamos ajustes gratuitos em até 90 dias e logística reversa assistida pelo concierge Guardiãs."
+                  },
+                  {
+                    "tab_title": "Há garantia para banho e pedrarias?",
+                    "tab_content": "Garantia estendida de 24 meses com manutenção anual cortesia e kit de cuidados enviado com cada peça."
+                  },
+                  {
+                    "tab_title": "Posso agendar uma consultoria virtual?",
+                    "tab_content": "Sim. Escolha data e horário no link enviado pelo concierge para uma video call com estilista dedicada."
+                  }
+                ],
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Montserrat",
+                "title_typography_font_weight": "600",
+                "title_text_color": "#1B1D2A",
+                "content_typography_typography": "custom",
+                "content_typography_font_family": "Source Sans Pro",
+                "content_typography_font_weight": "400",
+                "content_text_color": "#4F5D75"
+              }
+            },
+            {
+              "id": "bellona_faq_selos",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "Garantia autenticada",
+                    "icon": {
+                      "value": "fas fa-certificate"
+                    }
+                  },
+                  {
+                    "text": "Frete carbono neutro",
+                    "icon": {
+                      "value": "fas fa-leaf"
+                    }
+                  },
+                  {
+                    "text": "Pagamento seguro PCI",
+                    "icon": {
+                      "value": "fas fa-lock"
+                    }
+                  }
+                ],
+                "icon_color": "#1B1D2A",
+                "text_color": "#4F5D75",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "500",
+                "column_gap": {
+                  "unit": "px",
+                  "size": 28,
+                  "sizes": []
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

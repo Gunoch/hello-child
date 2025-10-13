@@ -37,6 +37,9 @@ Desde o ciclo w02, os blueprints de engenharia assistida por IA estão versionad
 | `pages/bellona-landing-w01-atelier.json` | Página completa | Landing institucional do atelier com processo criativo, equipe e formulário de tour. |
 | `pages/bellona-landing-w01-constellation.json` | Página completa | Landing para projetos sob medida com timeline estratégica e casos corporativos. |
 | `pages/bellona-landing-w01-gifting.json` | Página completa | Landing de presentes premium com kits configuráveis, depoimentos e FAQ. |
+| `templates/bellona-hero-ritual-aurora.json` | Seção modular | Hero imersivo com CTA concierge, lista de benefícios e imagem editorial da coleção Aurora. |
+| `templates/bellona-vitrine-destaques-aurora.json` | Seção modular | Vitrine curada com filtros de aura, grid WooCommerce 3x2 e CTA para styling personalizado. |
+| `templates/bellona-concierge-faq.json` | Seção modular | Bloco combinado de concierge Guardiãs e FAQ com garantias, logística assistida e selos de confiança. |
 | `blueprints/bellona-ai/bellona-home-w02-elysian.json` | Blueprint IA | Estrutura declarativa para home mobile-first focada em concierge imediato e prova social premium. |
 | `blueprints/bellona-ai/bellona-landing-w02-orion.json` | Blueprint IA | Jornada colecional Orion com storytelling em timeline, lookbook imersivo e CTAs de bundle. |
 | `blueprints/bellona-ai/bellona-landing-w02-vip.json` | Blueprint IA | Programa Guardiãs VIP com métricas, tabelas de planos e micro navegação sticky. |

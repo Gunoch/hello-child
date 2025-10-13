@@ -1,0 +1,253 @@
+{
+  "version": "0.5",
+  "title": "Bellona Hero Ritual Aurora",
+  "type": "section",
+  "description": "Hero modular com narrativa Aurora, CTA concierge e destaques de benefícios.",
+  "content": [
+    {
+      "id": "bellona_hero_aurora_section",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#1B1D2A",
+        "background_color_b": "#4F5D75",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 115,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "48",
+          "bottom": "100",
+          "left": "48",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona_hero_aurora_content",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "32",
+              "bottom": "0",
+              "left": "32",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona_hero_aurora_badge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Manifesto Aurora",
+                "header_size": "h6",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "500",
+                "text_color": "#F5E6CC",
+                "letter_spacing": {
+                  "unit": "px",
+                  "size": 3,
+                  "sizes": []
+                }
+              }
+            },
+            {
+              "id": "bellona_hero_aurora_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Desperte sua constelação com o ritual Aurora",
+                "header_size": "h1",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2,
+                  "sizes": []
+                },
+                "text_color": "#FFFFFF"
+              }
+            },
+            {
+              "id": "bellona_hero_aurora_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Joias autorais banhadas em ouro 18k, lapidadas para acompanhar suas vitórias e proteger sua energia criativa.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Source Sans Pro",
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6,
+                  "sizes": []
+                },
+                "text_color": "#E3D7FF"
+              }
+            },
+            {
+              "id": "bellona_hero_aurora_ctas",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Ative seu ritual concierge",
+                "background_color": "#F5E6CC",
+                "hover_background_color": "#E3D7FF",
+                "text_color": "#1B1D2A",
+                "hover_color": "#1B1D2A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow": "yes",
+                "box_shadow_box_shadow_type": "outset",
+                "box_shadow_box_shadow_color": "rgba(27,29,42,0.15)",
+                "size": "lg",
+                "icon_align": "right",
+                "selected_icon": {
+                  "value": {
+                    "id": "fab fa-whatsapp"
+                  }
+                }
+              }
+            },
+            {
+              "id": "bellona_hero_aurora_secondary_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Conheça a coleção completa",
+                "button_type": "info",
+                "background_color": "rgba(0,0,0,0)",
+                "text_color": "#F5E6CC",
+                "hover_color": "#FFFFFF",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#F5E6CC",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "bellona_hero_aurora_features",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "Certificação antialérgica e garantia de 2 anos",
+                    "icon": {
+                      "value": "fas fa-shield-alt"
+                    }
+                  },
+                  {
+                    "text": "Edição limitada com lapidação artesanal",
+                    "icon": {
+                      "value": "fas fa-gem"
+                    }
+                  },
+                  {
+                    "text": "Concierge híbrido com consultoria de estilo",
+                    "icon": {
+                      "value": "fas fa-moon"
+                    }
+                  }
+                ],
+                "icon_color": "#F5E6CC",
+                "text_color": "#E3D7FF",
+                "typography_typography": "custom",
+                "typography_font_family": "Source Sans Pro",
+                "typography_font_weight": "500"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bellona_hero_aurora_media",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "vertical_align": "middle",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona_hero_aurora_image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.bellona.example/aurora-hero.jpg",
+                  "id": "",
+                  "alt": "Modelo com colar coleção Aurora da Bellona"
+                },
+                "image_size": "full",
+                "hover_animation": "float",
+                "box_shadow_box_shadow": "yes",
+                "box_shadow_box_shadow_type": "outset",
+                "box_shadow_box_shadow_color": "rgba(227,215,255,0.35)",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32",
+                  "isLinked": true
+                }
+              }
+            },
+            {
+              "id": "bellona_hero_aurora_caption",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"caption\">Coleção Aurora — edição limitada w01</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "500",
+                "text_color": "#E3D7FF",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

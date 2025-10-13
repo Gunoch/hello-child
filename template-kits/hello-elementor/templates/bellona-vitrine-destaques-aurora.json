@@ -1,0 +1,206 @@
+{
+  "version": "0.5",
+  "title": "Bellona Vitrine Destaques Aurora",
+  "type": "section",
+  "description": "Vitrine curada com headline, filtros de coleção e grid responsivo 3x2 para produtos Aurora.",
+  "content": [
+    {
+      "id": "bellona_vitrine_section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "content_width": "boxed",
+        "gap": "wide",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "32",
+          "bottom": "88",
+          "left": "32",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona_vitrine_header",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "32",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona_vitrine_kicker",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Coleção Aurora",
+                "header_size": "h6",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "500",
+                "text_color": "#4F5D75",
+                "letter_spacing": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                }
+              }
+            },
+            {
+              "id": "bellona_vitrine_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Destaques lapidados para iluminar sua rotina",
+                "header_size": "h2",
+                "typography_typography": "custom",
+                "typography_font_family": "Playfair Display",
+                "typography_font_weight": "600",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.3,
+                  "sizes": []
+                },
+                "text_color": "#1B1D2A"
+              }
+            },
+            {
+              "id": "bellona_vitrine_subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Filtre por aura, descubra lançamentos e combine peças assinatura com o suporte do nosso concierge.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Source Sans Pro",
+                "typography_font_weight": "400",
+                "text_color": "#4F5D75"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bellona_vitrine_filters",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "32",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona_vitrine_tabs",
+              "elType": "widget",
+              "widgetType": "toggle",
+              "settings": {
+                "toggle": [
+                  {
+                    "title": "Aura Equilibrium",
+                    "content": "Peças com pedras em tons lavanda para harmonizar seus rituais diários."
+                  },
+                  {
+                    "title": "Aura Vanguard",
+                    "content": "Design geométrico e ângulos marcantes para lideranças visionárias."
+                  },
+                  {
+                    "title": "Aura Solstice",
+                    "content": "Banho dourado intenso e texturas solares para celebrações noturnas."
+                  }
+                ],
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Montserrat",
+                "title_typography_font_weight": "600",
+                "title_text_color": "#1B1D2A",
+                "icon_align": "right"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bellona_vitrine_grid",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona_vitrine_products",
+              "elType": "widget",
+              "widgetType": "woocommerce-products",
+              "settings": {
+                "columns": 3,
+                "columns_tablet": 2,
+                "columns_mobile": 1,
+                "rows": 2,
+                "paginate": "yes",
+                "products_per_page": 6,
+                "orderby": "date",
+                "order": "desc",
+                "product_type": "featured",
+                "show_result_count": "no",
+                "sale_flash": "yes",
+                "sale_flash_text": "Edição limitada",
+                "align": "stretch",
+                "content_position": "top"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bellona_vitrine_footer",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona_vitrine_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agendar styling personalizado",
+                "align": "center",
+                "size": "lg",
+                "background_color": "#1B1D2A",
+                "text_color": "#F5E6CC",
+                "hover_background_color": "#4F5D75",
+                "hover_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
