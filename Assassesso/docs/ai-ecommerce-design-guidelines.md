@@ -41,7 +41,7 @@ Estabelecer políticas e passos técnicos para que assistentes de IA planejem, p
 ## 4. Passos Técnicos para Execução Autônoma pela IA
 1. `briefing.json`: gerar/atualizar arquivo com dados do cliente e KPIs.
 2. `docs/ai-ecommerce-design-guidelines.md`: revisar diretrizes antes de iniciar.
-3. Criar pasta no kit (`template-kits/hello-elementor/pages/`) com slug do projeto.
+3. Criar pasta no kit (`Assassesso/templates/hello-elementor/pages/latest/`) com slug do projeto.
 4. Definir tokens de estilo via painel Elementor (cores globais, tipografia) e documentar no README do kit.
 5. Construir seções: hero, vitrines, categorias, depoimentos, blog, FAQ, CTAs finais.
 6. Configurar widgets WooCommerce (lista de produtos, carrinho lateral, checkout) com filtros e ordenação apropriados.

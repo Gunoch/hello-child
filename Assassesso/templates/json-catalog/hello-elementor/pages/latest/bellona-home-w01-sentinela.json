@@ -1,0 +1,175 @@
+{
+  "version": "0.6",
+  "title": "Bellona Home w01 Sentinela",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_home_sentinela_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "classic",
+        "background_color": "#1B1D2A",
+        "padding": {"unit": "px", "top": "140", "right": "50", "bottom": "140", "left": "50", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_sentinela_col1",
+          "elType": "column",
+          "settings": {"_column_size": 45},
+          "elements": [
+            {
+              "id": "w01_home_sentinela_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Esculpimos símbolos para suas conquistas diárias", "header_size": "h1", "title_color": "#F5E6CC"}
+            },
+            {
+              "id": "w01_home_sentinela_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Conheça a seleção Guardiãs Bellona com peças multipropósito e acabamento impecável.</p>", "text_color": "#E3D7FF"}
+            },
+            {
+              "id": "w01_home_sentinela_cta_primary",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explorar coleção assinatura",
+                "link": {"url": "https://bellona.example/assinatura"},
+                "size": "lg",
+                "background_color": "#F5E6CC",
+                "color": "#1B1D2A"
+              }
+            },
+            {
+              "id": "w01_home_sentinela_cta_secondary",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Solicitar consultoria",
+                "link": {"url": "https://wa.me/5562988888888"},
+                "size": "sm",
+                "background_color": "#E3D7FF",
+                "color": "#1B1D2A",
+                "button_type": "outline"
+              }
+            }
+          ]
+        },
+        {
+          "id": "w01_home_sentinela_col2",
+          "elType": "column",
+          "settings": {"_column_size": 55},
+          "elements": [
+            {
+              "id": "w01_home_sentinela_video",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "hosted",
+                "mp4_link": "https://storage.example.com/bellona/lookbook.mp4",
+                "autoplay": "yes",
+                "mute": "yes"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_sentinela_manifesto",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "90", "right": "40", "bottom": "90", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_sentinela_manifesto_col1",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "w01_home_sentinela_manifesto_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Manifesto Bellona", "header_size": "h2"}
+            },
+            {
+              "id": "w01_home_sentinela_manifesto_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Somos estrategistas da delicadeza. Cada peça nasce em ciclos limitados, com metais responsáveis e lapidação manual. Nossa missão é vestir mulheres que lideram com coragem e celebram seus marcos com sutileza.</p>"}
+            }
+          ]
+        },
+        {
+          "id": "w01_home_sentinela_manifesto_col2",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "w01_home_sentinela_iconlist",
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {"text": "Garantia estendida de 12 meses", "icon": {"value": "fas fa-shield-alt"}},
+                  {"text": "Banho antialérgico certificado", "icon": {"value": "fas fa-feather-alt"}},
+                  {"text": "Embalagem sustentável e colecionável", "icon": {"value": "fas fa-leaf"}}
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_sentinela_social",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "background_background": "classic",
+        "background_color": "#E3D7FF",
+        "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_sentinela_social_heading",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "w01_home_sentinela_social_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Guardiãs que já conquistaram seu ritual", "align": "center"}
+            }
+          ]
+        },
+        {
+          "id": "w01_home_sentinela_social_columns",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "w01_home_sentinela_testimonials",
+              "elType": "widget",
+              "widgetType": "testimonials",
+              "settings": {
+                "slides": [
+                  {"content": "“Peças poderosas, acabamento impecável e atendimento sem igual.”", "name": "Lara R.", "title": "Empreendedora"},
+                  {"content": "“A experiência concierge transformou meu presente corporativo em uma celebração memorável.”", "name": "Helena M.", "title": "Diretora de Marketing"},
+                  {"content": "“A constelação personalizada me acompanha em toda reunião importante.”", "name": "Bianca T.", "title": "Advogada"}
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

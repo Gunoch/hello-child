@@ -5,27 +5,28 @@ Este diretório centraliza os arquivos de Template Kit preparados para o tema **
 ## Estrutura
 
 ```
-template-kits/
+Assassesso/templates/
 └── hello-elementor/
-    ├── README.md          # Guia específico de configuração do kit para o tema Hello Elementor
+    ├── README.md
     ├── blueprints/
-    │   └── bellona-ai/    # Blueprints declarativos para geração assistida por IA
-    └── pages/
-        ├── bellona-*.json             # Versões anteriores do kit Bellona
-        ├── bellona-home-w01-*.json    # Homes revisadas segundo identidade w01
-        └── bellona-landing-w01-*.json # Landing pages temáticas e de campanha w01
+    │   └── bellona-ai/
+    ├── pages/
+    │   ├── latest/      # Versões atualizadas, alinhadas ao ciclo w01 e diretrizes atuais
+    │   └── archive/     # Versões anteriores preservadas para referência
+    └── sections/        # Seções modulares (hero, vitrines, concierge, políticas, etc.)
 ```
 
 - **hello-elementor/**: coleção de templates pensada para o tema base Hello Elementor, já com espaçamentos, tipografia e containers configurados conforme a documentação oficial do tema.
 - **blueprints/**: camada de engenharia IA com estruturas em JSON que antecipam componentes, conteúdos e requisitos de QA antes da exportação pelo Elementor.
-- **pages/**: templates completos de páginas criados com widgets nativos do Elementor. A coleção Bellona agora possui o ciclo `w01`, com 10 variações de landing e home pages alinhadas ao estudo de identidade registrado em `docs/bellona-w01/`.
-- **templates/**: sessões ou páginas modulares prontas para serem inseridas em páginas existentes, facilitando a montagem de fluxos específicos (ex.: políticas, banners, CTAs).
+- **pages/latest/**: templates completos prontos para importação imediata. Utilize estes arquivos para implantações atuais.
+- **pages/archive/**: histórico das versões anteriores mantido para consulta ou rollback.
+- **sections/**: blocos modulares prontos para compor páginas existentes sem necessidade de reconstrução completa.
 
 ## Como importar
 
 1. Certifique-se de que o tema **Hello Elementor** e os plugins **Elementor** e **WooCommerce** estão instalados e ativos.
 2. No painel WordPress, acesse **Modelos → Template Kits** (ou **Templates → Kits**, dependendo da tradução).
-3. Clique em **Importar Template Kit** e selecione o arquivo `.json` desejado dentro da pasta `pages/`.
+3. Clique em **Importar Template Kit** e selecione o arquivo `.json` desejado dentro da pasta `pages/latest/`.
 4. Após a importação, abra a página que deseja editar com o Elementor e insira o template importado a partir da aba **Meus Templates**.
 5. Ajuste links, imagens e dados dinâmicos (por exemplo, contatos e CTAs de produtos) para refletirem o conteúdo final do projeto.
 
