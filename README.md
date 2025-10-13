@@ -5,7 +5,7 @@ Este repositório centraliza a documentação e os artefatos necessários para d
 ## Estrutura do projeto
 
 - `template-kits/`: coleção de Template Kits organizados por tema, com arquivos `.json` exportados do Elementor e documentação específica. A coleção Bellona agora inclui o ciclo **w01**, com landing pages e homes alinhadas à identidade atualizada.
-- `docs/`: guias de apoio com instruções detalhadas de uso e fluxo de engenharia. O diretório `docs/bellona-w01/` consolida estudo de identidade visual, diretrizes de UX, manual de conteúdo e checklist das entregas w01.
+- `docs/`: guias de apoio com instruções detalhadas de uso e fluxo de engenharia. O diretório `docs/bellona-w01/` consolida estudo de identidade visual, diretrizes de UX, manual de conteúdo e checklist das entregas w01. Consulte também `docs/ai-ecommerce-design-guidelines.md` para políticas atualizadas de criação de páginas por IA.
 - `theme/`, `style.css`, `functions.php`: tema filho Hello Child, preservado apenas para compatibilidade com projetos existentes.
 - `FLUXO-ENGENHARIA.md`: orientações completas sobre o processo de desenvolvimento, revisão e entrega.
 
@@ -22,6 +22,7 @@ O tema filho *Hello Child* permanece disponível para iniciativas que ainda depe
 ## Guias e documentação
 
 - Consulte [`docs/template-usage.md`](docs/template-usage.md) para um passo a passo de importação e configuração dos templates.
+- Revise as [Diretrizes de Design IA para E-commerce WordPress](docs/ai-ecommerce-design-guidelines.md) antes de iniciar novos layouts gerados por assistentes automatizados.
 - Utilize o fluxo descrito em [`FLUXO-ENGENHARIA.md`](FLUXO-ENGENHARIA.md) para planejar, implementar e validar qualquer alteração.
 
 ## Como contribuir
