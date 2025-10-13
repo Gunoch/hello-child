@@ -8,6 +8,8 @@ Este diretório centraliza os arquivos de Template Kit preparados para o tema **
 template-kits/
 └── hello-elementor/
     ├── README.md          # Guia específico de configuração do kit para o tema Hello Elementor
+    ├── blueprints/
+    │   └── bellona-ai/    # Blueprints declarativos para geração assistida por IA
     └── pages/
         ├── bellona-*.json             # Versões anteriores do kit Bellona
         ├── bellona-home-w01-*.json    # Homes revisadas segundo identidade w01
@@ -15,6 +17,7 @@ template-kits/
 ```
 
 - **hello-elementor/**: coleção de templates pensada para o tema base Hello Elementor, já com espaçamentos, tipografia e containers configurados conforme a documentação oficial do tema.
+- **blueprints/**: camada de engenharia IA com estruturas em JSON que antecipam componentes, conteúdos e requisitos de QA antes da exportação pelo Elementor.
 - **pages/**: templates completos de páginas criados com widgets nativos do Elementor. A coleção Bellona agora possui o ciclo `w01`, com 10 variações de landing e home pages alinhadas ao estudo de identidade registrado em `docs/bellona-w01/`.
 - **templates/**: sessões ou páginas modulares prontas para serem inseridas em páginas existentes, facilitando a montagem de fluxos específicos (ex.: políticas, banners, CTAs).
 

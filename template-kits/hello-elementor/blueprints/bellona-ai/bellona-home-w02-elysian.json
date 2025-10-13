@@ -1,0 +1,196 @@
+{
+  "$schema": "https://schemas.bellona.ai/template-blueprint-v1.json",
+  "meta": {
+    "title": "Bellona Home w02 – Elysian",
+    "persona": "Mulheres executivas 28-42 anos que buscam peças assinatura com atendimento concierge.",
+    "journey_stage": "Descoberta + consideração",
+    "kpi_primary": "Clique no CTA WhatsApp concierge",
+    "kpi_secondary": "Inscrição na newsletter Manifesto Guardiãs",
+    "notes": "Aplicar paleta w01 (lavanda estelar, azul neblina, dourado quente) com contraste AA e tipografia Poppins/Playfair."
+  },
+  "structure": [
+    {
+      "id": "hero",
+      "component": "container",
+      "layout": "2-col",
+      "content": {
+        "heading": "Conquiste a próxima vitória com relíquias Bellona",
+        "subheading": "Semi joias autorais banhadas em ouro 18k com garantia estendida de 2 anos.",
+        "cta_primary": {
+          "label": "Falar com concierge agora",
+          "type": "button",
+          "action": "whatsapp",
+          "style": "filled",
+          "icon": "whatsapp"
+        },
+        "cta_secondary": {
+          "label": "Ver guia de tamanhos",
+          "type": "link",
+          "action": "modal-guide"
+        },
+        "media": {
+          "type": "image",
+          "alt": "Modelo usando colar Bellona coleção Elysian",
+          "ratio": "4:5",
+          "max_size_kb": 240
+        }
+      },
+      "tokens": {
+        "background": "gradient-lavanda-azul",
+        "spacing": "clamp(48px, 8vw, 96px)",
+        "typography_scale": "fluid-hero"
+      },
+      "accessibility": [
+        "Garantir contraste 4.5:1 para heading e botões.",
+        "Fornecer descrição longa da peça via aria-describedby."
+      ]
+    },
+    {
+      "id": "manifesto",
+      "component": "container",
+      "layout": "stack",
+      "content": {
+        "heading": "Manifesto Guardiãs de Vitória",
+        "copy": "Somos mulheres que transformam conquistas em relíquias eternas. Cada peça Bellona é criada em ateliers responsáveis com banho antialérgico e lapidação consciente.",
+        "bullet_points": [
+          "Design autoral com produção limitada",
+          "Certificado de autenticidade digital",
+          "Entrega expressa e sustentável"
+        ]
+      },
+      "tokens": {
+        "background": "solid-claro",
+        "spacing": "clamp(32px, 6vw, 72px)",
+        "typography_scale": "body-xl"
+      }
+    },
+    {
+      "id": "featured-collection",
+      "component": "carousel",
+      "layout": "3-cards",
+      "content": {
+        "heading": "Coleção Aurora em destaque",
+        "cards": [
+          {
+            "title": "Colar Aurora Equilibrium",
+            "badge": "Mais desejado",
+            "description": "Banho ouro champanhe + cristais boreais. Estoque limitado.",
+            "cta": {
+              "label": "Adicionar ao carrinho",
+              "type": "woo-product",
+              "product_source": "featured"
+            }
+          },
+          {
+            "title": "Pulseira Orbit Halo",
+            "badge": "Novidade",
+            "description": "Malha leve com micro cravejados em quartzo azul.",
+            "cta": {
+              "label": "Ver detalhes",
+              "type": "woo-product",
+              "product_source": "category:aurora"
+            }
+          },
+          {
+            "title": "Brinco Sentinel Duo",
+            "badge": "Preferido",
+            "description": "Sistema modular 2 em 1 com fecho antialérgico.",
+            "cta": {
+              "label": "Reservar",
+              "type": "woo-product",
+              "product_source": "tag:pre-order"
+            }
+          }
+        ]
+      },
+      "tokens": {
+        "background": "solid-neutro",
+        "spacing": "clamp(28px, 5vw, 64px)",
+        "typography_scale": "section-heading"
+      },
+      "performance": [
+        "Ativar lazy-load no carousel e limitar a 3 produtos por vez.",
+        "Utilizar imagens WebP com até 180 KB."
+      ]
+    },
+    {
+      "id": "proof",
+      "component": "grid",
+      "layout": "2-col",
+      "content": {
+        "heading": "Prova social",
+        "subheading": "A confiança da comunidade Guardiãs",
+        "testimonials": [
+          {
+            "quote": "Em cada entrega sinto que sou tratada como única. Serviço impecável!",
+            "author": "Juliana Martins",
+            "role": "Empreendedora, São Paulo"
+          },
+          {
+            "quote": "As peças elevam meu look executivo sem abrir mão de conforto.",
+            "author": "Renata Costa",
+            "role": "CFO, Rio de Janeiro"
+          }
+        ],
+        "press_logos": ["Vogue Brasil", "Forbes Women", "Elle Jewelry"]
+      },
+      "accessibility": [
+        "Usar heading H2 para título da seção e listagem semântica para depoimentos.",
+        "Garantir foco visível ao navegar pelos cards via teclado."
+      ]
+    },
+    {
+      "id": "faq",
+      "component": "accordion",
+      "layout": "single",
+      "content": {
+        "heading": "Dúvidas frequentes",
+        "items": [
+          {
+            "question": "Qual o prazo de entrega premium?",
+            "answer": "São Paulo e Rio: 24h úteis. Demais capitais: até 3 dias úteis com seguro incluso."
+          },
+          {
+            "question": "Como funciona o concierge WhatsApp?",
+            "answer": "Atendimento 7 dias, 8h-22h. Consultoria de estilo, envio de combos personalizados e acompanhamento do pedido."
+          }
+        ]
+      },
+      "tokens": {
+        "background": "gradient-suave",
+        "spacing": "clamp(24px, 4vw, 56px)",
+        "border_radius": "18px"
+      }
+    },
+    {
+      "id": "cta-final",
+      "component": "container",
+      "layout": "center",
+      "content": {
+        "heading": "Agende sua sessão exclusiva",
+        "copy": "Nossa equipe seleciona as peças ideais para cada conquista. Atendimento híbrido com envio internacional.",
+        "cta_primary": {
+          "label": "Reservar agenda",
+          "type": "form",
+          "form_fields": ["nome", "email", "whatsapp"],
+          "automation": "webhook-hubspot"
+        }
+      },
+      "qa": [
+        "Validar formulário com mensagens de erro específicas e aria-live",
+        "Testar envio para automação HubSpot sandbox"
+      ]
+    }
+  ],
+  "seo": {
+    "focus_keyword": "semi joias autorais Bellona",
+    "meta_description": "Descubra a coleção Bellona com concierge imediato, garantia estendida e peças autorais para mulheres que lideram.",
+    "structured_data": "schema.org/OfferCatalog",
+    "recommended_h1": "Semi joias Bellona para vitórias todos os dias"
+  },
+  "qa": {
+    "responsiveness": ["Revisar espaçamentos em breakpoints 768px e 480px", "Garantir tipografia mínima 15px mobile"],
+    "accessibility": ["Executar varredura Lighthouse >= 90", "Conferir foco visível em todos os CTAs"],
+    "performance": ["PageSpeed desktop >= 85", "Peso total de imagens <= 1.2MB"]
+  }
+}
