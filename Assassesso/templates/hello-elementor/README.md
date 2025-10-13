@@ -1,85 +1,70 @@
-# Kit: Hello Elementor – Bellona
+# Kit Hello Elementor – Bellona
 
-Este kit foi configurado para funcionar em instalações que utilizam o tema base **Hello Elementor** aliado aos plugins **Elementor** (versão gratuita) e **WooCommerce**. Todos os widgets utilizados são nativos, garantindo compatibilidade sem dependências extras.
+Este kit consolida páginas, seções e blueprints aprovados para experiências Bellona dentro do ecossistema Hello Elementor. Todas as entregas seguem as diretrizes de engenharia 2024, privilegiando containers flexíveis, tokens globais e compatibilidade com WooCommerce.
 
-Os artefatos estão organizados para destacar as versões mais atuais do projeto:
+## Organização
 
-- `pages/latest/`: páginas completas aprovadas nas diretrizes atualizadas (ciclo w01 e variações v2).
-- `pages/archive/`: versões anteriores preservadas para consulta e comparativo histórico.
-- `sections/`: seções modulares (hero, vitrines, concierge, políticas) prontas para inserir em páginas existentes.
-- `blueprints/`: estruturas declarativas para geração assistida por IA (ciclo w02).
+- `pages/latest/`: páginas completas prontas para importação.
+- `pages/archive/`: versões anteriores mantidas para auditoria e rollback.
+- `sections/`: blocos modulares reutilizáveis em campanhas e landing pages.
+- `blueprints/`: estruturas declarativas de apoio à geração assistida por IA.
 
-## Conteúdo do kit (Latest)
+## Inventário atual (Latest)
 
-| Arquivo | Tipo | Descrição |
+| Arquivo | Tipo | Destaques |
 | --- | --- | --- |
-| `pages/latest/bellona-home-v2.json` | Página completa | Variação com paleta aqua, depoimentos atualizados e CTAs reposicionados para conversão imediata. |
-| `pages/latest/bellona-home-w01-ascendant.json` | Página completa | Home heroica com destaque para manifesto w01, vitrine 3x2 e CTA concierge imediato. |
-| `pages/latest/bellona-home-w01-lumina.json` | Página completa | Home compacta com navegação âncora, destaques em promoção e call-to-action para briefing semanal. |
-| `pages/latest/bellona-home-w01-sentinela.json` | Página completa | Home com narrativa manifesto, benefícios em ícones e bloco de testemunhos Guardiãs. |
-| `pages/latest/bellona-home-w01-vanguard.json` | Página completa | Home com tabs de coleção, formulário concierge 2h e métricas sociais. |
-| `pages/latest/bellona-landing-w01-aurora.json` | Página completa | Landing da coleção Aurora com materiais, storytelling e captura de leads. |
-| `pages/latest/bellona-landing-w01-vip.json` | Página completa | Landing do programa Guardiãs Bellona com benefícios, etapas e FAQ. |
-| `pages/latest/bellona-landing-w01-solstice.json` | Página completa | Landing sazonal com contagem regressiva, vitrine de ofertas e garantias de campanha. |
-| `pages/latest/bellona-landing-w01-atelier.json` | Página completa | Landing institucional do atelier com processo criativo, equipe e formulário de tour. |
-| `pages/latest/bellona-landing-w01-constellation.json` | Página completa | Landing para projetos sob medida com timeline estratégica e casos corporativos. |
-| `pages/latest/bellona-landing-w01-gifting.json` | Página completa | Landing de presentes premium com kits configuráveis, depoimentos e FAQ. |
-| `pages/latest/bellona-colecao-aurora-v2.json` | Página completa | Versão complementar com textos revisados, curadoria estelar e tonalidades frias. |
-| `pages/latest/bellona-lookbook-v2.json` | Página completa | Variação com ênfase em experiências semanais, galerias imersivas e CTA para look do mês. |
-| `pages/latest/bellona-guia-cuidados-v2.json` | Página completa | Alternativa com orientações refinadas, CTA atualizado e ajustes de copy. |
-| `pages/latest/bellona-politicas-troca-devolucao-v2.json` | Página completa | Versão revisada com copy atualizada, rodapé ampliado e novo destaque para redes sociais oficiais. |
-| `pages/latest/bellona-trocas-devolucoes-v2.json` | Página completa | Versão expandida com linguagem simplificada, CTAs duplicados e destaques orientados a processos sem fricção. |
-| `pages/latest/bellona-contato-v2.json` | Página completa | Opção com linguagem personalizada, foco em concierge híbrido e ajuste de cores para contraste elevado. |
-| `pages/latest/bellona-sobre-v2.json` | Página completa | Versão alternativa com narrativa renovada, bastidores do atelier e reforço da comunidade Guardiãs. |
+| `bellona-home-v2.json` | Página | Home com narrativa consultiva, vitrine dinâmica e CTA concierge imediato. |
+| `bellona-home-w01-ascendant.json` | Página | Ênfase em manifesto, vitrine 3x2 e chamadas para experiências exclusivas. |
+| `bellona-home-w01-lumina.json` | Página | Layout compacto com âncoras internas e destaques promocionais. |
+| `bellona-home-w01-sentinela.json` | Página | Storytelling Guardiãs com prova social expandida. |
+| `bellona-home-w01-vanguard.json` | Página | Tabs de coleção, formulário concierge e métricas sociais. |
+| `bellona-landing-w01-aurora.json` | Página | Landing colecional com storytelling e captura de leads. |
+| `bellona-landing-w01-vip.json` | Página | Programa VIP com comparativo de planos e FAQ. |
+| `bellona-landing-w01-solstice.json` | Página | Campanha sazonal com contagem regressiva e vitrine temática. |
+| `bellona-landing-w01-atelier.json` | Página | Landing institucional com timeline e apresentação de equipe. |
+| `bellona-landing-w01-constellation.json` | Página | Projetos sob medida com casos corporativos e CTA consultivo. |
+| `bellona-landing-w01-gifting.json` | Página | Kits presentes configuráveis e FAQ orientado a logística. |
+| `bellona-colecao-aurora-v2.json` | Página | Coleção Aurora com copy atualizada e curadoria estelar. |
+| `bellona-lookbook-v2.json` | Página | Galeria imersiva e CTA recorrente para look do mês. |
+| `bellona-guia-cuidados-v2.json` | Página | Orientações pós-compra com CTA de concierge e conteúdo educativo. |
+| `bellona-politicas-troca-devolucao-v2.json` | Página | Política oficial com linguagem clara e reforço de canais oficiais. |
+| `bellona-trocas-devolucoes-v2.json` | Página | Versão orientada a processos rápidos e FAQs diretos. |
+| `bellona-contato-v2.json` | Página | Atendimento híbrido com foco em canais rápidos e mapa de boutique. |
+| `bellona-sobre-v2.json` | Página | Storytelling institucional com reforço de comunidade. |
 
-As demais páginas (v1) permanecem disponíveis em `pages/archive/` para referência.
+> As versões w01 permanecem válidas e foram mantidas por apresentarem melhor desempenho em testes recentes. Ao criar novas variações, documente resultados e mova páginas substituídas para `pages/archive/`.
 
 ## Seções modulares
 
-| Arquivo | Tipo | Descrição |
-| --- | --- | --- |
-| `sections/bellona-hero-ritual-aurora.json` | Seção modular | Hero imersivo com CTA concierge, lista de benefícios e imagem editorial da coleção Aurora. |
-| `sections/bellona-vitrine-destaques-aurora.json` | Seção modular | Vitrine curada com filtros de aura, grid WooCommerce 3x2 e CTA para styling personalizado. |
-| `sections/bellona-concierge-faq.json` | Seção modular | Bloco combinado de concierge Guardiãs e FAQ com garantias, logística assistida e selos de confiança. |
-| `sections/bellona-politicas-troca-devolucao.json` | Página/seção | Layout completo de políticas com cabeçalho responsivo, banner informativo, texto oficial e CTA final. |
+| Arquivo | Uso sugerido |
+| --- | --- |
+| `bellona-hero-ritual-aurora.json` | Hero imersivo com CTA concierge e benefícios resumidos. |
+| `bellona-vitrine-destaques-aurora.json` | Vitrine WooCommerce 3x2 com filtros por aura. |
+| `bellona-concierge-faq.json` | Bloco combinado de concierge Guardiãs + FAQ. |
+| `bellona-politicas-troca-devolucao.json` | Layout completo de políticas com CTA final. |
 
 ## Blueprints (IA)
 
-| Arquivo | Tipo | Descrição |
-| --- | --- | --- |
-| `blueprints/bellona-ai/bellona-home-w02-elysian.json` | Blueprint IA | Estrutura mobile-first focada em concierge imediato e prova social premium. |
-| `blueprints/bellona-ai/bellona-landing-w02-orion.json` | Blueprint IA | Jornada colecional Orion com storytelling em timeline, lookbook imersivo e CTAs de bundle. |
-| `blueprints/bellona-ai/bellona-landing-w02-vip.json` | Blueprint IA | Programa Guardiãs VIP com métricas, tabelas de planos e micro navegação sticky. |
-| `blueprints/bellona-ai/bellona-landing-w02-solstice.json` | Blueprint IA | Campanha sazonal Solstice com contagem regressiva e kits corporativos. |
+| Arquivo | Objetivo |
+| --- | --- |
+| `bellona-home-w02-elysian.json` | Estrutura mobile-first com foco em concierge e prova social premium. |
+| `bellona-landing-w02-orion.json` | Jornada colecional com timeline e bundles configuráveis. |
+| `bellona-landing-w02-vip.json` | Programa Guardiãs VIP com métricas e micro navegação sticky. |
+| `bellona-landing-w02-solstice.json` | Campanha sazonal com pacotes corporativos e contagem regressiva. |
 
-## Passo a passo de importação
+## Fluxo de importação
 
-1. Faça login no WordPress com perfil de administrador.
-2. Confirme que o tema **Hello Elementor** está ativo em **Aparência → Temas**.
-3. Acesse **Templates → Template Kits** e clique em **Importar Template Kit**.
-4. Carregue o arquivo desejado dentro da pasta `pages/latest/`.
-5. Após a importação, abra a página em que deseja utilizar o layout pelo Elementor e insira o template a partir da aba **Meus Templates**.
+1. Habilite o tema **Hello Elementor** e plugins **Elementor** + **WooCommerce**.
+2. Acesse **Templates → Template Kits** no WordPress e importe o `.json` desejado.
+3. Insira o template em **Meus Templates** e personalize conteúdos dinâmicos (produtos, CTA, formulários).
+4. Ajuste tokens globais via **Site Settings** para refletir a identidade vigente.
+5. Valide nos breakpoints padrão, executando o checklist de acessibilidade e performance.
 
-## Ajustes recomendados após a importação
+## Diretrizes complementares
 
-- **Identidade visual**: atualize as configurações globais de cores e tipografia do site através do Elementor para replicar a identidade da marca.
-- **WooCommerce**: nos widgets de produtos, selecione as categorias ou coleções que façam sentido para a página. Aproveite os widgets dinâmicos do Elementor Pro, se disponíveis, para exibir produtos em promoção, mais vendidos, etc.
-- **Responsividade**: revise o layout nos modos tablet e mobile garantindo que espaçamentos e alinhamentos acompanhem as diretrizes do Hello Elementor.
-- **Links e CTAs**: personalize botões de contato (WhatsApp, e-mail) e âncoras internas para evitar links quebrados.
+- Utilize referências em `../../docs/ai-ecommerce-design-guidelines.md` para garantir aderência a UX, acessibilidade e SEO.
+- Mantenha o README atualizado com qualquer dependência extra (plugins, snippets, automações).
+- Documente resultados de QA em `docs/reports/` e cite-os nos PRs.
+- Para legados específicos de Bellona w01, consulte os estudos em `../../docs/bellona-w01/` observando que servem como referência histórica; novas entregas devem seguir os princípios unificados descritos nas diretrizes 2024.
 
-> Consulte `../../docs/bellona-w01/` para seguir a paleta cromática, tipografia, linguagem e microcopy definidos para a fase w01 antes de publicar qualquer variação. Use também `../../docs/ai-ecommerce-design-guidelines.md` para alinhar entregas assistidas por IA.
-
-## Referências úteis
-
-- [Documentação oficial do Hello Elementor](https://elementor.com/help/hello-theme/)
-- [Guia do Elementor sobre Template Kits](https://elementor.com/help/template-kits/)
-- [Documentação do WooCommerce](https://woocommerce.com/documentation/)
-
-## Checklist rápido de engenharia
-
-1. Exporte o layout do Elementor garantindo que apenas widgets nativos sejam utilizados.
-2. Nomeie o arquivo `.json` de forma descritiva (`bellona-<pagina>.json`).
-3. Valide o arquivo importando em um ambiente de teste com Hello Elementor + WooCommerce.
-4. Atualize as tabelas acima e registre particularidades ou dependências neste `README`.
-
-Mantenha este diretório atualizado com novos templates (páginas, pop-ups e seções) seguindo o mesmo padrão de organização.
+Manter este README atualizado assegura visibilidade sobre o estado do kit e facilita decisões rápidas sobre evolução de templates.

@@ -1,50 +1,47 @@
-# Guia de uso dos Template Kits – Hello Elementor
+# Guia de Uso dos Template Kits – Hello Elementor
 
-## Visão geral
-
-Este repositório agora concentra **Template Kits** compatíveis com o tema base **Hello Elementor**. Os arquivos foram organizados para facilitar a importação no Elementor, garantindo alinhamento com as diretrizes do tema e com integrações do WooCommerce, sem depender de um tema filho personalizado.
+Este guia orienta a importação, configuração e manutenção dos Template Kits versionados no repositório. As instruções estão alinhadas ao fluxo de engenharia unificado e às diretrizes de design 2024.
 
 ## Estrutura principal
 
-- `Assassesso/templates/README.md`: visão geral dos kits disponíveis e instruções rápidas de importação.
-- `Assassesso/templates/hello-elementor/`: coleção de kits preparada especificamente para o tema Hello Elementor.
-  - `README.md`: instruções detalhadas de configuração e ajustes pós-importação, incluindo referência à identidade w01.
-  - `pages/latest/`: arquivos `.json` referentes às páginas atualizadas (ciclo w01 e variações v2) construídas no Elementor.
-  - `pages/archive/`: histórico das versões anteriores preservadas para consulta.
+- `Assassesso/templates/README.md`: visão geral da organização dos kits.
+- `Assassesso/templates/hello-elementor/`: coleção oficial para o tema Hello Elementor.
+  - `README.md`: instruções detalhadas, tokens aprovados e changelog do kit.
+  - `pages/latest/`: páginas completas prontas para publicação.
+  - `pages/archive/`: histórico para referência ou rollback.
   - `sections/`: blocos modulares reutilizáveis.
-- `Assassesso/docs/`: documentação de apoio (incluindo este guia, o fluxo de engenharia e as novas diretrizes de design orientadas por IA).
-- `Assassesso/docs/bellona-w01/`: estudos de identidade, UX, conteúdo e checklist operacional que orientam a aplicação das páginas w01.
-- `theme/`, `functions.php`, `style.css`: permanecem disponíveis para projetos legados que ainda utilizam o tema filho, mas não são mais o foco principal.
+  - `blueprints/`: estruturas de apoio para geração assistida por IA.
+- `Assassesso/docs/`: documentação complementar (fluxo de engenharia, diretrizes de design, pesquisas).
+- `theme/`, `functions.php`, `style.css`: legado – usar apenas quando for inviável resolver via Template Kit.
 
 ## Pré-requisitos
 
-1. Tema **Hello Elementor** ativo.
-2. Plugin **Elementor** instalado (recomenda-se a versão mais recente).
-3. Para layouts que listam produtos, ter **WooCommerce** instalado e configurado.
-4. Opcional: **Elementor Pro**, caso deseje utilizar widgets dinâmicos adicionais (não obrigatório para os templates atuais).
-5. Briefing atualizado em `briefing.json` e revisão prévia das diretrizes em [`docs/ai-ecommerce-design-guidelines.md`](./ai-ecommerce-design-guidelines.md) quando o projeto for conduzido por assistentes de IA.
+1. Tema **Hello Elementor** ativo e atualizado.
+2. Plugin **Elementor** (versão mais recente) e **WooCommerce** configurado para páginas com catálogo.
+3. Opcional: **Elementor Pro** para recursos dinâmicos avançados.
+4. Briefing/documentação revisados (`briefing.json`, estudos em `docs/`) conforme o fluxo `Descobrir` → `Definir` descrito no `FLUXO-ENGENHARIA.md`.
 
-## Importando um Template Kit
+## Importação passo a passo
 
-1. No painel WordPress, acesse **Templates → Template Kits**.
-2. Clique em **Importar Template Kit**.
-3. Selecione o arquivo `.json` correspondente dentro da pasta `Assassesso/templates/hello-elementor/pages/latest/`.
-4. Após a importação, edite a página desejada com o Elementor e insira o template importado pela aba **Meus Templates**.
-5. Ajuste conteúdos dinâmicos, como widgets WooCommerce, textos de FAQ e links de CTA.
+1. Acesse **Templates → Template Kits** no painel WordPress.
+2. Clique em **Importar Template Kit** e selecione o arquivo `.json` da pasta `pages/latest/` ou `sections/`.
+3. Após a importação, abra a página desejada com o Elementor e insira o template em **Meus Templates**.
+4. Ajuste conteúdos dinâmicos (produtos, formulários, CTAs, links) e aplique tokens globais via **Site Settings**.
+5. Salve a página e valide responsividade nos breakpoints padrão (desktop, tablet, mobile).
 
-## Recomendações de compatibilidade
+## Recomendações pós-importação
 
-- **Hello Elementor**: utilize as configurações globais do Elementor (Site Settings) para manter tipografia e espaçamentos consistentes com o tema.
-- **WooCommerce**: associe os widgets de produtos às categorias corretas e personalize mensagens de estoque ou frete conforme a política da loja.
-- **Responsividade**: revise o layout nos modos Tablet e Mobile, ajustando margens e espaçamentos para evitar sobreposições.
-- **Acessibilidade**: mantenha textos alternativos em imagens e utilize títulos hierárquicos (`H2`, `H3`) conforme importado nos templates.
+- **Identidade**: confirme cores, tipografias e espaçamentos globais. Utilize tokens definidos no README do kit.
+- **WooCommerce**: associe widgets às categorias corretas, habilite filtros e configure mensagens de frete/estoque.
+- **Acessibilidade**: garanta textos alternativos, hierarquia de headings e foco visível.
+- **Performance**: otimize imagens (WebP/AVIF), habilite lazy load e evite animações pesadas.
+- **Documentação**: registre adaptações relevantes no README do kit ou em `docs/reports/<slug>-qa.md`.
 
-## Boas práticas de manutenção
+## Manutenção contínua
 
-- Versione novos templates utilizando nomes descritivos e organizando-os em subpastas (por exemplo, `sections/`, `popups/`).
-- Documente dependências adicionais diretamente nos arquivos `README.md` de cada kit.
-- Ao atualizar um template, incremente o número de versão no cabeçalho do arquivo `.json` (caso aplicável) e registre as mudanças no changelog do projeto.
-- Teste a importação em um ambiente de staging antes de aplicar no site oficial.
-- Utilize a checklist de QA descrita nas diretrizes de IA para registrar resultados em `docs/reports/<slug>-qa.md`.
+- Nomeie arquivos `.json` com padrão `marca-pagina-versao.json` e registre mudanças no changelog.
+- Archive versões antigas em `pages/archive/` mantendo metadados (data, motivo da substituição).
+- Revise trimestralmente se existe tecnologia mais adequada (novos widgets, recursos Elementor) e atualize o kit conforme necessário.
+- Sincronize atualizações de conteúdo com campanhas de marketing e automações (CRM, e-mail, ads).
 
-Seguir estas orientações garante que os Template Kits continuem compatíveis com o ecossistema Hello Elementor e WooCommerce, reduzindo conflitos e facilitando a evolução do projeto.
+Seguir este guia assegura que todos os Template Kits permaneçam coerentes com o fluxo de engenharia atual e entreguem experiências de alta qualidade no ecossistema Hello Elementor.
