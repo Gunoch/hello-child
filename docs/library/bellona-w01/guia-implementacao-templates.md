@@ -1,6 +1,6 @@
 # Guia de Implementação dos Templates w01 – Bellona
 
-> Referência para manter os templates w01 alinhados às diretrizes atuais. Combine estas instruções com o fluxo oficial (`../../../FLUXO-ENGENHARIA.md`) e registre qualquer divergência detectada durante QA.
+> Referência para manter os templates w01 alinhados às diretrizes atuais. Combine estas instruções com o fluxo oficial (`../../operations/fluxo-engenharia.md`) e registre qualquer divergência detectada durante QA.
 
 ## Estrutura do kit w01
 - Conjunto de landing pages e homes orientadas a campanhas, assinatura VIP e lançamentos permanentes.

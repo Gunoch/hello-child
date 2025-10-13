@@ -8,7 +8,7 @@ Este guia descreve o processo oficial para planejar, implementar e entregar alte
 
 1. **Registrar briefing**
    - Centralize objetivos, público, KPIs e requisitos técnicos em `briefing.json` ou no ticket correspondente.
-   - Reforce referências de marca consultando `Assassesso/docs/ai-ecommerce-design-guidelines.md` e estudos atualizados.
+   - Reforce referências de marca consultando `docs/library/ai-ecommerce-design-guidelines.md` e estudos atualizados.
 2. **Mapear impacto**
    - Identifique arquivos envolvidos (templates, seções, documentação, hooks legados).
    - Verifique integrações com WooCommerce, automações e analytics.
@@ -30,13 +30,13 @@ Este guia descreve o processo oficial para planejar, implementar e entregar alte
 
 1. **Template Kits**
    - Trabalhe no Elementor utilizando containers flexíveis, abordagem mobile-first e widgets nativos.
-   - Exporte `.json` com nomes descritivos para `Assassesso/templates/hello-elementor/pages/latest/` ou subpastas equivalentes.
+   - Exporte `.json` com nomes descritivos para `template-kits/hello-elementor/pages/latest/` ou subpastas equivalentes.
    - Atualize READMEs com dependências, tokens globais e notas de utilização.
 2. **Tema filho (legado)**
-   - Localize o arquivo em `theme/` ou `functions.php` e aplique padrões PSR-12 (PHP) e BEM/ITCSS (CSS).
+   - Localize o arquivo em `legacy-theme/hello-child/` e aplique padrões PSR-12 (PHP) e BEM/ITCSS (CSS).
    - Documente no topo do arquivo que se trata de manutenção legada.
 3. **Automação e scripts**
-   - Utilize ferramentas em `Assassesso/tooling/` para normalizar cores, espaçamentos e realizar linting quando disponível.
+   - Utilize ferramentas em `tooling/` para normalizar cores, espaçamentos e realizar linting quando disponível.
 
 ## 4. Validar
 
