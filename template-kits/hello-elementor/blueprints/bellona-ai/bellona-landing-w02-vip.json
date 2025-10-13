@@ -1,0 +1,196 @@
+{
+  "$schema": "https://schemas.bellona.ai/template-blueprint-v1.json",
+  "meta": {
+    "title": "Bellona Landing w02 – Guardiãs VIP",
+    "persona": "Clientes recorrentes com ticket médio > R$2.500 buscando experiências exclusivas e recompensas.",
+    "journey_stage": "Fidelização",
+    "kpi_primary": "Assinatura do programa Guardiãs VIP",
+    "kpi_secondary": "Agendamento de consultoria privada",
+    "notes": "Utilizar narrativa de irmandade + indicadores de performance (NPS, taxa recompra). Layout com micro navegação sticky."
+  },
+  "structure": [
+    {
+      "id": "hero",
+      "component": "container",
+      "layout": "centered",
+      "content": {
+        "heading": "Guardiãs VIP: sua constelação de privilégios Bellona",
+        "subheading": "Experiências trimestrais, concierge vitalício e peças sob medida para cada marco da sua jornada.",
+        "metrics": [
+          {"label": "NPS", "value": "92"},
+          {"label": "Recompra 6m", "value": "74%"},
+          {"label": "Tempo concierge", "value": "<2h"}
+        ],
+        "cta_primary": {
+          "label": "Assinar agora",
+          "type": "woo-product",
+          "product_source": "subscription:guardias-vip"
+        },
+        "cta_secondary": {
+          "label": "Falar com curadoria",
+          "type": "whatsapp",
+          "action": "concierge"
+        }
+      },
+      "tokens": {
+        "background": "gradient-lavanda-dourado",
+        "typography_scale": "hero-premium"
+      }
+    },
+    {
+      "id": "benefits",
+      "component": "tabs",
+      "layout": "horizontal",
+      "content": {
+        "heading": "Benefícios que orbitam você",
+        "tabs": [
+          {
+            "title": "Experiências",
+            "copy": "Eventos fechados, mentorias com convidadas e tours ao atelier Bellona.",
+            "icon": "calendar-star"
+          },
+          {
+            "title": "Peças signature",
+            "copy": "Criação semestral de peças exclusivas com gravação personalizada.",
+            "icon": "diamond"
+          },
+          {
+            "title": "Concierge 360°",
+            "copy": "Suporte 24/7 para ajustes, reposições e presentes corporativos.",
+            "icon": "infinity"
+          }
+        ]
+      },
+      "accessibility": [
+        "Tabs navegáveis por teclado (setas esquerda/direita).",
+        "ARIA-controls e roles alinhados ao padrão WAI-ARIA."
+      ]
+    },
+    {
+      "id": "tiers",
+      "component": "pricing-table",
+      "layout": "3-col",
+      "content": {
+        "heading": "Escolha o ritmo da sua constelação",
+        "plans": [
+          {
+            "name": "Aster",
+            "price": "R$890/mês",
+            "features": ["1 peça assinatura trimestral", "Concierge horário comercial", "Convites para 2 eventos"],
+            "cta_label": "Assinar Aster"
+          },
+          {
+            "name": "Nova",
+            "price": "R$1.390/mês",
+            "highlight": true,
+            "features": ["2 peças assinatura trimestrais", "Concierge 24/7", "Experiência gastronômica anual"],
+            "cta_label": "Assinar Nova"
+          },
+          {
+            "name": "Supernova",
+            "price": "Sob consulta",
+            "features": ["Peças sob medida ilimitadas", "Viagens imersivas", "Consultoria de imagem dedicada"],
+            "cta_label": "Agendar conversa"
+          }
+        ]
+      },
+      "performance": [
+        "Minificar ícones SVG inline",
+        "Aplicar clamp em heading para evitar quebra"
+      ]
+    },
+    {
+      "id": "journey",
+      "component": "steps",
+      "layout": "4-col",
+      "content": {
+        "heading": "Como funciona",
+        "steps": [
+          {"title": "Briefing", "description": "Concierge compreende estilo, agenda e marcos anuais."},
+          {"title": "Curadoria", "description": "Time Bellona propõe combinações trimestrais personalizadas."},
+          {"title": "Entrega", "description": "Envios com seguro, kit de conservação e carta manuscrita."},
+          {"title": "Celebrar", "description": "Eventos e experiências exclusivas alinhadas ao seu momento."}
+        ]
+      }
+    },
+    {
+      "id": "testimonials",
+      "component": "slider",
+      "layout": "full",
+      "content": {
+        "heading": "Vozes das Guardiãs",
+        "items": [
+          {
+            "quote": "A cada trimestre recebo peças que contam a história da minha equipe.",
+            "author": "Patrícia Lopes",
+            "role": "CEO, consultoria Stella"
+          },
+          {
+            "quote": "O concierge resolve tudo, do ajuste rápido ao presente corporativo urgente.",
+            "author": "Fernanda Dias",
+            "role": "Sócia, escritório Vega"
+          }
+        ],
+        "controls": "dots+arrows"
+      }
+    },
+    {
+      "id": "faq",
+      "component": "accordion",
+      "layout": "single",
+      "content": {
+        "heading": "Perguntas sobre o programa",
+        "items": [
+          {
+            "question": "Existe fidelidade mínima?",
+            "answer": "Sim, 6 meses com opção de upgrade a qualquer momento."
+          },
+          {
+            "question": "Posso pausar a assinatura?",
+            "answer": "Sim, até 60 dias com manutenção do concierge." 
+          },
+          {
+            "question": "Como funciona o pagamento?",
+            "answer": "Cartão de crédito recorrente ou boleto corporativo com faturamento trimestral." 
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-final",
+      "component": "container",
+      "layout": "split",
+      "content": {
+        "heading": "Pronta para liderar novas constelações?",
+        "copy": "Nossa curadoria dedica tempo integral para construir sua cápsula de vitórias.",
+        "cta_primary": {
+          "label": "Entrar para Guardiãs VIP",
+          "type": "form",
+          "form_fields": ["nome", "email", "whatsapp", "cargo"],
+          "automation": "crm-guardias",
+          "success_feedback": "Bem-vinda! Nosso concierge fará contato em 1h."
+        },
+        "cta_secondary": {
+          "label": "Baixar guia do programa",
+          "type": "download",
+          "file": "guia-guardias-vip.pdf"
+        }
+      },
+      "qa": [
+        "Validar estado ativo no menu sticky",
+        "Checar ARIA da micro navegação"
+      ]
+    }
+  ],
+  "seo": {
+    "focus_keyword": "programa guardias bellona",
+    "meta_description": "Conheça o programa Guardiãs VIP da Bellona com experiências exclusivas, concierge 24/7 e peças assinatura.",
+    "structured_data": "schema.org/MembershipOffer",
+    "recommended_h1": "Programa Guardiãs VIP Bellona"
+  },
+  "qa": {
+    "responsiveness": ["Testar tabs horizontal para scroll snap mobile", "Validar slider com swipe"],
+    "accessibility": ["Avaliar contraste de botões em fundo gradiente", "Incluir aria-live em mensagens do formulário"],
+    "performance": ["Evitar fontes adicionais além das globais", "Total de scripts adicionais = 0"]
+  }
+}

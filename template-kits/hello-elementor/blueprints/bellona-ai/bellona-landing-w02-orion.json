@@ -1,0 +1,205 @@
+{
+  "$schema": "https://schemas.bellona.ai/template-blueprint-v1.json",
+  "meta": {
+    "title": "Bellona Landing w02 – Orion",
+    "persona": "Colecionadoras e gift buyers que buscam presentes memoráveis para marcos profissionais.",
+    "journey_stage": "Consideração avançada",
+    "kpi_primary": "Adicionar combo Orion ao carrinho",
+    "kpi_secondary": "Download do catálogo PDF curadoria Orion",
+    "notes": "Explorar narrativa constelações + contraste alto (lavanda profunda + dourado luz). Aplicar micro animações suaves."
+  },
+  "structure": [
+    {
+      "id": "hero",
+      "component": "container",
+      "layout": "split",
+      "content": {
+        "heading": "Coleção Orion: presentes que celebram vitórias cósmicas",
+        "subheading": "Peças modulares com lapidação estelar e garantia vitalícia de manutenção.",
+        "cta_primary": {
+          "label": "Adicionar combo Orion",
+          "type": "woo-product",
+          "product_source": "bundle:orion",
+          "style": "filled"
+        },
+        "cta_secondary": {
+          "label": "Baixar catálogo curado",
+          "type": "download",
+          "file": "catalogo-orion.pdf"
+        },
+        "media": {
+          "type": "video",
+          "source": "cdn/bellona/orion-hero.mp4",
+          "poster": "cdn/bellona/orion-hero.webp",
+          "max_length_seconds": 18
+        }
+      },
+      "performance": [
+        "Aplicar lazy-load no vídeo e fallback imagem estática para mobile",
+        "Comprimir vídeo < 2.5MB e habilitar preload metadata"
+      ]
+    },
+    {
+      "id": "materials",
+      "component": "grid",
+      "layout": "3-col",
+      "content": {
+        "heading": "Materiais certificados",
+        "items": [
+          {
+            "title": "Ouro champanhe 18k",
+            "description": "Banhado 6 camadas com barreira antialérgica e inspeção dupla."
+          },
+          {
+            "title": "Pedras estelares",
+            "description": "Quartzo nebulosa e cristais iridescentes lapidados manualmente."
+          },
+          {
+            "title": "Encapsulamento eterno",
+            "description": "Resina italiana com proteção UV e brilho permanente."
+          }
+        ]
+      },
+      "accessibility": [
+        "Utilizar lista semântica e headings H3 nas colunas.",
+        "Garantir foco visível nas tabs mobile."
+      ]
+    },
+    {
+      "id": "storytelling",
+      "component": "timeline",
+      "layout": "vertical",
+      "content": {
+        "heading": "Sua jornada Orion",
+        "steps": [
+          {
+            "title": "Briefing estelar",
+            "description": "Concierge identifica significado do presente e agenda sessão virtual." ,
+            "duration": "D-14"
+          },
+          {
+            "title": "Curadoria luminosa",
+            "description": "Equipe apresenta combinações exclusivas com renderizações 3D.",
+            "duration": "D-10"
+          },
+          {
+            "title": "Entrega orbital",
+            "description": "Envio com rastreio em tempo real, carta assinada e kit de conservação.",
+            "duration": "D-2"
+          }
+        ]
+      },
+      "tokens": {
+        "connector": "linha-dourada",
+        "iconography": "orbes"
+      }
+    },
+    {
+      "id": "lookbook",
+      "component": "gallery",
+      "layout": "masonry",
+      "content": {
+        "heading": "Lookbook constelações",
+        "images": [
+          {"src": "cdn/bellona/orion-look-1.webp", "alt": "Modelo com brincos Orion"},
+          {"src": "cdn/bellona/orion-look-2.webp", "alt": "Pulseira Orion sobre vestido grafite"},
+          {"src": "cdn/bellona/orion-look-3.webp", "alt": "Colar Orion em close"}
+        ],
+        "cta_overlay": {
+          "label": "Agendar styling guiado",
+          "type": "modal",
+          "form": "styling-session"
+        }
+      },
+      "performance": [
+        "Ativar lazy-load e srcset 320/640/960",
+        "Limitar largura máxima 1920px"
+      ]
+    },
+    {
+      "id": "proof",
+      "component": "grid",
+      "layout": "1-2",
+      "content": {
+        "heading": "Quem já presenteou com Orion",
+        "testimonial_featured": {
+          "quote": "Presenteei nossa diretoria e cada peça chegou com uma mensagem manuscrita. Experiência impecável.",
+          "author": "Aline Rocha",
+          "role": "CMO, fintech Plenum"
+        },
+        "testimonial_list": [
+          "Evento Forbes Brasil Women to Watch",
+          "Cerimônia Empreendedoras do Ano",
+          "Mentoria Guardiãs Bellona"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "component": "accordion",
+      "layout": "double",
+      "content": {
+        "heading": "Perguntas sobre a coleção",
+        "groups": [
+          {
+            "title": "Logística",
+            "items": [
+              {
+                "question": "Qual o prazo de produção das peças personalizadas?",
+                "answer": "Até 7 dias úteis após aprovação do briefing com concierge."
+              },
+              {
+                "question": "Entregam fora do Brasil?",
+                "answer": "Sim, com courier parceiro e seguro premium incluso."
+              }
+            ]
+          },
+          {
+            "title": "Garantias",
+            "items": [
+              {
+                "question": "Qual a cobertura da garantia vitalícia?",
+                "answer": "Inclui polimento anual, ajuste de tamanho e substituição de pedras com defeito de fabricação."
+              },
+              {
+                "question": "É possível gravar iniciais?",
+                "answer": "Sim, gravamos até 12 caracteres em alta precisão."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-final",
+      "component": "container",
+      "layout": "center",
+      "content": {
+        "heading": "Transforme conquistas em constelações",
+        "copy": "Nossa curadoria prepara combinações exclusivas para cada marco.",
+        "cta_primary": {
+          "label": "Montar combo agora",
+          "type": "form",
+          "form_fields": ["nome", "email", "whatsapp", "evento"],
+          "automation": "webhook-mkt-cloud",
+          "success_feedback": "Agenda confirmada! Nosso concierge retorna em até 2h."
+        }
+      },
+      "qa": [
+        "Validar máscara de telefone internacional",
+        "Testar integração com Marketing Cloud sandbox"
+      ]
+    }
+  ],
+  "seo": {
+    "focus_keyword": "colecao bellona orion",
+    "meta_description": "Conheça a coleção Orion da Bellona: presentes de impacto com curadoria concierge e garantia vitalícia.",
+    "structured_data": "schema.org/Product",
+    "recommended_h1": "Coleção Orion – Presentes que orbitam suas vitórias"
+  },
+  "qa": {
+    "responsiveness": ["Testar timeline em mobile", "Garantir CTA sticky após seção lookbook"],
+    "accessibility": ["Verificar legendas do vídeo hero", "Accordion acessível com teclado"],
+    "performance": ["LCP < 2.8s", "Tamanho total página <= 1.6MB"]
+  }
+}

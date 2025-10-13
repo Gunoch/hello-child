@@ -2,6 +2,8 @@
 
 Este kit foi configurado para funcionar em instalações que utilizam o tema base **Hello Elementor** aliado aos plugins **Elementor** (versão gratuita) e **WooCommerce**. Todos os widgets utilizados são nativos, garantindo compatibilidade sem dependências extras.
 
+Desde o ciclo w02, os blueprints de engenharia assistida por IA estão versionados em `blueprints/bellona-ai/`, permitindo que agentes automatizados gerem novas páginas antes da exportação final em `pages/`.
+
 ## Conteúdo do kit
 
 | Arquivo | Tipo | Descrição |
@@ -35,6 +37,10 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 | `pages/bellona-landing-w01-atelier.json` | Página completa | Landing institucional do atelier com processo criativo, equipe e formulário de tour. |
 | `pages/bellona-landing-w01-constellation.json` | Página completa | Landing para projetos sob medida com timeline estratégica e casos corporativos. |
 | `pages/bellona-landing-w01-gifting.json` | Página completa | Landing de presentes premium com kits configuráveis, depoimentos e FAQ. |
+| `blueprints/bellona-ai/bellona-home-w02-elysian.json` | Blueprint IA | Estrutura declarativa para home mobile-first focada em concierge imediato e prova social premium. |
+| `blueprints/bellona-ai/bellona-landing-w02-orion.json` | Blueprint IA | Jornada colecional Orion com storytelling em timeline, lookbook imersivo e CTAs de bundle. |
+| `blueprints/bellona-ai/bellona-landing-w02-vip.json` | Blueprint IA | Programa Guardiãs VIP com métricas, tabelas de planos e micro navegação sticky. |
+| `blueprints/bellona-ai/bellona-landing-w02-solstice.json` | Blueprint IA | Campanha sazonal Solstice com contagem regressiva e kits corporativos. |
 
 ## Passo a passo de importação
 

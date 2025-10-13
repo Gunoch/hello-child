@@ -1,0 +1,183 @@
+{
+  "$schema": "https://schemas.bellona.ai/template-blueprint-v1.json",
+  "meta": {
+    "title": "Bellona Landing w02 – Solstice",
+    "persona": "Compradoras sazonais e líderes de equipes corporativas preparando presentes de fim de ano.",
+    "journey_stage": "Conversão imediata",
+    "kpi_primary": "Checkout rápido campanha Solstice",
+    "kpi_secondary": "Resgate do voucher corporativo",
+    "notes": "Enfatizar urgência com contagem regressiva e CTAs duplicados. Aplicar tons dourado-lume e azul profundo."
+  },
+  "structure": [
+    {
+      "id": "hero",
+      "component": "container",
+      "layout": "split",
+      "content": {
+        "heading": "Campanha Solstice: 48h para garantir presentes luminosos",
+        "subheading": "Kits exclusivos com entrega expressa, personalização gratuita e concierge corporativo.",
+        "countdown": {
+          "deadline": "2024-12-20T23:59:59-03:00",
+          "timezone": "America/Sao_Paulo"
+        },
+        "cta_primary": {
+          "label": "Comprar agora",
+          "type": "woo-product",
+          "product_source": "category:solstice",
+          "style": "filled"
+        },
+        "cta_secondary": {
+          "label": "Resgatar voucher corporativo",
+          "type": "modal",
+          "form": "voucher-solstice"
+        }
+      },
+      "performance": [
+        "Contagem regressiva implementada com script nativo Elementor (sem libs externas)",
+        "Carregar assets condicionais apenas nesta página"
+      ]
+    },
+    {
+      "id": "bundles",
+      "component": "grid",
+      "layout": "3-col",
+      "content": {
+        "heading": "Kits Solstice",
+        "cards": [
+          {
+            "title": "Luz Boreal",
+            "price": "R$1.190",
+            "description": "Colar + pulseira com banho ouro champanhe e cristais azul boreal.",
+            "cta": {"label": "Comprar Luz Boreal", "type": "woo-product", "product_source": "sku:SOL-LB"}
+          },
+          {
+            "title": "Aurora Executiva",
+            "price": "R$1.690",
+            "description": "Kit 3 peças + voucher concierge personalizado.",
+            "cta": {"label": "Comprar Aurora Executiva", "type": "woo-product", "product_source": "sku:SOL-AE"}
+          },
+          {
+            "title": "Orion Celebration",
+            "price": "Sob consulta",
+            "description": "Seleção para equipes > 10 pessoas com gravação exclusiva.",
+            "cta": {"label": "Solicitar orçamento", "type": "form", "form": "orcamento-solstice"}
+          }
+        ]
+      },
+      "accessibility": [
+        "Garantir leitura correta de preços com aria-label.",
+        "Adicionar foco visível nas âncoras de CTA."
+      ]
+    },
+    {
+      "id": "benefits",
+      "component": "list",
+      "layout": "2-col",
+      "content": {
+        "heading": "Por que escolher Solstice",
+        "items": [
+          "Entrega expressa 24h nas capitais",
+          "Personalização gratuita nas primeiras 50 unidades",
+          "Troca facilitada até 15 de janeiro",
+          "Assistente corporativo dedicado"
+        ]
+      },
+      "tokens": {
+        "icon": "check-star",
+        "background": "solid-midnight",
+        "typography_scale": "body-lg",
+        "text_color": "#F5F2ED"
+      }
+    },
+    {
+      "id": "social-proof",
+      "component": "grid",
+      "layout": "2-col",
+      "content": {
+        "heading": "Empresas que já brilham com Bellona",
+        "logos": ["Nexa Capital", "Aurora Labs", "Constela Tech", "WeRise"],
+        "testimonial": {
+          "quote": "Conseguimos entregar presentes memoráveis para toda a diretoria em tempo recorde.",
+          "author": "Lívia Andrade",
+          "role": "Head de RH, Nexa Capital"
+        }
+      }
+    },
+    {
+      "id": "timeline",
+      "component": "timeline",
+      "layout": "horizontal",
+      "content": {
+        "heading": "Fluxo expresso",
+        "steps": [
+          {"title": "Selecione o kit", "description": "Escolha a combinação ideal para o seu time."},
+          {"title": "Personalize", "description": "Envie nomes, mensagens ou datas para gravação."},
+          {"title": "Confirme", "description": "Finalize o pagamento seguro com acompanhamento concierge."},
+          {"title": "Receba", "description": "Entrega expressa com rastreio e kit celebração."}
+        ]
+      },
+      "performance": [
+        "Utilizar CSS grid sem scripts adicionais",
+        "Evitar animações pesadas em mobile"
+      ]
+    },
+    {
+      "id": "faq",
+      "component": "accordion",
+      "layout": "double",
+      "content": {
+        "heading": "Perguntas rápidas",
+        "groups": [
+          {
+            "title": "Logística",
+            "items": [
+              {"question": "Até quando posso comprar com entrega antes do Natal?", "answer": "Até 20/12 às 12h para capitais."},
+              {"question": "Há retirada em atelier?", "answer": "Sim, mediante agendamento com concierge."}
+            ]
+          },
+          {
+            "title": "Pagamentos",
+            "items": [
+              {"question": "Quais formas são aceitas?", "answer": "Cartão, PIX corporativo e faturamento 7 dias."},
+              {"question": "Posso parcelar?", "answer": "Até 6x sem juros para pessoas físicas."}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta-final",
+      "component": "container",
+      "layout": "center",
+      "content": {
+        "heading": "Garanta sua cota Solstice",
+        "copy": "Concierge dedicado acompanha todo o processo para você focar na celebração.",
+        "cta_primary": {
+          "label": "Comprar agora",
+          "type": "woo-product",
+          "product_source": "category:solstice"
+        },
+        "cta_secondary": {
+          "label": "Hablar con concierge",
+          "type": "whatsapp",
+          "action": "espanol"
+        }
+      },
+      "qa": [
+        "Verificar contagem regressiva sincronizada com timezone",
+        "Testar formulário de voucher em dispositivos móveis"
+      ]
+    }
+  ],
+  "seo": {
+    "focus_keyword": "campanha solstice bellona",
+    "meta_description": "Campanha Solstice Bellona: kits exclusivos com entrega expressa, personalização e concierge corporativo.",
+    "structured_data": "schema.org/Offer",
+    "recommended_h1": "Campanha Solstice Bellona"
+  },
+  "qa": {
+    "responsiveness": ["Verificar countdown em tablet", "Garantir grid 3-col vira slider mobile"],
+    "accessibility": ["Countdown com aria-live polido", "Accordion acessível"],
+    "performance": ["LCP < 2.5s", "Peso scripts adicionais < 80KB"]
+  }
+}
