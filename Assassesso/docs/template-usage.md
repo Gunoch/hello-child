@@ -6,15 +6,14 @@ Este repositório agora concentra **Template Kits** compatíveis com o tema base
 
 ## Estrutura principal
 
-- `template-kits/README.md`: visão geral dos kits disponíveis e instruções rápidas de importação.
-- `template-kits/hello-elementor/`: coleção de kits preparada especificamente para o tema Hello Elementor.
+- `Assassesso/templates/README.md`: visão geral dos kits disponíveis e instruções rápidas de importação.
+- `Assassesso/templates/hello-elementor/`: coleção de kits preparada especificamente para o tema Hello Elementor.
   - `README.md`: instruções detalhadas de configuração e ajustes pós-importação, incluindo referência à identidade w01.
-  - `pages/`: arquivos `.json` referentes a páginas completas construídas no Elementor.
-    - `bellona-home.json`, `bellona-sobre.json`, `bellona-colecao-aurora.json`, etc.: versões legadas do kit Bellona.
-    - `bellona-home-w01-*.json`: quatro variações de homepage aplicando a nova identidade, fluxos de manifesto, vitrines e concierge.
-    - `bellona-landing-w01-*.json`: seis landing pages específicas para coleção, assinatura, campanhas sazonais, atelier, projetos bespoke e gifting.
-- `docs/`: documentação de apoio (incluindo este guia, o fluxo de engenharia e as novas diretrizes de design orientadas por IA).
-- `docs/bellona-w01/`: estudos de identidade, UX, conteúdo e checklist operacional que orientam a aplicação das páginas w01.
+  - `pages/latest/`: arquivos `.json` referentes às páginas atualizadas (ciclo w01 e variações v2) construídas no Elementor.
+  - `pages/archive/`: histórico das versões anteriores preservadas para consulta.
+  - `sections/`: blocos modulares reutilizáveis.
+- `Assassesso/docs/`: documentação de apoio (incluindo este guia, o fluxo de engenharia e as novas diretrizes de design orientadas por IA).
+- `Assassesso/docs/bellona-w01/`: estudos de identidade, UX, conteúdo e checklist operacional que orientam a aplicação das páginas w01.
 - `theme/`, `functions.php`, `style.css`: permanecem disponíveis para projetos legados que ainda utilizam o tema filho, mas não são mais o foco principal.
 
 ## Pré-requisitos
@@ -29,7 +28,7 @@ Este repositório agora concentra **Template Kits** compatíveis com o tema base
 
 1. No painel WordPress, acesse **Templates → Template Kits**.
 2. Clique em **Importar Template Kit**.
-3. Selecione o arquivo `.json` correspondente dentro da pasta `template-kits/hello-elementor/pages/`.
+3. Selecione o arquivo `.json` correspondente dentro da pasta `Assassesso/templates/hello-elementor/pages/latest/`.
 4. Após a importação, edite a página desejada com o Elementor e insira o template importado pela aba **Meus Templates**.
 5. Ajuste conteúdos dinâmicos, como widgets WooCommerce, textos de FAQ e links de CTA.
 

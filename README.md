@@ -1,28 +1,34 @@
 # Hello Child & Template Kits
 
-Este repositório centraliza a documentação e os artefatos necessários para desenvolver experiências com o tema **Hello Elementor** e seus Template Kits prontos para importação. Mantemos também, para projetos legados, o tema filho *Hello Child* com ajustes específicos.
+Este repositório centraliza a documentação e os artefatos necessários para desenvolver experiências com o tema **Hello Elementor**. A pasta `Assassesso/` reúne os materiais mais recentes (templates, diretrizes, automações), enquanto os arquivos do tema filho legado permanecem na raiz para compatibilidade com projetos existentes.
 
 ## Estrutura do projeto
 
-- `template-kits/`: coleção de Template Kits organizados por tema, com arquivos `.json` exportados do Elementor e documentação específica. A coleção Bellona agora inclui o ciclo **w01**, com landing pages e homes alinhadas à identidade atualizada.
-- `docs/`: guias de apoio com instruções detalhadas de uso e fluxo de engenharia. O diretório `docs/bellona-w01/` consolida estudo de identidade visual, diretrizes de UX, manual de conteúdo e checklist das entregas w01. Consulte também `docs/ai-ecommerce-design-guidelines.md` para políticas atualizadas de criação de páginas por IA.
-- `theme/`, `style.css`, `functions.php`: tema filho Hello Child, preservado apenas para compatibilidade com projetos existentes.
+- `Assassesso/`: hub com as últimas diretrizes, templates e ferramentas aprovadas para produção.
+  - `docs/`: guias de apoio com instruções detalhadas de identidade, UX, tom de voz e fluxo de engenharia.
+  - `templates/hello-elementor/pages/latest/`: páginas atualizadas seguindo o ciclo w01 e as políticas de design IA vigentes.
+  - `templates/hello-elementor/pages/archive/`: versões anteriores preservadas para referência.
+  - `templates/hello-elementor/sections/`: blocos modulares reutilizáveis (hero, vitrines, concierge, políticas, etc.).
+  - `templates/hello-elementor/blueprints/`: estruturas declarativas para geração assistida por IA.
+  - `templates/json-catalog/`: catálogo organizado de exportações `.json` pronto para distribuição.
+  - `tooling/`: automações de suporte para regenerar e padronizar templates.
+- `theme/`, `style.css`, `functions.php`: tema filho Hello Child (legado). Utilize apenas quando indispensável.
 - `FLUXO-ENGENHARIA.md`: orientações completas sobre o processo de desenvolvimento, revisão e entrega.
 
 ## Template Kits
 
-Os Template Kits são distribuídos no diretório [`template-kits/`](template-kits/README.md) e incluem páginas completas e seções modulares construídas com widgets nativos do Elementor. Cada kit possui um `README.md` com instruções de importação, requisitos e boas práticas para personalização. Consulte a documentação do ciclo w01 para garantir aderência à paleta, tipografia e voz definidos para a marca Bellona.
+Os Template Kits são distribuídos em [`Assassesso/templates/`](Assassesso/templates/README.md) e incluem páginas completas e seções modulares construídas com widgets nativos do Elementor. Cada kit possui um `README.md` com instruções de importação, requisitos e boas práticas para personalização. Priorize os arquivos em `pages/latest/` para iniciar novas implantações e consulte o arquivo `Assassesso/docs/ai-ecommerce-design-guidelines.md` antes de gerar variações assistidas por IA.
 
 > Recomenda-se sempre importar os templates em um ambiente de testes, validar responsividade e atualizar links/imagens conforme o projeto final.
 
 ## Tema filho legado
 
-O tema filho *Hello Child* permanece disponível para iniciativas que ainda dependem de customizações em PHP ou CSS. Para novas implementações, priorize os Template Kits. Ao editar o tema filho, siga os padrões documentados em `FLUXO-ENGENHARIA.md` e mantenha a compatibilidade com o WooCommerce.
+O tema filho *Hello Child* permanece disponível para iniciativas que ainda dependem de customizações em PHP ou CSS. Para novas implementações, priorize os Template Kits localizados em `Assassesso/templates/`. Ao editar o tema filho, siga os padrões documentados em `FLUXO-ENGENHARIA.md` e mantenha a compatibilidade com o WooCommerce.
 
 ## Guias e documentação
 
-- Consulte [`docs/template-usage.md`](docs/template-usage.md) para um passo a passo de importação e configuração dos templates.
-- Revise as [Diretrizes de Design IA para E-commerce WordPress](docs/ai-ecommerce-design-guidelines.md) antes de iniciar novos layouts gerados por assistentes automatizados.
+- Consulte [`Assassesso/docs/template-usage.md`](Assassesso/docs/template-usage.md) para um passo a passo de importação e configuração dos templates.
+- Revise as [Diretrizes de Design IA para E-commerce WordPress](Assassesso/docs/ai-ecommerce-design-guidelines.md) antes de iniciar novos layouts gerados por assistentes automatizados.
 - Utilize o fluxo descrito em [`FLUXO-ENGENHARIA.md`](FLUXO-ENGENHARIA.md) para planejar, implementar e validar qualquer alteração.
 
 ## Como contribuir

@@ -1,0 +1,143 @@
+{
+  "version": "0.6",
+  "title": "Bellona Landing w01 Aurora",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_landing_aurora_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "gradient",
+        "background_color": "#1B1D2A",
+        "background_color_b": "#E3D7FF",
+        "background_gradient_type": "radial",
+        "padding": {"unit": "px", "top": "130", "right": "60", "bottom": "130", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_landing_aurora_col1",
+          "elType": "column",
+          "settings": {"_column_size": 55},
+          "elements": [
+            {
+              "id": "w01_landing_aurora_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Coleção Aurora – luz que guia sua liderança", "header_size": "h1", "title_color": "#FFFFFF"}
+            },
+            {
+              "id": "w01_landing_aurora_subheading",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Anéis, colares e ear cuffs com lapidação em prisma e banho champagne. Edição limitada.</p>", "text_color": "#F5E6CC"}
+            },
+            {
+              "id": "w01_landing_aurora_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {"text": "Reservar peça Aurora", "link": {"url": "https://bellona.example/aurora"}, "background_color": "#F5E6CC", "color": "#1B1D2A"}
+            }
+          ]
+        },
+        {
+          "id": "w01_landing_aurora_col2",
+          "elType": "column",
+          "settings": {"_column_size": 45},
+          "elements": [
+            {
+              "id": "w01_landing_aurora_gallery",
+              "elType": "widget",
+              "widgetType": "image-gallery",
+              "settings": {
+                "gallery": [
+                  {"url": "https://via.placeholder.com/400x520?text=Aurora+01"},
+                  {"url": "https://via.placeholder.com/400x520?text=Aurora+02"},
+                  {"url": "https://via.placeholder.com/400x520?text=Aurora+03"}
+                ],
+                "columns": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_aurora_materials",
+      "elType": "section",
+      "settings": {"structure": "33", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_aurora_materials_col1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_aurora_material_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Materiais"}},
+            {"id": "w01_landing_aurora_material_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Base em prata 925 com banho champagne e zircônias em corte prisma.</p>"}}
+          ]
+        },
+        {
+          "id": "w01_landing_aurora_materials_col2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_aurora_process_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Processo"}},
+            {"id": "w01_landing_aurora_process_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Lapidação manual com micro gravações de constelação e inspeção dupla.</p>"}}
+          ]
+        },
+        {
+          "id": "w01_landing_aurora_materials_col3",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_aurora_cert_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Certificações"}},
+            {"id": "w01_landing_aurora_cert_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Selo antialérgico, garantia 12 meses e embalagem reciclável.</p>"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_aurora_story",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "classic", "background_color": "#F5E6CC", "padding": {"unit": "px", "top": "70", "right": "40", "bottom": "70", "left": "40", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_aurora_story_col1",
+          "elType": "column",
+          "settings": {"_column_size": 55},
+          "elements": [
+            {"id": "w01_landing_aurora_story_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Aurora traduz auréolas de vitórias", "header_size": "h2"}},
+            {"id": "w01_landing_aurora_story_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Cada peça celebra líderes que iluminam novos caminhos. A linha foi pensada para transitar de comitês estratégicos a celebrações.</p>"}},
+            {"id": "w01_landing_aurora_story_cta", "elType": "widget", "widgetType": "button", "settings": {"text": "Agendar provador digital", "link": {"url": "https://wa.me/5562977777777"}, "background_color": "#1B1D2A", "color": "#F5E6CC"}}
+          ]
+        },
+        {
+          "id": "w01_landing_aurora_story_col2",
+          "elType": "column",
+          "settings": {"_column_size": 45},
+          "elements": [
+            {"id": "w01_landing_aurora_story_form", "elType": "widget", "widgetType": "form", "settings": {"form_fields": [{"type": "text", "label": "Nome"}, {"type": "email", "label": "E-mail"}, {"type": "tel", "label": "WhatsApp"}], "submit_button_text": "Receber catálogo Aurora"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_aurora_testimonials",
+      "elType": "section",
+      "settings": {"structure": "100", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_aurora_slider",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_aurora_slider_widget", "elType": "widget", "widgetType": "slides", "settings": {"slides": [
+              {"heading": "Luz impecável", "description": "“A Coleção Aurora trouxe sofisticação para cada apresentação importante.”", "button_text": "Ver peça hero"},
+              {"heading": "Conforto absoluto", "description": "“Uso o ear cuff o dia inteiro e permanece impecável.”", "button_text": "Agendar consultoria"}
+            ]}}
+          ]
+        }
+      ]
+    }
+  ]
+}

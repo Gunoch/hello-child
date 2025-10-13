@@ -1,0 +1,107 @@
+{
+  "version": "0.6",
+  "title": "Bellona Landing w01 Solstice",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_landing_solstice_banner",
+      "elType": "section",
+      "settings": {"structure": "100", "background_background": "slideshow", "background_slideshow_gallery": [{"url": "https://via.placeholder.com/1600x700?text=Solstice+Hero"}], "padding": {"unit": "px", "top": "150", "right": "40", "bottom": "150", "left": "40", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_solstice_banner_col",
+          "elType": "column",
+          "settings": {"_column_size": 100, "background_overlay_background": "classic", "background_overlay_color": "rgba(27,29,42,0.65)"},
+          "elements": [
+            {"id": "w01_landing_solstice_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Campanha Solstice", "header_size": "h1", "align": "center", "title_color": "#F5E6CC"}},
+            {"id": "w01_landing_solstice_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Peças com banho aurora boreal disponíveis até 21 de junho.</p>", "align": "center", "text_color": "#FFFFFF"}},
+            {"id": "w01_landing_solstice_timer", "elType": "widget", "widgetType": "countdown", "settings": {"due_date": "2024-06-21 23:59", "digits_color": "#F5E6CC", "labels_color": "#FFFFFF"}},
+            {"id": "w01_landing_solstice_cta", "elType": "widget", "widgetType": "button", "settings": {"text": "Garantir peça limitada", "link": {"url": "https://bellona.example/solstice"}, "background_color": "#F5E6CC", "color": "#1B1D2A", "align": "center"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_solstice_offers",
+      "elType": "section",
+      "settings": {"structure": "25", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_solstice_offers_heading",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_solstice_offers_title", "elType": "widget", "widgetType": "heading", "settings": {"title": "Seleção Solstice", "align": "center"}}
+          ]
+        },
+        {
+          "id": "w01_landing_solstice_offers_products",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_solstice_offers_widget", "elType": "widget", "widgetType": "woocommerce-products", "settings": {"products_source": "featured", "columns": 4, "rows": 1}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_solstice_guarantees",
+      "elType": "section",
+      "settings": {"structure": "33", "background_background": "classic", "background_color": "#F5E6CC", "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_solstice_guarantee1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_solstice_guarantee1_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Banho aurora"}},
+            {"id": "w01_landing_solstice_guarantee1_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Tecnologia proprietária com durabilidade reforçada.</p>"}}
+          ]
+        },
+        {
+          "id": "w01_landing_solstice_guarantee2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_solstice_guarantee2_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Concierge sazonal"}},
+            {"id": "w01_landing_solstice_guarantee2_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Atendimento ampliado durante a campanha.</p>"}}
+          ]
+        },
+        {
+          "id": "w01_landing_solstice_guarantee3",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_solstice_guarantee3_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Gift premium"}},
+            {"id": "w01_landing_solstice_guarantee3_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Estojo exclusivo em couro vegano.</p>"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_solstice_story",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_solstice_story_col1",
+          "elType": "column",
+          "settings": {"_column_size": 55},
+          "elements": [
+            {"id": "w01_landing_solstice_story_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Celebrar o ápice da luz"}},
+            {"id": "w01_landing_solstice_story_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>A campanha Solstice marca o momento mais iluminado do ano, traduzido em peças cintilantes que refletem conquistas.</p>"}}
+          ]
+        },
+        {
+          "id": "w01_landing_solstice_story_col2",
+          "elType": "column",
+          "settings": {"_column_size": 45},
+          "elements": [
+            {"id": "w01_landing_solstice_story_cta", "elType": "widget", "widgetType": "button", "settings": {"text": "Falar com concierge", "link": {"url": "https://wa.me/5562966666666"}, "background_color": "#1B1D2A", "color": "#F5E6CC", "align": "center"}},
+            {"id": "w01_landing_solstice_story_gallery", "elType": "widget", "widgetType": "image", "settings": {"image": {"url": "https://via.placeholder.com/540x600?text=Solstice+Detalhe"}}}
+          ]
+        }
+      ]
+    }
+  ]
+}

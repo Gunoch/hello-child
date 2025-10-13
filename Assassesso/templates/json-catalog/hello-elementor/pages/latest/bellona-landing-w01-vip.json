@@ -1,0 +1,104 @@
+{
+  "version": "0.6",
+  "title": "Bellona Landing w01 VIP",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_landing_vip_hero",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "classic", "background_color": "#1B1D2A", "padding": {"unit": "px", "top": "120", "right": "60", "bottom": "120", "left": "60", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_vip_col1",
+          "elType": "column",
+          "settings": {"_column_size": 60},
+          "elements": [
+            {"id": "w01_landing_vip_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Programa Guardiãs Bellona", "header_size": "h1", "title_color": "#F5E6CC"}},
+            {"id": "w01_landing_vip_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Assinatura trimestral com joias atemporais, experiências exclusivas e acesso antecipado a coleções.</p>", "text_color": "#E3D7FF"}},
+            {"id": "w01_landing_vip_cta", "elType": "widget", "widgetType": "button", "settings": {"text": "Entrar para o círculo", "link": {"url": "https://bellona.example/vip"}, "background_color": "#F5E6CC", "color": "#1B1D2A", "size": "lg"}}
+          ]
+        },
+        {
+          "id": "w01_landing_vip_col2",
+          "elType": "column",
+          "settings": {"_column_size": 40},
+          "elements": [
+            {"id": "w01_landing_vip_card", "elType": "widget", "widgetType": "flip-box", "settings": {"front_title": "Benefício Imediato", "front_description": "Receba kit boas-vindas com peça hero.", "back_title": "Curadoria Mensal", "back_description": "Escolha entre 3 combinações guiadas por stylist Bellona."}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_vip_benefits",
+      "elType": "section",
+      "settings": {"structure": "25", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_vip_benefits_title",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_vip_benefits_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Seu escudo de vantagens", "align": "center"}}
+          ]
+        },
+        {
+          "id": "w01_landing_vip_benefits_columns",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_vip_benefits_iconbox", "elType": "widget", "widgetType": "icon-box", "settings": {"title": "Envio prioritário", "description": "Frete incluso e entrega expressa em até 48h em capitais."}},
+            {"id": "w01_landing_vip_benefits_iconbox2", "elType": "widget", "widgetType": "icon-box", "settings": {"title": "Stylist dedicado", "description": "Sessão online a cada ciclo com atualização de tendências."}},
+            {"id": "w01_landing_vip_benefits_iconbox3", "elType": "widget", "widgetType": "icon-box", "settings": {"title": "Créditos cumulativos", "description": "Transforme parte da mensalidade em crédito para lançamentos."}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_vip_steps",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "classic", "background_color": "#F5E6CC", "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_vip_steps_col1",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "w01_landing_vip_steps_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Como funciona", "header_size": "h2"}},
+            {"id": "w01_landing_vip_steps_timeline", "elType": "widget", "widgetType": "timeline", "settings": {"timeline_items": [
+              {"item_title": "Convite", "item_text": "Complete seus dados e escolha plano trimestral ou anual."},
+              {"item_title": "Curadoria", "item_text": "Stylist envia combinações inspiradas na sua constelação."},
+              {"item_title": "Entrega ritual", "item_text": "Receba peças embaladas com manifesto exclusivo."}
+            ]}}
+          ]
+        },
+        {
+          "id": "w01_landing_vip_steps_col2",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "w01_landing_vip_steps_form", "elType": "widget", "widgetType": "form", "settings": {"form_fields": [{"type": "text", "label": "Nome completo"}, {"type": "email", "label": "E-mail corporativo"}, {"type": "textarea", "label": "Estilo desejado"}], "submit_button_text": "Quero ser Guardiã"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_vip_faq",
+      "elType": "section",
+      "settings": {"structure": "100", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_vip_faq_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_vip_faq_toggle", "elType": "widget", "widgetType": "toggle", "settings": {"toggle": [
+              {"title": "Qual o prazo de envio?", "content": "Em até 48h após aprovação do pagamento."},
+              {"title": "Posso pausar o plano?", "content": "Sim, com aviso de 15 dias."},
+              {"title": "Há fidelidade?", "content": "Não. Preferimos fidelizar pelo encantamento."}
+            ]}}
+          ]
+        }
+      ]
+    }
+  ]
+}

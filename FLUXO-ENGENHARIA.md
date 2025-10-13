@@ -20,9 +20,9 @@ Este documento descreve o fluxo recomendado para planejar, implementar, revisar 
 
 | Caminho | Função principal | Considerações de engenharia |
 | --- | --- | --- |
-| `template-kits/README.md` | Visão geral dos kits disponíveis. | Atualize sempre que novos kits, páginas ou seções forem adicionados. |
-| `template-kits/hello-elementor/` | Kit oficial para o tema Hello Elementor. | Estruture subpastas (`pages/`, `sections/`, `popups/`) e documente dependências no `README.md` local. |
-| `template-kits/hello-elementor/pages/*.json` | Templates completos exportados do Elementor. | Valide a compatibilidade com Elementor e WooCommerce antes de versionar. |
+| `Assassesso/templates/README.md` | Visão geral dos kits disponíveis. | Atualize sempre que novos kits, páginas ou seções forem adicionados. |
+| `Assassesso/templates/hello-elementor/` | Kit oficial para o tema Hello Elementor. | Estruture subpastas (`pages/latest/`, `pages/archive/`, `sections/`) e documente dependências no `README.md` local. |
+| `Assassesso/templates/hello-elementor/pages/latest/*.json` | Templates completos exportados do Elementor. | Valide a compatibilidade com Elementor e WooCommerce antes de versionar. |
 | `docs/` | Documentação de apoio. | Inclui guias de uso, fluxo de engenharia e referências. |
 | `style.css`, `functions.php`, `theme/` | Tema filho legado. | Manter somente para compatibilidade; evite novos desenvolvimentos aqui salvo demandas específicas. |
 

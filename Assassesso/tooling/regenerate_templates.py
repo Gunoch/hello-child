@@ -1,9 +1,10 @@
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-PAGES_DIR = ROOT / "template-kits" / "hello-elementor" / "pages"
-TEMPLATES_DIR = ROOT / "template-kits" / "hello-elementor" / "templates"
+ASSASSESSO_ROOT = Path(__file__).resolve().parent.parent
+LATEST_DIR = ASSASSESSO_ROOT / "templates" / "hello-elementor" / "pages" / "latest"
+ARCHIVE_DIR = ASSASSESSO_ROOT / "templates" / "hello-elementor" / "pages" / "archive"
+SECTIONS_DIR = ASSASSESSO_ROOT / "templates" / "hello-elementor" / "sections"
 
 PALETTE = {
     "background_gradient_start": "#f8f5ff",
@@ -769,6 +770,17 @@ PAGE_MAP = {
     "bellona-sobre-v2": ("sobre", "Bellona Sobre v2"),
 }
 
+LATEST_SLUGS = {
+    "bellona-home-v2",
+    "bellona-lookbook-v2",
+    "bellona-contato-v2",
+    "bellona-colecao-aurora-v2",
+    "bellona-guia-cuidados-v2",
+    "bellona-politicas-troca-devolucao-v2",
+    "bellona-trocas-devolucoes-v2",
+    "bellona-sobre-v2",
+}
+
 TEMPLATE_MAP = {
     "bellona-politicas-troca-devolucao": ("politicas", "Bellona Políticas de Troca e Devoluções"),
 }
@@ -778,16 +790,17 @@ def main():
     for slug, (page_type, title) in PAGE_MAP.items():
         builder = PAGE_BUILDERS[page_type]
         data = builder(slug, title)
-        output_path = PAGES_DIR / f"{slug}.json"
+        target_dir = LATEST_DIR if slug in LATEST_SLUGS else ARCHIVE_DIR
+        output_path = target_dir / f"{slug}.json"
         output_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"Regenerated {output_path.relative_to(ROOT)}")
+        print(f"Regenerated {output_path.relative_to(ASSASSESSO_ROOT)}")
 
     for slug, (page_type, title) in TEMPLATE_MAP.items():
         builder = PAGE_BUILDERS[page_type]
         data = builder(slug, title)
-        output_path = TEMPLATES_DIR / f"{slug}.json"
+        output_path = SECTIONS_DIR / f"{slug}.json"
         output_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"Regenerated {output_path.relative_to(ROOT)}")
+        print(f"Regenerated {output_path.relative_to(ASSASSESSO_ROOT)}")
 
 
 if __name__ == "__main__":

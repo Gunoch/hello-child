@@ -1,0 +1,188 @@
+{
+  "version": "0.6",
+  "title": "Bellona Home w01 Vanguard",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_home_vanguard_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "background_background": "gradient",
+        "background_color": "#1B1D2A",
+        "background_color_b": "#4F5D75",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {"unit": "deg", "size": 160, "sizes": []},
+        "padding": {"unit": "px", "top": "110", "right": "40", "bottom": "110", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_vanguard_col1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "w01_home_vanguard_headline",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ritualize seus triunfos",
+                "header_size": "h1",
+                "title_color": "#E3D7FF"
+              }
+            }
+          ]
+        },
+        {
+          "id": "w01_home_vanguard_col2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "w01_home_vanguard_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Descubra peças com narrativa mitológica e ergonomia precisa para a rotina híbrida.</p>",
+                "text_color": "#F5E6CC"
+              }
+            },
+            {
+              "id": "w01_home_vanguard_stats",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 489,
+                "title": "Clientes Guardiãs",
+                "prefix": "+",
+                "duration": 1500,
+                "title_color": "#F5E6CC"
+              }
+            }
+          ]
+        },
+        {
+          "id": "w01_home_vanguard_col3",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "w01_home_vanguard_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Garantir minha constelação",
+                "link": {"url": "https://bellona.example/colecoes"},
+                "background_color": "#F5E6CC",
+                "color": "#1B1D2A",
+                "align": "stretch"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_vanguard_showcase",
+      "elType": "section",
+      "settings": {
+        "structure": "25",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_vanguard_tabs",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "w01_home_vanguard_tab_widget",
+              "elType": "widget",
+              "widgetType": "tabs",
+              "settings": {
+                "tabs": [
+                  {"tab_title": "Coleção Aegis", "tab_content": "<p>Peças inspiradas em escudos imperiais com contraste dourado e grafite.</p>"},
+                  {"tab_title": "Coleção Luar", "tab_content": "<p>Design fluido com banho champagne e zircônias lapidadas.</p>"},
+                  {"tab_title": "Coleção Sentinela", "tab_content": "<p>Braceletes articulados e brincos statement para lideranças.</p>"}
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "w01_home_vanguard_products",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "w01_home_vanguard_products_widget",
+              "elType": "widget",
+              "widgetType": "woocommerce-products",
+              "settings": {
+                "products_source": "manual",
+                "product_ids": "101,102,103,104",
+                "columns": 4,
+                "rows": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_vanguard_concierge",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "classic",
+        "background_color": "#F5E6CC",
+        "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_vanguard_concierge_col1",
+          "elType": "column",
+          "settings": {"_column_size": 60},
+          "elements": [
+            {
+              "id": "w01_home_vanguard_concierge_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Concierge Bellona 2h", "header_size": "h2"}
+            },
+            {
+              "id": "w01_home_vanguard_concierge_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Agende uma consultoria exclusiva para mapear peças que traduzem sua liderança.</p>"}
+            }
+          ]
+        },
+        {
+          "id": "w01_home_vanguard_concierge_col2",
+          "elType": "column",
+          "settings": {"_column_size": 40},
+          "elements": [
+            {
+              "id": "w01_home_vanguard_form",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_fields": [
+                  {"type": "text", "label": "Nome", "placeholder": "Como devemos chamar você?"},
+                  {"type": "email", "label": "E-mail", "placeholder": "seu@email.com"},
+                  {"type": "tel", "label": "WhatsApp", "placeholder": "+55 (__) _____-____"}
+                ],
+                "submit_button_text": "Agendar curadoria",
+                "submit_button_size": "lg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
