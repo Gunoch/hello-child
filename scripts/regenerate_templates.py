@@ -408,7 +408,7 @@ def create_home(page: str, title: str):
             hero_section(page, "Coleção 2024", "Sofisticação atemporal para cada movimento", "Um editorial completo com joias que transitam entre o cotidiano e ocasiões especiais, com materiais certificados e assinatura autoral.", "Ver catálogo", "Agendar consultoria", image_caption="Personalize sua combinação em até 48h"),
             cards_section(
                 f"{page}_destaques",
-                "Por que escolher a Ballona",
+                "Por que escolher a Bellona",
                 "Pensamos em cada detalhe da experiência, do design à entrega impecável.",
                 [
                     gallery_card(f"{page}_destaque_criacao", "Design autoral", "Coleções exclusivas desenvolvidas pela nossa diretora criativa com pesquisa de tendências globais."),
@@ -421,7 +421,7 @@ def create_home(page: str, title: str):
                 "Editorial Aurora",
                 [
                     "Inspirada nas luzes do amanhecer, Aurora une curvas fluidas e brilhos sutis que ressaltam diferentes tons de pele.",
-                    "Cada peça pode ser personalizada com gravações delicadas, criando histórias únicas para quem veste Ballona.",
+                    "Cada peça pode ser personalizada com gravações delicadas, criando histórias únicas para quem veste Bellona.",
                     "Disponível com envio expresso para todo o Brasil e retirada no ateliê em São Paulo.",
                 ],
             ),
@@ -436,7 +436,7 @@ def create_lookbook(page: str, title: str):
         "title": title,
         "type": "page",
         "content": [
-            hero_section(page, "Lookbook digital", "Curadoria Ballona para cada ocasião", "Explore produções completas com joias e styling assinados pelo nosso time criativo.", "Baixar lookbook", "Receber novidades", image_caption="Atualizado a cada lançamento"),
+            hero_section(page, "Lookbook digital", "Curadoria Bellona para cada ocasião", "Explore produções completas com joias e styling assinados pelo nosso time criativo.", "Baixar lookbook", "Receber novidades", image_caption="Atualizado a cada lançamento"),
             cards_section(
                 f"{page}_looks",
                 "Três atmosferas para inspirar",
@@ -451,7 +451,7 @@ def create_lookbook(page: str, title: str):
                 f"{page}_styling",
                 "Como criamos as produções",
                 [
-                    "Cada look é desenvolvido em parceria com stylists convidados e fotógrafos que traduzem o universo Ballona.",
+                    "Cada look é desenvolvido em parceria com stylists convidados e fotógrafos que traduzem o universo Bellona.",
                     "Indicamos combinações de joias, tecidos e cores que valorizam diferentes biotipos.",
                 ],
             ),
@@ -464,14 +464,14 @@ def create_contact(page: str, title: str):
     cards = [
         gallery_card(f"{page}_contato_atelie", "Ateliê SP", "Rua Girassol, 489 – Vila Madalena<br>Segunda a sábado, das 10h às 19h."),
         gallery_card(f"{page}_contato_whatsapp", "Consultoria digital", "WhatsApp +55 11 99999-0000<br>Retorno em até 15 minutos."),
-        gallery_card(f"{page}_contato_email", "E-mail", "contato@ballona.com<br>Respostas personalizadas em até 24h úteis."),
+        gallery_card(f"{page}_contato_email", "E-mail", "contato@bellona.com<br>Respostas personalizadas em até 24h úteis."),
     ]
     return {
         "version": "0.5",
         "title": title,
         "type": "page",
         "content": [
-            hero_section(page, "Fale com a Ballona", "Canais sempre próximos de você", "Escolha o canal ideal para tirar dúvidas, personalizar pedidos ou agendar visitas.", "Enviar mensagem", "Consultar horário"),
+            hero_section(page, "Fale com a Bellona", "Canais sempre próximos de você", "Escolha o canal ideal para tirar dúvidas, personalizar pedidos ou agendar visitas.", "Enviar mensagem", "Consultar horário"),
             cards_section(
                 f"{page}_canais",
                 "Canais diretos",
@@ -505,7 +505,7 @@ def create_collection(page: str, title: str):
                 [
                     gallery_card(f"{page}_caracteristica_modulos", "Módulos intercambiáveis", "Combine pingentes, correntes e ear cuffs para criar novas proporções."),
                     gallery_card(f"{page}_caracteristica_gemas", "Gemas em degradê", "Quartzos, topázios e safiras selecionadas para transições cromáticas suaves."),
-                    gallery_card(f"{page}_caracteristica_acabamento", "Acabamentos acetinados", "Toque aveludado com microtexturas exclusivas da Ballona."),
+                    gallery_card(f"{page}_caracteristica_acabamento", "Acabamentos acetinados", "Toque aveludado com microtexturas exclusivas da Bellona."),
                 ],
             ),
             narrative_section(
@@ -527,7 +527,7 @@ def create_experience(page: str, title: str):
         "title": title,
         "type": "page",
         "content": [
-            hero_section(page, "Experiência Ballona", "Um ritual completo de compra", "Da primeira consulta ao pós-entrega, acompanhamos cada passo com atenção.", "Conhecer etapas", "Ver depoimentos", image_caption="Time dedicado a você"),
+            hero_section(page, "Experiência Bellona", "Um ritual completo de compra", "Da primeira consulta ao pós-entrega, acompanhamos cada passo com atenção.", "Conhecer etapas", "Ver depoimentos", image_caption="Time dedicado a você"),
             cards_section(
                 f"{page}_etapas",
                 "Nossa jornada",
@@ -557,7 +557,7 @@ def create_team(page: str, title: str):
         "title": title,
         "type": "page",
         "content": [
-            hero_section(page, "Equipe Ballona", "Criativas, artesãs e especialistas em joias", "Conheça quem dá vida às coleções e garante uma jornada impecável.", "Ver bastidores", "Enviar portfólio"),
+            hero_section(page, "Equipe Bellona", "Criativas, artesãs e especialistas em joias", "Conheça quem dá vida às coleções e garante uma jornada impecável.", "Ver bastidores", "Enviar portfólio"),
             cards_section(
                 f"{page}_lideres",
                 "Lideranças criativas",
@@ -587,7 +587,7 @@ def create_faq(page: str, title: str):
         "title": title,
         "type": "page",
         "content": [
-            hero_section(page, "FAQ Ballona", "Respostas rápidas para suas dúvidas", "Reunimos as principais perguntas sobre prazos, ajustes e políticas da marca.", "Ver políticas", "Chamar atendimento"),
+            hero_section(page, "FAQ Bellona", "Respostas rápidas para suas dúvidas", "Reunimos as principais perguntas sobre prazos, ajustes e políticas da marca.", "Ver políticas", "Chamar atendimento"),
             cards_section(
                 f"{page}_perguntas",
                 "Principais temas",
@@ -606,7 +606,7 @@ def create_faq(page: str, title: str):
                     "Também oferecemos guias detalhados em PDF com recomendações de cuidados e políticas completas.",
                 ],
             ),
-            cta_section(f"{page}_cta", "Converse com a Ballona", "Teremos prazer em ajudar na sua decisão.", "Abrir chat", "Mandar e-mail"),
+            cta_section(f"{page}_cta", "Converse com a Bellona", "Teremos prazer em ajudar na sua decisão.", "Abrir chat", "Mandar e-mail"),
         ],
     }
 
@@ -617,7 +617,7 @@ def create_care(page: str, title: str):
         "title": title,
         "type": "page",
         "content": [
-            hero_section(page, "Guia de cuidados", "Como preservar o brilho das suas joias", "Recomendações simples para manter peças Ballona impecáveis por gerações.", "Baixar guia", "Solicitar kit de limpeza", image_caption="Manual atualizado trimestralmente"),
+            hero_section(page, "Guia de cuidados", "Como preservar o brilho das suas joias", "Recomendações simples para manter peças Bellona impecáveis por gerações.", "Baixar guia", "Solicitar kit de limpeza", image_caption="Manual atualizado trimestralmente"),
             cards_section(
                 f"{page}_rotina",
                 "Rotina essencial",
@@ -630,7 +630,7 @@ def create_care(page: str, title: str):
             ),
             narrative_section(
                 f"{page}_manutencao",
-                "Serviços Ballona",
+                "Serviços Bellona",
                 [
                     "Oferecemos polimento anual gratuito e avaliação completa de gemas e cravações.",
                     "Para reparos avançados, nosso ateliê garante prazos ágeis e comunicação transparente.",
@@ -647,7 +647,7 @@ def create_policy(page: str, title: str):
         "title": title,
         "type": "page",
         "content": [
-            hero_section(page, "Políticas Ballona", "Transparência em cada etapa", "Confira como funcionam nossas trocas, devoluções e garantias.", "Ver prazos", "Solicitar suporte"),
+            hero_section(page, "Políticas Bellona", "Transparência em cada etapa", "Confira como funcionam nossas trocas, devoluções e garantias.", "Ver prazos", "Solicitar suporte"),
             cards_section(
                 f"{page}_politicas",
                 "Aspectos principais",
@@ -677,7 +677,7 @@ def create_about(page: str, title: str):
         "title": title,
         "type": "page",
         "content": [
-            hero_section(page, "Sobre a Ballona", "Joias que celebram histórias", "Somos uma joalheria brasileira independente com foco em processos responsáveis e design contemporâneo.", "Conhecer manifesto", "Ver bastidores", image_caption="Fundada em 2014"),
+            hero_section(page, "Sobre a Bellona", "Joias que celebram histórias", "Somos uma joalheria brasileira independente com foco em processos responsáveis e design contemporâneo.", "Conhecer manifesto", "Ver bastidores", image_caption="Fundada em 2014"),
             cards_section(
                 f"{page}_pilares",
                 "Nossos pilares",
@@ -723,7 +723,7 @@ def create_exchange(page: str, title: str):
                 f"{page}_condicoes",
                 "Condições importantes",
                 [
-                    "As peças devem estar sem sinais de uso e acompanhadas do certificado Ballona.",
+                    "As peças devem estar sem sinais de uso e acompanhadas do certificado Bellona.",
                     "Personalizações mantêm cobertura de ajustes gratuitos dentro do primeiro ano.",
                 ],
             ),
@@ -748,29 +748,29 @@ PAGE_BUILDERS = {
 
 
 PAGE_MAP = {
-    "ballona-home": ("home", "Ballona Home"),
-    "ballona-home-v2": ("home", "Ballona Home v2"),
-    "ballona-lookbook": ("lookbook", "Ballona Lookbook"),
-    "ballona-lookbook-v2": ("lookbook", "Ballona Lookbook v2"),
-    "ballona-contato": ("contato", "Ballona Contato"),
-    "ballona-contato-v2": ("contato", "Ballona Contato v2"),
-    "ballona-colecao-aurora": ("colecao", "Ballona Coleção Aurora"),
-    "ballona-colecao-aurora-v2": ("colecao", "Ballona Coleção Aurora v2"),
-    "ballona-experiencia": ("experiencia", "Ballona Experiência"),
-    "ballona-equipe": ("equipe", "Ballona Equipe"),
-    "ballona-faq": ("faq", "Ballona FAQ"),
-    "ballona-guia-cuidados": ("guia", "Ballona Guia de Cuidados"),
-    "ballona-guia-cuidados-v2": ("guia", "Ballona Guia de Cuidados v2"),
-    "ballona-politicas-troca-devolucao": ("politicas", "Ballona Políticas"),
-    "ballona-politicas-troca-devolucao-v2": ("politicas", "Ballona Políticas v2"),
-    "ballona-trocas-devolucoes": ("trocas", "Ballona Trocas e Devoluções"),
-    "ballona-trocas-devolucoes-v2": ("trocas", "Ballona Trocas e Devoluções v2"),
-    "ballona-sobre": ("sobre", "Ballona Sobre"),
-    "ballona-sobre-v2": ("sobre", "Ballona Sobre v2"),
+    "bellona-home": ("home", "Bellona Home"),
+    "bellona-home-v2": ("home", "Bellona Home v2"),
+    "bellona-lookbook": ("lookbook", "Bellona Lookbook"),
+    "bellona-lookbook-v2": ("lookbook", "Bellona Lookbook v2"),
+    "bellona-contato": ("contato", "Bellona Contato"),
+    "bellona-contato-v2": ("contato", "Bellona Contato v2"),
+    "bellona-colecao-aurora": ("colecao", "Bellona Coleção Aurora"),
+    "bellona-colecao-aurora-v2": ("colecao", "Bellona Coleção Aurora v2"),
+    "bellona-experiencia": ("experiencia", "Bellona Experiência"),
+    "bellona-equipe": ("equipe", "Bellona Equipe"),
+    "bellona-faq": ("faq", "Bellona FAQ"),
+    "bellona-guia-cuidados": ("guia", "Bellona Guia de Cuidados"),
+    "bellona-guia-cuidados-v2": ("guia", "Bellona Guia de Cuidados v2"),
+    "bellona-politicas-troca-devolucao": ("politicas", "Bellona Políticas"),
+    "bellona-politicas-troca-devolucao-v2": ("politicas", "Bellona Políticas v2"),
+    "bellona-trocas-devolucoes": ("trocas", "Bellona Trocas e Devoluções"),
+    "bellona-trocas-devolucoes-v2": ("trocas", "Bellona Trocas e Devoluções v2"),
+    "bellona-sobre": ("sobre", "Bellona Sobre"),
+    "bellona-sobre-v2": ("sobre", "Bellona Sobre v2"),
 }
 
 TEMPLATE_MAP = {
-    "ballona-politicas-troca-devolucao": ("politicas", "Ballona Políticas de Troca e Devoluções"),
+    "bellona-politicas-troca-devolucao": ("politicas", "Bellona Políticas de Troca e Devoluções"),
 }
 
 

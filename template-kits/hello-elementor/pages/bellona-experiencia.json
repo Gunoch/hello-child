@@ -1,0 +1,1106 @@
+{
+  "version": "0.5",
+  "title": "Bellona Experiência",
+  "type": "page",
+  "content": [
+    {
+      "id": "bellona-experiencia_hero_section",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#f8f5ff",
+        "background_color_b": "#fcefed",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 125,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-experiencia_hero_content",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "40",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona-experiencia_hero_badge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Experiência Bellona",
+                "header_size": "span",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#7f3dff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_hero_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Um ritual completo de compra",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 58,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_hero_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Da primeira consulta ao pós-entrega, acompanhamos cada passo com atenção.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "28",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_hero_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "align": "left",
+                "width": {
+                  "unit": "%",
+                  "size": "15",
+                  "sizes": []
+                },
+                "line_height": {
+                  "unit": "px",
+                  "size": 4,
+                  "sizes": []
+                },
+                "color": "#7f3dff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_hero_button_row",
+              "elType": "section",
+              "settings": {
+                "content_width": "full",
+                "gap_columns": "no"
+              },
+              "elements": [
+                {
+                  "id": "bellona-experiencia_hero_button_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "layout": "flex",
+                    "align_items": "center",
+                    "gap": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-experiencia_hero_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Conhecer etapas",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "info",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-experiencia_hero_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Ver depoimentos",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "outline",
+                        "background_color": "#ffffff",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
+                        "hover_text_color": "#ffffff",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bellona-experiencia_hero_visual",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "48",
+              "bottom": "48",
+              "left": "48",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 30,
+              "blur": 60,
+              "spread": -12,
+              "color": "rgba(23,14,52,0.12)"
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona-experiencia_hero_visual_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Detalhes artesanais",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_hero_visual_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Metais nobres, lapidação criteriosa e acabamentos que respeitam a beleza natural de cada pedra.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_hero_caption",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Time dedicado a você</strong></p>",
+                "align": "left",
+                "text_color": "#7f3dff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-experiencia_etapas",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-experiencia_etapas_header",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "24",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona-experiencia_etapas_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nossa jornada",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_etapas_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Três etapas desenhadas para encantar.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bellona-experiencia_etapas_grid",
+          "elType": "section",
+          "settings": {
+            "content_width": "full",
+            "gap": "no",
+            "structure": "33"
+          },
+          "elements": [
+            {
+              "id": "bellona-experiencia_etapa_consulta",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "bellona-experiencia_etapa_consulta_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Consulta inspiradora",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bellona-experiencia_etapa_consulta_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Conversamos sobre estilo de vida, ocasiões e preferências para sugerir combinações.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-experiencia_etapa_prova",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "bellona-experiencia_etapa_prova_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Prova guiada",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bellona-experiencia_etapa_prova_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Enviamos um kit com peças selecionadas e orientamos virtualmente cada ajuste.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-experiencia_etapa_pos",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "bellona-experiencia_etapa_pos_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Acompanhamento",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bellona-experiencia_etapa_pos_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Registramos a peça e oferecemos manutenção vitalícia com agenda flexível.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-experiencia_sensacoes",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "48",
+          "bottom": "72",
+          "left": "48",
+          "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 20,
+          "blur": 50,
+          "spread": -16,
+          "color": "rgba(23,14,52,0.08)"
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-experiencia_sensacoes_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-experiencia_sensacoes_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sensações que nos guiam",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_sensacoes_paragraph_1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Queremos que cada cliente sinta pertencimento, confiança e brilho autêntico.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_sensacoes_paragraph_2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Por isso, combinamos tecnologia de medição com artesãos experientes.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-experiencia_cta",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#7f3dff",
+        "background_color_b": "#ff8660",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 140,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "48",
+          "bottom": "64",
+          "left": "48",
+          "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 25,
+          "blur": 60,
+          "spread": -18,
+          "color": "rgba(0,0,0,0.15)"
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-experiencia_cta_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "layout": "flex",
+            "direction": "column",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "bellona-experiencia_cta_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Pronta para viver a experiência?",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#ffffff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_cta_subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Agende sua primeira conversa com nossa equipe de especialistas.</p>",
+                "align": "center",
+                "text_color": "#f8f5ff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-experiencia_cta_buttons",
+              "elType": "section",
+              "settings": {
+                "content_width": "full",
+                "structure": "50",
+                "gap_columns": "no"
+              },
+              "elements": [
+                {
+                  "id": "bellona-experiencia_cta_buttons_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "layout": "flex",
+                    "justify_content": "center",
+                    "gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-experiencia_cta_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Agendar encontro",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "info",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-experiencia_cta_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Ler histórias",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "outline",
+                        "background_color": "#ffffff",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
+                        "hover_text_color": "#ffffff",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
