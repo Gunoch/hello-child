@@ -4,203 +4,147 @@
   "type": "page",
   "content": [
     {
-      "id": "policy_header_section",
+      "id": "ballona-politicas-troca-devolucao_hero_section",
       "elType": "section",
       "settings": {
-        "structure": "20",
+        "structure": "50",
         "content_width": "boxed",
-        "gap_columns": "no",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#f8f5ff",
+        "background_color_b": "#fcefed",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 125,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
-          "top": "24",
-          "right": "0",
-          "bottom": "24",
-          "left": "0",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "policy_header_column_logo",
+          "id": "ballona-politicas-troca-devolucao_hero_content",
           "elType": "column",
           "settings": {
-            "_column_size": 20,
-            "vertical_align": "middle"
+            "_column_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "40",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
           },
           "elements": [
             {
-              "id": "policy_header_logo",
+              "id": "ballona-politicas-troca-devolucao_hero_badge",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "<span>Ballona</span>",
-                "link": {
-                  "url": "#"
-                },
+                "title": "Políticas Ballona",
+                "header_size": "span",
                 "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 28,
-                  "sizes": []
-                },
-                "typography_font_weight": "700",
-                "text_color": "#23163f"
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "policy_header_column_nav",
-          "elType": "column",
-          "settings": {
-            "_column_size": 80,
-            "vertical_align": "middle"
-          },
-          "elements": [
-            {
-              "id": "policy_header_menu",
-              "elType": "widget",
-              "widgetType": "nav-menu",
-              "settings": {
-                "layout": "horizontal",
-                "align_items": "right",
-                "pointer": "underline",
-                "menu_items": [
-                  {
-                    "item_text": "Sobre a Ballona",
-                    "item_url": {
-                      "url": "#sobre"
-                    }
-                  },
-                  {
-                    "item_text": "Coleções",
-                    "item_url": {
-                      "url": "#colecoes"
-                    }
-                  },
-                  {
-                    "item_text": "Novidades",
-                    "item_url": {
-                      "url": "#novidades"
-                    }
-                  },
-                  {
-                    "item_text": "Cuidados",
-                    "item_url": {
-                      "url": "#cuidados"
-                    }
-                  },
-                  {
-                    "item_text": "Políticas",
-                    "item_url": {
-                      "url": "#"
-                    }
-                  }
-                ],
-                "toggle_align": "right",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_font_weight": "500",
-                "text_color": "#3d2d66"
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "policy_top_banner",
-      "elType": "section",
-      "settings": {
-        "content_width": "full",
-        "gap_columns": "no",
-        "padding": {
-          "unit": "px",
-          "top": "12",
-          "right": "12",
-          "bottom": "12",
-          "left": "12",
-          "isLinked": true
-        },
-        "background_background": "classic",
-        "background_color": "#c4376d"
-      },
-      "elements": [
-        {
-          "id": "policy_top_banner_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "vertical_align": "middle"
-          },
-          "elements": [
-            {
-              "id": "policy_top_banner_text",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Frete grátis acima de R$299",
-                "align": "center",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
+                  "size": 18,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#ffffff"
+                "text_color": "#7f3dff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
               },
               "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "policy_intro_section",
-      "elType": "section",
-      "settings": {
-        "content_width": "boxed",
-        "gap_columns": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "72",
-          "right": "0",
-          "bottom": "32",
-          "left": "0",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "policy_intro_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100
-          },
-          "elements": [
+            },
             {
-              "id": "policy_page_title",
+              "id": "ballona-politicas-troca-devolucao_hero_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Políticas de Troca e Devoluções",
+                "title": "Transparência em cada etapa",
+                "header_size": "h2",
                 "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 40,
+                  "size": 58,
                   "sizes": []
                 },
                 "typography_font_weight": "700",
-                "text_color": "#241646",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-politicas-troca-devolucao_hero_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Confira como funcionam nossas trocas, devoluções e garantias.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "28",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-politicas-troca-devolucao_hero_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "align": "left",
+                "width": {
+                  "unit": "%",
+                  "size": "15",
+                  "sizes": []
+                },
+                "line_height": {
+                  "unit": "px",
+                  "size": 4,
+                  "sizes": []
+                },
+                "color": "#7f3dff",
                 "margin": {
                   "unit": "px",
                   "top": "0",
@@ -213,371 +157,159 @@
               "elements": []
             },
             {
-              "id": "policy_intro_text",
-              "elType": "widget",
-              "widgetType": "text-editor",
+              "id": "ballona-politicas-troca-devolucao_hero_button_row",
+              "elType": "section",
               "settings": {
-                "editor": "<p>Na Ballona, queremos que você se apaixone pelas suas semijoias. Mas, se algo não sair como esperado, garantimos um processo simples e transparente de trocas e devoluções.</p>",
-                "align": "left",
-                "text_color": "#493a78",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                }
+                "content_width": "full",
+                "gap_columns": "no"
               },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "policy_content_section",
-      "elType": "section",
-      "settings": {
-        "content_width": "boxed",
-        "gap_columns": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "0",
-          "right": "0",
-          "bottom": "56",
-          "left": "0",
-          "isLinked": false
-        },
-        "background_background": "classic",
-        "background_color": "#ffffff"
-      },
-      "elements": [
-        {
-          "id": "policy_content_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "16",
-              "bottom": "0",
-              "left": "16",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "policy_content_text",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<ol><li><strong>Direito de Arrependimento</strong><p>Conforme o Código de Defesa do Consumidor, você tem até 7 dias corridos após o recebimento do seu pedido para desistir da compra.</p><ul><li><strong>Como funciona:</strong><ul><li>Entre em contato com nosso atendimento via WhatsApp, e-mail ou Instagram informando seu pedido e a intenção de devolução.</li><li>Enviaremos as instruções para a devolução do produto.</li><li>O reembolso do valor será total, incluindo o frete.</li></ul></li><li><strong>Condições:</strong><ul><li>O produto deve ser devolvido sem uso, em sua embalagem original e com as tags intactas.</li></ul></li></ul></li><li><strong>Troca por Defeito ou Avaria</strong><p>Se o seu produto chegar com defeito de fabricação ou danificado, você pode solicitar a troca ou devolução nos seguintes prazos:</p><ul><li>Até 90 dias para produtos duráveis.</li><li><strong>Como funciona:</strong><ul><li>Entre em contato com fotos ou vídeos que mostrem o defeito.</li><li>Após a avaliação, enviaremos as instruções para devolução.</li><li>Você poderá escolher entre a troca por um produto igual (sujeito a estoque) ou o reembolso integral, incluindo o frete.</li></ul></li></ul></li></ol><h3>Canais de Atendimento</h3><ul><li>WhatsApp: +55 xx xxxx-XXXX</li><li>E-mail: suporte@lojademvp.com</li><li>Instagram: @lojademvp</li><li>Horário: Segunda a sexta, das 9h às 18h.</li></ul>",
-                "align": "left",
-                "text_color": "#3d2d66",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.9,
-                  "sizes": []
+              "elements": [
+                {
+                  "id": "ballona-politicas-troca-devolucao_hero_button_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "layout": "flex",
+                    "align_items": "center",
+                    "gap": {
+                      "unit": "px",
+                      "size": 20,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ballona-politicas-troca-devolucao_hero_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Ver prazos",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "info",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ballona-politicas-troca-devolucao_hero_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Solicitar suporte",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "outline",
+                        "background_color": "#ffffff",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
+                        "hover_text_color": "#ffffff",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
                 }
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "policy_gallery_section",
-      "elType": "section",
-      "settings": {
-        "structure": "20",
-        "content_width": "boxed",
-        "gap": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "48",
-          "right": "0",
-          "bottom": "48",
-          "left": "0",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "policy_gallery_column_one",
-          "elType": "column",
-          "settings": {
-            "_column_size": 50,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "12",
-              "bottom": "0",
-              "left": "12",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "policy_image_one",
-              "elType": "widget",
-              "widgetType": "image",
-              "settings": {
-                "image": {
-                  "url": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=800&q=80"
-                },
-                "image_size": "full",
-                "align": "stretch",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "16",
-                  "bottom": "16",
-                  "left": "16",
-                  "isLinked": true
-                }
-              },
-              "elements": []
+              ]
             }
           ]
         },
         {
-          "id": "policy_gallery_column_two",
+          "id": "ballona-politicas-troca-devolucao_hero_visual",
           "elType": "column",
           "settings": {
             "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": true
+            },
             "padding": {
               "unit": "px",
-              "top": "0",
-              "right": "12",
-              "bottom": "0",
-              "left": "12",
+              "top": "48",
+              "right": "48",
+              "bottom": "48",
+              "left": "48",
               "isLinked": false
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 30,
+              "blur": 60,
+              "spread": -12,
+              "color": "rgba(23,14,52,0.12)"
             }
           },
           "elements": [
             {
-              "id": "policy_image_two",
-              "elType": "widget",
-              "widgetType": "image",
-              "settings": {
-                "image": {
-                  "url": "https://images.unsplash.com/photo-1522312346375-1b47d1ed50a1?auto=format&fit=crop&w=800&q=80"
-                },
-                "image_size": "full",
-                "align": "stretch",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "16",
-                  "bottom": "16",
-                  "left": "16",
-                  "isLinked": true
-                }
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "policy_cta_section",
-      "elType": "section",
-      "settings": {
-        "content_width": "boxed",
-        "gap_columns": "no",
-        "padding": {
-          "unit": "px",
-          "top": "64",
-          "right": "0",
-          "bottom": "64",
-          "left": "0",
-          "isLinked": false
-        },
-        "background_background": "gradient",
-        "background_color": "#f4f0ff",
-        "background_color_b": "#fde8f2",
-        "background_gradient_type": "linear",
-        "background_gradient_angle": {
-          "unit": "deg",
-          "size": 135,
-          "sizes": []
-        },
-        "border_radius": {
-          "unit": "px",
-          "top": "32",
-          "right": "32",
-          "bottom": "32",
-          "left": "32",
-          "isLinked": true
-        }
-      },
-      "elements": [
-        {
-          "id": "policy_cta_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "align": "center",
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "40",
-              "bottom": "0",
-              "left": "40",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "policy_cta_title",
+              "id": "ballona-politicas-troca-devolucao_hero_visual_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Siga a Ballona nas redes",
-                "align": "center",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 32,
-                  "sizes": []
-                },
-                "typography_font_weight": "700",
-                "text_color": "#241646"
-              },
-              "elements": []
-            },
-            {
-              "id": "policy_cta_text",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Descubra lançamentos exclusivos e bastidores da nossa curadoria premium.</p>",
-                "align": "center",
-                "text_color": "#4a3c75",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                },
-                "margin": {
-                  "unit": "px",
-                  "top": "16",
-                  "right": "0",
-                  "bottom": "32",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "policy_cta_button",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "Ver novidades no Instagram",
-                "align": "center",
-                "size": "lg",
-                "button_type": "info",
-                "background_color": "#c4376d",
-                "hover_background_color": "#9c2853",
-                "text_color": "#ffffff",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "48",
-                  "right": "48",
-                  "bottom": "48",
-                  "left": "48",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "42",
-                  "bottom": "18",
-                  "left": "42",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "policy_footer_section",
-      "elType": "section",
-      "settings": {
-        "structure": "33",
-        "content_width": "boxed",
-        "gap": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "56",
-          "right": "0",
-          "bottom": "56",
-          "left": "0",
-          "isLinked": false
-        },
-        "background_background": "classic",
-        "background_color": "#1a102e"
-      },
-      "elements": [
-        {
-          "id": "policy_footer_column_brand",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "16",
-              "bottom": "0",
-              "left": "16",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "policy_footer_logo",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "<span>Ballona</span>",
+                "title": "Detalhes artesanais",
+                "header_size": "h2",
                 "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 24,
+                  "size": 22,
                   "sizes": []
                 },
-                "typography_font_weight": "700",
-                "text_color": "#ffffff",
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "16",
+                  "bottom": "12",
                   "left": "0",
                   "isLinked": false
                 }
@@ -585,13 +317,13 @@
               "elements": []
             },
             {
-              "id": "policy_footer_description",
+              "id": "ballona-politicas-troca-devolucao_hero_visual_text",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Semijoias autorais com acabamento impecável para acompanhar você em todos os momentos.</p>",
+                "editor": "<p>Metais nobres, lapidação criteriosa e acabamentos que respeitam a beleza natural de cada pedra.</p>",
                 "align": "left",
-                "text_color": "#d6cff2",
+                "text_color": "#594f72",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
@@ -600,8 +332,108 @@
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.8,
+                  "size": 1.7,
                   "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ballona-politicas-troca-devolucao_politicas",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "ballona-politicas-troca-devolucao_politicas_header",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "24",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "ballona-politicas-troca-devolucao_politicas_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Aspectos principais",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-politicas-troca-devolucao_politicas_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Resumo das políticas oficiais.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": []
@@ -609,31 +441,489 @@
           ]
         },
         {
-          "id": "policy_footer_column_links",
-          "elType": "column",
+          "id": "ballona-politicas-troca-devolucao_politicas_grid",
+          "elType": "section",
           "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "16",
-              "bottom": "0",
-              "left": "16",
-              "isLinked": false
-            }
+            "content_width": "full",
+            "gap": "no",
+            "structure": "33"
           },
           "elements": [
             {
-              "id": "policy_footer_links_title",
+              "id": "ballona-politicas-troca-devolucao_politica_troca",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ballona-politicas-troca-devolucao_politica_troca_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Trocas",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-politicas-troca-devolucao_politica_troca_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Aceitas em até 30 dias com embalagem original e certificado.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ballona-politicas-troca-devolucao_politica_devolucao",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ballona-politicas-troca-devolucao_politica_devolucao_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Devoluções",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-politicas-troca-devolucao_politica_devolucao_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Prazo de 7 dias úteis após o recebimento conforme CDC.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ballona-politicas-troca-devolucao_politica_garantia",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ballona-politicas-troca-devolucao_politica_garantia_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Garantia",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-politicas-troca-devolucao_politica_garantia_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Cobertura vitalícia para defeitos de fabricação e manutenção gratuita anual.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ballona-politicas-troca-devolucao_processo",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "48",
+          "bottom": "72",
+          "left": "48",
+          "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 20,
+          "blur": 50,
+          "spread": -16,
+          "color": "rgba(23,14,52,0.08)"
+        }
+      },
+      "elements": [
+        {
+          "id": "ballona-politicas-troca-devolucao_processo_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "ballona-politicas-troca-devolucao_processo_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Atendimento",
-                "align": "left",
+                "title": "Como solicitar",
+                "header_size": "h2",
+                "align": "center",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 18,
+                  "size": 36,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-politicas-troca-devolucao_processo_paragraph_1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Faça contato pelo nosso canal oficial indicando número do pedido, produto e motivo.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-politicas-troca-devolucao_processo_paragraph_2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Enviamos etiqueta reversa, orientações de embalagem e acompanhamos cada etapa até a conclusão.</p>",
+                "align": "center",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ballona-politicas-troca-devolucao_cta",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#7f3dff",
+        "background_color_b": "#ff8660",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 140,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "48",
+          "bottom": "64",
+          "left": "48",
+          "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 25,
+          "blur": 60,
+          "spread": -18,
+          "color": "rgba(0,0,0,0.15)"
+        }
+      },
+      "elements": [
+        {
+          "id": "ballona-politicas-troca-devolucao_cta_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "layout": "flex",
+            "direction": "column",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ballona-politicas-troca-devolucao_cta_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Precisa acionar uma política?",
+                "header_size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
@@ -650,12 +940,13 @@
               "elements": []
             },
             {
-              "id": "policy_footer_links_list",
+              "id": "ballona-politicas-troca-devolucao_cta_subtitle",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<ul><li><a href=\"mailto:suporte@lojademvp.com\" style=\"color:#d6cff2;\">suporte@lojademvp.com</a></li><li><a href=\"https://wa.me/55xxxxxxxxxx\" style=\"color:#d6cff2;\">WhatsApp</a></li><li><a href=\"https://instagram.com/lojademvp\" style=\"color:#d6cff2;\">Instagram</a></li></ul>",
-                "align": "left",
+                "editor": "<p>Estamos disponíveis para apoiar com agilidade e cuidado.</p>",
+                "align": "center",
+                "text_color": "#f8f5ff",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
@@ -664,50 +955,118 @@
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.8,
+                  "size": 1.7,
                   "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": []
-            }
-          ]
-        },
-        {
-          "id": "policy_footer_column_copy",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "16",
-              "bottom": "0",
-              "left": "16",
-              "isLinked": false
-            }
-          },
-          "elements": [
+            },
             {
-              "id": "policy_footer_newsletter",
-              "elType": "widget",
-              "widgetType": "text-editor",
+              "id": "ballona-politicas-troca-devolucao_cta_buttons",
+              "elType": "section",
               "settings": {
-                "editor": "<p>&copy; 2024 Ballona. Todos os direitos reservados.</p>",
-                "align": "left",
-                "text_color": "#d6cff2",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.6,
-                  "sizes": []
-                }
+                "content_width": "full",
+                "structure": "50",
+                "gap_columns": "no"
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "ballona-politicas-troca-devolucao_cta_buttons_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "layout": "flex",
+                    "justify_content": "center",
+                    "gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ballona-politicas-troca-devolucao_cta_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Abrir solicitação",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "info",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ballona-politicas-troca-devolucao_cta_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Ver FAQ",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "outline",
+                        "background_color": "#ffffff",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
+                        "hover_text_color": "#ffffff",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

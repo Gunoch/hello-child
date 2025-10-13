@@ -1,52 +1,55 @@
 {
-  "version": "0.6",
-  "title": "Ballona Coleção Aurora V2",
+  "version": "0.5",
+  "title": "Ballona Coleção Aurora v2",
   "type": "page",
   "content": [
     {
-      "id": "hero_modern_section",
+      "id": "ballona-colecao-aurora-v2_hero_section",
       "elType": "section",
       "settings": {
-        "structure": "20",
+        "structure": "50",
         "content_width": "boxed",
         "gap": "extended",
-        "height": "min-height",
-        "min_height": 560,
         "background_background": "gradient",
-        "background_color": "#e9fbff",
-        "background_color_b": "#e2fff6",
+        "background_color": "#f8f5ff",
+        "background_color_b": "#fcefed",
         "background_gradient_type": "linear",
         "background_gradient_angle": {
           "unit": "deg",
-          "size": 135,
+          "size": 125,
           "sizes": []
         },
-        "shape_divider_bottom": "tilt",
-        "shape_divider_bottom_negative": "yes",
-        "shape_divider_bottom_color": "#ffffff"
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
       },
       "elements": [
         {
-          "id": "hero_modern_column",
+          "id": "ballona-colecao-aurora-v2_hero_content",
           "elType": "column",
           "settings": {
-            "_column_size": 100,
+            "_column_size": 50,
             "padding": {
               "unit": "px",
-              "top": "40",
+              "top": "0",
               "right": "40",
-              "bottom": "40",
-              "left": "40",
+              "bottom": "0",
+              "left": "0",
               "isLinked": false
             }
           },
           "elements": [
             {
-              "id": "hero_modern_badge",
+              "id": "ballona-colecao-aurora-v2_hero_badge",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Coleção Aurora V2",
+                "title": "Coleção Aurora",
                 "header_size": "span",
                 "align": "left",
                 "typography_typography": "custom",
@@ -56,53 +59,12 @@
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#13a189",
-                "background_background": "classic",
-                "background_color": "#ffffff",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "32",
-                  "right": "32",
-                  "bottom": "32",
-                  "left": "32",
-                  "isLinked": true
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "8",
-                  "right": "24",
-                  "bottom": "8",
-                  "left": "24",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "hero_modern_title",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Semijoias que dançam com a luz em qualquer cenário",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 64,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.05,
-                  "sizes": []
-                },
-                "typography_font_weight": "700",
-                "text_color": "#1d3557",
+                "text_color": "#7f3dff",
                 "margin": {
                   "unit": "px",
-                  "top": "24",
+                  "top": "0",
                   "right": "0",
-                  "bottom": "16",
+                  "bottom": "12",
                   "left": "0",
                   "isLinked": false
                 }
@@ -110,28 +72,56 @@
               "elements": []
             },
             {
-              "id": "hero_modern_description",
+              "id": "ballona-colecao-aurora-v2_hero_title",
               "elType": "widget",
-              "widgetType": "text-editor",
+              "widgetType": "heading",
               "settings": {
-                "editor": "<p>A coleção Aurora apresenta volumes orgânicos, cristais lapidados à mão e banhos luminosos que ressaltam cada tom de pele.</p>",
-                "text_color": "#2c5672",
+                "title": "Brilho suave inspirado no amanhecer",
+                "header_size": "h2",
+                "align": "left",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 20,
+                  "size": 58,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-colecao-aurora-v2_hero_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Peças moduláveis com gemas em degradê, perfeitas para iluminar o dia inteiro.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.8,
+                  "size": 1.7,
                   "sizes": []
                 },
                 "margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
-                  "bottom": "32",
+                  "bottom": "28",
                   "left": "0",
                   "isLinked": false
                 }
@@ -139,7 +129,35 @@
               "elements": []
             },
             {
-              "id": "hero_modern_buttons",
+              "id": "ballona-colecao-aurora-v2_hero_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "align": "left",
+                "width": {
+                  "unit": "%",
+                  "size": "15",
+                  "sizes": []
+                },
+                "line_height": {
+                  "unit": "px",
+                  "size": 4,
+                  "sizes": []
+                },
+                "color": "#7f3dff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-colecao-aurora-v2_hero_button_row",
               "elType": "section",
               "settings": {
                 "content_width": "full",
@@ -147,7 +165,7 @@
               },
               "elements": [
                 {
-                  "id": "hero_modern_button_column",
+                  "id": "ballona-colecao-aurora-v2_hero_button_column",
                   "elType": "column",
                   "settings": {
                     "_column_size": 100,
@@ -161,48 +179,49 @@
                   },
                   "elements": [
                     {
-                      "id": "hero_modern_button_primary",
+                      "id": "ballona-colecao-aurora-v2_hero_primary",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
-                        "text": "Ver peças destaque",
-                        "size": "lg",
+                        "text": "Comprar agora",
                         "align": "left",
+                        "size": "lg",
                         "button_type": "info",
-                        "background_color": "#13a189",
-                        "hover_background_color": "#0f6f65",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
                         "border_radius": {
                           "unit": "px",
-                          "top": "48",
-                          "right": "48",
-                          "bottom": "48",
-                          "left": "48",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
                           "isLinked": true
                         },
                         "padding": {
                           "unit": "px",
-                          "top": "18",
-                          "right": "38",
-                          "bottom": "18",
-                          "left": "38",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
                           "isLinked": false
                         }
                       },
                       "elements": []
                     },
                     {
-                      "id": "hero_modern_button_secondary",
+                      "id": "ballona-colecao-aurora-v2_hero_secondary",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
-                        "text": "Explorar catálogo Aurora",
-                        "size": "lg",
+                        "text": "Solicitar catálogo",
                         "align": "left",
+                        "size": "lg",
                         "button_type": "outline",
                         "background_color": "#ffffff",
-                        "border_color": "#13a189",
-                        "text_color": "#13a189",
-                        "hover_background_color": "#13a189",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
                         "hover_text_color": "#ffffff",
                         "border_width": {
                           "unit": "px",
@@ -214,18 +233,18 @@
                         },
                         "border_radius": {
                           "unit": "px",
-                          "top": "48",
-                          "right": "48",
-                          "bottom": "48",
-                          "left": "48",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
                           "isLinked": true
                         },
                         "padding": {
                           "unit": "px",
-                          "top": "18",
-                          "right": "38",
-                          "bottom": "18",
-                          "left": "38",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
                           "isLinked": false
                         }
                       },
@@ -236,95 +255,183 @@
               ]
             }
           ]
+        },
+        {
+          "id": "ballona-colecao-aurora-v2_hero_visual",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "border_radius": {
+              "unit": "px",
+              "top": "32",
+              "right": "32",
+              "bottom": "32",
+              "left": "32",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "48",
+              "right": "48",
+              "bottom": "48",
+              "left": "48",
+              "isLinked": false
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 30,
+              "blur": 60,
+              "spread": -12,
+              "color": "rgba(23,14,52,0.12)"
+            }
+          },
+          "elements": [
+            {
+              "id": "ballona-colecao-aurora-v2_hero_visual_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Detalhes artesanais",
+                "header_size": "h2",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#2a2142",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-colecao-aurora-v2_hero_visual_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Metais nobres, lapidação criteriosa e acabamentos que respeitam a beleza natural de cada pedra.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ballona-colecao-aurora-v2_hero_caption",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Edição limitada - 300 peças</strong></p>",
+                "align": "left",
+                "text_color": "#7f3dff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            }
+          ]
         }
       ]
     },
     {
-      "id": "features_modern_section",
+      "id": "ballona-colecao-aurora-v2_caracteristicas",
       "elType": "section",
       "settings": {
-        "structure": "33",
         "content_width": "boxed",
-        "gap": "wide",
+        "gap": "no",
         "padding": {
           "unit": "px",
-          "top": "96",
-          "right": "0",
-          "bottom": "40",
-          "left": "0",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
           "isLinked": false
         }
       },
       "elements": [
         {
-          "id": "features_column_1",
+          "id": "ballona-colecao-aurora-v2_caracteristicas_header",
           "elType": "column",
           "settings": {
-            "_column_size": 33,
+            "_column_size": 100,
             "padding": {
               "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
+              "top": "0",
+              "right": "0",
+              "bottom": "24",
+              "left": "0",
               "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -12,
-            "box_shadow_box_shadow_color": "rgba(16, 10, 34, 0.08)"
+            }
           },
           "elements": [
             {
-              "id": "features_icon_1",
-              "elType": "widget",
-              "widgetType": "icon",
-              "settings": {
-                "selected_icon": {
-                  "value": "fas fa-star",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#13a189",
-                "icon_size": {
-                  "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "features_title_1",
+              "id": "ballona-colecao-aurora-v2_caracteristicas_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Brilhos celestes",
-                "align": "left",
+                "title": "Elementos-chave",
+                "header_size": "h2",
+                "align": "center",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 24,
+                  "size": 36,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#1d3557",
+                "text_color": "#2a2142",
                 "margin": {
                   "unit": "px",
-                  "top": "24",
+                  "top": "0",
                   "right": "0",
-                  "bottom": "16",
+                  "bottom": "12",
                   "left": "0",
                   "isLinked": false
                 }
@@ -332,22 +439,31 @@
               "elements": []
             },
             {
-              "id": "features_text_1",
+              "id": "ballona-colecao-aurora-v2_caracteristicas_description",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Anéis statement com cristais esculpidos em formatos celestes e acabamento mirror shine.</p>",
-                "text_color": "#2c5672",
+                "editor": "<p>Destaques que tornam Aurora inesquecível.</p>",
+                "align": "center",
+                "text_color": "#594f72",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 17,
+                  "size": 16,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
                   "size": 1.7,
                   "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": []
@@ -355,250 +471,351 @@
           ]
         },
         {
-          "id": "features_column_2",
-          "elType": "column",
+          "id": "ballona-colecao-aurora-v2_caracteristicas_grid",
+          "elType": "section",
           "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -12,
-            "box_shadow_box_shadow_color": "rgba(16, 10, 34, 0.08)"
+            "content_width": "full",
+            "gap": "no",
+            "structure": "33"
           },
           "elements": [
             {
-              "id": "features_icon_2",
-              "elType": "widget",
-              "widgetType": "icon",
+              "id": "ballona-colecao-aurora-v2_caracteristica_modulos",
+              "elType": "column",
               "settings": {
-                "selected_icon": {
-                  "value": "fas fa-layer-group",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#13a189",
-                "icon_size": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
                   "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "features_title_2",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Camadas cintilantes V2",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 24,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#1d3557",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
                   "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
                 }
               },
-              "elements": []
-            },
-            {
-              "id": "features_text_2",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Colares moduláveis que permitem misturar comprimentos e texturas para looks autorais.</p>",
-                "text_color": "#2c5672",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 17,
-                  "sizes": []
+              "elements": [
+                {
+                  "id": "ballona-colecao-aurora-v2_caracteristica_modulos_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Módulos intercambiáveis",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
                 },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
+                {
+                  "id": "ballona-colecao-aurora-v2_caracteristica_modulos_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Combine pingentes, correntes e ear cuffs para criar novas proporções.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
                 }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "features_column_3",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 42,
-            "box_shadow_box_shadow_spread": -12,
-            "box_shadow_box_shadow_color": "rgba(16, 10, 34, 0.08)"
-          },
-          "elements": [
-            {
-              "id": "features_icon_3",
-              "elType": "widget",
-              "widgetType": "icon",
-              "settings": {
-                "selected_icon": {
-                  "value": "fas fa-moon",
-                  "library": "fa-solid"
-                },
-                "align": "left",
-                "icon_color": "#13a189",
-                "icon_size": {
-                  "unit": "px",
-                  "size": 36,
-                  "sizes": []
-                }
-              },
-              "elements": []
+              ]
             },
             {
-              "id": "features_title_3",
-              "elType": "widget",
-              "widgetType": "heading",
+              "id": "ballona-colecao-aurora-v2_caracteristica_gemas",
+              "elType": "column",
               "settings": {
-                "title": "Ícones Aurora",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
                   "unit": "px",
-                  "size": 24,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#1d3557",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "16",
-                  "left": "0",
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
                   "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
                 }
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "ballona-colecao-aurora-v2_caracteristica_gemas_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Gemas em degradê",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-colecao-aurora-v2_caracteristica_gemas_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Quartzos, topázios e safiras selecionadas para transições cromáticas suaves.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
             },
             {
-              "id": "features_text_3",
-              "elType": "widget",
-              "widgetType": "text-editor",
+              "id": "ballona-colecao-aurora-v2_caracteristica_acabamento",
+              "elType": "column",
               "settings": {
-                "editor": "<p>Brincos leves com tecnologia antialérgica e movimento fluido para o dia e a noite.</p>",
-                "text_color": "#2c5672",
-                "typography_typography": "custom",
-                "typography_font_size": {
+                "_column_size": 33,
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "padding": {
                   "unit": "px",
-                  "size": 17,
-                  "sizes": []
+                  "top": "28",
+                  "right": "28",
+                  "bottom": "28",
+                  "left": "28",
+                  "isLinked": false
                 },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.7,
-                  "sizes": []
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 15,
+                  "blur": 40,
+                  "spread": 0,
+                  "color": "rgba(17,13,33,0.07)"
                 }
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "ballona-colecao-aurora-v2_caracteristica_acabamento_title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Acabamentos acetinados",
+                    "header_size": "h2",
+                    "align": "left",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22,
+                      "sizes": []
+                    },
+                    "typography_font_weight": "600",
+                    "text_color": "#2a2142",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "12",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ballona-colecao-aurora-v2_caracteristica_acabamento_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Toque aveludado com microtexturas exclusivas da Ballona.</p>",
+                    "align": "left",
+                    "text_color": "#594f72",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7,
+                      "sizes": []
+                    },
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "id": "showcase_modern_section",
+      "id": "ballona-colecao-aurora-v2_origem",
       "elType": "section",
       "settings": {
-        "structure": "50",
         "content_width": "boxed",
         "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#ffffff",
         "padding": {
           "unit": "px",
-          "top": "40",
-          "right": "0",
-          "bottom": "40",
-          "left": "0",
+          "top": "72",
+          "right": "48",
+          "bottom": "72",
+          "left": "48",
           "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 20,
+          "blur": 50,
+          "spread": -16,
+          "color": "rgba(23,14,52,0.08)"
         }
       },
       "elements": [
         {
-          "id": "showcase_column_text",
+          "id": "ballona-colecao-aurora-v2_origem_column",
           "elType": "column",
           "settings": {
-            "_column_size": 45,
-            "padding": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": false
-            }
+            "_column_size": 100
           },
           "elements": [
             {
-              "id": "showcase_title",
+              "id": "ballona-colecao-aurora-v2_origem_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Styling autoral para cada ocasião",
-                "align": "left",
+                "title": "Processo criativo",
+                "header_size": "h2",
+                "align": "center",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 40,
+                  "size": 36,
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#1d3557",
+                "text_color": "#2a2142",
                 "margin": {
                   "unit": "px",
                   "top": "0",
@@ -611,399 +828,57 @@
               "elements": []
             },
             {
-              "id": "showcase_text",
+              "id": "ballona-colecao-aurora-v2_origem_paragraph_1",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Combine peças Aurora para criar produções versáteis: do brunch ao black-tie, cada composição ganha brilho personalizado.</p>",
-                "text_color": "#2c5672",
+                "editor": "<p>Aurora nasce de viagens ao norte da Noruega e da observação dos reflexos da aurora boreal.</p>",
+                "align": "center",
+                "text_color": "#594f72",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 18,
+                  "size": 17,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
                   "size": 1.7,
                   "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
                 }
               },
               "elements": []
             },
             {
-              "id": "showcase_list",
+              "id": "ballona-colecao-aurora-v2_origem_paragraph_2",
               "elType": "widget",
-              "widgetType": "icon-list",
+              "widgetType": "text-editor",
               "settings": {
-                "icon_color": "#13a189",
-                "text_color": "#2c5672",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "items": [
-                  {
-                    "item_text": "Mix & match: escolha bases minimalistas e finalize com ear cuffs cintilantes",
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "item_text": "Destaque de cor: explore cristais em tons lilás, âmbar e champagne para contraste sofisticado",
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "item_text": "Camadas inteligentes: sobreponha chokers maleáveis e colares longos para efeito cascata",
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    }
-                  }
-                ]
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "showcase_column_media",
-          "elType": "column",
-          "settings": {
-            "_column_size": 55,
-            "padding": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#f3fffe",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "showcase_gallery",
-              "elType": "widget",
-              "widgetType": "image-gallery",
-              "settings": {
-                "gallery_columns": 3,
-                "gallery_item_ratio": "0.8",
-                "gallery_item_ratio_custom": "4:5",
-                "gallery_images": [
-                  {
-                    "id": 1,
-                    "url": "https://images.pexels.com/photos/6311584/pexels-photo-6311584.jpeg"
-                  },
-                  {
-                    "id": 2,
-                    "url": "https://images.pexels.com/photos/1394885/pexels-photo-1394885.jpeg"
-                  },
-                  {
-                    "id": 3,
-                    "url": "https://images.pexels.com/photos/6311658/pexels-photo-6311658.jpeg"
-                  },
-                  {
-                    "id": 4,
-                    "url": "https://images.pexels.com/photos/6311666/pexels-photo-6311666.jpeg"
-                  },
-                  {
-                    "id": 5,
-                    "url": "https://images.pexels.com/photos/6311661/pexels-photo-6311661.jpeg"
-                  },
-                  {
-                    "id": 6,
-                    "url": "https://images.pexels.com/photos/6311649/pexels-photo-6311649.jpeg"
-                  }
-                ],
-                "hover_animation": "zoom-in"
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "testimonials_modern_section",
-      "elType": "section",
-      "settings": {
-        "structure": "33",
-        "content_width": "boxed",
-        "gap": "wide",
-        "padding": {
-          "unit": "px",
-          "top": "96",
-          "right": "0",
-          "bottom": "96",
-          "left": "0",
-          "isLinked": false
-        },
-        "background_background": "classic",
-        "background_color": "#0b2534",
-        "shape_divider_top": "tilt",
-        "shape_divider_top_color": "#ffffff"
-      },
-      "elements": [
-        {
-          "id": "testimonials_heading_column",
-          "elType": "column",
-          "settings": {
-            "_column_size": 100,
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "48",
-              "left": "0",
-              "isLinked": false
-            }
-          },
-          "elements": [
-            {
-              "id": "testimonials_heading",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Aurora em todos os momentos",
+                "editor": "<p>O ouro reciclado ganha novos contornos com lapidações assimétricas feitas no Brasil.</p>",
                 "align": "center",
+                "text_color": "#594f72",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 42,
-                  "sizes": []
-                },
-                "typography_font_weight": "600",
-                "text_color": "#ffffff"
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "testimonial_card_1",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#103a52",
-            "border_radius": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "testimonial_text_1",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p><strong>Look executivo.</strong> Aposte no brinco orbital e no anel statement para elevar alfaiataria.</p>",
-                "text_color": "#d3f5ff",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
+                  "size": 17,
                   "sizes": []
                 },
                 "typography_line_height": {
                   "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "testimonial_author_1",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Stylist Aurora",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
+                  "size": 1.7,
                   "sizes": []
                 },
-                "text_color": "#b9ecf2",
                 "margin": {
                   "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "testimonial_card_2",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#103a52",
-            "border_radius": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "testimonial_text_2",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p><strong>Noite glam.</strong> Combine ear cuffs brilhantes com choker maleável e finalize com pulseiras delicadas.</p>",
-                "text_color": "#d3f5ff",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "testimonial_author_2",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Equipe Aurora",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "text_color": "#b9ecf2",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": false
-                }
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "testimonial_card_3",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33,
-            "padding": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#103a52",
-            "border_radius": {
-              "unit": "px",
-              "top": "24",
-              "right": "24",
-              "bottom": "24",
-              "left": "24",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "testimonial_text_3",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p><strong>Weekend chill.</strong> Misture argolas médias com colares alongados e pontos de luz coloridos.</p>",
-                "text_color": "#d3f5ff",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 18,
-                  "sizes": []
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.8,
-                  "sizes": []
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "testimonial_author_3",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Curadoria Estelar",
-                "align": "left",
-                "typography_typography": "custom",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 16,
-                  "sizes": []
-                },
-                "text_color": "#b9ecf2",
-                "margin": {
-                  "unit": "px",
-                  "top": "24",
+                  "top": "0",
                   "right": "0",
                   "bottom": "0",
                   "left": "0",
@@ -1017,62 +892,63 @@
       ]
     },
     {
-      "id": "newsletter_modern_section",
+      "id": "ballona-colecao-aurora-v2_cta",
       "elType": "section",
       "settings": {
-        "structure": "20",
         "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#7f3dff",
+        "background_color_b": "#ff8660",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 140,
+          "sizes": []
+        },
         "padding": {
           "unit": "px",
-          "top": "96",
-          "right": "0",
-          "bottom": "96",
-          "left": "0",
+          "top": "64",
+          "right": "48",
+          "bottom": "64",
+          "left": "48",
           "isLinked": false
         },
-        "background_background": "gradient",
-        "background_color": "#e2fff6",
-        "background_color_b": "#edf9ff",
-        "background_gradient_type": "radial"
+        "border_radius": {
+          "unit": "px",
+          "top": "32",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": true
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 25,
+          "blur": 60,
+          "spread": -18,
+          "color": "rgba(0,0,0,0.15)"
+        }
       },
       "elements": [
         {
-          "id": "newsletter_column",
+          "id": "ballona-colecao-aurora-v2_cta_column",
           "elType": "column",
           "settings": {
             "_column_size": 100,
-            "align": "center",
-            "padding": {
-              "unit": "px",
-              "top": "40",
-              "right": "40",
-              "bottom": "40",
-              "left": "40",
-              "isLinked": false
-            },
-            "background_background": "classic",
-            "background_color": "#ffffff",
-            "border_radius": {
-              "unit": "px",
-              "top": "32",
-              "right": "32",
-              "bottom": "32",
-              "left": "32",
-              "isLinked": true
-            },
-            "box_shadow_box_shadow": "yes",
-            "box_shadow_box_shadow_type": "yes",
-            "box_shadow_box_shadow_blur": 36,
-            "box_shadow_box_shadow_spread": -16,
-            "box_shadow_box_shadow_color": "rgba(16, 10, 34, 0.08)"
+            "layout": "flex",
+            "direction": "column",
+            "align_items": "center"
           },
           "elements": [
             {
-              "id": "newsletter_title",
+              "id": "ballona-colecao-aurora-v2_cta_title",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Reserve sua experiência Aurora",
+                "title": "Reserve sua peça",
+                "header_size": "h2",
                 "align": "center",
                 "typography_typography": "custom",
                 "typography_font_size": {
@@ -1081,22 +957,30 @@
                   "sizes": []
                 },
                 "typography_font_weight": "600",
-                "text_color": "#1d3557"
+                "text_color": "#ffffff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
               },
               "elements": []
             },
             {
-              "id": "newsletter_text",
+              "id": "ballona-colecao-aurora-v2_cta_subtitle",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Agende uma curadoria personalizada para experimentar as peças favoritas e receber sugestões de combinações únicas.</p>",
+                "editor": "<p>Produção limitada com certificação de origem e entrega expressa.</p>",
                 "align": "center",
-                "text_color": "#2c5672",
+                "text_color": "#f8f5ff",
                 "typography_typography": "custom",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 18,
+                  "size": 16,
                   "sizes": []
                 },
                 "typography_line_height": {
@@ -1106,7 +990,7 @@
                 },
                 "margin": {
                   "unit": "px",
-                  "top": "16",
+                  "top": "0",
                   "right": "0",
                   "bottom": "32",
                   "left": "0",
@@ -1116,44 +1000,103 @@
               "elements": []
             },
             {
-              "id": "newsletter_form",
-              "elType": "widget",
-              "widgetType": "form",
+              "id": "ballona-colecao-aurora-v2_cta_buttons",
+              "elType": "section",
               "settings": {
-                "fields": [
-                  {
-                    "type": "text",
-                    "label": "Nome completo",
-                    "placeholder": "Como devemos te chamar?",
-                    "required": "true"
-                  },
-                  {
-                    "type": "email",
-                    "label": "E-mail",
-                    "placeholder": "contato@exemplo.com",
-                    "required": "true"
-                  },
-                  {
-                    "type": "tel",
-                    "label": "WhatsApp",
-                    "placeholder": "(00) 00000-0000",
-                    "required": "false"
-                  }
-                ],
-                "button_text": "Quero reservar",
-                "button_background_color": "#13a189",
-                "button_hover_background_color": "#0f6f65",
-                "button_text_color": "#ffffff",
-                "button_border_radius": {
-                  "unit": "px",
-                  "top": "48",
-                  "right": "48",
-                  "bottom": "48",
-                  "left": "48",
-                  "isLinked": true
-                }
+                "content_width": "full",
+                "structure": "50",
+                "gap_columns": "no"
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "ballona-colecao-aurora-v2_cta_buttons_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 100,
+                    "layout": "flex",
+                    "justify_content": "center",
+                    "gap": {
+                      "unit": "px",
+                      "size": 16,
+                      "sizes": []
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ballona-colecao-aurora-v2_cta_primary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Reservar agora",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "info",
+                        "background_color": "#7f3dff",
+                        "hover_background_color": "#5120c2",
+                        "text_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ballona-colecao-aurora-v2_cta_secondary",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Solicitar ajuste",
+                        "align": "left",
+                        "size": "lg",
+                        "button_type": "outline",
+                        "background_color": "#ffffff",
+                        "text_color": "#7f3dff",
+                        "border_color": "#7f3dff",
+                        "hover_background_color": "#7f3dff",
+                        "hover_text_color": "#ffffff",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "40",
+                          "right": "40",
+                          "bottom": "40",
+                          "left": "40",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
