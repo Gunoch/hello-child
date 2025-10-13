@@ -1,0 +1,542 @@
+{
+  "version": "0.5",
+  "title": "Ballona Equipe",
+  "type": "page",
+  "content": [
+    {
+      "id": "team_intro_section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "content_width": "boxed",
+        "gap": "wide",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f6f2ff"
+      },
+      "elements": [
+        {
+          "id": "team_intro_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "40",
+              "bottom": "0",
+              "left": "40",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "team_intro_badge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nosso time",
+                "header_size": "span",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#c4376d",
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "24",
+                  "bottom": "8",
+                  "left": "24",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "team_intro_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Especialistas apaixonados por joias autorais",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 52,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "text_color": "#261b45",
+                "margin": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "team_intro_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Cada peça Ballona nasce em colaboração entre designers, ourives e especialistas em gemas. Conheça as pessoas que fazem parte dessa jornada criativa.</p>",
+                "text_color": "#4a3c75",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "align": "center",
+                "max_width": {
+                  "unit": "%",
+                  "size": 70,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team_grid_section",
+      "elType": "section",
+      "settings": {
+        "structure": "40",
+        "content_width": "boxed",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "team_grid_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "24",
+              "bottom": "0",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "team_grid_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "33",
+                "content_width": "boxed",
+                "gap": "extended",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "team_member_one_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "24",
+                      "right": "24",
+                      "bottom": "24",
+                      "left": "24",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 20,
+                    "box_shadow_box_shadow_blur": 40,
+                    "box_shadow_box_shadow_spread": -20,
+                    "box_shadow_box_shadow_color": "rgba(33, 21, 70, 0.12)",
+                    "padding": {
+                      "unit": "px",
+                      "top": "40",
+                      "right": "32",
+                      "bottom": "40",
+                      "left": "32",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "team_member_one_role",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Lia Andrade",
+                        "header_size": "h4",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#261b45",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "team_member_one_title",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Diretora criativa e pesquisadora de tendências, conduz o conceito das coleções autorais e as colaborações da Ballona.</p>",
+                        "text_color": "#4a3c75",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "team_member_two_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "24",
+                      "right": "24",
+                      "bottom": "24",
+                      "left": "24",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 20,
+                    "box_shadow_box_shadow_blur": 40,
+                    "box_shadow_box_shadow_spread": -20,
+                    "box_shadow_box_shadow_color": "rgba(33, 21, 70, 0.12)",
+                    "padding": {
+                      "unit": "px",
+                      "top": "40",
+                      "right": "32",
+                      "bottom": "40",
+                      "left": "32",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "team_member_two_name",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Ícaro Martins",
+                        "header_size": "h4",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#261b45",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "team_member_two_role",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Mestre ourives responsável pelo laboratório artesanal, garante acabamento premium e conforto em cada peça.</p>",
+                        "text_color": "#4a3c75",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "team_member_three_column",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33,
+                    "background_background": "classic",
+                    "background_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "24",
+                      "right": "24",
+                      "bottom": "24",
+                      "left": "24",
+                      "isLinked": true
+                    },
+                    "box_shadow_box_shadow": "yes",
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow_horizontal": 0,
+                    "box_shadow_box_shadow_vertical": 20,
+                    "box_shadow_box_shadow_blur": 40,
+                    "box_shadow_box_shadow_spread": -20,
+                    "box_shadow_box_shadow_color": "rgba(33, 21, 70, 0.12)",
+                    "padding": {
+                      "unit": "px",
+                      "top": "40",
+                      "right": "32",
+                      "bottom": "40",
+                      "left": "32",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "team_member_three_name",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Bruna Sato",
+                        "header_size": "h4",
+                        "align": "left",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 24,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "text_color": "#261b45",
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "12",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "team_member_three_role",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Gemóloga certificada que seleciona materiais rastreáveis e acompanha cada etapa de certificação das coleções.</p>",
+                        "text_color": "#4a3c75",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16,
+                          "sizes": []
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.8,
+                          "sizes": []
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team_values_section",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "content_width": "boxed",
+        "gap": "wide",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#f9f7ff",
+        "background_color_b": "#eef6ff",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 120,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "team_values_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "32",
+              "bottom": "0",
+              "left": "32",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "team_values_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Cultura Ballona",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 40,
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "text_color": "#261b45",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "24",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "team_values_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Valorizamos processos transparentes, artesãos reconhecidos e o compromisso com materiais responsáveis. Nosso time mantém diálogo constante com clientes e parceiros para construir memórias únicas.</p>",
+                "text_color": "#4a3c75",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8,
+                  "sizes": []
+                },
+                "align": "center",
+                "max_width": {
+                  "unit": "%",
+                  "size": 70,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

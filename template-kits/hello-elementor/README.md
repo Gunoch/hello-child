@@ -22,6 +22,9 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 | `pages/ballona-contato-v2.json` | Página completa | Opção com linguagem personalizada, foco em concierge híbrido e ajuste de cores para contraste elevado. |
 | `pages/ballona-politicas-troca-devolucao.json` | Página completa | Políticas de trocas e devoluções com cabeçalho responsivo, banner informativo, texto oficial, galeria de imagens e CTA final para redes sociais. |
 | `pages/ballona-politicas-troca-devolucao-v2.json` | Página completa | Variação revisada com copy atualizada, rodapé ampliado e novo destaque para redes sociais oficiais. |
+| `pages/ballona-faq.json` | Página completa | Página de perguntas frequentes com bloco hero contextual, respostas detalhadas e copy alinhada ao concierge Ballona. |
+| `pages/ballona-equipe.json` | Página completa | Página institucional para apresentar o time, cultura da marca e CTA de relacionamento. |
+| `pages/ballona-experiencia.json` | Página completa | Página dedicada à jornada de personalização com etapas, serviços exclusivos e chamada para consultoria. |
 
 ## Passo a passo de importação
 
