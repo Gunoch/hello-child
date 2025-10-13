@@ -4,14 +4,14 @@ Este repositório centraliza a documentação e os artefatos necessários para d
 
 ## Estrutura do projeto
 
-- `template-kits/`: coleção de Template Kits organizados por tema, com arquivos `.json` exportados do Elementor e documentação específica.
-- `docs/`: guias de apoio com instruções detalhadas de uso e fluxo de engenharia.
+- `template-kits/`: coleção de Template Kits organizados por tema, com arquivos `.json` exportados do Elementor e documentação específica. A coleção Bellona agora inclui o ciclo **w01**, com landing pages e homes alinhadas à identidade atualizada.
+- `docs/`: guias de apoio com instruções detalhadas de uso e fluxo de engenharia. O diretório `docs/bellona-w01/` consolida estudo de identidade visual, diretrizes de UX, manual de conteúdo e checklist das entregas w01.
 - `theme/`, `style.css`, `functions.php`: tema filho Hello Child, preservado apenas para compatibilidade com projetos existentes.
 - `FLUXO-ENGENHARIA.md`: orientações completas sobre o processo de desenvolvimento, revisão e entrega.
 
 ## Template Kits
 
-Os Template Kits são distribuídos no diretório [`template-kits/`](template-kits/README.md) e incluem páginas completas e seções modulares construídas com widgets nativos do Elementor. Cada kit possui um `README.md` com instruções de importação, requisitos e boas práticas para personalização.
+Os Template Kits são distribuídos no diretório [`template-kits/`](template-kits/README.md) e incluem páginas completas e seções modulares construídas com widgets nativos do Elementor. Cada kit possui um `README.md` com instruções de importação, requisitos e boas práticas para personalização. Consulte a documentação do ciclo w01 para garantir aderência à paleta, tipografia e voz definidos para a marca Bellona.
 
 > Recomenda-se sempre importar os templates em um ambiente de testes, validar responsividade e atualizar links/imagens conforme o projeto final.
 

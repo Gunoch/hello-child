@@ -1,0 +1,99 @@
+{
+  "version": "0.6",
+  "title": "Bellona Home w01 Lumina",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_home_lumina_hero",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "classic", "background_color": "#0F111D", "padding": {"unit": "px", "top": "140", "right": "40", "bottom": "140", "left": "40", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_home_lumina_col1",
+          "elType": "column",
+          "settings": {"_column_size": 55},
+          "elements": [
+            {"id": "w01_home_lumina_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Lumina Collection", "header_size": "h1", "title_color": "#F5E6CC"}},
+            {"id": "w01_home_lumina_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Brilho controlado para agendas intensas. Descubra a nova curadoria Bellona.</p>", "text_color": "#E3D7FF"}},
+            {"id": "w01_home_lumina_cta_primary", "elType": "widget", "widgetType": "button", "settings": {"text": "Conhecer destaques", "link": {"url": "https://bellona.example/lumina"}, "background_color": "#F5E6CC", "color": "#1B1D2A"}}
+          ]
+        },
+        {
+          "id": "w01_home_lumina_col2",
+          "elType": "column",
+          "settings": {"_column_size": 45},
+          "elements": [
+            {"id": "w01_home_lumina_card", "elType": "widget", "widgetType": "call-to-action", "settings": {"title": "Assine o briefing semanal", "description": "Receba atualizações de lançamentos e convites privados.", "button_text": "Receber briefing", "link": {"url": "https://bellona.example/briefing"}}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_lumina_navigation",
+      "elType": "section",
+      "settings": {"structure": "25", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "60", "right": "30", "bottom": "60", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_home_lumina_navigation_menu",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_home_lumina_nav_menu", "elType": "widget", "widgetType": "nav-menu", "settings": {"layout": "horizontal", "menu_items": [
+              {"item_text": "Coleções", "item_url": "#colecoes"},
+              {"item_text": "Manifesto", "item_url": "#manifesto"},
+              {"item_text": "Benefícios", "item_url": "#beneficios"},
+              {"item_text": "Concierge", "item_url": "#concierge"}
+            ], "align": "center"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_lumina_collections",
+      "elType": "section",
+      "settings": {"structure": "25", "background_background": "classic", "background_color": "#E3D7FF", "padding": {"unit": "px", "top": "90", "right": "40", "bottom": "90", "left": "40", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_home_lumina_collections_heading",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_home_lumina_collections_title", "elType": "widget", "widgetType": "heading", "settings": {"title": "Coleções em destaque", "align": "center"}}
+          ]
+        },
+        {
+          "id": "w01_home_lumina_collections_products",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_home_lumina_products_widget", "elType": "widget", "widgetType": "woocommerce-products", "settings": {"products_source": "sale", "columns": 3, "rows": 2}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_lumina_concierge",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_home_lumina_concierge_col1",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "w01_home_lumina_concierge_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Concierge estratégico", "header_size": "h2"}},
+            {"id": "w01_home_lumina_concierge_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Combine atendimento humano com catálogo inteligente e receba peças sugeridas para cada ocasião.</p>"}}
+          ]
+        },
+        {
+          "id": "w01_home_lumina_concierge_col2",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {"id": "w01_home_lumina_concierge_cta", "elType": "widget", "widgetType": "button", "settings": {"text": "Falar com especialista", "link": {"url": "https://wa.me/5562955555555"}, "background_color": "#1B1D2A", "color": "#F5E6CC", "size": "lg"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

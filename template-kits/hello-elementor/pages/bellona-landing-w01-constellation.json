@@ -1,0 +1,109 @@
+{
+  "version": "0.6",
+  "title": "Bellona Landing w01 Constellation",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_landing_constellation_intro",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "gradient", "background_color": "#1B1D2A", "background_color_b": "#342F5C", "background_gradient_type": "linear", "padding": {"unit": "px", "top": "130", "right": "50", "bottom": "130", "left": "50", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_constellation_intro_col1",
+          "elType": "column",
+          "settings": {"_column_size": 60},
+          "elements": [
+            {"id": "w01_landing_constellation_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Constellation Bespoke", "header_size": "h1", "title_color": "#F5E6CC"}},
+            {"id": "w01_landing_constellation_subheading", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Personalize joias com símbolos da sua trajetória. Consultoria individual para líderes e equipes.</p>", "text_color": "#E3D7FF"}},
+            {"id": "w01_landing_constellation_cta", "elType": "widget", "widgetType": "button", "settings": {"text": "Iniciar briefing personalizado", "link": {"url": "https://bellona.example/constellation"}, "background_color": "#F5E6CC", "color": "#1B1D2A"}}
+          ]
+        },
+        {
+          "id": "w01_landing_constellation_intro_col2",
+          "elType": "column",
+          "settings": {"_column_size": 40},
+          "elements": [
+            {"id": "w01_landing_constellation_intro_form", "elType": "widget", "widgetType": "form", "settings": {"form_fields": [{"type": "text", "label": "Nome"}, {"type": "email", "label": "E-mail"}, {"type": "tel", "label": "WhatsApp"}, {"type": "textarea", "label": "Mensagem"}], "submit_button_text": "Enviar briefing"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_constellation_steps",
+      "elType": "section",
+      "settings": {"structure": "25", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "90", "right": "30", "bottom": "90", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_constellation_steps_heading",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_constellation_steps_title", "elType": "widget", "widgetType": "heading", "settings": {"title": "Três fases para uma joia única", "align": "center"}}
+          ]
+        },
+        {
+          "id": "w01_landing_constellation_steps_list",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_constellation_steps_timeline", "elType": "widget", "widgetType": "timeline", "settings": {"timeline_items": [
+              {"item_title": "Briefing estratégico", "item_text": "Mapeamos conquistas, valores e datas simbólicas."},
+              {"item_title": "Design autoral", "item_text": "Criamos propostas com renderizações e opções de metal."},
+              {"item_title": "Entrega ritual", "item_text": "Peça acompanha manifesto assinado pela diretora criativa."}
+            ]}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_constellation_cases",
+      "elType": "section",
+      "settings": {"structure": "33", "background_background": "classic", "background_color": "#F5E6CC", "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_constellation_case1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_constellation_case1_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Diretoria Tech"}},
+            {"id": "w01_landing_constellation_case1_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Pulseiras com gravação binária celebrando inovação e resultados trimestrais.</p>"}}
+          ]
+        },
+        {
+          "id": "w01_landing_constellation_case2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_constellation_case2_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Conselho Financeiro"}},
+            {"id": "w01_landing_constellation_case2_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Lapela com símbolo de prosperidade e cápsula com datas decisivas.</p>"}}
+          ]
+        },
+        {
+          "id": "w01_landing_constellation_case3",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_constellation_case3_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Times criativos"}},
+            {"id": "w01_landing_constellation_case3_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Anéis stackable com cores que representam cada célula de projeto.</p>"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_constellation_cta",
+      "elType": "section",
+      "settings": {"structure": "100", "background_background": "classic", "background_color": "#1B1D2A", "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_constellation_cta_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_constellation_cta_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Vamos desenhar sua constelação?", "align": "center", "title_color": "#F5E6CC"}},
+            {"id": "w01_landing_constellation_cta_button", "elType": "widget", "widgetType": "button", "settings": {"text": "Agendar call estratégica", "link": {"url": "https://wa.me/5562944444444"}, "background_color": "#F5E6CC", "color": "#1B1D2A", "align": "center", "size": "lg"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

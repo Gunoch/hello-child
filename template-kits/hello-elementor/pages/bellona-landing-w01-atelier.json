@@ -1,0 +1,111 @@
+{
+  "version": "0.6",
+  "title": "Bellona Landing w01 Atelier",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_landing_atelier_intro",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "classic", "background_color": "#1B1D2A", "padding": {"unit": "px", "top": "120", "right": "50", "bottom": "120", "left": "50", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_atelier_intro_col1",
+          "elType": "column",
+          "settings": {"_column_size": 45},
+          "elements": [
+            {"id": "w01_landing_atelier_intro_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Atelier Bellona", "header_size": "h1", "title_color": "#F5E6CC"}},
+            {"id": "w01_landing_atelier_intro_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Conheça o processo autoral que transforma inspirações mitológicas em joias atemporais.</p>", "text_color": "#E3D7FF"}},
+            {"id": "w01_landing_atelier_intro_cta", "elType": "widget", "widgetType": "button", "settings": {"text": "Agendar visita virtual", "link": {"url": "https://bellona.example/atelier"}, "background_color": "#F5E6CC", "color": "#1B1D2A"}}
+          ]
+        },
+        {
+          "id": "w01_landing_atelier_intro_col2",
+          "elType": "column",
+          "settings": {"_column_size": 55},
+          "elements": [
+            {"id": "w01_landing_atelier_intro_slider", "elType": "widget", "widgetType": "media-carousel", "settings": {"slides": [
+              {"image": {"url": "https://via.placeholder.com/720x480?text=Atelier+1"}},
+              {"image": {"url": "https://via.placeholder.com/720x480?text=Atelier+2"}},
+              {"image": {"url": "https://via.placeholder.com/720x480?text=Atelier+3"}}
+            ], "navigation": "both"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_atelier_process",
+      "elType": "section",
+      "settings": {"structure": "25", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_atelier_process_heading",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_atelier_process_title", "elType": "widget", "widgetType": "heading", "settings": {"title": "Processo em três atos", "align": "center"}}
+          ]
+        },
+        {
+          "id": "w01_landing_atelier_process_steps",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_atelier_process_steps_widget", "elType": "widget", "widgetType": "steps", "settings": {"steps": [
+              {"title": "Pesquisa", "text": "Moodboards inspirados em constelações e armaduras romanas."},
+              {"title": "Prototipagem", "text": "Modelagem 3D e testes ergonômicos com clientes fiéis."},
+              {"title": "Lapidação", "text": "Acabamento manual com inspeção dupla e certificado."}
+            ]}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_atelier_equipa",
+      "elType": "section",
+      "settings": {"structure": "33", "background_background": "classic", "background_color": "#F5E6CC", "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_atelier_equipa_col1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_atelier_equipa_person1", "elType": "widget", "widgetType": "team-member", "settings": {"name": "Isabela Rios", "position": "Diretora Criativa", "description": "Lidera pesquisas mitológicas e narrativas de coleção."}}
+          ]
+        },
+        {
+          "id": "w01_landing_atelier_equipa_col2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_atelier_equipa_person2", "elType": "widget", "widgetType": "team-member", "settings": {"name": "Marina Lopes", "position": "Artesã-chefe", "description": "Coordena lapidação manual e inspeções técnicas."}}
+          ]
+        },
+        {
+          "id": "w01_landing_atelier_equipa_col3",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_atelier_equipa_person3", "elType": "widget", "widgetType": "team-member", "settings": {"name": "Clarice Mota", "position": "Concierge", "description": "Orquestra experiências personalizadas para Guardiãs."}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_atelier_cta",
+      "elType": "section",
+      "settings": {"structure": "100", "background_background": "classic", "background_color": "#1B1D2A", "padding": {"unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_atelier_cta_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_atelier_cta_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Transforme inspiração em presença", "align": "center", "title_color": "#F5E6CC"}},
+            {"id": "w01_landing_atelier_cta_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Preencha o formulário para acessar o tour 360º e receber recomendações exclusivas.</p>", "align": "center", "text_color": "#E3D7FF"}},
+            {"id": "w01_landing_atelier_cta_form", "elType": "widget", "widgetType": "form", "settings": {"form_fields": [{"type": "text", "label": "Nome"}, {"type": "email", "label": "E-mail"}, {"type": "select", "label": "Interesse", "options": [{"value": "colecoes", "text": "Coleções"}, {"value": "corporativo", "text": "Corporativo"}, {"value": "presente", "text": "Presentes"}]}], "submit_button_text": "Solicitar tour", "submit_button_size": "lg"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

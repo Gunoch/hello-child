@@ -9,18 +9,13 @@ template-kits/
 └── hello-elementor/
     ├── README.md          # Guia específico de configuração do kit para o tema Hello Elementor
     └── pages/
-        ├── bellona-home.json
-        ├── bellona-sobre.json
-        ├── bellona-colecao-aurora.json
-        ├── bellona-lookbook.json
-        ├── bellona-guia-cuidados.json
-        ├── bellona-trocas-devolucoes.json
-        ├── bellona-contato.json
-        └── bellona-politicas-troca-devolucao.json
+        ├── bellona-*.json             # Versões anteriores do kit Bellona
+        ├── bellona-home-w01-*.json    # Homes revisadas segundo identidade w01
+        └── bellona-landing-w01-*.json # Landing pages temáticas e de campanha w01
 ```
 
 - **hello-elementor/**: coleção de templates pensada para o tema base Hello Elementor, já com espaçamentos, tipografia e containers configurados conforme a documentação oficial do tema.
-- **pages/**: templates completos de páginas criados com widgets nativos do Elementor, prontos para importar via biblioteca do plugin. A coleção Bellona inclui landing page, institucional, lookbook, guia de cuidados, apresentação de coleção e páginas de atendimento.
+- **pages/**: templates completos de páginas criados com widgets nativos do Elementor. A coleção Bellona agora possui o ciclo `w01`, com 10 variações de landing e home pages alinhadas ao estudo de identidade registrado em `docs/bellona-w01/`.
 - **templates/**: sessões ou páginas modulares prontas para serem inseridas em páginas existentes, facilitando a montagem de fluxos específicos (ex.: políticas, banners, CTAs).
 
 ## Como importar

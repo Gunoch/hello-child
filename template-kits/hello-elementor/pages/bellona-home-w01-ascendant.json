@@ -1,0 +1,194 @@
+{
+  "version": "0.6",
+  "title": "Bellona Home w01 Ascendant",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_home_ascendant_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "background_background": "gradient",
+        "background_color": "#1B1D2A",
+        "background_color_b": "#F5E6CC",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {"unit": "deg", "size": 135, "sizes": []},
+        "padding": {"unit": "px", "top": "120", "right": "60", "bottom": "120", "left": "60", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_ascendant_hero_col1",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "w01_home_ascendant_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Conquiste sua próxima vitória com relíquias Bellona",
+                "header_size": "h1",
+                "title_color": "#FFFFFF"
+              }
+            },
+            {
+              "id": "w01_home_ascendant_subheading",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Semi joias atemporais lapidadas para líderes que transformam jornadas diárias em rituais de brilho.</p>",
+                "text_color": "#F5E6CC"
+              }
+            },
+            {
+              "id": "w01_home_ascendant_cta_group",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Ativar ritual concierge",
+                "link": {"url": "https://wa.me/5562999999999"},
+                "background_color": "#F5E6CC",
+                "color": "#1B1D2A",
+                "border_radius": {"unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true}
+              }
+            }
+          ]
+        },
+        {
+          "id": "w01_home_ascendant_hero_col2",
+          "elType": "column",
+          "settings": {"_column_size": 50},
+          "elements": [
+            {
+              "id": "w01_home_ascendant_image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {"url": "https://via.placeholder.com/720x900?text=Bellona+Ascendant"},
+                "image_size": "full",
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_ascendant_benefits",
+      "elType": "section",
+      "settings": {
+        "structure": "33",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {"unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_ascendant_benefits_col1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "w01_home_ascendant_benefit_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Força com delicadeza", "header_size": "h3"}
+            },
+            {
+              "id": "w01_home_ascendant_benefit_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Banho antialérgico certificado e acabamento manual que respeita cada detalhe.</p>"}
+            }
+          ]
+        },
+        {
+          "id": "w01_home_ascendant_benefits_col2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "w01_home_ascendant_benefit2_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Curadoria que guia", "header_size": "h3"}
+            },
+            {
+              "id": "w01_home_ascendant_benefit2_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Consultoria concierge com respostas em até 2h e recomendações personalizadas.</p>"}
+            }
+          ]
+        },
+        {
+          "id": "w01_home_ascendant_benefits_col3",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {
+              "id": "w01_home_ascendant_benefit3_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Legado atemporal", "header_size": "h3"}
+            },
+            {
+              "id": "w01_home_ascendant_benefit3_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Edições limitadas com garantia estendida e embalagem sustentável.</p>"}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_home_ascendant_showcase",
+      "elType": "section",
+      "settings": {
+        "structure": "25",
+        "background_background": "classic",
+        "background_color": "#E3D7FF",
+        "padding": {"unit": "px", "top": "90", "right": "40", "bottom": "90", "left": "40", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "w01_home_ascendant_showcase_heading",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "w01_home_ascendant_showcase_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {"title": "Coleções que contam sua história", "align": "center"}
+            },
+            {
+              "id": "w01_home_ascendant_showcase_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {"editor": "<p>Selecione sua constelação favorita e garanta peças com banho premium e lapidação refinada.</p>", "align": "center"}
+            }
+          ]
+        },
+        {
+          "id": "w01_home_ascendant_showcase_products",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "w01_home_ascendant_products_grid",
+              "elType": "widget",
+              "widgetType": "woocommerce-products",
+              "settings": {
+                "products_source": "latest",
+                "columns": 3,
+                "rows": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
