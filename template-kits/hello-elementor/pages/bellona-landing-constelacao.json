@@ -1,0 +1,448 @@
+{
+  "version": "0.5",
+  "title": "Bellona Landing Constelação",
+  "type": "page",
+  "content": [
+    {
+      "id": "bellona-landing-constelacao_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "40",
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "gradient",
+        "background_color": "#110b1f",
+        "background_color_b": "#3a1b43",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 130,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "110",
+          "right": "40",
+          "bottom": "110",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-constelacao_hero_copy",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-constelacao_hero_badge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Lançamento cápsula",
+                "header_size": "span",
+                "align": "left",
+                "text_color": "#f8cfff"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-constelacao_hero_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Coleção Constelação",
+                "header_size": "h1",
+                "align": "left",
+                "text_color": "#ffffff"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-constelacao_hero_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#e8ddff;\">Utilize este espaço para apresentar o storytelling da coleção cápsula, destacando edição limitada e pré-venda exclusiva.</p>",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-constelacao_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Reservar peça",
+                "size": "lg",
+                "link": {
+                  "url": "#reservas"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bellona-landing-constelacao_hero_media",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-constelacao_mockup",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://via.placeholder.com/520x640?text=Banner+Constelacao"
+                },
+                "caption": "Substitua pela arte oficial"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-constelacao_countdown",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "wide",
+        "padding": {
+          "unit": "px",
+          "top": "50",
+          "right": "0",
+          "bottom": "50",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-constelacao_timer_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-constelacao_timer_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Pré-venda encerra em",
+                "header_size": "h3",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-constelacao_timer_widget",
+              "elType": "widget",
+              "widgetType": "countdown",
+              "settings": {
+                "due_date": "2024-12-31 23:59",
+                "skin": "inline",
+                "label_days": "Dias",
+                "label_hours": "Horas",
+                "label_minutes": "Minutos",
+                "label_seconds": "Segundos"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-constelacao_highlights",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-constelacao_highlights_inner",
+          "elType": "section",
+          "isInner": true,
+          "settings": {
+            "structure": "33"
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-constelacao_highlight1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-constelacao_highlight1_icon",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Banho em ouro 18K",
+                    "description_text": "Descreva o processo de banho e camadas protetoras.",
+                    "icon": "far fa-star",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-landing-constelacao_highlight2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-constelacao_highlight2_icon",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Edição numerada",
+                    "description_text": "Informe o volume limitado e certificado de autenticidade.",
+                    "icon": "fas fa-certificate",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-landing-constelacao_highlight3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-constelacao_highlight3_icon",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Consultoria com stylist",
+                    "description_text": "Adicione detalhes sobre atendimento personalizado.",
+                    "icon": "fas fa-moon",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-constelacao_carousel",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f9f6ff",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-constelacao_carousel_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-constelacao_carousel_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Prévia das peças",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-constelacao_carousel_widget",
+              "elType": "widget",
+              "widgetType": "slides",
+              "settings": {
+                "slides": [
+                  {
+                    "id": "slide-a",
+                    "heading": "Brinco Nebulosa",
+                    "description": "Texto para destacar o design orgânico.",
+                    "image": {
+                      "url": "https://via.placeholder.com/720x480?text=Slide+1"
+                    }
+                  },
+                  {
+                    "id": "slide-b",
+                    "heading": "Colar Órbita",
+                    "description": "Apresente materiais e banho.",
+                    "image": {
+                      "url": "https://via.placeholder.com/720x480?text=Slide+2"
+                    }
+                  },
+                  {
+                    "id": "slide-c",
+                    "heading": "Pulseira Eclipse",
+                    "description": "Indique mix de pedrarias e fecho.",
+                    "image": {
+                      "url": "https://via.placeholder.com/720x480?text=Slide+3"
+                    }
+                  }
+                ],
+                "show_navigation": "yes",
+                "show_pagination": "yes"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-constelacao_reservation",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "40",
+          "bottom": "90",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-constelacao_reservation_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-constelacao_reservation_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Garanta sua peça",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-constelacao_reservation_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Insira um formulário Elementor Forms ou shortcode do CRM para finalizar a reserva.</p>",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-constelacao_reservation_form",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[formulario-reserva]"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-constelacao_faq",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fefbff",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-constelacao_faq_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-constelacao_faq_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Perguntas frequentes",
+                "header_size": "h3",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-constelacao_faq_toggle",
+              "elType": "widget",
+              "widgetType": "toggle",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "Como funciona a pré-venda?",
+                    "tab_content": "Explique o passo a passo da reserva e pagamento."
+                  },
+                  {
+                    "tab_title": "Qual o prazo de envio?",
+                    "tab_content": "Informe prazos e transportadoras."
+                  },
+                  {
+                    "tab_title": "Posso personalizar minha peça?",
+                    "tab_content": "Inclua instruções para customizações ou atendimento concierge."
+                  }
+                ]
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

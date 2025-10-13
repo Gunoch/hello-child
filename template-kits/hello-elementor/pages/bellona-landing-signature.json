@@ -1,0 +1,667 @@
+{
+  "version": "0.5",
+  "title": "Bellona Landing Signature",
+  "type": "page",
+  "content": [
+    {
+      "id": "bellona-landing-signature_intro",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "40",
+          "bottom": "120",
+          "left": "40",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#fff8f0"
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-signature_intro_columns",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-signature_intro_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Programa Signature",
+                "header_size": "h1",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-signature_intro_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"max-width:720px;margin:0 auto;text-align:center;\">Apresente a landing focada em assinatura mensal de semijoias premium, com benefícios e peças rotativas.</p>",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-signature_intro_buttons",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Assinar agora",
+                "size": "lg",
+                "align": "center",
+                "link": {
+                  "url": "#planos"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-signature_showcase",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-signature_showcase_inner",
+          "elType": "section",
+          "isInner": true,
+          "settings": {
+            "structure": "33"
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-signature_showcase1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-signature_showcase1_image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://via.placeholder.com/420x480?text=Kit+1"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bellona-landing-signature_showcase1_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h3>Kit Aurora</h3><p>Detalhe as peças inclusas no primeiro ciclo.</p>",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-landing-signature_showcase2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-signature_showcase2_image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://via.placeholder.com/420x480?text=Kit+2"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bellona-landing-signature_showcase2_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h3>Kit Boreal</h3><p>Inclua descrição do mix de peças e vantagens.</p>",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-landing-signature_showcase3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-signature_showcase3_image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://via.placeholder.com/420x480?text=Kit+3"
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bellona-landing-signature_showcase3_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h3>Kit Solar</h3><p>Explique o diferencial premium do ciclo trimestral.</p>",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-signature_benefits",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1f1934",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "40",
+          "bottom": "90",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-signature_benefits_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-signature_benefits_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Benefícios da assinatura",
+                "header_size": "h2",
+                "align": "center",
+                "text_color": "#ffffff"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-signature_benefits_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#d8d0ff;text-align:center;\">Liste benefícios como trocas facilitadas, concierge dedicado e peças bônus.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-signature_benefits_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "25",
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-signature_benefit1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-landing-signature_benefit1_icon",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "far fa-gem",
+                        "title_text": "Curadoria mensal",
+                        "description_text": "Atualize com detalhes das combinações enviadas.",
+                        "align": "center",
+                        "title_color": "#ffffff",
+                        "description_color": "#d8d0ff"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-landing-signature_benefit2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-landing-signature_benefit2_icon",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fas fa-sync",
+                        "title_text": "Trocas flexíveis",
+                        "description_text": "Explique políticas e prazos exclusivos.",
+                        "align": "center",
+                        "title_color": "#ffffff",
+                        "description_color": "#d8d0ff"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-landing-signature_benefit3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-landing-signature_benefit3_icon",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fas fa-user-circle",
+                        "title_text": "Concierge 24/7",
+                        "description_text": "Detalhe canais exclusivos de suporte.",
+                        "align": "center",
+                        "title_color": "#ffffff",
+                        "description_color": "#d8d0ff"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-landing-signature_benefit4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-landing-signature_benefit4_icon",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fas fa-gift",
+                        "title_text": "Presentes surpresa",
+                        "description_text": "Reserve espaço para itens bônus e collabs.",
+                        "align": "center",
+                        "title_color": "#ffffff",
+                        "description_color": "#d8d0ff"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-signature_planos",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "0",
+          "bottom": "70",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-signature_planos_inner",
+          "elType": "section",
+          "isInner": true,
+          "settings": {
+            "structure": "33",
+            "gap": "extended"
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-signature_plano1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-signature_plano1_box",
+                  "elType": "widget",
+                  "widgetType": "pricing-table",
+                  "settings": {
+                    "heading": "Plano Essencial",
+                    "sub_heading": "Ideal para iniciar",
+                    "price": "199",
+                    "currency_symbol": "R$",
+                    "period": "/mês",
+                    "features_list": [
+                      {
+                        "item_text": "3 peças por ciclo"
+                      },
+                      {
+                        "item_text": "Acesso ao clube"
+                      },
+                      {
+                        "item_text": "Troca anual gratuita"
+                      }
+                    ],
+                    "button_text": "Assinar Essencial",
+                    "button_url": "#checkout-essencial"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-landing-signature_plano2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-signature_plano2_box",
+                  "elType": "widget",
+                  "widgetType": "pricing-table",
+                  "settings": {
+                    "heading": "Plano Premier",
+                    "sub_heading": "Best-seller",
+                    "price": "289",
+                    "currency_symbol": "R$",
+                    "period": "/mês",
+                    "features_list": [
+                      {
+                        "item_text": "5 peças por ciclo"
+                      },
+                      {
+                        "item_text": "Trocas ilimitadas"
+                      },
+                      {
+                        "item_text": "Stylist dedicado"
+                      }
+                    ],
+                    "button_text": "Assinar Premier",
+                    "button_url": "#checkout-premier"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-landing-signature_plano3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 33
+              },
+              "elements": [
+                {
+                  "id": "bellona-landing-signature_plano3_box",
+                  "elType": "widget",
+                  "widgetType": "pricing-table",
+                  "settings": {
+                    "heading": "Plano Black",
+                    "sub_heading": "Luxo absoluto",
+                    "price": "399",
+                    "currency_symbol": "R$",
+                    "period": "/mês",
+                    "features_list": [
+                      {
+                        "item_text": "7 peças por ciclo"
+                      },
+                      {
+                        "item_text": "Eventos exclusivos"
+                      },
+                      {
+                        "item_text": "Presentes trimestrais"
+                      }
+                    ],
+                    "button_text": "Assinar Black",
+                    "button_url": "#checkout-black"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-signature_prova_social",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f7f3ff",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-signature_prova_social_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-signature_prova_social_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O que assinantes dizem",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-signature_prova_social_slider",
+              "elType": "widget",
+              "widgetType": "slides",
+              "settings": {
+                "slides": [
+                  {
+                    "id": "testi-1",
+                    "heading": "Experiência transformadora",
+                    "description": "Adicione depoimento sobre curadoria das peças.",
+                    "background": {
+                      "url": "https://via.placeholder.com/960x520?text=Depoimento+1"
+                    }
+                  },
+                  {
+                    "id": "testi-2",
+                    "heading": "Qualidade impecável",
+                    "description": "Inclua relato sobre acabamento e brilho.",
+                    "background": {
+                      "url": "https://via.placeholder.com/960x520?text=Depoimento+2"
+                    }
+                  }
+                ],
+                "show_navigation": "yes",
+                "show_pagination": "yes"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-signature_faq",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "60",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-signature_faq_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-signature_faq_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dúvidas frequentes",
+                "header_size": "h3",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-signature_faq_toggle",
+              "elType": "widget",
+              "widgetType": "toggle",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "Como funciona a assinatura?",
+                    "tab_content": "Explique a logística de envio e renovação."
+                  },
+                  {
+                    "tab_title": "É possível pausar?",
+                    "tab_content": "Detalhe processo de pausa ou cancelamento."
+                  },
+                  {
+                    "tab_title": "As peças são hipoalergênicas?",
+                    "tab_content": "Inclua informações sobre banho e cuidados."
+                  }
+                ]
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-landing-signature_cta_final",
+      "elType": "section",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#281b43",
+        "background_color_b": "#5d2d6f",
+        "background_gradient_type": "linear",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "40",
+          "bottom": "90",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-landing-signature_cta_final_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-landing-signature_cta_final_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Entre para o clube Bellona",
+                "header_size": "h2",
+                "align": "center",
+                "text_color": "#ffffff"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-signature_cta_final_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#e6dbff;text-align:center;\">Finalize com um CTA direto para checkout ou contato WhatsApp.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-landing-signature_cta_final_button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quero fazer parte",
+                "size": "lg",
+                "align": "center",
+                "link": {
+                  "url": "#checkout"
+                },
+                "button_background_color": "#f9e5ff",
+                "button_text_color": "#341f54"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

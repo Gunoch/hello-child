@@ -1,0 +1,524 @@
+{
+  "version": "0.5",
+  "title": "Bellona Home V4",
+  "type": "page",
+  "content": [
+    {
+      "id": "bellona-home-v4_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "content_width": "boxed",
+        "gap": "no",
+        "background_background": "gradient",
+        "background_color": "#fff6f0",
+        "background_color_b": "#fce8ff",
+        "background_gradient_type": "radial",
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "40",
+          "bottom": "90",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v4_hero_media",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v4_hero_video",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "hosted",
+                "insert_url": "https://example.com/video.mp4",
+                "image_overlay": {
+                  "url": "https://via.placeholder.com/720x520?text=Video+Campanha"
+                },
+                "autoplay": "no",
+                "muted": "yes"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bellona-home-v4_hero_copy",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "40",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v4_hero_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Coleção editorial Stella",
+                "header_size": "h1",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v4_hero_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Conte a história da campanha, destaque o moodboard e convide a visitante para descobrir as peças.</p>",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v4_hero_ctas",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Comprar agora",
+                "size": "lg",
+                "link": {
+                  "url": "#best-sellers"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v4_hero_secondary",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Ver lookbook",
+                "size": "sm",
+                "link": {
+                  "url": "#editorial"
+                },
+                "button_type": "outline"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-home-v4_best_sellers",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "0",
+          "bottom": "70",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v4_best_sellers_title_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v4_best_sellers_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Best-sellers",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v4_best_sellers_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Posicione um grid com os produtos mais desejados. Substitua as imagens pelos produtos oficiais.</p>",
+                "align": "center"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bellona-home-v4_best_sellers_grid",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v4_best_sellers_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "25",
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "bellona-home-v4_best_seller1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v4_best_seller1_image",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://via.placeholder.com/300x360?text=Produto+1"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v4_best_seller1_heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Nome do produto",
+                        "header_size": "h4",
+                        "align": "center"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v4_best_seller1_price",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "R$ 000,00",
+                        "header_size": "span",
+                        "align": "center",
+                        "text_color": "#b86bff"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-home-v4_best_seller2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v4_best_seller2_image",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://via.placeholder.com/300x360?text=Produto+2"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v4_best_seller2_heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Nome do produto",
+                        "header_size": "h4",
+                        "align": "center"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v4_best_seller2_price",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "R$ 000,00",
+                        "header_size": "span",
+                        "align": "center",
+                        "text_color": "#b86bff"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-home-v4_best_seller3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v4_best_seller3_image",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://via.placeholder.com/300x360?text=Produto+3"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v4_best_seller3_heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Nome do produto",
+                        "header_size": "h4",
+                        "align": "center"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v4_best_seller3_price",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "R$ 000,00",
+                        "header_size": "span",
+                        "align": "center",
+                        "text_color": "#b86bff"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-home-v4_best_seller4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v4_best_seller4_image",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://via.placeholder.com/300x360?text=Produto+4"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v4_best_seller4_heading",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Nome do produto",
+                        "header_size": "h4",
+                        "align": "center"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v4_best_seller4_price",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "R$ 000,00",
+                        "header_size": "span",
+                        "align": "center",
+                        "text_color": "#b86bff"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-home-v4_story",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#201732",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "40",
+          "bottom": "100",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v4_story_columns",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v4_story_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Histórias lapidadas",
+                "header_size": "h2",
+                "align": "left",
+                "text_color": "#ffffff"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v4_story_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#ffffff;\">Sugira conteúdos editoriais e bastidores para aproximar a cliente da marca.</p>",
+                "align": "left"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v4_story_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "50",
+                "gap": "extended"
+              },
+              "elements": [
+                {
+                  "id": "bellona-home-v4_story_column1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v4_story_column1_box",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<h3 style=\"color:#ffffff;\">Editorial semanal</h3><p style=\"color:#ded9f5;\">Use este espaço para inserir galerias ou links do blog.</p>",
+                        "align": "left"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-home-v4_story_column2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v4_story_column2_box",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<h3 style=\"color:#ffffff;\">Consultoria exclusiva</h3><p style=\"color:#ded9f5;\">Inclua formulário ou CTA para agenda personalizada.</p>",
+                        "align": "left"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-home-v4_instagram",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v4_instagram_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v4_instagram_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Siga @bellona.oficial",
+                "header_size": "h3",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v4_instagram_gallery",
+              "elType": "widget",
+              "widgetType": "image-gallery",
+              "settings": {
+                "gallery": [
+                  {
+                    "id": "feed1",
+                    "url": "https://via.placeholder.com/220?text=Post+1"
+                  },
+                  {
+                    "id": "feed2",
+                    "url": "https://via.placeholder.com/220?text=Post+2"
+                  },
+                  {
+                    "id": "feed3",
+                    "url": "https://via.placeholder.com/220?text=Post+3"
+                  },
+                  {
+                    "id": "feed4",
+                    "url": "https://via.placeholder.com/220?text=Post+4"
+                  }
+                ],
+                "columns": 4,
+                "image_size": "medium"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

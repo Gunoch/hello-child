@@ -1,0 +1,671 @@
+{
+  "version": "0.5",
+  "title": "Bellona Home V3",
+  "type": "page",
+  "content": [
+    {
+      "id": "bellona-home-v3_hero",
+      "elType": "section",
+      "settings": {
+        "structure": "50",
+        "content_width": "boxed",
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#f6f3ff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v3_hero_copy",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "30",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v3_hero_badge",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nova coleção Rosé",
+                "header_size": "span",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "text_color": "#9c5bff",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v3_hero_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Brilho autoral para todos os dias",
+                "header_size": "h1",
+                "align": "left",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 52,
+                  "sizes": []
+                },
+                "typography_font_weight": "700",
+                "text_color": "#2f244d",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v3_hero_description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Apresente aqui o manifesto da coleção, destacando materiais, acabamentos e a inspiração das peças de semijoias.</p>",
+                "align": "left",
+                "text_color": "#594f72",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v3_hero_cta_group",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explorar coleção",
+                "align": "left",
+                "size": "lg",
+                "button_type": "gradient",
+                "button_background_color": "#7f55ff",
+                "button_background_color_b": "#f4b5ff",
+                "link": {
+                  "url": "#colecoes"
+                },
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bellona-home-v3_hero_media",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v3_hero_placeholder",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://via.placeholder.com/560x640?text=Mockup+Hero"
+                },
+                "align": "center",
+                "caption": "Substitua pela foto hero da campanha"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-home-v3_collections",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "40",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v3_collections_header",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v3_collections_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Coleções em destaque",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v3_collections_subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Use este bloco para apresentar três coleções com curadoria específica.</p>",
+                "align": "center"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bellona-home-v3_collection_cards",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v3_collection_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "33"
+              },
+              "elements": [
+                {
+                  "id": "bellona-home-v3_collection_card1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v3_collection_card1_image",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://via.placeholder.com/360x420?text=Colecao+1"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v3_collection_card1_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Coleção Aurora",
+                        "header_size": "h3",
+                        "align": "center"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v3_collection_card1_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Insira descrição curta da coleção e CTA secundário.</p>",
+                        "align": "center"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-home-v3_collection_card2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v3_collection_card2_image",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://via.placeholder.com/360x420?text=Colecao+2"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v3_collection_card2_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Coleção Prisma",
+                        "header_size": "h3",
+                        "align": "center"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v3_collection_card2_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Descreva os destaques e link para a categoria.</p>",
+                        "align": "center"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-home-v3_collection_card3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v3_collection_card3_image",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "https://via.placeholder.com/360x420?text=Colecao+3"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v3_collection_card3_title",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Coleção Lunar",
+                        "header_size": "h3",
+                        "align": "center"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bellona-home-v3_collection_card3_text",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Use para produtos statement e CTA principal.</p>",
+                        "align": "center"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-home-v3_carousel",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1f1633",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "40",
+          "bottom": "70",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v3_carousel_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v3_carousel_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Carrossel de lançamentos",
+                "header_size": "h2",
+                "align": "center",
+                "text_color": "#ffffff"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v3_carousel_widget",
+              "elType": "widget",
+              "widgetType": "image-carousel",
+              "settings": {
+                "slides": [
+                  {
+                    "id": "slide1",
+                    "image": {
+                      "url": "https://via.placeholder.com/480x560?text=Produto+1"
+                    },
+                    "title": "Produto destaque 1"
+                  },
+                  {
+                    "id": "slide2",
+                    "image": {
+                      "url": "https://via.placeholder.com/480x560?text=Produto+2"
+                    },
+                    "title": "Produto destaque 2"
+                  },
+                  {
+                    "id": "slide3",
+                    "image": {
+                      "url": "https://via.placeholder.com/480x560?text=Produto+3"
+                    },
+                    "title": "Produto destaque 3"
+                  }
+                ],
+                "slides_to_show": 3,
+                "navigation": "arrows",
+                "pagination": "dots",
+                "autoplay": "yes",
+                "autoplay_speed": 4000
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-home-v3_benefits",
+      "elType": "section",
+      "settings": {
+        "content_width": "boxed",
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v3_benefits_inner",
+          "elType": "section",
+          "isInner": true,
+          "settings": {
+            "structure": "25"
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v3_benefit1",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "bellona-home-v3_benefit1_icon",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Banho antialérgico",
+                    "description_text": "Descreva a qualidade do banho das semijoias e certificações.",
+                    "icon": "fas fa-shield-alt",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-home-v3_benefit2",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "bellona-home-v3_benefit2_icon",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Envio para todo Brasil",
+                    "description_text": "Adicione política de frete e prazo personalizado.",
+                    "icon": "fas fa-shipping-fast",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-home-v3_benefit3",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "bellona-home-v3_benefit3_icon",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Garantia estendida",
+                    "description_text": "Informe cobertura de manutenção e prazos.",
+                    "icon": "far fa-gem",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "bellona-home-v3_benefit4",
+              "elType": "column",
+              "settings": {
+                "_column_size": 25
+              },
+              "elements": [
+                {
+                  "id": "bellona-home-v3_benefit4_icon",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Atendimento concierge",
+                    "description_text": "Inclua canais de suporte personalizados.",
+                    "icon": "far fa-comments",
+                    "align": "center"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bellona-home-v3_testimonials",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#fdf8f2",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bellona-home-v3_testimonials_column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bellona-home-v3_testimonials_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Clientes apaixonados",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v3_testimonials_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Adicione depoimentos reais ou avaliações das clientes.</p>",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "bellona-home-v3_testimonials_inner",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "structure": "33"
+              },
+              "elements": [
+                {
+                  "id": "bellona-home-v3_testimonial1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v3_testimonial1_widget",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "“Texto do depoimento sobre o brilho e a durabilidade das peças.”",
+                        "testimonial_name": "Cliente 1",
+                        "testimonial_job": "Cidade / Estado"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-home-v3_testimonial2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v3_testimonial2_widget",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "“Relato sobre o atendimento personalizado e rapidez no envio.”",
+                        "testimonial_name": "Cliente 2",
+                        "testimonial_job": "Cidade / Estado"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bellona-home-v3_testimonial3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "bellona-home-v3_testimonial3_widget",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "“Use este espaço para avaliações de influenciadoras e parceiros.”",
+                        "testimonial_name": "Cliente 3",
+                        "testimonial_job": "Cidade / Estado"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

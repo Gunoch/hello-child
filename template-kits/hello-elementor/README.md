@@ -8,6 +8,8 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 | --- | --- | --- |
 | `pages/bellona-home.json` | Página completa | Landing page inicial com destaque para a nova coleção, diferenciais da marca, vitrines de produtos e prova social. |
 | `pages/bellona-home-v2.json` | Página completa | Variação com paleta aqua, depoimentos atualizados e CTAs reposicionados para conversão imediata. |
+| `pages/bellona-home-v3.json` | Página completa | Versão editorial com hero em degradê, cartões de coleções, carrossel de lançamentos e bloco de depoimentos. |
+| `pages/bellona-home-v4.json` | Página completa | Layout com vídeo destacado, grid de best-sellers, storytelling imersivo e galeria social. |
 | `pages/bellona-sobre.json` | Página completa | Página institucional com manifesto da marca, linha do tempo, pilares estratégicos e CTA para newsletter do atelier. |
 | `pages/bellona-sobre-v2.json` | Página completa | Versão alternativa com narrativa renovada, blocos revisados e foco em bastidores do atelier. |
 | `pages/bellona-colecao-aurora.json` | Página completa | Apresenta a coleção Aurora com destaques de produtos, sugestões de styling, galeria curada e formulário para agendar sessão exclusiva. |
@@ -22,6 +24,8 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 | `pages/bellona-contato-v2.json` | Página completa | Opção com linguagem personalizada, foco em concierge híbrido e ajuste de cores para contraste elevado. |
 | `pages/bellona-politicas-troca-devolucao.json` | Página completa | Políticas de trocas e devoluções com cabeçalho responsivo, banner informativo, texto oficial, galeria de imagens e CTA final para redes sociais. |
 | `pages/bellona-politicas-troca-devolucao-v2.json` | Página completa | Variação revisada com copy atualizada, rodapé ampliado e novo destaque para redes sociais oficiais. |
+| `pages/bellona-landing-constelacao.json` | Página completa | Landing para cápsula Constelação com contador, destaques, slides de produtos, formulário de reserva e FAQ. |
+| `pages/bellona-landing-signature.json` | Página completa | Landing para programa de assinatura com vitrines rotativas, benefícios, planos, prova social e CTA final. |
 | `pages/bellona-faq.json` | Página completa | Página de perguntas frequentes com bloco hero contextual, respostas detalhadas e copy alinhada ao concierge Bellona. |
 | `pages/bellona-equipe.json` | Página completa | Página institucional para apresentar o time, cultura da marca e CTA de relacionamento. |
 | `pages/bellona-experiencia.json` | Página completa | Página dedicada à jornada de personalização com etapas, serviços exclusivos e chamada para consultoria. |
