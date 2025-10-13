@@ -7,8 +7,8 @@ Este documento descreve o fluxo recomendado para planejar, implementar, revisar 
 ## 1. Preparação e Planejamento
 
 1. **Entendimento da demanda**
-   - Confirme o objetivo da alteração (novo template, ajuste visual, integração com WooCommerce etc.).
-   - Levante os arquivos impactados utilizando a árvore do projeto descrita na seção 2 (kits, documentação, arquivos legados do tema filho).
+   - Confirme o objetivo da alteração (novo template, ajuste visual, integração com WooCommerce etc.) e registre o briefing em `briefing.json` conforme diretrizes de IA descritas em `docs/ai-ecommerce-design-guidelines.md`.
+   - Levante os arquivos impactados utilizando a árvore do projeto descrita na seção 2 (kits, documentação, arquivos legados do tema filho) e identifique se serão criados relatórios em `docs/reports/`.
 2. **Análise de impacto**
    - Identifique dependências entre hooks, templates PHP, CSS e JS.
    - Verifique se a alteração afeta páginas especiais (p. ex. `theme/templates/page-policy.php`) ou templates do WooCommerce.
@@ -29,10 +29,11 @@ Este documento descreve o fluxo recomendado para planejar, implementar, revisar 
 ## 3. Fluxo de Implementação por Tipo de Alteração
 
 ### 3.1 Novos templates ou ajustes visuais
-1. Gere os layouts no Elementor garantindo que os containers usem as configurações padrão do Hello Elementor.
-2. Exporte o template (`.json`) e salve na subpasta correspondente (por exemplo, `pages/` ou `sections/`).
-3. Atualize o `README.md` do kit com instruções de uso, dependências e recomendações de responsividade.
-4. Valide no navegador (modo responsivo e contraste) após importar o template em um ambiente de teste.
+1. Consulte `docs/ai-ecommerce-design-guidelines.md` para definir componentes reutilizáveis, tokens de estilo e checklist de QA antes de abrir o Elementor.
+2. Gere os layouts no Elementor garantindo que os containers usem as configurações padrão do Hello Elementor, abordagem *mobile first* e tipografia com `clamp()`.
+3. Exporte o template (`.json`) e salve na subpasta correspondente (por exemplo, `pages/` ou `sections/`), mantendo nome alinhado ao slug definido no briefing.
+4. Atualize o `README.md` do kit com instruções de uso, dependências, tokens globais configurados e recomendações de responsividade.
+5. Valide no navegador (modo responsivo, contraste e navegação por teclado) após importar o template em um ambiente de teste e anote resultados no relatório de QA do projeto.
 
 ### 3.2 Scripts e interações
 1. Utilize apenas widgets nativos do Elementor sempre que possível para evitar dependências externas.

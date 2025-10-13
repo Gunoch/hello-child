@@ -13,7 +13,7 @@ Este repositório agora concentra **Template Kits** compatíveis com o tema base
     - `bellona-home.json`, `bellona-sobre.json`, `bellona-colecao-aurora.json`, etc.: versões legadas do kit Bellona.
     - `bellona-home-w01-*.json`: quatro variações de homepage aplicando a nova identidade, fluxos de manifesto, vitrines e concierge.
     - `bellona-landing-w01-*.json`: seis landing pages específicas para coleção, assinatura, campanhas sazonais, atelier, projetos bespoke e gifting.
-- `docs/`: documentação de apoio (incluindo este guia e o fluxo de engenharia).
+- `docs/`: documentação de apoio (incluindo este guia, o fluxo de engenharia e as novas diretrizes de design orientadas por IA).
 - `docs/bellona-w01/`: estudos de identidade, UX, conteúdo e checklist operacional que orientam a aplicação das páginas w01.
 - `theme/`, `functions.php`, `style.css`: permanecem disponíveis para projetos legados que ainda utilizam o tema filho, mas não são mais o foco principal.
 
@@ -23,6 +23,7 @@ Este repositório agora concentra **Template Kits** compatíveis com o tema base
 2. Plugin **Elementor** instalado (recomenda-se a versão mais recente).
 3. Para layouts que listam produtos, ter **WooCommerce** instalado e configurado.
 4. Opcional: **Elementor Pro**, caso deseje utilizar widgets dinâmicos adicionais (não obrigatório para os templates atuais).
+5. Briefing atualizado em `briefing.json` e revisão prévia das diretrizes em [`docs/ai-ecommerce-design-guidelines.md`](./ai-ecommerce-design-guidelines.md) quando o projeto for conduzido por assistentes de IA.
 
 ## Importando um Template Kit
 
@@ -45,5 +46,6 @@ Este repositório agora concentra **Template Kits** compatíveis com o tema base
 - Documente dependências adicionais diretamente nos arquivos `README.md` de cada kit.
 - Ao atualizar um template, incremente o número de versão no cabeçalho do arquivo `.json` (caso aplicável) e registre as mudanças no changelog do projeto.
 - Teste a importação em um ambiente de staging antes de aplicar no site oficial.
+- Utilize a checklist de QA descrita nas diretrizes de IA para registrar resultados em `docs/reports/<slug>-qa.md`.
 
 Seguir estas orientações garante que os Template Kits continuem compatíveis com o ecossistema Hello Elementor e WooCommerce, reduzindo conflitos e facilitando a evolução do projeto.
