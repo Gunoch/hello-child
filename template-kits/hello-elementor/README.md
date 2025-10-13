@@ -25,6 +25,16 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 | `pages/bellona-faq.json` | Página completa | Página de perguntas frequentes com bloco hero contextual, respostas detalhadas e copy alinhada ao concierge Bellona. |
 | `pages/bellona-equipe.json` | Página completa | Página institucional para apresentar o time, cultura da marca e CTA de relacionamento. |
 | `pages/bellona-experiencia.json` | Página completa | Página dedicada à jornada de personalização com etapas, serviços exclusivos e chamada para consultoria. |
+| `pages/bellona-home-w01-ascendant.json` | Página completa | Home heroica com destaque para manifesto w01, vitrine 3x2 e CTA concierge imediato. |
+| `pages/bellona-home-w01-sentinela.json` | Página completa | Home com narrativa manifesto, benefícios em ícones e bloco de testemunhos Guardiãs. |
+| `pages/bellona-home-w01-vanguard.json` | Página completa | Home com tabs de coleção, formulário concierge 2h e métricas sociais. |
+| `pages/bellona-home-w01-lumina.json` | Página completa | Home compacta com navegação âncora, destaques em promoção e call-to-action para briefing semanal. |
+| `pages/bellona-landing-w01-aurora.json` | Página completa | Landing da coleção Aurora com materiais, storytelling e captura de leads. |
+| `pages/bellona-landing-w01-vip.json` | Página completa | Landing do programa Guardiãs Bellona com benefícios, etapas e FAQ. |
+| `pages/bellona-landing-w01-solstice.json` | Página completa | Landing sazonal com contagem regressiva, vitrine de ofertas e garantias de campanha. |
+| `pages/bellona-landing-w01-atelier.json` | Página completa | Landing institucional do atelier com processo criativo, equipe e formulário de tour. |
+| `pages/bellona-landing-w01-constellation.json` | Página completa | Landing para projetos sob medida com timeline estratégica e casos corporativos. |
+| `pages/bellona-landing-w01-gifting.json` | Página completa | Landing de presentes premium com kits configuráveis, depoimentos e FAQ. |
 
 ## Passo a passo de importação
 
@@ -40,6 +50,8 @@ Este kit foi configurado para funcionar em instalações que utilizam o tema bas
 - **WooCommerce**: nos widgets de produtos, selecione as categorias ou coleções que façam sentido para a página. Aproveite os widgets dinâmicos do Elementor Pro, se disponíveis, para exibir produtos em promoção, mais vendidos, etc.
 - **Responsividade**: revise o layout nos modos tablet e mobile garantindo que espaçamentos e alinhamentos acompanhem as diretrizes do Hello Elementor.
 - **Links e CTAs**: personalize botões de contato (WhatsApp, e-mail) e âncoras internas para evitar links quebrados.
+
+> Consulte o diretório [`docs/bellona-w01/`](../../docs/bellona-w01) para seguir a paleta cromática, tipografia, linguagem e microcopy definidos para a fase w01 antes de publicar qualquer variação.
 
 ## Referências úteis
 

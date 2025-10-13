@@ -1,0 +1,106 @@
+{
+  "version": "0.6",
+  "title": "Bellona Landing w01 Gifting",
+  "type": "page",
+  "content": [
+    {
+      "id": "w01_landing_gifting_hero",
+      "elType": "section",
+      "settings": {"structure": "50", "background_background": "classic", "background_color": "#1B1D2A", "padding": {"unit": "px", "top": "130", "right": "50", "bottom": "130", "left": "50", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_gifting_hero_col1",
+          "elType": "column",
+          "settings": {"_column_size": 55},
+          "elements": [
+            {"id": "w01_landing_gifting_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Gift Experience Bellona", "header_size": "h1", "title_color": "#F5E6CC"}},
+            {"id": "w01_landing_gifting_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Crie presentes corporativos ou afetivos com assinatura Bellona e concierge dedicado.</p>", "text_color": "#E3D7FF"}},
+            {"id": "w01_landing_gifting_cta", "elType": "widget", "widgetType": "button", "settings": {"text": "Montar kit presente", "link": {"url": "https://bellona.example/gifting"}, "background_color": "#F5E6CC", "color": "#1B1D2A"}}
+          ]
+        },
+        {
+          "id": "w01_landing_gifting_hero_col2",
+          "elType": "column",
+          "settings": {"_column_size": 45},
+          "elements": [
+            {"id": "w01_landing_gifting_image", "elType": "widget", "widgetType": "image", "settings": {"image": {"url": "https://via.placeholder.com/600x600?text=Gift+Bellona"}, "image_size": "full", "align": "center"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_gifting_kits",
+      "elType": "section",
+      "settings": {"structure": "33", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_gifting_kit1",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_gifting_kit1_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Kit Ritual"}},
+            {"id": "w01_landing_gifting_kit1_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Colar statement + brinco mini + carta personalizada.</p>"}},
+            {"id": "w01_landing_gifting_kit1_button", "elType": "widget", "widgetType": "button", "settings": {"text": "Solicitar orçamento", "link": {"url": "https://wa.me/5562933333333"}, "size": "sm"}}
+          ]
+        },
+        {
+          "id": "w01_landing_gifting_kit2",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_gifting_kit2_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Kit Conselho"}},
+            {"id": "w01_landing_gifting_kit2_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Bracelete articulado + estojo premium + placa gravada.</p>"}},
+            {"id": "w01_landing_gifting_kit2_button", "elType": "widget", "widgetType": "button", "settings": {"text": "Reservar lote", "link": {"url": "https://bellona.example/gifting#conselho"}, "size": "sm"}}
+          ]
+        },
+        {
+          "id": "w01_landing_gifting_kit3",
+          "elType": "column",
+          "settings": {"_column_size": 33},
+          "elements": [
+            {"id": "w01_landing_gifting_kit3_heading", "elType": "widget", "widgetType": "heading", "settings": {"title": "Kit Celebração"}},
+            {"id": "w01_landing_gifting_kit3_text", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Conjunto com três anéis stackable e mensagem gravada.</p>"}},
+            {"id": "w01_landing_gifting_kit3_button", "elType": "widget", "widgetType": "button", "settings": {"text": "Criar combinação", "link": {"url": "https://bellona.example/gifting#celebracao"}, "size": "sm"}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_gifting_testimonials",
+      "elType": "section",
+      "settings": {"structure": "100", "background_background": "classic", "background_color": "#F5E6CC", "padding": {"unit": "px", "top": "70", "right": "30", "bottom": "70", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_gifting_testimonials_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_gifting_testimonials_widget", "elType": "widget", "widgetType": "testimonials", "settings": {"slides": [
+              {"content": "“Presenteamos 40 executivas com Bellona e o impacto foi imediato."", "name": "Grupo Atlas", "title": "RH"},
+              {"content": "“O atendimento personalizado transformou nossa confraternização."", "name": "Instituto Aurora", "title": "Direção"}
+            ]}}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w01_landing_gifting_faq",
+      "elType": "section",
+      "settings": {"structure": "100", "background_background": "classic", "background_color": "#FFFFFF", "padding": {"unit": "px", "top": "60", "right": "30", "bottom": "60", "left": "30", "isLinked": false}},
+      "elements": [
+        {
+          "id": "w01_landing_gifting_faq_col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {"id": "w01_landing_gifting_faq_toggle", "elType": "widget", "widgetType": "toggle", "settings": {"toggle": [
+              {"title": "Qual o pedido mínimo?", "content": "A partir de 10 kits personalizados."},
+              {"title": "Posso incluir logotipo?", "content": "Sim, gravamos discretamente na embalagem ou placa interna."},
+              {"title": "Prazo de produção?", "content": "De 15 a 25 dias úteis conforme volume."}
+            ]}}
+          ]
+        }
+      ]
+    }
+  ]
+}

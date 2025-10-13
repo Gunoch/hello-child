@@ -8,17 +8,13 @@ Este repositório agora concentra **Template Kits** compatíveis com o tema base
 
 - `template-kits/README.md`: visão geral dos kits disponíveis e instruções rápidas de importação.
 - `template-kits/hello-elementor/`: coleção de kits preparada especificamente para o tema Hello Elementor.
-  - `README.md`: instruções detalhadas de configuração e ajustes pós-importação.
+  - `README.md`: instruções detalhadas de configuração e ajustes pós-importação, incluindo referência à identidade w01.
   - `pages/`: arquivos `.json` referentes a páginas completas construídas no Elementor.
-    - `bellona-home.json`: landing page inicial com hero, destaques de produtos e depoimentos.
-    - `bellona-sobre.json`: página institucional com manifesto da marca, pilares estratégicos e linha do tempo.
-    - `bellona-colecao-aurora.json`: apresentação da coleção Aurora com destaques, styling sugerido e formulário para sessões exclusivas.
-    - `bellona-lookbook.json`: lookbook digital com galerias temáticas e notas da equipe de estilo.
-    - `bellona-guia-cuidados.json`: guia de manutenção com rotinas passo a passo, boas práticas e FAQ.
-    - `bellona-trocas-devolucoes.json`: página de políticas com FAQs e orientação para suporte.
-    - `bellona-contato.json`: central de atendimento com cards de canais e checklist de formulário.
-    - `bellona-politicas-troca-devolucao.json`: página institucional completa com políticas detalhadas, galeria de imagens e CTA final.
+    - `bellona-home.json`, `bellona-sobre.json`, `bellona-colecao-aurora.json`, etc.: versões legadas do kit Bellona.
+    - `bellona-home-w01-*.json`: quatro variações de homepage aplicando a nova identidade, fluxos de manifesto, vitrines e concierge.
+    - `bellona-landing-w01-*.json`: seis landing pages específicas para coleção, assinatura, campanhas sazonais, atelier, projetos bespoke e gifting.
 - `docs/`: documentação de apoio (incluindo este guia e o fluxo de engenharia).
+- `docs/bellona-w01/`: estudos de identidade, UX, conteúdo e checklist operacional que orientam a aplicação das páginas w01.
 - `theme/`, `functions.php`, `style.css`: permanecem disponíveis para projetos legados que ainda utilizam o tema filho, mas não são mais o foco principal.
 
 ## Pré-requisitos
