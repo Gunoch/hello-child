@@ -1,11 +1,12 @@
-# TODO – Entregas Bellona w01
+# Checklist de Manutenção – Bellona w01
 
-- [x] Criar pasta dedicada `docs/bellona-w01` com estudos de identidade, UX e implementação.
+> Esta lista acompanha pendências relacionadas ao legado w01. Priorize as ações que mantêm o material relevante para o fluxo de engenharia atual e registre a conclusão no relatório de QA ou no PR correspondente.
+
+- [x] Organizar `docs/bellona-w01` com estudos de identidade, UX e implementação.
 - [x] Documentar identidade visual, voz e diferenciais da marca Bellona.
-- [x] Registrar diretrizes de UX e pesquisa de referência para landing/home pages.
-- [x] Elaborar manual de conteúdo, microcopy e SEO alinhado à estratégia w01.
-- [x] Produzir guia de implementação e checklist pós-publicação para os templates.
-- [x] Desenvolver 10 novos templates `.json` para landing pages e home pages com sufixo `w01`.
-- [x] Atualizar documentação global do projeto com referência à identidade e políticas w01.
-- [ ] Validar responsividade e acessibilidade dos templates após importação em ambiente de teste.
-- [ ] Atualizar provas sociais e assets visuais com equipe de marketing antes do go-live.
+- [x] Registrar diretrizes de UX, conteúdo e pesquisa de referência.
+- [x] Elaborar guia de implementação e checklist pós-publicação para os templates.
+- [x] Versionar templates `.json` com sufixo `w01` e mover variações obsoletas para `pages/archive/`.
+- [ ] Revalidar responsividade e acessibilidade dos templates em ambiente de teste seguindo as diretrizes 2024.
+- [ ] Atualizar provas sociais, métricas e assets visuais com marketing a cada trimestre.
+- [ ] Documentar aprendizados recentes no README do kit e sinalizar ajustes necessários nas diretrizes globais.

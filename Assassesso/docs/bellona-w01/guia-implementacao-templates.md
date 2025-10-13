@@ -1,32 +1,34 @@
 # Guia de Implementação dos Templates w01 – Bellona
 
-## Estrutura do Kit w01
-- 10 variações de landing/home pages focadas em campanhas, assinatura VIP e lançamentos permanentes.
-- Cada arquivo `.json` foi configurado para importar diretamente no Elementor (Hello Elementor + WooCommerce).
-- IDs dos elementos seguem padrão `w01_<contexto>_<descricao>` para facilitar rastreabilidade.
+> Referência para manter os templates w01 alinhados às diretrizes atuais. Combine estas instruções com o fluxo oficial (`../../../FLUXO-ENGENHARIA.md`) e registre qualquer divergência detectada durante QA.
 
-## Preparação do Ambiente
-1. Atualizar tokens globais de cor e tipografia conforme `identidade-visual-bellona.md`.
-2. Instalar plugins necessários: Elementor, WooCommerce, plugin de formulários (Elementor Forms nativo recomendado).
-3. Configurar integrações: WhatsApp Business API ou link direto e lista de produtos destaque.
+## Estrutura do kit w01
+- Conjunto de landing pages e homes orientadas a campanhas, assinatura VIP e lançamentos permanentes.
+- Arquivos `.json` importáveis diretamente no Elementor (Hello Elementor + WooCommerce).
+- Identificadores seguem o padrão `w01_<contexto>_<descricao>` para rastreabilidade.
 
-## Passos de Importação
-1. Vá em **Templates → Import Templates** e selecione o arquivo desejado.
-2. Após importação, edite a página e substitua imagens placeholder por assets oficiais (mínimo 2000px largura, 72dpi, fundo neutro).
-3. Atualize campos dinâmicos:
-   - Links para coleções no WooCommerce.
-   - Texto dos CTAs e URLs de WhatsApp/LP de assinatura.
-   - Carrosséis de depoimento (manter máximo 6 itens para performance).
+## Preparação do ambiente
+1. Atualize tokens globais conforme `identidade-visual-bellona.md` e diretrizes vigentes.
+2. Verifique plugins essenciais: Elementor, WooCommerce e formulários nativos (Elementor Forms recomendado).
+3. Configure integrações de comunicação (WhatsApp Business, CRM) e liste produtos destaque.
 
-## Ajustes Recomendados por Tipo de Página
-- **Home assinatura**: criar redirecionamento no WooCommerce para o programa Guardiãs Bellona.
-- **Landing de coleção**: habilitar Lightbox para galerias e taggear produtos com categoria da coleção.
-- **Landing sazonal**: atualizar contagem regressiva via widget nativo e conferir timezone.
+## Importação
+1. Acesse **Templates → Template Kits** e importe o arquivo desejado.
+2. Substitua assets provisórios por imagens oficiais otimizadas (mín. 2000px, ≤200 KB, formato WebP/AVIF quando possível).
+3. Atualize conteúdos dinâmicos:
+   - Links de coleções WooCommerce e âncoras internas.
+   - Texto dos CTAs e URLs de atendimento.
+   - Carrosséis de depoimentos (máx. 6 itens para preservar desempenho).
 
-## Checklist Pós-publicação
-- [ ] Conferir desempenho no PageSpeed (meta 85+ mobile, 95+ desktop).
-- [ ] Validar formulário enviando teste real para CRM.
-- [ ] Revisar seções de manifesto e benefícios com equipe de branding.
-- [ ] Atualizar sitemap e disparar request de indexação no Search Console.
+## Ajustes recomendados
+- **Homes** – configurar redirecionamentos de CTAs para experiências concierge ou assinatura.
+- **Landing de coleção** – habilitar lightbox em galerias e associar produtos à taxonomia correta.
+- **Landing sazonal** – revisar contadores, estoques e mensagens promocionais conforme campanha ativa.
 
-Este guia deve ser utilizado junto aos demais estudos para garantir consistência na entrega de cada variação w01.
+## Checklist pós-importação
+- [ ] PageSpeed ≥85 (mobile) / ≥95 (desktop) após otimizações.
+- [ ] Formulários testados com envio real ao CRM/automação.
+- [ ] Revisão de manifesto, benefícios e microcopy com branding/conteúdo.
+- [ ] Sitemap e Search Console atualizados quando páginas forem publicadas.
+
+> Caso algum passo conflite com as diretrizes unificadas, priorize a orientação mais recente e atualize este guia registrando o motivo.

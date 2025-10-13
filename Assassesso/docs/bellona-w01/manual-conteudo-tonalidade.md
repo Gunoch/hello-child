@@ -1,24 +1,20 @@
-# Manual de Conteúdo e Tonalidade – Bellona w01
+# Manual de Conteúdo e Tonalidade – Bellona w01 (Referência)
 
-## Princípios Narrativos
-- **Força com delicadeza**: comunicações equilibram conquista e sutileza.
-- **Temporalidade expandida**: reforçar que as peças atravessam gerações.
-- **Rituais personalizados**: cada produto é apresentado como parte de uma jornada individual.
+> Utilize este manual como base narrativa para projetos Bellona. Sempre valide as recomendações com as diretrizes unificadas de 2024 (`../ai-ecommerce-design-guidelines.md`) e registre ajustes quando campanhas ou mensagens-chave forem atualizadas.
 
-## Estrutura de Copy para Landing/Home
-1. **Headline**
-   - Fórmula: Verbo de conquista + símbolo da peça + benefício emocional.
-   - Ex.: “Forje sua presença com a Coleção Aegis”.
-2. **Subheadline**
-   - Explicar o diferencial concreto (banho antialérgico, lapidação manual, garantia 1 ano).
-3. **Bullet Points de Benefício**
-   - Sempre incluir: Durabilidade, Conforto, Exclusividade (edições limitadas).
-4. **CTA primário**
-   - Vocabulário: “Ativar ritual”, “Solicitar curadoria”, “Garantir presença”.
-5. **CTA secundário**
-   - Link para WhatsApp concierge ou guia de tamanhos.
+## Princípios narrativos
+- **Força com delicadeza** – comunicações equilibram conquista e sutileza.
+- **Temporalidade expandida** – reforçar que as peças atravessam gerações.
+- **Rituais personalizados** – apresentar produtos como parte de jornadas individuais.
 
-## Microcopy Essencial
+## Estrutura de copy sugerida
+1. **Headline** – verbo de conquista + símbolo da peça + benefício emocional. Ex.: “Forje sua presença com a Coleção Aegis”.
+2. **Subheadline** – diferencial concreto (banho antialérgico, lapidação manual, garantia estendida).
+3. **Bullets de benefício** – durabilidade, conforto, exclusividade.
+4. **CTA primário** – “Ativar ritual”, “Solicitar curadoria”, “Garantir presença”.
+5. **CTA secundário** – WhatsApp concierge, guia de tamanhos ou catálogo digital.
+
+## Microcopy essencial
 | Contexto | Mensagem sugerida |
 | --- | --- |
 | Formulário de lead | “Responda em menos de 1 minuto e receba uma curadoria pessoal Bellona.” |
@@ -27,21 +23,21 @@
 | Confirmação | “Sua nova vitória está a caminho. Em breve, enviaremos instruções de cuidado.” |
 
 ## Diretrizes de SEO
-- Palavras-chave foco: “semi joias atemporais”, “joias autorais premium”, “coleção exclusiva Bellona”.
-- Meta description: 150-160 caracteres enfatizando exclusividade + atendimento concierge.
-- Estrutura de heading: H1 único por página; H2 para seções principais (Manifesto, Coleções, Benefícios); H3 para bullet points ou detalhes.
+- Palavras-chave: “semi joias atemporais”, “joias autorais premium”, “coleção exclusiva Bellona”.
+- Meta description: 150–160 caracteres enfatizando exclusividade + atendimento concierge.
+- Headings: H1 único; H2 para seções principais; H3 para detalhes ou listas.
 
-## Conteúdo Visual e Narrativo por Seção
-- **Hero**: background em degradê com textura metálica. Inserir animação leve (parallax) com constelações.
-- **Manifesto**: texto curto (máximo 70 palavras) + retrato da equipe de design.
-- **Coleções**: cards modulares com foto, nome da coleção, frase-poema e CTA “Ver detalhes”.
-- **Prova Social**: depoimentos curtos (até 200 caracteres) com nota média 4.9/5, incluir carrossel mobile.
-- **Benefícios**: ícones lineares e microcopy funcional.
-- **Concierge**: bloco destacado com horário de atendimento e garantia de resposta em até 2h.
+## Conteúdo visual por seção
+- **Hero** – background com textura metálica, animação leve (parallax) opcional.
+- **Manifesto** – texto até 70 palavras + retrato da equipe de design.
+- **Coleções** – cards modulares com foto, nome, frase-poema e CTA “Ver detalhes”.
+- **Prova social** – depoimentos curtos (≤200 caracteres) com nota média 4.9/5.
+- **Benefícios** – ícones lineares e microcopy funcional.
+- **Concierge** – bloco destacado com SLA de resposta (até 2h) e canais disponíveis.
 
-## Políticas de Conteúdo para Novas Páginas
-- Mencionar sustentabilidade (embalagens recicláveis) no rodapé ou seções de responsabilidade.
-- Evitar termos que sugiram urgência exagerada; priorizar exclusividade e segurança.
-- Atualizar prova social a cada trimestre, registrando fonte (Instagram, WhatsApp, Avaliações internas).
+## Políticas de conteúdo
+- Mencionar sustentabilidade (embalagens recicláveis) no rodapé ou seção de responsabilidade.
+- Priorizar sentimento de exclusividade e segurança em vez de urgência artificial.
+- Atualizar prova social a cada trimestre, registrando fonte (Instagram, WhatsApp, avaliações internas).
 
-Este manual deve ser revisitado em todas as criações de landing page ou home para assegurar consistência narrativa.
+> Quando novas campanhas exigirem ajustes de tom, registre-os no README do kit correspondente e referencie este manual como origem da versão anterior.
