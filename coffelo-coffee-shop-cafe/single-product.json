@@ -1,0 +1,2282 @@
+{
+    "version": "0.4",
+    "title": "Single Product",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "3268861f",
+            "settings": {
+                "flex_direction": "column",
+                "flex_gap": {
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": 0
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/White_008.jpg",
+                    "id": 30,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_size": "cover",
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "180",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#FFF1E1",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.6,
+                    "sizes": []
+                },
+                "shape_divider_bottom": "tilt",
+                "shape_divider_bottom_height": {
+                    "unit": "px",
+                    "size": 50,
+                    "sizes": []
+                },
+                "shape_divider_bottom_above_content": "yes",
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "160",
+                    "right": "30",
+                    "bottom": "0",
+                    "left": "30",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "160",
+                    "right": "20",
+                    "bottom": "0",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_color": "globals\/colors?id=secondary",
+                    "shape_divider_bottom_color": "globals\/colors?id=primary"
+                }
+            },
+            "elements": [
+                {
+                    "id": "5cfe6b78",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "column": "",
+                            "row": "",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": null
+                        },
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "552c8d85",
+                            "settings": {
+                                "content_width": "full",
+                                "background_background": "classic",
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "400",
+                                    "right": "400",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "background_color": "globals\/colors?id=accent"
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 50,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "738586e0",
+                                    "settings": {
+                                        "space": {
+                                            "unit": "px",
+                                            "size": 70,
+                                            "sizes": []
+                                        },
+                                        "space_mobile": {
+                                            "unit": "px",
+                                            "size": 30,
+                                            "sizes": []
+                                        },
+                                        "space_tablet": {
+                                            "unit": "px",
+                                            "size": 30,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "spacer",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "482e0a0b",
+                                    "settings": {
+                                        "carousel": [
+                                            {
+                                                "id": 155,
+                                                "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Coffee-Cup-Mockup-1-1.png"
+                                            },
+                                            {
+                                                "id": 516,
+                                                "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Coffee-Cup-Mockup-4.png"
+                                            }
+                                        ],
+                                        "thumbnail_size": "full",
+                                        "slides_to_show": "1",
+                                        "navigation": "arrows",
+                                        "autoplay_speed": 2000,
+                                        "speed": 200,
+                                        "_margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "-12",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "__globals__": {
+                                            "arrows_color": "globals\/colors?id=b8ac8f8"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image-carousel",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "6f585d6f",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 85,
+                                    "sizes": []
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "80",
+                                    "right": "0",
+                                    "bottom": "120",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_tablet": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "120",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "404b59a9",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "70",
+                                            "isLinked": false
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "10",
+                                            "isLinked": false
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "3ed02321",
+                                            "settings": {
+                                                "title": "$ 123,56 usd \/ Item",
+                                                "__globals__": {
+                                                    "typography_typography": "globals\/typography?id=4ed3e04",
+                                                    "title_color": "globals\/colors?id=primary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "50fe47ca",
+                                            "settings": {
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "-19",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "st_title_alignment_responsive_mobile": "center",
+                                                "_margin_tablet": {
+                                                    "unit": "px",
+                                                    "top": "-17",
+                                                    "right": "-44",
+                                                    "bottom": "-8",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_margin_mobile": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "jkit_post_title",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "48124a54",
+                                            "settings": {
+                                                "content_width": "full",
+                                                "margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "350",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [
+                                                {
+                                                    "id": "cae98de",
+                                                    "settings": {
+                                                        "content_width": "full",
+                                                        "flex_direction": "row",
+                                                        "flex_gap": {
+                                                            "column": "0",
+                                                            "row": "0",
+                                                            "isLinked": true,
+                                                            "unit": "px",
+                                                            "size": 0
+                                                        },
+                                                        "margin": {
+                                                            "unit": "px",
+                                                            "top": "0",
+                                                            "right": "0",
+                                                            "bottom": "0",
+                                                            "left": "0",
+                                                            "isLinked": false
+                                                        },
+                                                        "padding": {
+                                                            "unit": "px",
+                                                            "top": "0",
+                                                            "right": "0",
+                                                            "bottom": "0",
+                                                            "left": "0",
+                                                            "isLinked": false
+                                                        },
+                                                        "flex_wrap_mobile": "nowrap",
+                                                        "hide_tablet": "hidden-tablet"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "id": "410a0bf7",
+                                                            "settings": {
+                                                                "content_width": "full",
+                                                                "flex_justify_content": "center",
+                                                                "flex_gap": {
+                                                                    "column": "10",
+                                                                    "row": "10",
+                                                                    "isLinked": true,
+                                                                    "unit": "px",
+                                                                    "size": 10
+                                                                },
+                                                                "border_border": "solid",
+                                                                "border_width": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "1",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "border_color": "#2B0F013B",
+                                                                "margin": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "padding": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "width_mobile": {
+                                                                    "unit": "%",
+                                                                    "size": 87,
+                                                                    "sizes": []
+                                                                },
+                                                                "width": {
+                                                                    "unit": "%",
+                                                                    "size": 84,
+                                                                    "sizes": []
+                                                                }
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "id": "1f5262ad",
+                                                                    "settings": {
+                                                                        "content_width": "full",
+                                                                        "flex_direction": "row",
+                                                                        "flex_align_items": "center",
+                                                                        "flex_gap": {
+                                                                            "column": "10",
+                                                                            "row": "10",
+                                                                            "isLinked": true,
+                                                                            "unit": "px",
+                                                                            "size": 10
+                                                                        },
+                                                                        "margin": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "padding": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "flex_wrap_mobile": "nowrap"
+                                                                    },
+                                                                    "elements": [
+                                                                        {
+                                                                            "id": "33558fa",
+                                                                            "settings": {
+                                                                                "rating_value": 4.5,
+                                                                                "icon_gap": {
+                                                                                    "unit": "px",
+                                                                                    "size": 1,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "icon_size_mobile": {
+                                                                                    "unit": "px",
+                                                                                    "size": 13,
+                                                                                    "sizes": []
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "rating",
+                                                                            "elType": "widget"
+                                                                        },
+                                                                        {
+                                                                            "id": "2b07a88a",
+                                                                            "settings": {
+                                                                                "editor": "<p>(4,5\/5)<\/p>"
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "text-editor",
+                                                                            "elType": "widget"
+                                                                        }
+                                                                    ],
+                                                                    "isInner": true,
+                                                                    "elType": "container"
+                                                                },
+                                                                {
+                                                                    "id": "7dc2ce0b",
+                                                                    "settings": {
+                                                                        "content_width": "full",
+                                                                        "flex_direction": "row",
+                                                                        "margin": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "padding": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        }
+                                                                    },
+                                                                    "elements": [
+                                                                        {
+                                                                            "id": "124d5d1b",
+                                                                            "settings": {
+                                                                                "title": "",
+                                                                                "alignment": "left",
+                                                                                "max_number": 1000,
+                                                                                "min_number": 4.5,
+                                                                                "icon_type": "",
+                                                                                "box_padding": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "0",
+                                                                                    "left": "0",
+                                                                                    "isLinked": true
+                                                                                },
+                                                                                "_margin": {
+                                                                                    "unit": "px",
+                                                                                    "top": "-5",
+                                                                                    "right": "0",
+                                                                                    "bottom": "-14",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                },
+                                                                                "__globals__": {
+                                                                                    "title_color": "globals\/colors?id=primary",
+                                                                                    "title_typography_typography": "",
+                                                                                    "digit_typography_typography": "globals\/typography?id=accent"
+                                                                                },
+                                                                                "_margin_mobile": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "-14",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                },
+                                                                                "title_typography_font_family": "Dela Gothic One",
+                                                                                "title_typography_font_size": {
+                                                                                    "unit": "em",
+                                                                                    "size": 1,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "title_typography_font_size_tablet": {
+                                                                                    "unit": "em",
+                                                                                    "size": 0.9,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "title_typography_font_weight": "300",
+                                                                                "title_typography_text_transform": "uppercase",
+                                                                                "title_color": "#2B0F01"
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "tp-number-counter",
+                                                                            "elType": "widget"
+                                                                        },
+                                                                        {
+                                                                            "id": "2562efcb",
+                                                                            "settings": {
+                                                                                "editor": "<p>Rating<\/p>",
+                                                                                "_margin": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "0",
+                                                                                    "left": "-11",
+                                                                                    "isLinked": false
+                                                                                },
+                                                                                "__globals__": {
+                                                                                    "text_color": ""
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "text-editor",
+                                                                            "elType": "widget"
+                                                                        }
+                                                                    ],
+                                                                    "isInner": true,
+                                                                    "elType": "container"
+                                                                }
+                                                            ],
+                                                            "isInner": true,
+                                                            "elType": "container"
+                                                        },
+                                                        {
+                                                            "id": "56ef6ee1",
+                                                            "settings": {
+                                                                "content_width": "full",
+                                                                "flex_justify_content": "center",
+                                                                "margin": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "padding": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                }
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "id": "270bebb2",
+                                                                    "settings": {
+                                                                        "content_width": "full",
+                                                                        "flex_direction": "row",
+                                                                        "flex_align_items": "center",
+                                                                        "flex_gap": {
+                                                                            "column": "0",
+                                                                            "row": "0",
+                                                                            "isLinked": true,
+                                                                            "unit": "px",
+                                                                            "size": 0
+                                                                        },
+                                                                        "margin": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "padding": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "49",
+                                                                            "bottom": "0",
+                                                                            "left": "20",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "flex_wrap_mobile": "nowrap",
+                                                                        "padding_mobile": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "32",
+                                                                            "bottom": "0",
+                                                                            "left": "20",
+                                                                            "isLinked": false
+                                                                        }
+                                                                    },
+                                                                    "elements": [
+                                                                        {
+                                                                            "id": "6837e680",
+                                                                            "settings": {
+                                                                                "image": {
+                                                                                    "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Testi1-1.jpg",
+                                                                                    "id": 651,
+                                                                                    "size": "",
+                                                                                    "alt": "",
+                                                                                    "source": "library"
+                                                                                },
+                                                                                "image_border_radius": {
+                                                                                    "unit": "px",
+                                                                                    "top": "100",
+                                                                                    "right": "100",
+                                                                                    "bottom": "100",
+                                                                                    "left": "100",
+                                                                                    "isLinked": true
+                                                                                },
+                                                                                "_margin": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "-6",
+                                                                                    "bottom": "0",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "image",
+                                                                            "elType": "widget"
+                                                                        },
+                                                                        {
+                                                                            "id": "5287279b",
+                                                                            "settings": {
+                                                                                "image": {
+                                                                                    "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Testi2.jpg",
+                                                                                    "id": 652,
+                                                                                    "size": "",
+                                                                                    "alt": "",
+                                                                                    "source": "library"
+                                                                                },
+                                                                                "image_border_radius": {
+                                                                                    "unit": "px",
+                                                                                    "top": "100",
+                                                                                    "right": "100",
+                                                                                    "bottom": "100",
+                                                                                    "left": "100",
+                                                                                    "isLinked": true
+                                                                                },
+                                                                                "_margin": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "0",
+                                                                                    "left": "-6",
+                                                                                    "isLinked": false
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "image",
+                                                                            "elType": "widget"
+                                                                        },
+                                                                        {
+                                                                            "id": "796c3a36",
+                                                                            "settings": {
+                                                                                "image": {
+                                                                                    "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Testi6.jpg",
+                                                                                    "id": 657,
+                                                                                    "size": "",
+                                                                                    "alt": "",
+                                                                                    "source": "library"
+                                                                                },
+                                                                                "image_border_radius": {
+                                                                                    "unit": "px",
+                                                                                    "top": "100",
+                                                                                    "right": "100",
+                                                                                    "bottom": "100",
+                                                                                    "left": "100",
+                                                                                    "isLinked": true
+                                                                                },
+                                                                                "_margin": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "0",
+                                                                                    "left": "-6",
+                                                                                    "isLinked": false
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "image",
+                                                                            "elType": "widget"
+                                                                        },
+                                                                        {
+                                                                            "id": "596d0f72",
+                                                                            "settings": {
+                                                                                "selected_icon": {
+                                                                                    "value": "jki jki-plus-solid",
+                                                                                    "library": "jkiticon"
+                                                                                },
+                                                                                "view": "stacked",
+                                                                                "secondary_color": "#FFFFFF",
+                                                                                "size": {
+                                                                                    "unit": "px",
+                                                                                    "size": 25,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "_margin": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "-5",
+                                                                                    "left": "-13",
+                                                                                    "isLinked": false
+                                                                                },
+                                                                                "size_mobile": {
+                                                                                    "unit": "px",
+                                                                                    "size": 21,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "__globals__": {
+                                                                                    "primary_color": "globals\/colors?id=accent"
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "icon",
+                                                                            "elType": "widget"
+                                                                        }
+                                                                    ],
+                                                                    "isInner": true,
+                                                                    "elType": "container"
+                                                                }
+                                                            ],
+                                                            "isInner": true,
+                                                            "elType": "container"
+                                                        }
+                                                    ],
+                                                    "isInner": true,
+                                                    "elType": "container"
+                                                }
+                                            ],
+                                            "isInner": true,
+                                            "elType": "container"
+                                        },
+                                        {
+                                            "id": "4f276ef2",
+                                            "settings": {
+                                                "content_width": "full",
+                                                "margin": {
+                                                    "unit": "px",
+                                                    "top": "30",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "margin_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [
+                                                {
+                                                    "id": "3ce11885",
+                                                    "settings": {
+                                                        "tabs": [
+                                                            {
+                                                                "tab_title": "Product Detail",
+                                                                "_id": "b95c6c7"
+                                                            },
+                                                            {
+                                                                "tab_title": "Description",
+                                                                "_id": "0da86a5"
+                                                            }
+                                                        ],
+                                                        "tabs_justify_horizontal": "start",
+                                                        "tabs_title_border_radius": {
+                                                            "unit": "px",
+                                                            "top": "10",
+                                                            "right": "10",
+                                                            "bottom": "10",
+                                                            "left": "10",
+                                                            "isLinked": true
+                                                        },
+                                                        "padding": {
+                                                            "unit": "px",
+                                                            "top": "10",
+                                                            "right": "30",
+                                                            "bottom": "10",
+                                                            "left": "30",
+                                                            "isLinked": false
+                                                        },
+                                                        "__globals__": {
+                                                            "title_text_color": "globals\/colors?id=primary",
+                                                            "title_typography_typography": "globals\/typography?id=5b89031"
+                                                        }
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "id": "7cef6cd8",
+                                                            "settings": {
+                                                                "_title": "Tab #1",
+                                                                "content_width": "full",
+                                                                "margin": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "padding": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                }
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "id": "499ffdc1",
+                                                                    "settings": {
+                                                                        "flex_direction": "column",
+                                                                        "margin": {
+                                                                            "unit": "px",
+                                                                            "top": "20",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "padding": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        }
+                                                                    },
+                                                                    "elements": [
+                                                                        {
+                                                                            "id": "1d2c490c",
+                                                                            "settings": {
+                                                                                "icon_list": [
+                                                                                    {
+                                                                                        "text": " Free Shipping Up To $54",
+                                                                                        "selected_icon": {
+                                                                                            "value": "fas fa-check-circle",
+                                                                                            "library": "fa-solid"
+                                                                                        },
+                                                                                        "_id": "5c0decf"
+                                                                                    },
+                                                                                    {
+                                                                                        "text": " Guaranteed Enjoyment",
+                                                                                        "selected_icon": {
+                                                                                            "value": "fas fa-check-circle",
+                                                                                            "library": "fa-solid"
+                                                                                        },
+                                                                                        "_id": "a36026c"
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "Money Back Guarantee",
+                                                                                        "selected_icon": {
+                                                                                            "value": "fas fa-check-circle",
+                                                                                            "library": "fa-solid"
+                                                                                        },
+                                                                                        "_id": "85ee76f"
+                                                                                    }
+                                                                                ],
+                                                                                "space_between": {
+                                                                                    "unit": "px",
+                                                                                    "size": 35,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "divider": "yes",
+                                                                                "divider_width": {
+                                                                                    "unit": "%",
+                                                                                    "size": 55,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "icon_size": {
+                                                                                    "unit": "px",
+                                                                                    "size": 17,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "__globals__": {
+                                                                                    "divider_color": "globals\/colors?id=9d67ee5",
+                                                                                    "icon_color": "globals\/colors?id=accent"
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "icon-list",
+                                                                            "elType": "widget"
+                                                                        }
+                                                                    ],
+                                                                    "isInner": true,
+                                                                    "elType": "container"
+                                                                }
+                                                            ],
+                                                            "isInner": true,
+                                                            "elType": "container",
+                                                            "isLocked": true
+                                                        },
+                                                        {
+                                                            "id": "62f0f222",
+                                                            "settings": {
+                                                                "_title": "Tab #2",
+                                                                "content_width": "full",
+                                                                "margin": {
+                                                                    "unit": "px",
+                                                                    "top": "30",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "padding": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                }
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "id": "2b5583f",
+                                                                    "settings": {
+                                                                        "flex_direction": "column",
+                                                                        "margin": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "padding": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        }
+                                                                    },
+                                                                    "elements": [
+                                                                        {
+                                                                            "id": "3191685f",
+                                                                            "settings": {
+                                                                                "editor": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.<\/p>",
+                                                                                "_padding": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "50",
+                                                                                    "bottom": "0",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "text-editor",
+                                                                            "elType": "widget"
+                                                                        },
+                                                                        {
+                                                                            "id": "1e5b650f",
+                                                                            "settings": {
+                                                                                "button_style": "style-4",
+                                                                                "button_text": "Read More",
+                                                                                "button_24_text": "Click Here",
+                                                                                "button_hover_text": "Click Here",
+                                                                                "button_background_background": "classic",
+                                                                                "button_border_style": "none",
+                                                                                "button_hover_background_background": "classic",
+                                                                                "button_hover_background_color": "#FF671C",
+                                                                                "button_align_mobile": "center",
+                                                                                "__globals__": {
+                                                                                    "button_background_color": "globals\/colors?id=cd469a8",
+                                                                                    "btn_text_color": "globals\/colors?id=primary"
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "tp-button",
+                                                                            "elType": "widget"
+                                                                        }
+                                                                    ],
+                                                                    "isInner": true,
+                                                                    "elType": "container"
+                                                                }
+                                                            ],
+                                                            "isInner": true,
+                                                            "elType": "container",
+                                                            "isLocked": true
+                                                        }
+                                                    ],
+                                                    "isInner": false,
+                                                    "widgetType": "nested-tabs",
+                                                    "elType": "widget"
+                                                }
+                                            ],
+                                            "isInner": true,
+                                            "elType": "container"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "75df89b",
+            "settings": {
+                "flex_direction": "column",
+                "background_background": "classic",
+                "shape_divider_bottom": "tilt",
+                "shape_divider_bottom_height": {
+                    "unit": "px",
+                    "size": 50,
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "10",
+                    "right": "0",
+                    "bottom": "40",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "_transform_rotateZ_effect": {
+                    "unit": "px",
+                    "size": 2,
+                    "sizes": []
+                },
+                "content_width": "full",
+                "shape_divider_bottom_color": "#EDE5DB",
+                "shape_divider_bottom_above_content": "yes",
+                "z_index": 1,
+                "__globals__": {
+                    "background_color": "globals\/colors?id=primary"
+                }
+            },
+            "elements": [
+                {
+                    "id": "6994ce49",
+                    "settings": {
+                        "children": [
+                            {
+                                "item_text": "Brew Bold",
+                                "_id": "f734133"
+                            },
+                            {
+                                "item_text": "Coffee Meets",
+                                "_id": "3de02d3"
+                            },
+                            {
+                                "item_text": "a Lifestyle",
+                                "_id": "7de1a36"
+                            }
+                        ],
+                        "separator_icon": {
+                            "value": "fab fa-diaspora",
+                            "library": "fa-brands"
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Dela Gothic One",
+                        "typography_font_size": {
+                            "unit": "rem",
+                            "size": 4.5,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "rem",
+                            "size": 3.5,
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "rem",
+                            "size": 3,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "typography_text_transform": "uppercase",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "20",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_transform_rotate_popover": "transform",
+                        "_transform_rotateZ_effect": {
+                            "unit": "px",
+                            "size": 2,
+                            "sizes": []
+                        },
+                        "_transform_rotateZ_effect_tablet": {
+                            "unit": "deg",
+                            "size": 4,
+                            "sizes": []
+                        },
+                        "_transform_rotateZ_effect_mobile": {
+                            "unit": "deg",
+                            "size": 9,
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "color": "globals\/colors?id=c92cc06",
+                            "icon_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "qi_addons_for_elementor_text_marquee",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "4df0625f",
+            "settings": {
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/White_008.jpg",
+                    "id": 30,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_size": "cover",
+                "background_overlay_background": "gradient",
+                "background_overlay_color_b_stop": {
+                    "unit": "%",
+                    "size": 20,
+                    "sizes": []
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "0",
+                    "bottom": "120",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "30",
+                    "bottom": "120",
+                    "left": "30",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "20",
+                    "bottom": "60",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=7f2c644",
+                    "background_overlay_color_b": "globals\/colors?id=c5504ce"
+                }
+            },
+            "elements": [
+                {
+                    "id": "7107f7e7",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "flex_direction_mobile": "column-reverse",
+                        "flex_gap_mobile": {
+                            "column": "10",
+                            "row": "10",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": 10
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "464f2ac0",
+                            "settings": {
+                                "content_width": "full",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "904b2e5",
+                                    "settings": {
+                                        "sg_title_concept": "highlight",
+                                        "sg_title_before": "Trending ",
+                                        "sg_title_focused": "Stories",
+                                        "sg_title_text": "Success Shared by Our Clients",
+                                        "sg_subtitle_heading": "Lorem ipsum dolor set amet",
+                                        "sg_shadow_content": "news",
+                                        "sg_separator_enable": "",
+                                        "st_focused_color_responsive": "#FF671C",
+                                        "st_focused_typography_content_typography_typography": "custom",
+                                        "st_focused_typography_content_typography_font_weight": "300",
+                                        "_z_index": 1,
+                                        "st_general_alignment_responsive_mobile": "center",
+                                        "__globals__": {
+                                            "st_title_typography_content_typography_typography": "globals\/typography?id=secondary",
+                                            "st_title_color_responsive": "globals\/colors?id=primary"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "jkit_heading",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "53dca93",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 80,
+                                    "sizes": []
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "4a10464b",
+                                    "settings": {
+                                        "title": "Client Say",
+                                        "align": "center",
+                                        "text_stroke_text_stroke": {
+                                            "unit": "px",
+                                            "size": 1,
+                                            "sizes": []
+                                        },
+                                        "_z_index": 0,
+                                        "_margin": {
+                                            "unit": "px",
+                                            "top": "-8",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "-188",
+                                            "isLinked": false
+                                        },
+                                        "_padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "align_tablet": "right",
+                                        "align_mobile": "center",
+                                        "_margin_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "__globals__": {
+                                            "typography_typography": "globals\/typography?id=6de89ad",
+                                            "title_color": "globals\/colors?id=f5d6e7a"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "2eda29e2",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "2a091083",
+                            "settings": {
+                                "content_width": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 43.634
+                                },
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_flex_size": "none",
+                                "_element_width": "initial",
+                                "flex_justify_content": "center",
+                                "background_background": "classic",
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "10",
+                                    "right": "10",
+                                    "bottom": "10",
+                                    "left": "10",
+                                    "isLinked": true
+                                },
+                                "__globals__": {
+                                    "background_color": "globals\/colors?id=primary"
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "35acf0c5",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "background_overlay_background": "classic",
+                                        "background_overlay_image": {
+                                            "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/08-1.png",
+                                            "id": 182,
+                                            "size": "",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "background_overlay_position": "center center",
+                                        "background_overlay_size": "cover",
+                                        "background_overlay_opacity": {
+                                            "unit": "px",
+                                            "size": 0.09,
+                                            "sizes": []
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "46",
+                                            "right": "50",
+                                            "bottom": "40",
+                                            "left": "50",
+                                            "isLinked": false
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "px",
+                                            "top": "10",
+                                            "right": "0",
+                                            "bottom": "10",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "d647285",
+                                            "settings": {
+                                                "sg_setting_slide_show_responsive": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "sg_setting_arrow": "",
+                                                "sg_setting_arrow_position": "bottom-edge",
+                                                "sg_setting_arrow_left": {
+                                                    "value": "fas fa-chevron-circle-left",
+                                                    "library": "fa-solid"
+                                                },
+                                                "sg_setting_arrow_right": {
+                                                    "value": "fas fa-chevron-circle-right",
+                                                    "library": "fa-solid"
+                                                },
+                                                "sg_setting_dots": "yes",
+                                                "sg_setting_quote": "yes",
+                                                "sg_setting_quote_icon": {
+                                                    "value": "jki jki-quote2-light",
+                                                    "library": "jkiticon"
+                                                },
+                                                "sg_setting_rating": "yes",
+                                                "sg_layout_testimonial_choose": "style-2",
+                                                "sg_testimonials_list": [
+                                                    {
+                                                        "sg_testimonials_list_client_avatar": {
+                                                            "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Testi1-1.jpg",
+                                                            "id": 651,
+                                                            "alt": "",
+                                                            "source": "library",
+                                                            "size": ""
+                                                        },
+                                                        "_id": "0504c75",
+                                                        "sg_testimonials_list_client_name": "Ariana",
+                                                        "sg_testimonials_list_designation": "Designation",
+                                                        "sg_testimonials_list_review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                                    },
+                                                    {
+                                                        "sg_testimonials_list_client_avatar": {
+                                                            "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Testi2.jpg",
+                                                            "id": 652,
+                                                            "alt": "",
+                                                            "source": "library",
+                                                            "size": ""
+                                                        },
+                                                        "_id": "ebe0612",
+                                                        "sg_testimonials_list_client_name": "Leona",
+                                                        "sg_testimonials_list_designation": "Designation",
+                                                        "sg_testimonials_list_review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                                    },
+                                                    {
+                                                        "sg_testimonials_list_client_avatar": {
+                                                            "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Testi3.jpg",
+                                                            "id": 654,
+                                                            "alt": "",
+                                                            "source": "library",
+                                                            "size": ""
+                                                        },
+                                                        "_id": "debbf86",
+                                                        "sg_testimonials_list_client_name": "Teona",
+                                                        "sg_testimonials_list_designation": "Designation",
+                                                        "sg_testimonials_list_review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                                    }
+                                                ],
+                                                "st_wrapper_margin_responsive": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "st_layout_padding_responsive": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "30",
+                                                    "bottom": "0",
+                                                    "left": "30",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "st_client_name_normal_typography_content_typography_typography": "globals\/typography?id=5b89031",
+                                                    "st_client_name_normal_color_responsive": "globals\/colors?id=accent",
+                                                    "st_client_designation_normal_color_responsive": "globals\/colors?id=d492f32",
+                                                    "st_description_color_responsive": "globals\/colors?id=d492f32",
+                                                    "st_quote_normal_color_responsive": "globals\/colors?id=259f4f7",
+                                                    "st_dots_active_color_responsive": "globals\/colors?id=accent",
+                                                    "st_dots_color_responsive": "globals\/colors?id=259f4f7"
+                                                },
+                                                "sg_setting_slide_show_responsive_tablet": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "jkit_testimonials",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "698663ad",
+                            "settings": {
+                                "content_width": "full",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "21e3dac2",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "margin": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "50",
+                                            "isLinked": false
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "3f7a3413",
+                                            "settings": {
+                                                "content_width": "full",
+                                                "flex_direction": "row",
+                                                "background_background": "classic",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "40",
+                                                    "bottom": "40",
+                                                    "left": "40",
+                                                    "isLinked": false
+                                                },
+                                                "background_overlay_background": "classic",
+                                                "background_overlay_image": {
+                                                    "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/01-1.png",
+                                                    "id": 174,
+                                                    "size": "",
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "background_overlay_position": "center right",
+                                                "background_overlay_size": "cover",
+                                                "background_overlay_opacity": {
+                                                    "unit": "px",
+                                                    "size": 0.17,
+                                                    "sizes": []
+                                                },
+                                                "padding_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "20",
+                                                    "bottom": "30",
+                                                    "left": "20",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "background_color": "globals\/colors?id=accent"
+                                                }
+                                            },
+                                            "elements": [
+                                                {
+                                                    "id": "582ac40a",
+                                                    "settings": {
+                                                        "content_width": "full",
+                                                        "margin": {
+                                                            "unit": "px",
+                                                            "top": "0",
+                                                            "right": "0",
+                                                            "bottom": "0",
+                                                            "left": "0",
+                                                            "isLinked": false
+                                                        },
+                                                        "padding": {
+                                                            "unit": "px",
+                                                            "top": "40",
+                                                            "right": "0",
+                                                            "bottom": "0",
+                                                            "left": "0",
+                                                            "isLinked": false
+                                                        }
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "id": "1786ab71",
+                                                            "settings": {
+                                                                "title": "Brewed with Love, Served with a Smile",
+                                                                "_margin": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "-7",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "_padding": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "align_mobile": "left",
+                                                                "__globals__": {
+                                                                    "typography_typography": "globals\/typography?id=accent",
+                                                                    "title_color": "globals\/colors?id=b8ac8f8"
+                                                                }
+                                                            },
+                                                            "elements": [],
+                                                            "isInner": false,
+                                                            "widgetType": "heading",
+                                                            "elType": "widget"
+                                                        },
+                                                        {
+                                                            "id": "121ad86b",
+                                                            "settings": {
+                                                                "content_width": "full",
+                                                                "flex_gap": {
+                                                                    "column": "10",
+                                                                    "row": "10",
+                                                                    "isLinked": true,
+                                                                    "unit": "px",
+                                                                    "size": 10
+                                                                },
+                                                                "margin": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "padding": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                }
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "id": "5fee6f4c",
+                                                                    "settings": {
+                                                                        "icon_list": [
+                                                                            {
+                                                                                "text": "Organic & fresh Coffee",
+                                                                                "selected_icon": {
+                                                                                    "value": "fas fa-check-circle",
+                                                                                    "library": "fa-solid"
+                                                                                },
+                                                                                "_id": "219539a"
+                                                                            }
+                                                                        ],
+                                                                        "icon_size": {
+                                                                            "unit": "px",
+                                                                            "size": 27,
+                                                                            "sizes": []
+                                                                        },
+                                                                        "_margin": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "_padding": {
+                                                                            "unit": "px",
+                                                                            "top": "6",
+                                                                            "right": "15",
+                                                                            "bottom": "6",
+                                                                            "left": "6",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "_flex_align_self": "flex-start",
+                                                                        "_background_background": "classic",
+                                                                        "_border_border": "solid",
+                                                                        "_border_width": {
+                                                                            "unit": "px",
+                                                                            "top": "1",
+                                                                            "right": "1",
+                                                                            "bottom": "1",
+                                                                            "left": "1",
+                                                                            "isLinked": true
+                                                                        },
+                                                                        "_border_radius": {
+                                                                            "unit": "px",
+                                                                            "top": "10",
+                                                                            "right": "10",
+                                                                            "bottom": "10",
+                                                                            "left": "10",
+                                                                            "isLinked": true
+                                                                        },
+                                                                        "icon_size_tablet": {
+                                                                            "unit": "px",
+                                                                            "size": 17,
+                                                                            "sizes": []
+                                                                        },
+                                                                        "_margin_tablet": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "-29",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "__globals__": {
+                                                                            "icon_color": "globals\/colors?id=primary",
+                                                                            "text_color": "globals\/colors?id=b8ac8f8",
+                                                                            "_background_color": "globals\/colors?id=05ba2ac",
+                                                                            "_border_color": "globals\/colors?id=942ef48"
+                                                                        }
+                                                                    },
+                                                                    "elements": [],
+                                                                    "isInner": false,
+                                                                    "widgetType": "icon-list",
+                                                                    "elType": "widget"
+                                                                },
+                                                                {
+                                                                    "id": "1310348d",
+                                                                    "settings": {
+                                                                        "icon_list": [
+                                                                            {
+                                                                                "text": "Premium Coffee",
+                                                                                "selected_icon": {
+                                                                                    "value": "fas fa-check-circle",
+                                                                                    "library": "fa-solid"
+                                                                                },
+                                                                                "_id": "219539a"
+                                                                            }
+                                                                        ],
+                                                                        "icon_size": {
+                                                                            "unit": "px",
+                                                                            "size": 27,
+                                                                            "sizes": []
+                                                                        },
+                                                                        "_padding": {
+                                                                            "unit": "px",
+                                                                            "top": "6",
+                                                                            "right": "15",
+                                                                            "bottom": "6",
+                                                                            "left": "6",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "_flex_align_self": "flex-start",
+                                                                        "_background_background": "classic",
+                                                                        "_border_border": "solid",
+                                                                        "_border_width": {
+                                                                            "unit": "px",
+                                                                            "top": "1",
+                                                                            "right": "1",
+                                                                            "bottom": "1",
+                                                                            "left": "1",
+                                                                            "isLinked": true
+                                                                        },
+                                                                        "_border_radius": {
+                                                                            "unit": "px",
+                                                                            "top": "10",
+                                                                            "right": "10",
+                                                                            "bottom": "10",
+                                                                            "left": "10",
+                                                                            "isLinked": true
+                                                                        },
+                                                                        "icon_size_tablet": {
+                                                                            "unit": "px",
+                                                                            "size": 17,
+                                                                            "sizes": []
+                                                                        },
+                                                                        "__globals__": {
+                                                                            "icon_color": "globals\/colors?id=primary",
+                                                                            "text_color": "globals\/colors?id=b8ac8f8",
+                                                                            "_background_color": "globals\/colors?id=05ba2ac",
+                                                                            "_border_color": "globals\/colors?id=942ef48"
+                                                                        }
+                                                                    },
+                                                                    "elements": [],
+                                                                    "isInner": false,
+                                                                    "widgetType": "icon-list",
+                                                                    "elType": "widget"
+                                                                },
+                                                                {
+                                                                    "id": "4ee86f01",
+                                                                    "settings": {
+                                                                        "text": "Divider",
+                                                                        "gap": {
+                                                                            "unit": "px",
+                                                                            "size": 10,
+                                                                            "sizes": []
+                                                                        },
+                                                                        "__globals__": {
+                                                                            "color": "globals\/colors?id=8002da2"
+                                                                        }
+                                                                    },
+                                                                    "elements": [],
+                                                                    "isInner": false,
+                                                                    "widgetType": "divider",
+                                                                    "elType": "widget"
+                                                                },
+                                                                {
+                                                                    "id": "7be38818",
+                                                                    "settings": {
+                                                                        "content_width": "full",
+                                                                        "flex_direction": "row",
+                                                                        "flex_justify_content": "space-between",
+                                                                        "flex_align_items": "center",
+                                                                        "margin": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        },
+                                                                        "padding": {
+                                                                            "unit": "px",
+                                                                            "top": "0",
+                                                                            "right": "0",
+                                                                            "bottom": "0",
+                                                                            "left": "0",
+                                                                            "isLinked": false
+                                                                        }
+                                                                    },
+                                                                    "elements": [
+                                                                        {
+                                                                            "id": "3599ef2e",
+                                                                            "settings": {
+                                                                                "title": "Social Media :",
+                                                                                "_margin": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "0",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                },
+                                                                                "_padding": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "0",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                },
+                                                                                "__globals__": {
+                                                                                    "typography_typography": "globals\/typography?id=5b89031",
+                                                                                    "title_color": "globals\/colors?id=b8ac8f8"
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "heading",
+                                                                            "elType": "widget"
+                                                                        },
+                                                                        {
+                                                                            "id": "75471d13",
+                                                                            "settings": {
+                                                                                "styles": "style-8",
+                                                                                "pt_plus_social_networks": [
+                                                                                    {
+                                                                                        "pt_plus_social_icons": "fa-linkedin",
+                                                                                        "_id": "2fb0b29",
+                                                                                        "__globals__": {
+                                                                                            "icon_color": "globals\/colors?id=accent",
+                                                                                            "icon_hover_color": "globals\/colors?id=accent",
+                                                                                            "bg_color": "globals\/colors?id=b8ac8f8",
+                                                                                            "border_color": "globals\/colors?id=9360f69",
+                                                                                            "bg_hover_color": "globals\/colors?id=primary",
+                                                                                            "border_hover_color": "globals\/colors?id=primary"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "pt_plus_social_icons": "fa-pinterest-p",
+                                                                                        "icon_color": "#FF671C",
+                                                                                        "icon_hover_color": "#FF671C",
+                                                                                        "bg_color": "#FFFFFF",
+                                                                                        "border_color": "#40404000",
+                                                                                        "_id": "a7b3465"
+                                                                                    },
+                                                                                    {
+                                                                                        "pt_plus_social_icons": "fa-twitter",
+                                                                                        "icon_color": "#FF671C",
+                                                                                        "icon_hover_color": "#FF671C",
+                                                                                        "bg_color": "#FFFFFF",
+                                                                                        "border_color": "#40404000",
+                                                                                        "_id": "6425725"
+                                                                                    }
+                                                                                ],
+                                                                                "social_icon_gap_margin": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "0",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                },
+                                                                                "icon_size": {
+                                                                                    "unit": "px",
+                                                                                    "size": 10,
+                                                                                    "sizes": []
+                                                                                },
+                                                                                "_margin_tablet": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "-70",
+                                                                                    "bottom": "0",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                },
+                                                                                "_margin_mobile": {
+                                                                                    "unit": "px",
+                                                                                    "top": "0",
+                                                                                    "right": "0",
+                                                                                    "bottom": "0",
+                                                                                    "left": "0",
+                                                                                    "isLinked": false
+                                                                                }
+                                                                            },
+                                                                            "elements": [],
+                                                                            "isInner": false,
+                                                                            "widgetType": "tp-social-icon",
+                                                                            "elType": "widget"
+                                                                        }
+                                                                    ],
+                                                                    "isInner": true,
+                                                                    "elType": "container"
+                                                                }
+                                                            ],
+                                                            "isInner": true,
+                                                            "elType": "container"
+                                                        }
+                                                    ],
+                                                    "isInner": true,
+                                                    "elType": "container"
+                                                },
+                                                {
+                                                    "id": "77b4040f",
+                                                    "settings": {
+                                                        "content_width": "full",
+                                                        "width": {
+                                                            "unit": "%",
+                                                            "size": 65,
+                                                            "sizes": []
+                                                        },
+                                                        "margin": {
+                                                            "unit": "px",
+                                                            "top": "0",
+                                                            "right": "0",
+                                                            "bottom": "0",
+                                                            "left": "0",
+                                                            "isLinked": false
+                                                        },
+                                                        "padding": {
+                                                            "unit": "px",
+                                                            "top": "0",
+                                                            "right": "0",
+                                                            "bottom": "0",
+                                                            "left": "0",
+                                                            "isLinked": false
+                                                        },
+                                                        "padding_mobile": {
+                                                            "unit": "px",
+                                                            "top": "20",
+                                                            "right": "0",
+                                                            "bottom": "0",
+                                                            "left": "0",
+                                                            "isLinked": false
+                                                        }
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "id": "30309f78",
+                                                            "settings": {
+                                                                "image": {
+                                                                    "url": "https:\/\/kitpro.site\/coffelo\/wp-content\/uploads\/sites\/416\/2025\/07\/Coffee1-new.png",
+                                                                    "id": 100,
+                                                                    "size": "",
+                                                                    "alt": "",
+                                                                    "source": "library"
+                                                                },
+                                                                "_margin": {
+                                                                    "unit": "px",
+                                                                    "top": "-49",
+                                                                    "right": "-55",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                },
+                                                                "_margin_mobile": {
+                                                                    "unit": "px",
+                                                                    "top": "0",
+                                                                    "right": "0",
+                                                                    "bottom": "0",
+                                                                    "left": "0",
+                                                                    "isLinked": false
+                                                                }
+                                                            },
+                                                            "elements": [],
+                                                            "isInner": false,
+                                                            "widgetType": "image",
+                                                            "elType": "widget"
+                                                        }
+                                                    ],
+                                                    "isInner": true,
+                                                    "elType": "container"
+                                                }
+                                            ],
+                                            "isInner": true,
+                                            "elType": "container"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}
