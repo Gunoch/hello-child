@@ -1,0 +1,101 @@
+{
+    "version": "0.6",
+    "title": "Frete & Entrega - Detalhes do Envio",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-frete-entrega-detalhes",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "frete_entrega_detalhes_section",
+            "elType": "section",
+            "settings": {
+                "structure": "33",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "30",
+                    "bottom": "60",
+                    "left": "30",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "frete_entrega_detalhes_envio",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_detalhes_envio_icon",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-shipping-fast",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "title_text": "Opções de Envio",
+                                "description_text": "Trabalhamos com Correios, Jadlog, Loggi e J&T Express para garantir entregas seguras. Informe seu CEP no checkout para visualizar valores e prazos disponíveis."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "frete_entrega_detalhes_prazo",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_detalhes_prazo_icon",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-calendar-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "title_text": "Prazo de Envio e Rastreamento",
+                                "description_text": "Despachamos a partir de Goiânia-GO e enviamos o código de rastreamento por e-mail logo após a postagem. O prazo varia conforme o destino e o frete escolhido."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "frete_entrega_detalhes_frete",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_detalhes_frete_icon",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-gift",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "title_text": "Temos Frete Grátis!",
+                                "description_text": "Compras acima de R$ 299,00 possuem frete gratuito na modalidade econômica. Para receber antes, selecione um frete expresso no checkout."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

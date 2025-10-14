@@ -1,0 +1,84 @@
+{
+    "version": "0.6",
+    "title": "Frete & Entrega - Newsletter",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-frete-entrega-newsletter",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "frete_entrega_newsletter_section",
+            "elType": "section",
+            "settings": {
+                "structure": "100",
+                "background_background": "classic",
+                "background_color": "#1B1D2A",
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "30",
+                    "bottom": "80",
+                    "left": "30",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "frete_entrega_newsletter_column",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_newsletter_heading",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Fique por dentro das novidades",
+                                "align": "center",
+                                "title_color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "id": "frete_entrega_newsletter_text",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Cadastre-se para receber promoções, lançamentos e ofertas exclusivas diretamente no seu e-mail.</p>",
+                                "align": "center",
+                                "text_color": "#E3D7FF"
+                            }
+                        },
+                        {
+                            "id": "frete_entrega_newsletter_form",
+                            "elType": "widget",
+                            "widgetType": "form",
+                            "settings": {
+                                "form_fields": [
+                                    {
+                                        "type": "email",
+                                        "label": "E-mail",
+                                        "placeholder": "Seu melhor e-mail",
+                                        "required": "yes"
+                                    }
+                                ],
+                                "submit_button_text": "Quero novidades",
+                                "submit_button_size": "md",
+                                "actions": [
+                                    "redirect"
+                                ],
+                                "redirect_to": {
+                                    "url": "/newsletter-sucesso"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

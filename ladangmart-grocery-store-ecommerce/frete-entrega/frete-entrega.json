@@ -1,0 +1,258 @@
+{
+    "version": "0.6",
+    "title": "Frete & Entrega",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page-frete-entrega",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "frete_entrega_hero",
+            "elType": "section",
+            "settings": {
+                "structure": "100",
+                "background_background": "classic",
+                "background_color": "#FFFAF2",
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "30",
+                    "bottom": "80",
+                    "left": "30",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "frete_entrega_hero_col",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_heading",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Receba suas semijoias com segurança e agilidade",
+                                "header_size": "h1",
+                                "align": "center"
+                            }
+                        },
+                        {
+                            "id": "frete_entrega_intro",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Enviamos para todo o Brasil, garantindo que sua nova peça favorita chegue até você. Confira abaixo como funciona o nosso processo de entrega.</p>",
+                                "align": "center"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "frete_entrega_opcoes",
+            "elType": "section",
+            "settings": {
+                "structure": "33",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "30",
+                    "bottom": "60",
+                    "left": "30",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "frete_entrega_col_envio",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_icon_envio",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-shipping-fast",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "title_text": "Opções de Envio",
+                                "description_text": "Para garantir uma entrega segura e eficiente, trabalhamos com as melhores transportadoras do mercado, incluindo Correios, Jadlog, Loggi e J&T Express. O valor e o prazo de entrega são calculados automaticamente durante o checkout. Informe seu CEP para visualizar todas as opções disponíveis."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "frete_entrega_col_prazo",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_icon_prazo",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-calendar-alt",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "title_text": "Prazo de Envio e Rastreamento",
+                                "description_text": "Nossos pedidos são despachados diretamente de Goiânia-GO. Assim que o pedido for postado, você recebe um e-mail com o código de rastreamento para acompanhar cada etapa da entrega. O prazo varia conforme o destino e a modalidade de frete escolhida."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "frete_entrega_col_frete_gratis",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 33
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_icon_frete",
+                            "elType": "widget",
+                            "widgetType": "icon-box",
+                            "settings": {
+                                "selected_icon": {
+                                    "value": "fas fa-gift",
+                                    "library": "fa-solid"
+                                },
+                                "view": "stacked",
+                                "title_text": "Temos Frete Grátis!",
+                                "description_text": "Em compras acima de R$ 299,00, o frete é por nossa conta. A modalidade gratuita prioriza o melhor custo-benefício e pode não ser a mais rápida. Se preferir prazos menores, basta escolher um frete expresso no checkout."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "frete_entrega_alerta",
+            "elType": "section",
+            "settings": {
+                "structure": "100",
+                "background_background": "classic",
+                "background_color": "#FFF7E6",
+                "padding": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "30",
+                    "bottom": "40",
+                    "left": "30",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "frete_entrega_alerta_col",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_alert_widget",
+                            "elType": "widget",
+                            "widgetType": "alert",
+                            "settings": {
+                                "alert_type": "warning",
+                                "title": "Atenção ao Endereço de Entrega",
+                                "description": "Caso a encomenda seja devolvida por endereço incorreto ou incompleto, será necessário o pagamento de um novo frete para reenviar o pedido. Revise seus dados com atenção antes de finalizar a compra.",
+                                "show_dismiss": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "frete_entrega_newsletter",
+            "elType": "section",
+            "settings": {
+                "structure": "100",
+                "background_background": "classic",
+                "background_color": "#1B1D2A",
+                "padding": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": "30",
+                    "bottom": "80",
+                    "left": "30",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "frete_entrega_newsletter_col",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "frete_entrega_news_heading",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Fique por dentro das novidades",
+                                "align": "center",
+                                "title_color": "#FFFFFF"
+                            }
+                        },
+                        {
+                            "id": "frete_entrega_news_text",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>Cadastre-se em nossa newsletter para receber em primeira mão promoções, lançamentos e ofertas exclusivas!</p>",
+                                "align": "center",
+                                "text_color": "#E3D7FF"
+                            }
+                        },
+                        {
+                            "id": "frete_entrega_news_form",
+                            "elType": "widget",
+                            "widgetType": "form",
+                            "settings": {
+                                "form_fields": [
+                                    {
+                                        "type": "email",
+                                        "label": "E-mail",
+                                        "placeholder": "Seu melhor e-mail",
+                                        "required": "yes"
+                                    }
+                                ],
+                                "submit_button_text": "Quero novidades",
+                                "submit_button_size": "md",
+                                "actions": [
+                                    "redirect"
+                                ],
+                                "redirect_to": {
+                                    "url": "/newsletter-sucesso"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
