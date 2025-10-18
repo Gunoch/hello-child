@@ -90,12 +90,15 @@ class TemplateApp:
         self,
         descriptors: Iterable[TemplateDescriptor],
         *,
-        output_dir: Path | None = None,
+        output_dir: Path | str | None = None,
         indent: int = 2,
         dry_run: bool = False,
     ) -> list[Path]:
         results: list[Path] = []
-        output_dir = output_dir.resolve() if output_dir else None
+        if output_dir:
+            output_dir = Path(output_dir).expanduser().resolve()
+        else:
+            output_dir = None
         for descriptor in descriptors:
             data = descriptor.build()
             json_text = json.dumps(data, indent=indent, ensure_ascii=False)
