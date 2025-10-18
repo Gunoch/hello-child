@@ -38,35 +38,39 @@ class TemplateApp:
             "archive": self.template_root / "pages" / "archive",
         }
         self.sections_directory = self.template_root / "sections"
-        self.records = self._load_records()
+        self.records: list[TemplateDescriptor] = self._load_records()
 
-    def _load_records(self) -> dict[str, TemplateDescriptor]:
-        records: dict[str, TemplateDescriptor] = {}
+    def _load_records(self) -> list[TemplateDescriptor]:
+        records: list[TemplateDescriptor] = []
         for slug, (builder_key, title) in builders.PAGE_MAP.items():
             directory = (
                 self.page_directories["latest"]
                 if slug in builders.LATEST_SLUGS
                 else self.page_directories["archive"]
             )
-            records[slug] = TemplateDescriptor(
-                slug=slug,
-                title=title,
-                builder_key=builder_key,
-                kind="page",
-                default_directory=directory,
+            records.append(
+                TemplateDescriptor(
+                    slug=slug,
+                    title=title,
+                    builder_key=builder_key,
+                    kind="page",
+                    default_directory=directory,
+                )
             )
         for slug, (builder_key, title) in builders.TEMPLATE_MAP.items():
-            records[slug] = TemplateDescriptor(
-                slug=slug,
-                title=title,
-                builder_key=builder_key,
-                kind="section",
-                default_directory=self.sections_directory,
+            records.append(
+                TemplateDescriptor(
+                    slug=slug,
+                    title=title,
+                    builder_key=builder_key,
+                    kind="section",
+                    default_directory=self.sections_directory,
+                )
             )
         return records
 
     def _iter_records(self, kind: str) -> list[TemplateDescriptor]:
-        records = list(self.records.values())
+        records = list(self.records)
         if kind == "pages":
             return [record for record in records if record.kind == "page"]
         if kind == "sections":
@@ -74,14 +78,28 @@ class TemplateApp:
         return records
 
     def resolve(self, slugs: Sequence[str], kind: str) -> list[TemplateDescriptor]:
-        candidates = {record.slug: record for record in self._iter_records(kind)}
+        candidates = self._iter_records(kind)
         if not slugs:
-            return sorted(candidates.values(), key=lambda record: record.slug)
-        missing = [slug for slug in slugs if slug not in candidates]
+            return sorted(candidates, key=lambda record: record.slug)
+
+        index: dict[str, list[TemplateDescriptor]] = {}
+        for record in candidates:
+            index.setdefault(record.slug, []).append(record)
+
+        missing = [slug for slug in slugs if slug not in index]
         if missing:
             missing_formatted = ", ".join(sorted(missing))
             raise KeyError(f"Slug(s) not found for kind '{kind}': {missing_formatted}")
-        return [candidates[slug] for slug in slugs]
+
+        ambiguous = [slug for slug in slugs if len(index[slug]) > 1]
+        if ambiguous:
+            formatted = ", ".join(sorted(ambiguous))
+            raise KeyError(
+                "Slug(s) are ambiguous across kinds: "
+                f"{formatted}. Use --kind to disambiguate."
+            )
+
+        return [index[slug][0] for slug in slugs]
 
     def list_templates(self, kind: str) -> list[TemplateDescriptor]:
         return sorted(self._iter_records(kind), key=lambda record: record.slug)
